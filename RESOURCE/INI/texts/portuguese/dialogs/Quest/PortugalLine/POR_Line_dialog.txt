@@ -1,0 +1,327 @@
+POR_Line_dialog_1 {
+Não tenho nada a lhe dizer.
+}
+POR_Line_dialog_2 {
+Até logo.
+}
+POR_Line_dialog_3 {
+Promovido: @<GetAddress_FormTitle>
+}
+POR_Line_dialog_4 {
+Então acabamos aqui.
+}
+POR_Line_dialog_5 {
+Então o governador manda um corsário sob a nossa própria bandeira. Baixe a espada um instante, capitão. Quero saber o nome de quem vai me matar.
+}
+POR_Line_dialog_6 {
+Você é português. Por que caça a sua própria gente?
+}
+POR_Line_dialog_7 {
+Minha própria gente? Nasci no Recife. Quando os holandeses o tomaram, Lisboa mandou orações e nenhum navio. Doze anos lutamos sozinhos. Minha gente nos deixou apodrecer.
+}
+POR_Line_dialog_8 {
+E agora se vende à Espanha.
+}
+POR_Line_dialog_9 {
+Eu me vendo a quem paga. O ouro vem em moeda espanhola, sim. Mas o estranho não é o ouro, capitão.
+}
+POR_Line_dialog_10 {
+Então o que é?
+}
+POR_Line_dialog_11 {
+A gente sempre sabe o dia em que os seus navios saem de Cumaná. Sempre. Espanhol não sabe esse tipo de coisa. Pense nisso, se viver o bastante. Já falei demais.
+}
+POR_Line_dialog_12 {
+Renda-se, e você terá um julgamento.
+}
+POR_Line_dialog_13 {
+Um julgamento em Caracas? Não, obrigado. Prefiro morrer de espada na mão.
+}
+POR_Line_dialog_14 {
+Tomé Ferraz? Nunca ouvi falar. Se procura vinho, fale com o taverneiro.
+}
+POR_Line_dialog_15 {
+O Governador-Geral me mandou.
+}
+POR_Line_dialog_16 {
+Então o Governador-Geral que venha me buscar pessoalmente. O Barreto nunca fez nada por mim além de taxar a minha carga. Bom dia.
+}
+POR_Line_dialog_17 {
+Afundei o Corvo Negro. Bento Malheiro está morto.
+}
+POR_Line_dialog_18 {
+...Malheiro. Eu o conheci no Recife, antes. Já foi um bom homem. Sente-se. Não muito perto.
+}
+POR_Line_dialog_19 {
+Alguém paga esses piratas com ouro espanhol. Quem leva o dinheiro?
+}
+POR_Line_dialog_20 {
+Informação é o meu negócio, e um rapaz do cais arriscou o pescoço por ela. Três mil pesos para ele. Para mim não quero nada, em memória do Malheiro.
+}
+POR_Line_dialog_21 {
+(pagar 3.000 pesos) Tome.
+}
+POR_Line_dialog_22 {
+Não tenho tudo isso comigo.
+}
+POR_Line_dialog_23 {
+Então volte quando tiver. O rapaz não vai esperar para sempre, nem eu.
+}
+POR_Line_dialog_24 {
+Um correio, a Santa Clara, sai de Havana todo mês e fundeia em Aruba para encontrar o pagador dos piratas. Deve chegar a qualquer momento. Tome-a, e você terá cartas, não boatos.
+}
+POR_Line_dialog_25 {
+Obrigado, Tomé.
+}
+POR_Line_dialog_26 {
+Não agradeça. Mais uma coisa: quando tiver essas cartas, pense bem antes de entregá-las a alguém. Há homens nesta colônia que lucraram muito com essas guerras.
+}
+POR_Line_dialog_27 {
+De quem está falando?
+}
+POR_Line_dialog_28 {
+Não estou falando de ninguém. Sou mercador, e mercador que fala de alguém não vive muito. Vá, a Santa Clara não vai esperar.
+}
+POR_Line_dialog_29 {
+Não temos mais nada a tratar, capitão.
+}
+POR_Line_dialog_30 {
+Basta, basta! A Santa Clara arria a bandeira. Sou correio, señor, não soldado.
+}
+POR_Line_dialog_31 {
+Então não vai se importar de me mostrar as cartas que leva.
+}
+POR_Line_dialog_32 {
+Cartas? Foram ao mar assim que vi sua bandeira. É para isso que servem os correios.
+}
+POR_Line_dialog_33 {
+Então vou revistar a sua cabine. Tábua por tábua.
+}
+POR_Line_dialog_34 {
+...Revista, então. Vai achar umas páginas meio queimadas no fogareiro. Não fui rápido o bastante. E não vai entender nada: os nomes importantes nunca foram escritos.
+}
+POR_Line_dialog_35 {
+Veremos.
+}
+POR_Line_dialog_36 {
+É o capitão que nos tirou daquela enrascada? Amaro Teles, mestre da Desterro. Sente-se, sente-se. Vinho para o capitão!
+}
+POR_Line_dialog_37 {
+Aqueles piratas estavam esperando vocês. Como sabiam?
+}
+POR_Line_dialog_38 {
+É o que me pergunto. O mesmo bando queimou três engenhos perto do Recife na primavera, e sempre sabiam onde ir. Nesta viagem mudei o rumo em Barbados de propósito. Só o gabinete do Governador-Geral tinha a minha nova rota. Mais ninguém.
+}
+POR_Line_dialog_39 {
+Cuidado com quem você diz isso.
+}
+POR_Line_dialog_40 {
+Eu sei, eu sei. Sou só um capitão de açúcar. Esqueça, é o vinho falando. Mas obrigado, capitão. Minha tripulação lhe deve a vida.
+}
+POR_Line_dialog_41 {
+À sua saúde, capitão!
+}
+POR_Line_dialog_42 {
+Pare. Seus homens podem esperar um instante, e os meus também. Você venceu, Almirante, ou seja lá como o Barreto o chama hoje em dia. Vamos conversar como homens de negócio.
+}
+POR_Line_dialog_43 {
+Para um pirata, você conhece bem o nome do Governador-Geral.
+}
+POR_Line_dialog_44 {
+Conheço muitos nomes. Me diga: por que acha que ele o mandou atrás de mim, e não dos espanhóis que nos pagam? Porque eu pedi uma parte maior. Só isso. Você é a vassoura dele, varrendo quem atrapalha.
+}
+POR_Line_dialog_45 {
+Palavras são baratas para quem está prestes a ser enforcado.
+}
+POR_Line_dialog_46 {
+Então aqui vai algo que não é. No meu cofre há um livro de contas. Cada carga, cada comprador. Leia, e vai saber para quem trabalha de verdade. Minha vida pelo livro. Justo?
+}
+POR_Line_dialog_47 {
+Justo. Renda-se, e você vai viver para ver um tribunal.
+}
+POR_Line_dialog_48 {
+Vou tirar o livro do seu cadáver.
+}
+POR_Line_dialog_49 {
+Um homem sensato. Coisa rara nestas águas. Minha espada é sua.
+}
+POR_Line_dialog_50 {
+O Barreto escolheu bem o seu cão. Em guarda, então!
+}
+POR_Line_dialog_51 {
+Levem-no para baixo.
+}
+POR_Line_dialog_52 {
+Godinho, sim, comerciante. Atacado. Se quer comprar, vá ao armazém amanhã. Não faço negócio em taverna.
+}
+POR_Line_dialog_53 {
+Eu li o livro de contas de Gaspar Roiz. Seu nome aparece em todas as páginas.
+}
+POR_Line_dialog_54 {
+Quero falar de açúcar. Açúcar roubado.
+}
+POR_Line_dialog_55 {
+Não sei do que está falando, e agradeço se baixar a voz. Boa noite.
+}
+POR_Line_dialog_56 {
+Então talvez eu pergunte ao Governador-Geral o que você compra, e de quem.
+}
+POR_Line_dialog_57 {
+Não! Ele não, pelo amor de Deus... Escute. Eu só comprava o que o Palácio mandava, pelo preço que eles fixavam. Tudo ia para os armazéns do governador, com o selo dele. Sou um homem pequeno. Homem pequeno não diz não ao Barreto.
+}
+POR_Line_dialog_58 {
+Preciso de provas, não da sua palavra.
+}
+POR_Line_dialog_59 {
+O secretário dele, Lourenço Viegas, copiou todos os contratos. Homem cuidadoso. Fugiu para Cumaná quando a esquadra do Mão de Ferro afundou; ele sabe o que isso significa. Procure-o na taverna de lá. E você nunca me viu.
+}
+POR_Line_dialog_60 {
+Já contei tudo! Deixe-me em paz!
+}
+POR_Line_dialog_61 {
+Quem o mandou? ...Não. Não responda. Se fosse homem dele, eu já estaria morto num beco.
+}
+POR_Line_dialog_62 {
+O Godinho me disse que você guardava cópias dos contratos.
+}
+POR_Line_dialog_63 {
+O Godinho fala demais, mas desta vez talvez isso salve nós dois. Me diga primeiro: por que está fazendo isso? Ele o enriqueceu, lhe deu patente.
+}
+POR_Line_dialog_64 {
+Jurei servir a Coroa, não o Barreto.
+}
+POR_Line_dialog_65 {
+Porque não gosto de ser usado.
+}
+POR_Line_dialog_66 {
+Então escute. Há quatro anos Sua Excelência fez um acordo com um agente espanhol em Havana. A Espanha paga os piratas para arruinar o nosso comércio, aqui e no Brasil. Os piratas entregam as cargas. Sua Excelência as vende pelo Godinho, e o lucro é dividido. As colônias sangram, Lisboa ouve falar de 'piratas', e ele enriquece.
+}
+POR_Line_dialog_67 {
+E eu?
+}
+POR_Line_dialog_68 {
+Você? Quando o Mão de Ferro exigiu metade, o governador precisava de alguém para se livrar dele sem sujar as mãos. Um corsário ambicioso, ávido por patente. Perdoe-me, Almirante, mas você era perfeito.
+}
+POR_Line_dialog_69 {
+Então me dê as provas.
+}
+POR_Line_dialog_70 {
+Aqui estão as cópias, com o selo dele. Só a Coroa pode julgar um Governador-Geral. Um desembargador enviado por El-Rei, Dom Álvaro de Sousa Coutinho, deve chegar a Cumaná. Entregue-as a ele. E depressa: o Barreto tem ouvidos em todas as tavernas, e a esta altura já sabe que você veio me ver.
+}
+POR_Line_dialog_71 {
+Fique escondido, Lourenço.
+}
+POR_Line_dialog_72 {
+Vá, Almirante, e que Deus o proteja.
+}
+POR_Line_dialog_73 {
+Dom Álvaro de Sousa Coutinho, desembargador da Casa da Suplicação, aqui por ordem de Sua Majestade Dom Afonso VI. Disseram-me que você insistiu em me ver. Seja breve.
+}
+POR_Line_dialog_74 {
+Tenho provas de que o Governador-Geral Barreto de Meneses trabalha com a Espanha para saquear as próprias colônias.
+}
+POR_Line_dialog_75 {
+Uma acusação séria. Sabe quantos governadores são denunciados todo ano? Em geral, por quem lhes deve dinheiro. Por que eu acreditaria num corsário cuja patente foi dada pelo próprio acusado?
+}
+POR_Line_dialog_76 {
+Não acredite em mim. Leia os contratos: o selo dele, assinaturas espanholas, cargas dos nossos navios. O próprio secretário dele os copiou.
+}
+POR_Line_dialog_77 {
+...O selo dele. E as datas batem com as perdas que Lisboa registra há anos. Deus nos ajude. Você prestou à Coroa um serviço que poucos ousariam. Pelos poderes que El-Rei me concedeu, eu o nomeio General da Armada da frota de Sua Majestade nestas águas.
+}
+POR_Line_dialog_78 {
+E estas cartas espanholas que você guardou... tiram qualquer dúvida sobre o acordo com Havana. Foi prudente em não entregá-las.
+}
+POR_Line_dialog_79 {
+E o Barreto?
+}
+POR_Line_dialog_80 {
+Chegou um cavaleiro de Caracas há uma hora. O Barreto saiu da residência ontem à noite e embarcou no seu galeão, o São Miguel, com o seu tesouro. Ele sabia. Não pode chegar a águas espanholas. Traga-o de volta, vivo se puder. Ele deve explicações a mais gente do que a mim.
+}
+POR_Line_dialog_81 {
+Ele não vai escapar.
+}
+POR_Line_dialog_82 {
+O traidor ainda está solto, General. Cada hora conta.
+}
+POR_Line_dialog_83 {
+Você voltou. Diga-me que acabou.
+}
+POR_Line_dialog_84 {
+Está no meu porão, a ferros. Entregou a espada.
+}
+POR_Line_dialog_85 {
+Preferiu afundar com o São Miguel.
+}
+POR_Line_dialog_86 {
+Então a justiça está feita, de um jeito ou de outro. Agora escute bem, porque isto não é uma recompensa, é um fardo. Estas colônias precisam de alguém que tenha provado a lealdade com atos. Por ordem de Sua Majestade, eu o nomeio Governador-Geral das colônias portuguesas do Caribe.
+}
+POR_Line_dialog_87 {
+Eu aceito, Vossa Excelência.
+}
+POR_Line_dialog_88 {
+Como Governador-Geral, a décima parte dos lucros de cada colônia portuguesa é sua por direito, paga todo mês ao tesouro de Caracas. Lourenço Viegas cuidará das suas contas; ele provou que é de confiança. Tome também 100.000 pesos do tesouro do Barreto. E lembre-se: Lisboa fica longe, mas também estava de olho nele.
+}
+POR_Line_dialog_89 {
+Não vou esquecer.
+}
+POR_Line_dialog_90 {
+Vá com Deus, Governador.
+}
+POR_Line_dialog_91 {
+Ah. Claro que é você. Eu devia ter mandado matá-lo em Trinidad, quando não me custaria nada.
+}
+POR_Line_dialog_92 {
+Francisco Barreto de Meneses, em nome de El-Rei, você está preso por traição.
+}
+POR_Line_dialog_93 {
+Traição. Que palavra grande. Por vinte anos Lisboa nos mandou bispos e cobradores de impostos, nunca navios. Quem manteve estas colônias vivas? Eu. Só peguei a minha parte.
+}
+POR_Line_dialog_94 {
+E eu? Fui só uma ferramenta desde o começo?
+}
+POR_Line_dialog_95 {
+Desde o primeiro dia. Uma boa ferramenta, admito. O Malheiro estava ficando descuidado, o Mão de Ferro, ganancioso, e você limpou o caminho e ainda me agradeceu pela patente. Não leve para o lado pessoal. Todo mundo aqui é ferramenta de alguém. O Coutinho também, você vai ver.
+}
+POR_Line_dialog_96 {
+Sua parte foi paga com sangue português. Sua espada.
+}
+POR_Line_dialog_97 {
+...Tome. Que Lisboa me julgue. Lisboa sempre foi lenta.
+}
+POR_Line_dialog_98 {
+Vossa Excelência. O tesouro guarda @<FindMoneyString> da décima das colônias.
+}
+POR_Line_dialog_99 {
+Vossa Excelência. O tesouro está vazio por enquanto; as colônias pagam no começo de cada mês.
+}
+POR_Line_dialog_100 {
+Vou retirar.
+}
+POR_Line_dialog_101 {
+Aqui está, cada moeda registrada. Diferente de certos antecessores seus, eu anoto tudo.
+}
+POR_Line_dialog_102 {
+A décima das colônias chegou ao tesouro de @<GetCityName>: @<FindMoneyString>.
+}
+POR_Line_dialog_103 {
+Vossa Excelência, Governador-Geral! A colônia está às suas ordens. O que o traz aqui?
+}
+POR_Line_dialog_104 {
+Quero transferir a sede do governo.
+}
+POR_Line_dialog_105 {
+Como Vossa Excelência quiser. O tesouro e o arquivo vão para onde o Governador-Geral residir. Para onde nos mudamos?
+}
+POR_Line_dialog_106 {
+Não há outra colônia portuguesa com residência à altura do governo, Vossa Excelência.
+}
+POR_Line_dialog_107 {
+Deixe, ficamos aqui.
+}
+POR_Line_dialog_108 {
+Muito bem. Mando carregar os baús e o arquivo esta noite. Vossa Excelência me encontrará na residência de @<GetCityName>.
+}
+POR_Line_dialog_109 {
+A sede do governo caiu nas mãos do inimigo! Lourenço Viegas fugiu com o tesouro para @<GetCityName>.
+}

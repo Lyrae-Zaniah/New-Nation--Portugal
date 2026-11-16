@@ -1,0 +1,327 @@
+POR_Line_dialog_1 {
+I have nothing to say to you.
+}
+POR_Line_dialog_2 {
+Farewell.
+}
+POR_Line_dialog_3 {
+Promoted: @<GetAddress_FormTitle>
+}
+POR_Line_dialog_4 {
+Then we end it here.
+}
+POR_Line_dialog_5 {
+So the governor sends a privateer under our own flag. Lower your sword a moment, captain. I'd like to know the name of the man who's going to kill me.
+}
+POR_Line_dialog_6 {
+You're Portuguese. Why are you hunting your own people?
+}
+POR_Line_dialog_7 {
+My own people? I was born in Recife. When the Dutch took it, Lisbon sent prayers and no ships. Twelve years we fought on our own. My own people left us to rot.
+}
+POR_Line_dialog_8 {
+So now you sell yourself to Spain.
+}
+POR_Line_dialog_9 {
+I sell myself to whoever pays. The gold comes in Spanish coin, yes. But the gold isn't the strange part, captain.
+}
+POR_Line_dialog_10 {
+Then what is?
+}
+POR_Line_dialog_11 {
+We always know the day your ships leave Cumaná. Always. Spaniards don't know that kind of thing. Think about it, if you live long enough. I've said too much already.
+}
+POR_Line_dialog_12 {
+Surrender, and you'll stand trial.
+}
+POR_Line_dialog_13 {
+A trial in Caracas? No, thank you. I'd rather die with a blade in my hand.
+}
+POR_Line_dialog_14 {
+Tomé Ferraz? Never heard of him. If you're looking for wine, ask the innkeeper.
+}
+POR_Line_dialog_15 {
+The Governor-General sent me.
+}
+POR_Line_dialog_16 {
+Then the Governor-General may come and fetch me himself. Barreto never did anything for me but tax my cargo. Good day.
+}
+POR_Line_dialog_17 {
+I sank the Corvo Negro. Bento Malheiro is dead.
+}
+POR_Line_dialog_18 {
+...Malheiro. I knew him in Recife, before. He was a good man once. Sit down. Not too close.
+}
+POR_Line_dialog_19 {
+Someone pays these pirates in Spanish gold. Who carries it?
+}
+POR_Line_dialog_20 {
+Information is my trade, and a boy on the docks risked his neck to get it. Three thousand piastres for him. I'll take nothing for myself, in Malheiro's memory.
+}
+POR_Line_dialog_21 {
+(pay 3,000 piastres) Here.
+}
+POR_Line_dialog_22 {
+I don't have that much on me.
+}
+POR_Line_dialog_23 {
+Then come back when you do. The boy won't wait forever, and neither will I.
+}
+POR_Line_dialog_24 {
+A courier, the Santa Clara, sails from Havana every month and anchors off Aruba to meet the pirates' paymaster. She is due any day now. Take her, and you will have letters, not rumours.
+}
+POR_Line_dialog_25 {
+Thank you, Tomé.
+}
+POR_Line_dialog_26 {
+Don't thank me. One more thing: when you have those letters, think hard before you hand them to anyone. Some men in this colony have done very well from these wars.
+}
+POR_Line_dialog_27 {
+Who do you mean?
+}
+POR_Line_dialog_28 {
+I mean nothing. I'm a merchant, and merchants who mean things don't live long. Go, the Santa Clara won't wait.
+}
+POR_Line_dialog_29 {
+We have nothing more to discuss, captain.
+}
+POR_Line_dialog_30 {
+Enough, enough! The Santa Clara strikes her colours. I am a courier, señor, not a soldier.
+}
+POR_Line_dialog_31 {
+Then you won't mind showing me the letters you carry.
+}
+POR_Line_dialog_32 {
+Letters? They went overboard the moment I saw your flag. That is what couriers are for.
+}
+POR_Line_dialog_33 {
+Then I'll search your cabin. Every board of it.
+}
+POR_Line_dialog_34 {
+...Search, then. You'll find a few half-burnt pages in the stove. I wasn't quick enough. And you'll understand nothing: the important names were never written down.
+}
+POR_Line_dialog_35 {
+We'll see about that.
+}
+POR_Line_dialog_36 {
+You're the captain who pulled us out of that mess? Amaro Teles, master of the Desterro. Sit, sit. Wine for the captain!
+}
+POR_Line_dialog_37 {
+Those pirates were waiting for you. How did they know?
+}
+POR_Line_dialog_38 {
+That's what I keep asking myself. The same band burned three mills near Recife last spring, and they always knew where to go. This voyage I changed course at Barbados on purpose. Only the Governor-General's office had my new route. Nobody else.
+}
+POR_Line_dialog_39 {
+Be careful who you say that to.
+}
+POR_Line_dialog_40 {
+I know, I know. I'm only a sugar captain. Forget it; it's the wine talking. But thank you, captain. My crew owes you their lives.
+}
+POR_Line_dialog_41 {
+To your health, captain!
+}
+POR_Line_dialog_42 {
+Stop. Your men can wait a moment, and so can mine. You've won, Almirante, or whatever Barreto calls you these days. Let's talk like businessmen.
+}
+POR_Line_dialog_43 {
+You know the Governor-General's name very well for a pirate.
+}
+POR_Line_dialog_44 {
+I know a great many names. Tell me: why do you think he sent you after me, and not after the Spaniards who pay us? Because I asked for a bigger share. That's all. You're his broom, sweeping away whoever gets in his way.
+}
+POR_Line_dialog_45 {
+Words are cheap for a man about to hang.
+}
+POR_Line_dialog_46 {
+Then here's something that isn't. In my strongbox there's a ledger. Every cargo, every buyer. Read it, and you'll know who you really work for. My life for the ledger. Fair?
+}
+POR_Line_dialog_47 {
+Fair. Surrender, and you'll live to see a court.
+}
+POR_Line_dialog_48 {
+I'll take the ledger off your corpse.
+}
+POR_Line_dialog_49 {
+A sensible man. Rare in these waters. My sword is yours.
+}
+POR_Line_dialog_50 {
+Barreto chose his dog well. En garde, then!
+}
+POR_Line_dialog_51 {
+Take him below.
+}
+POR_Line_dialog_52 {
+Godinho, yes, merchant. Wholesale. If you want to buy, come to the warehouse tomorrow. I don't do business in taverns.
+}
+POR_Line_dialog_53 {
+I've read Gaspar Roiz's ledger. Your name appears on every page.
+}
+POR_Line_dialog_54 {
+I want to talk about sugar. Stolen sugar.
+}
+POR_Line_dialog_55 {
+I don't know what you're talking about, and I'd thank you to lower your voice. Good evening.
+}
+POR_Line_dialog_56 {
+Then perhaps I'll ask the Governor-General what you buy, and from whom.
+}
+POR_Line_dialog_57 {
+No! Not him, for God's sake... Listen. I only bought what the Palace told me to buy, at the price they set. Everything went to the governor's warehouses, under his own seal. I'm a small man. Small men don't say no to Barreto.
+}
+POR_Line_dialog_58 {
+I need proof, not your word.
+}
+POR_Line_dialog_59 {
+His secretary, Lourenço Viegas, copied every contract. A careful man. He fled to Cumaná when Iron Hand's squadron went down; he knows what that means. Find him in the tavern there. And you never saw me.
+}
+POR_Line_dialog_60 {
+I've told you everything! Leave me alone!
+}
+POR_Line_dialog_61 {
+Who sent you? ...No. Don't answer. If you were his man, I'd already be dead in an alley.
+}
+POR_Line_dialog_62 {
+Godinho told me you kept copies of the contracts.
+}
+POR_Line_dialog_63 {
+Godinho talks too much, but this once it may save us both. Tell me first: why are you doing this? He made you rich, gave you rank.
+}
+POR_Line_dialog_64 {
+I swore to serve the Crown, not Barreto.
+}
+POR_Line_dialog_65 {
+Because I don't like being used.
+}
+POR_Line_dialog_66 {
+Then listen. Four years ago His Excellency made an agreement with a Spanish agent in Havana. Spain pays the pirates to ruin our trade, here and in Brazil. The pirates hand over the cargoes. His Excellency sells them through Godinho, and the profit is split. The colonies bleed, Lisbon hears of 'pirates', and he grows rich.
+}
+POR_Line_dialog_67 {
+And me?
+}
+POR_Line_dialog_68 {
+You? When Iron Hand demanded half, the governor needed someone to get rid of him without dirtying his own hands. A corsair with ambition, eager for rank. Forgive me, Almirante, but you were perfect.
+}
+POR_Line_dialog_69 {
+Then give me the proof.
+}
+POR_Line_dialog_70 {
+Here are the copies, with his seal. Only the Crown can judge a Governor-General. A Desembargador sent by El-Rei, Dom Álvaro de Sousa Coutinho, is due in Cumaná. Give him these. And hurry: Barreto has ears in every tavern, and by now he knows you came to see me.
+}
+POR_Line_dialog_71 {
+Stay hidden, Lourenço.
+}
+POR_Line_dialog_72 {
+Go, Almirante, and may God protect you.
+}
+POR_Line_dialog_73 {
+Dom Álvaro de Sousa Coutinho, Desembargador of the Casa da Suplicação, here by order of His Majesty Dom Afonso VI. They tell me you insisted on seeing me. Be brief.
+}
+POR_Line_dialog_74 {
+I have proof that Governor-General Barreto de Meneses is working with Spain to plunder his own colonies.
+}
+POR_Line_dialog_75 {
+A serious accusation. Do you know how many governors are denounced every year? Usually by the men they owe money to. Why should I believe a corsair whose rank the accused himself gave him?
+}
+POR_Line_dialog_76 {
+Don't believe me. Read the contracts: his seal, Spanish signatures, cargoes from our ships. His secretary copied them himself.
+}
+POR_Line_dialog_77 {
+...His seal. And the dates match the losses Lisbon has been recording for years. God help us. You have done the Crown a service that few would have dared. By the powers El-Rei has granted me, I name you General da Armada of His Majesty's fleet in these waters.
+}
+POR_Line_dialog_78 {
+And these Spanish letters you kept... they remove any doubt about the agreement with Havana. You were prudent not to hand them over.
+}
+POR_Line_dialog_79 {
+What of Barreto?
+}
+POR_Line_dialog_80 {
+A rider came in from Caracas an hour ago. Barreto left the residence last night and boarded his galleon, the São Miguel, with his treasure. He knew. He must not reach Spanish waters. Bring him back, alive if you can. He owes answers to more people than me.
+}
+POR_Line_dialog_81 {
+He won't escape.
+}
+POR_Line_dialog_82 {
+The traitor is still at large, General. Every hour counts.
+}
+POR_Line_dialog_83 {
+You're back. Tell me it is over.
+}
+POR_Line_dialog_84 {
+He's in my hold, in irons. He surrendered his sword.
+}
+POR_Line_dialog_85 {
+He chose to go down with the São Miguel.
+}
+POR_Line_dialog_86 {
+Then justice is done, one way or another. Now listen carefully, because this is not a reward, it is a burden. These colonies need someone who has proven his loyalty with deeds. By order of His Majesty, I name you Governador-Geral of the Portuguese colonies of the Caribbean.
+}
+POR_Line_dialog_87 {
+I accept, Your Excellency.
+}
+POR_Line_dialog_88 {
+As Governador-Geral, a tenth of the profits of every Portuguese colony is yours by right, paid each month into the treasury at Caracas. Lourenço Viegas will keep your accounts; he has proven he can be trusted. Take also 100,000 piastres from Barreto's treasure. And remember: Lisbon is far away, but it was watching him too.
+}
+POR_Line_dialog_89 {
+I won't forget it.
+}
+POR_Line_dialog_90 {
+Go with God, Governador.
+}
+POR_Line_dialog_91 {
+Ah. Of course it's you. I should have had you killed off Trinidad, when it would have cost me nothing.
+}
+POR_Line_dialog_92 {
+Francisco Barreto de Meneses, in the name of El-Rei, you are under arrest for treason.
+}
+POR_Line_dialog_93 {
+Treason. Such a big word. For twenty years Lisbon sent us bishops and tax collectors, never ships. Who kept these colonies alive? Me. I simply took my share.
+}
+POR_Line_dialog_94 {
+And me? Was I just a tool from the start?
+}
+POR_Line_dialog_95 {
+From the first day. A good tool, I'll grant you. Malheiro was getting careless, Iron Hand was getting greedy, and you cleared them away and thanked me for the rank. Don't take it personally. Everyone here is someone's tool. Coutinho too, you'll see.
+}
+POR_Line_dialog_96 {
+Your share was paid in Portuguese blood. Your sword.
+}
+POR_Line_dialog_97 {
+...Take it. Let Lisbon judge me. Lisbon has always been slow.
+}
+POR_Line_dialog_98 {
+Your Excellency. The treasury holds @<FindMoneyString> from the colonies' tithe.
+}
+POR_Line_dialog_99 {
+Your Excellency. The treasury is empty for now; the colonies pay at the start of each month.
+}
+POR_Line_dialog_100 {
+I'll take it.
+}
+POR_Line_dialog_101 {
+Here you are, every coin accounted for. Unlike some of your predecessors, I write everything down.
+}
+POR_Line_dialog_102 {
+The colonies' tithe has arrived at the treasury in @<GetCityName>: @<FindMoneyString>.
+}
+POR_Line_dialog_103 {
+Your Excellency, Governador-Geral! The colony is at your orders. What brings you here?
+}
+POR_Line_dialog_104 {
+I want to move the seat of government.
+}
+POR_Line_dialog_105 {
+As Your Excellency wishes. The treasury and the archives go wherever the Governador-Geral resides. Where shall we move?
+}
+POR_Line_dialog_106 {
+There is no other Portuguese colony with a residence fit for the government, Your Excellency.
+}
+POR_Line_dialog_107 {
+Never mind, we stay here.
+}
+POR_Line_dialog_108 {
+Very well. I'll have the chests and the archives loaded tonight. You will find me in the residence of @<GetCityName>.
+}
+POR_Line_dialog_109 {
+The seat of government has fallen to the enemy! Lourenço Viegas fled with the treasury to @<GetCityName>.
+}

@@ -1,0 +1,162 @@
+por_Governor_1 {
+¿De qué desea hablar?
+}
+por_Governor_2 {
+De nada, Excelencia.
+}
+por_Governor_3 {
+La Corona de Portugal no tiene ninguna misión especial para usted por ahora. Sirva bien a nuestras colonias y vuelva más tarde.
+}
+por_Governor_4 {
+Como desee, Excelencia.
+}
+por_Governor_5 {
+You have your orders, corsair. I don't recall asking for a visit.
+}
+por_Governor_6 {
+Of course, Your Excellency.
+}
+por_Governor_7 {
+The pirates are scattered, and Caracas sleeps soundly. Go and enjoy your rank, Almirante. When the Crown needs you, I will know where to find you. I always do.
+}
+por_Governor_8 {
+A corsair with a Portuguese letter of marque. How unusual. Most of your kind sell their flag to whoever pays more... No matter. I don't need your loyalty, only your guns. Do you know what is happening between Cumaná and Trinidad?
+}
+por_Governor_9 {
+I have heard of merchantmen going missing.
+}
+por_Governor_10 {
+Seven ships in four months. Seven! Sugar, tobacco, cloth from Lisbon. The pirates always seem to know when and where to strike, as if they had a pilot's chart of our routes.
+}
+por_Governor_11 {
+Do you know who they are?
+}
+por_Governor_12 {
+Rabble. Their captain is said to call his brigantine the Corvo Negro and to haunt the waters around Trinidad. That is all you need to know.
+}
+por_Governor_13 {
+If they know our routes, someone is talking. Shouldn't we find out who?
+}
+por_Governor_14 {
+Thinking is my task, corsair; yours is to sink. Go to Trinidad, send them to the bottom, and report to me, and to no one else. Is that clear?
+}
+por_Governor_15 {
+Perfectly clear.
+}
+por_Governor_16 {
+You're back. And alive, which is more than I wagered. Well?
+}
+por_Governor_17 {
+The Corvo Negro is gone. Her captain was Portuguese, a man from Recife. He was carrying Spanish doubloons and a list with the dates our ships leave Cumaná.
+}
+por_Governor_18 {
+A list... Give it to me. The Spanish gold doesn't surprise me; every scoundrel on these seas is paid in pieces of eight. And sailing dates can be bought in any tavern from a drunken harbour clerk.
+}
+por_Governor_19 {
+(hand over the list) Here.
+}
+por_Governor_20 {
+Good. You did well, better than I expected. By the authority vested in me, I raise you to Capitão de Mar e Guerra. Take these 15,000 piastres. And corsair... keep these things to yourself. Rumours frighten merchants more than pirates do.
+}
+por_Governor_21 {
+And what now, Your Excellency?
+}
+por_Governor_22 {
+Now we follow the gold. A merchant of ours in Willemstad, Tomé Ferraz, trades with everyone, Dutch, Spaniards, smugglers. If anyone knows who feeds these pirates, it is him. He owes me nothing, so don't expect him to be friendly.
+}
+por_Governor_23 {
+I'll find him in the tavern.
+}
+por_Governor_24 {
+Ferraz talked, then? He usually only talks about prices.
+}
+por_Governor_25 {
+He pointed me to a Spanish courier off Aruba. I took her. Her letters promise gold for every Portuguese ship taken here, and for raids on the sugar fleets of Pernambuco and Bahia. And they mention 'our friend in Caracas'.
+}
+por_Governor_26 {
+Spain has spies in every port of the New World, and Caracas is a port. Nothing more. Those letters are evidence for Lisbon, a matter for diplomats, not corsairs. Hand them over; I'll send them on the next ship.
+}
+por_Governor_27 {
+(hand over the letters) As you wish.
+}
+por_Governor_28 {
+The courier threw most of them overboard. What's left is barely legible.
+}
+por_Governor_29 {
+Sensible. Here are 20,000 piastres. You are learning how things are done here.
+}
+por_Governor_30 {
+...Unfortunate. Then burn whatever is left; half-legible papers only start rumours. Here are 20,000 piastres.
+}
+por_Governor_31 {
+Understood.
+}
+por_Governor_32 {
+No rest for you yet. The fluyt Desterro is bringing sugar from Pernambuco to Cumaná, and I am told the pirates mean to take her right under our walls. She must arrive. Her cargo... is important to the colony.
+}
+por_Governor_33 {
+How do you know they will attack her?
+}
+por_Governor_34 {
+I know many things, Capitão. That is why I govern and you sail. Go to Cumaná.
+}
+por_Governor_35 {
+On my way.
+}
+por_Governor_36 {
+The Desterro?
+}
+por_Governor_37 {
+Safe in port, the pirates scattered. Her captain told me the same band burned mills near Recife, and that their route was known only to your office.
+}
+por_Governor_38 {
+Captains always blame the governor when they get frightened. My office, the harbour master, the insurers in Lisbon... half the world knew that route. You did your job; that is what matters. From today you are Capitão-Mor. Here are 25,000 piastres.
+}
+por_Governor_39 {
+The pirates are destroyed, but the Desterro went down with them.
+}
+por_Governor_40 {
+A pity about the sugar. Still, the pirates paid, and I need officers who don't run. You are Capitão-Mor all the same. Take 10,000 piastres.
+}
+por_Governor_41 {
+Now the head of the snake. Gaspar Roiz, called Iron Hand, keeps his squadron off the Cayman Islands. He is cleverer than the others, and he has grown... greedy. Destroy him, and these waters will be quiet again.
+}
+por_Governor_42 {
+Greedy? You speak as if you knew him.
+}
+por_Governor_43 {
+I know what every governor knows: a pirate who takes too much ends up wanting everything. Go. And if you find anything on board, papers, letters, anything, bring it straight to me.
+}
+por_Governor_44 {
+Understood.
+}
+por_Governor_45 {
+Is Iron Hand dead?
+}
+por_Governor_46 {
+His squadron is gone.
+}
+por_Governor_47 {
+And on board? I told you to bring me anything you found.
+}
+por_Governor_48 {
+Rum, powder and a few rotten charts. Nothing of interest.
+}
+por_Governor_49 {
+A ledger. Cargoes and buyers.
+}
+por_Governor_50 {
+A pirate's accounts. Fascinating. Give it to me; it will help the magistrates in Lisbon. And forget whatever you read in it, Capitão-Mor. Memory is a dangerous thing in the tropics.
+}
+por_Governor_51 {
+(hand over the ledger) Of course.
+}
+por_Governor_52 {
+For this victory, I name you Almirante. Here are 40,000 piastres. You have been a most useful instrument, Almirante. I won't forget it.
+}
+por_Governor_53 {
+Neither will I, Your Excellency.
+}
+por_Governor_54 {
+You serve another crown. Portugal does not share its corsairs.
+}
