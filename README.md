@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="STEAM_WORKSHOP_LINK">Steam Workshop</a> ·
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3841033559">Steam Workshop</a> ·
   <a href="#installation">Installation</a> ·
   <a href="#changelog">Changelog</a>
 </p>
