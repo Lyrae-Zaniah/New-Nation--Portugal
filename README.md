@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" alt="New Nation: Portugal" width="320">
+  <img src="icon.png" alt="New Nation: Portugal" width="320">
 </p>
 
 <h1 align="center">New Nation: Portugal</h1>
