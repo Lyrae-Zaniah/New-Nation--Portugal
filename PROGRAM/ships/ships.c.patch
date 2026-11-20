@@ -1,0 +1,39 @@
+#find
+	switch (sti(rCharacter.nation))
+	{
+		case ENGLAND:	makeref(rMassiveOfNames, sRndShpEnName); break;
+		case FRANCE:	makeref(rMassiveOfNames, sRndShpFrName); break;
+		case SPAIN:		makeref(rMassiveOfNames, sRndShpSpName); break;
+		case PIRATE:	makeref(rMassiveOfNames, sRndShpPiName); break;
+		case HOLLAND:	makeref(rMassiveOfNames, sRndShpHoName); break;
+#replacewith
+	switch (sti(rCharacter.nation))
+	{
+		case ENGLAND:	makeref(rMassiveOfNames, sRndShpEnName); break;
+		case FRANCE:	makeref(rMassiveOfNames, sRndShpFrName); break;
+		// Nova Nacao: Portugal copia o caso SPAIN
+		case PORTUGAL:		makeref(rMassiveOfNames, sRndShpPoName); break;
+		case SPAIN:		makeref(rMassiveOfNames, sRndShpSpName); break;
+		case PIRATE:	makeref(rMassiveOfNames, sRndShpPiName); break;
+		case HOLLAND:	makeref(rMassiveOfNames, sRndShpHoName); break;
+#endreplace
+
+#find
+	switch (iNation)
+	{
+		case ENGLAND:	makeref(rMassiveOfNames, sRndShpEnName); break;
+		case FRANCE:	makeref(rMassiveOfNames, sRndShpFrName); break;
+		case SPAIN:		makeref(rMassiveOfNames, sRndShpSpName); break;
+		case PIRATE:	makeref(rMassiveOfNames, sRndShpPiName); break;
+		case HOLLAND:	makeref(rMassiveOfNames, sRndShpHoName); break;
+#replacewith
+	switch (iNation)
+	{
+		case ENGLAND:	makeref(rMassiveOfNames, sRndShpEnName); break;
+		case FRANCE:	makeref(rMassiveOfNames, sRndShpFrName); break;
+		// Nova Nacao: Portugal copia o caso SPAIN
+		case PORTUGAL:		makeref(rMassiveOfNames, sRndShpPoName); break;
+		case SPAIN:		makeref(rMassiveOfNames, sRndShpSpName); break;
+		case PIRATE:	makeref(rMassiveOfNames, sRndShpPiName); break;
+		case HOLLAND:	makeref(rMassiveOfNames, sRndShpHoName); break;
+#endreplace

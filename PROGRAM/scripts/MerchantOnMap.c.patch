@@ -1,0 +1,27 @@
+#find
+        MerPrm.nation = rand(PIRATE);
+#replacewith
+        MerPrm.nation = rand(MAX_NATIONS - 1); // Nova Nacao: inclui Portugal
+#endreplace
+
+#find
+        break;
+
+        case SPAIN:
+#replacewith
+        break;
+
+        // Nova Nacao: Portugal copia o caso SPAIN
+        case PORTUGAL:
+	        switch (irank)
+	        {
+	            case 0: iShip = SHIP_CARAVEL;     break;
+	            case 1: iShip = SHIP_BRIG;        break;
+	            case 2: iShip = SHIP_PINNACE;     break;
+	            case 3: iShip = SHIP_GALEON_H;    break;
+	            case 4: iShip = SHIP_LINESHIP;    break;
+	            case 5: iShip = SHIP_WARSHIP;     break;
+	        }
+        break;
+        case SPAIN:
+#endreplace

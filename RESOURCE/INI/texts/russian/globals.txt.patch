@@ -1,0 +1,16 @@
+#find
+Address_Form_Pir_Title5 {Легенда}
+
+NationKingsName_Spa {Его Католического Величества Карла II Габсбурга}
+#replacewith
+Address_Form_Pir_Title5 {Легенда}
+
+Address_Form_Por_Title1 {Корсар}
+Address_Form_Por_Title2 {Капитан}
+Address_Form_Por_Title3 {Капитан-мор}
+Address_Form_Por_Title4 {Адмирал}
+Address_Form_Por_Title5 {Генерал}
+Address_Form_Por_Title6 {Губернатор}
+
+NationKingsName_Spa {Его Католического Величества Карла II Габсбурга}
+#endreplace

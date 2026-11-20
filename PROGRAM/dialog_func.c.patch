@@ -1,0 +1,151 @@
+#find
+		Address_Form.Pir = GlobalStringConvert("Address_Form_Pir");
+#replacewith
+		Address_Form.Pir = GlobalStringConvert("Address_Form_Pir");
+		Address_Form.Por = GlobalStringConvert("Address_Form_Por"); // Nova Nacao
+#endreplace
+
+#find
+		Address_Form.Pir = GlobalStringConvert("Address_Form_PirWoman");
+#replacewith
+		Address_Form.Pir = GlobalStringConvert("Address_Form_PirWoman");
+		Address_Form.Por = GlobalStringConvert("Address_Form_PorWoman"); // Nova Nacao
+#endreplace
+
+#find
+	Address_Form.Pir.Title5 = GlobalStringConvert("Address_Form_Pir_Title5");
+
+	Address_Form.Spa.woman = GlobalStringConvert("Address_Form_SpaWoman2");
+#replacewith
+	Address_Form.Pir.Title5 = GlobalStringConvert("Address_Form_Pir_Title5");
+
+	// Nova Nacao: postos portugueses (o 6o, Governador-Geral, so por missao: Portugal_SetGovernorGeneral)
+	Address_Form.Por.Title1 = GlobalStringConvert("Address_Form_Por_Title1");
+	Address_Form.Por.Title2 = GlobalStringConvert("Address_Form_Por_Title2");
+	Address_Form.Por.Title3 = GlobalStringConvert("Address_Form_Por_Title3");
+	Address_Form.Por.Title4 = GlobalStringConvert("Address_Form_Por_Title4");
+	Address_Form.Por.Title5 = GlobalStringConvert("Address_Form_Por_Title5");
+	Address_Form.Por.Title6 = GlobalStringConvert("Address_Form_Por_Title6");
+
+	Address_Form.Spa.woman = GlobalStringConvert("Address_Form_SpaWoman2");
+#endreplace
+
+#find
+	Address_Form.Pir.woman = GlobalStringConvert("Address_Form_PirWoman2");
+#replacewith
+	Address_Form.Pir.woman = GlobalStringConvert("Address_Form_PirWoman2");
+	Address_Form.Por.woman = GlobalStringConvert("Address_Form_PorWoman2"); // Nova Nacao
+#endreplace
+
+#find
+	Address_Form.Pir.man = GlobalStringConvert("Address_Form_Pir");
+#replacewith
+	Address_Form.Pir.man = GlobalStringConvert("Address_Form_Pir");
+	Address_Form.Por.man = GlobalStringConvert("Address_Form_Por"); // Nova Nacao
+#endreplace
+
+#find
+			return GlobalStringConvert("NationKingsCrown_Hol");
+		break;
+		case PIRATE:
+#replacewith
+			return GlobalStringConvert("NationKingsCrown_Hol");
+		break;
+		case PORTUGAL:
+			return GlobalStringConvert("NationKingsCrown_Por");
+		break;
+		case PIRATE:
+#endreplace
+
+#find
+			return GlobalStringConvert("NationKingsName_Hol");
+#replacewith
+			return GlobalStringConvert("NationKingsName_Hol");
+		break;
+		case PORTUGAL:
+			return GlobalStringConvert("NationKingsName_Por");
+#endreplace
+
+#find
+			return XI_ConvertString("manOfHolland");
+		break;
+		case PIRATE:
+#replacewith
+			return XI_ConvertString("manOfHolland");
+		break;
+		case PORTUGAL:
+			return XI_ConvertString("manOfPortugal");
+		break;
+		case PIRATE:
+#endreplace
+
+#find
+			return XI_ConvertString("peopleHolland");
+#replacewith
+			return XI_ConvertString("peopleHolland");
+		break;
+		case PORTUGAL:
+			return XI_ConvertString("peoplePortugal");
+#endreplace
+
+#find
+			return XI_ConvertString("peopleHollandIns");
+		break;
+		case PIRATE:
+#replacewith
+			return XI_ConvertString("peopleHollandIns");
+		break;
+		case PORTUGAL:
+			return XI_ConvertString("peoplePortugalAcc");
+		break;
+		case PIRATE:
+#endreplace
+
+#find
+			return XI_ConvertString("HollandIns");
+#replacewith
+			return XI_ConvertString("HollandIns");
+		break;
+		case PORTUGAL:
+			return XI_ConvertString("PortugalIns");
+#endreplace
+
+#find
+			return XI_ConvertString("Holland");
+		break;
+		case PIRATE:
+#replacewith
+			return XI_ConvertString("Holland");
+		break;
+		case PORTUGAL:
+			return XI_ConvertString("Portugal");
+		break;
+		case PIRATE:
+#endreplace
+
+#find
+			return XI_ConvertString("HollandGen");
+#replacewith
+			return XI_ConvertString("HollandGen");
+		break;
+		case PORTUGAL:
+			return XI_ConvertString("PortugalGen");
+#endreplace
+
+#find
+    string attr = NationShortName(sti(NPChar.nation));
+#replacewith
+    string attr = NationShortName(sti(NPChar.nation)); // Nova Nacao: Portugal tem tratamento proprio
+#endreplace
+
+#find
+    string attr  = NationShortName(sti(NPChar.nation));
+#replacewith
+    string attr  = NationShortName(sti(NPChar.nation)); // Nova Nacao: Portugal tem tratamento proprio
+#endreplace
+
+#find
+    string attr  =  NationShortName(nation);
+#replacewith
+    string attr  =  NationShortName(nation); // Nova Nacao: Portugal tem tratamento proprio
+#endreplace

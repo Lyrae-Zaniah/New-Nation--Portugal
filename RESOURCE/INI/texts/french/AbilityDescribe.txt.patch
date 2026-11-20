@@ -1,0 +1,25 @@
+#find
+Permet de hisser le pavillon hollandais. Les chances que votre déguisement soit découvert dépendent de la furtivité, du nombre et des classes de navires dans l’escadre, ainsi que du nombre de navires ennemis et des primes.
+~
+Disponible uniquement pour le personnage principal.
+}
+Capellan1 {Sermon}
+perkCapellan1
+{
+#replacewith
+Permet de hisser le pavillon hollandais. Les chances que votre déguisement soit découvert dépendent de la furtivité, du nombre et des classes de navires dans l’escadre, ainsi que du nombre de navires ennemis et des primes.
+~
+Disponible uniquement pour le personnage principal.
+}
+
+FlagPor {Drapeau portugais}
+perkFlagPor
+{
+Permet de hisser le pavillon portugais. Les chances que votre déguisement soit découvert dépendent de la furtivité, du nombre et des classes de navires dans l’escadre, ainsi que du nombre de navires ennemis et des primes.
+~
+Disponible uniquement pour le personnage principal.
+}
+Capellan1 {Sermon}
+perkCapellan1
+{
+#endreplace

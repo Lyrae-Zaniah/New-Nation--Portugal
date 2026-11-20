@@ -1,0 +1,151 @@
+#find
+	ch.model	= "huber_26";
+#replacewith
+	ch.model	= "huber_por26"; // Nova Nacao: faixa portuguesa
+#endreplace
+
+#find
+	ch.greeting = "spa_gov_common";
+	ch.nation = SPAIN;
+#replacewith
+	ch.greeting = "spa_gov_common";
+	ch.nation = PORTUGAL; // Nova Nacao
+#endreplace
+
+#find
+	LAi_SetHuberType(ch);
+	LAi_RemoveLoginTime(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+	LAi_SetImmortal(ch, true);
+#replacewith
+	LAi_SetHuberType(ch);
+	LAi_RemoveLoginTime(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+	LAi_SetImmortal(ch, true);
+#endreplace
+
+#find
+	ch.nation = SPAIN;
+	LAi_SetLoginTime(ch, 6.0, 21.99);
+	LAi_SetPriestType(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+#replacewith
+	ch.nation = PORTUGAL; // Nova Nacao
+	LAi_SetLoginTime(ch, 6.0, 21.99);
+	LAi_SetPriestType(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+#endreplace
+
+#find
+	ch.nation = SPAIN;
+	LAi_SetWaitressType(ch);
+	LAi_RemoveLoginTime(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+#replacewith
+	ch.nation = PORTUGAL; // Nova Nacao
+	LAi_SetWaitressType(ch);
+	LAi_RemoveLoginTime(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+#endreplace
+
+#find
+	ch.nation = SPAIN;
+	LAi_SetBarmanType(ch);
+	LAi_RemoveLoginTime(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+#replacewith
+	ch.nation = PORTUGAL; // Nova Nacao
+	LAi_SetBarmanType(ch);
+	LAi_RemoveLoginTime(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+#endreplace
+
+#find
+	ch.nation = SPAIN;
+	LAi_SetOwnerType(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+#replacewith
+	ch.nation = PORTUGAL; // Nova Nacao
+	LAi_SetOwnerType(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+#endreplace
+
+#find
+	ch.Dialog.Filename = "Common_Shipyard.c";
+	ch.nation = SPAIN;
+#replacewith
+	ch.Dialog.Filename = "Common_Shipyard.c";
+	ch.nation = PORTUGAL; // Nova Nacao
+#endreplace
+
+#find
+	LAi_SetLoginTime(ch, 6.0, 21.99);
+	LAi_SetHuberType(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+	LAi_SetImmortal(ch, true);
+#replacewith
+	LAi_SetLoginTime(ch, 6.0, 21.99);
+	LAi_SetHuberType(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+	LAi_SetImmortal(ch, true);
+#endreplace
+
+#find
+	ch.Dialog.Filename = "Common_Usurer.c";
+	ch.nation = SPAIN;
+#replacewith
+	ch.Dialog.Filename = "Common_Usurer.c";
+	ch.nation = PORTUGAL; // Nova Nacao
+#endreplace
+
+#find
+	ch.UsurerDeposit = 9000; // *1000 денег
+	LAi_SetOwnerType(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+	LAi_SetImmortal(ch, true);
+#replacewith
+	ch.UsurerDeposit = 9000; // *1000 денег
+	LAi_SetOwnerType(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+	LAi_SetImmortal(ch, true);
+#endreplace
+
+#find
+	ch.nation = SPAIN;
+	ch.greeting = "portmans";
+	LAi_SetHuberType(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+#replacewith
+	ch.nation = PORTUGAL; // Nova Nacao
+	ch.greeting = "portmans";
+	LAi_SetHuberType(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+#endreplace
+
+#find
+	ch.dialog.currentnode = "GlavSklad";
+	ch.nation = SPAIN;
+#replacewith
+	ch.dialog.currentnode = "GlavSklad";
+	ch.nation = PORTUGAL; // Nova Nacao
+#endreplace
+
+#find
+	LAi_SetSitType(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+#replacewith
+	LAi_SetSitType(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+#endreplace
+
+#find
+	ch.nation = SPAIN;
+	ch.greeting = "official";
+	LAi_SetOwnerType(ch);
+	LAi_group_MoveCharacter(ch, "SPAIN_CITIZENS");
+#replacewith
+	ch.nation = PORTUGAL; // Nova Nacao
+	ch.greeting = "official";
+	LAi_SetOwnerType(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+#endreplace

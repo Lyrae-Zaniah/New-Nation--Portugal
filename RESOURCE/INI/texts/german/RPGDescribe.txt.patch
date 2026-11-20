@@ -1,0 +1,10 @@
+#find
+Spain_descr {Spanien. Eine große, aber schwindende Kolonialmacht. Spanien hält derzeit den Großteil der Karibikinseln und des spanischen Festlands, steht jedoch unter ständigem Druck von England und Frankreich, die darauf aus sind, sich den unermesslichen Reichtum der Neuen Welt selbst zu sichern.}
+#replacewith
+Spain_descr {Spanien. Eine große, aber schwindende Kolonialmacht. Spanien hält derzeit den Großteil der Karibikinseln und des spanischen Festlands, steht jedoch unter ständigem Druck von England und Frankreich, die darauf aus sind, sich den unermesslichen Reichtum der Neuen Welt selbst zu sichern.}
+Portugal_descr
+{
+Portugal. Erst vor zwanzig Jahren hat Portugal seine Krone von Spanien zurückgewonnen, und das Haus Braganza kämpft noch immer um seine Unabhängigkeit. Sein wahrer Reichtum liegt in Brasilien, doch seine Schiffe befahren auch die Karibik, und mit den Spaniern verbindet es keine Freundschaft. Portugal setzt auf das alte Bündnis mit England und auf die Unterstützung Frankreichs.
+}
+
+#endreplace

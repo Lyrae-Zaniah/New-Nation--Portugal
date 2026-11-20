@@ -1,0 +1,15 @@
+#find
+					eSoldiers  = 15;
+				break;
+				case SPAIN:		
+#replacewith
+					eSoldiers  = 15;
+				break;
+				// Nova Nacao: Portugal copia o caso SPAIN
+				case PORTUGAL:		
+					eSailors   = 15;
+					eCannoners = 20;
+					eSoldiers  = 45;
+				break;
+				case SPAIN:		
+#endreplace

@@ -1,0 +1,78 @@
+#find
+									StringFromKey("Common_Mayor_53", GetAddress_Form(NPChar))));
+#replacewith
+									StringFromKey("Common_Mayor_53", GetAddress_Form(NPChar))));
+						// Nova Nacao: os prefeitos portugueses reconhecem o novo Governador-Geral
+						if (sti(NPChar.nation) == PORTUGAL && CheckAttribute(pchar, "questTemp.PorGG")) dialog.text = StringFromKey("Diplomat_dialog_2103");
+#endreplace
+
+#find
+		case "Where_guber":
+#replacewith
+		case "Where_guber":
+			// Nova Nacao: o Governador-Geral portugues agora e o proprio jogador
+			if (sti(NPChar.nation) == PORTUGAL && CheckAttribute(pchar, "questTemp.PorGG"))
+			{
+				dialog.text = StringFromKey("Diplomat_dialog_2110");
+				link.l1 = StringFromKey("Diplomat_dialog_2002");
+				link.l1.go = "exit";
+				break;
+			}
+#endreplace
+
+#find
+			SetNPCQuestDate(npchar, "GrabbingTownDate");
+#replacewith
+			SetNPCQuestDate(npchar, "GrabbingTownDate");
+			Portugal_CheckLineEnd();
+#endreplace
+
+#find
+			ChangeCharacterNationReputation(pchar, sti(NPChar.nation), -1);
+			DeleteAttribute(pchar, "GenQuest." + QuestName);
+			DeleteAttribute(pchar, "GenQuest.questName");
+			npchar.greeting = NationShortName(sti(npchar.nation)) + "_gov_common"; //реплику вертаем
+			SaveCurrentNpcQuestDateParam(npchar, "work_date"); //сразу ещё один не даем
+			CloseQuestHeader("MayorsQuestsList");
+		break;
+#replacewith
+			ChangeCharacterNationReputation(pchar, sti(NPChar.nation), -1);
+			DeleteAttribute(pchar, "GenQuest." + QuestName);
+			DeleteAttribute(pchar, "GenQuest.questName");
+			npchar.greeting = NationAssetShortName(sti(npchar.nation)) + "_gov_common"; //реплику вертаем
+			SaveCurrentNpcQuestDateParam(npchar, "work_date"); //сразу ещё один не даем
+			CloseQuestHeader("MayorsQuestsList");
+		break;
+#endreplace
+
+#find
+			ChangeCharacterNationReputation(pchar, sti(NPChar.nation), -1);
+			DeleteAttribute(pchar, "GenQuest." + QuestName);
+			DeleteAttribute(pchar, "GenQuest.questName");
+			npchar.greeting = NationShortName(sti(npchar.nation)) + "_gov_common"; //реплику вертаем
+			SaveCurrentNpcQuestDateParam(npchar, "work_date"); //сразу ещё один не даем
+			CloseQuestHeader("MayorsQuestsList");
+			AddQuestRecord("MayorsQuestsList", "21");
+#replacewith
+			ChangeCharacterNationReputation(pchar, sti(NPChar.nation), -1);
+			DeleteAttribute(pchar, "GenQuest." + QuestName);
+			DeleteAttribute(pchar, "GenQuest.questName");
+			npchar.greeting = NationAssetShortName(sti(npchar.nation)) + "_gov_common"; //реплику вертаем
+			SaveCurrentNpcQuestDateParam(npchar, "work_date"); //сразу ещё один не даем
+			CloseQuestHeader("MayorsQuestsList");
+			AddQuestRecord("MayorsQuestsList", "21");
+#endreplace
+
+#find
+			DeleteAttribute(pchar, "GenQuest." + QuestName);
+			DeleteAttribute(pchar, "GenQuest.questName");
+			npchar.greeting = NationShortName(sti(npchar.nation)) + "_gov_common"; //реплику вертаем
+			SaveCurrentNpcQuestDateParam(npchar, "work_date"); //сразу ещё один не даем
+			// инкремент в базу заданий мэров
+#replacewith
+			DeleteAttribute(pchar, "GenQuest." + QuestName);
+			DeleteAttribute(pchar, "GenQuest.questName");
+			npchar.greeting = NationAssetShortName(sti(npchar.nation)) + "_gov_common"; //реплику вертаем
+			SaveCurrentNpcQuestDateParam(npchar, "work_date"); //сразу ещё один не даем
+			// инкремент в базу заданий мэров
+#endreplace

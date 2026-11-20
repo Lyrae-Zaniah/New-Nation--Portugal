@@ -1,0 +1,238 @@
+#find
+	for (int i=0;i<PIRATE;i++)
+	{
+		if (GetNationRelation(i,iNation) != RELATION_ENEMY && i != iNation)
+#replacewith
+	for (int i=0;i<MAX_NATIONS;i++)
+	{
+		if (i == PIRATE) continue; // Nova Nacao: inclui Portugal
+		if (GetNationRelation(i,iNation) != RELATION_ENEMY && i != iNation)
+#endreplace
+
+#find
+	for (int i=0;i<PIRATE;i++)
+	{
+		if (GetNationRelation(i,iNation) == RELATION_ENEMY)
+#replacewith
+	for (int i=0;i<MAX_NATIONS;i++)
+	{
+		if (i == PIRATE) continue; // Nova Nacao: inclui Portugal
+		if (GetNationRelation(i,iNation) == RELATION_ENEMY)
+#endreplace
+
+#find
+	for (int i=0;i<PIRATE;i++)
+	{
+		if (i != iNation)
+#replacewith
+	for (int i=0;i<MAX_NATIONS;i++)
+	{
+		if (i == PIRATE) continue; // Nova Nacao: inclui Portugal
+		if (i != iNation)
+#endreplace
+
+#find
+	DeleteAttribute(&Characters[iCharacterIndex1], "relation");
+}
+#replacewith
+	DeleteAttribute(&Characters[iCharacterIndex1], "relation");
+}
+// =================================================================================================
+// Nova Nacao: Portugal
+// Portugal tem identidade propria ("por") para reputacao, cacadores, IDs e estatisticas,
+// mas ainda nao tem modelos/musicas/falas proprios: para esses assets usa os espanhois.
+// =================================================================================================
+string NationAssetShortName(int iNation)
+{
+	if (iNation == PORTUGAL) return "spa";
+	return NationShortName(iNation);
+}
+
+// Modelos portugueses (uniformes ingleses recoloridos: vermelho -> branco)
+#define PORTUGAL_MODELS_1 ",elite_por_1,elite_por_2,elite_por_3,elite_por_4,elite_por_5,guard_por_1,guard_por_2,guard_por_3,guard_por_4,milit_mush_por_1,milit_mush_por_2,milit_mush_por_3,milit_mush_por_4,milit_mush_por_5,milit_mush_por_6,milit_mush_por_7,milit_mush_por_8,milit_por_1,milit_por_2,milit_por_3,milit_por_4,milit_por_5,milit_por_6,milit_por_7,milit_por_8,navy_mush_por_1,navy_mush_por_2,navy_mush_por_3,navy_mush_por_4,navy_mush_por_5,navy_mush_por_6,navy_off_por_1,navy_off_por_2,navy_off_por_3,navy_off_por_4,navy_off_por_5,navy_off_por_6,navy_por_1,navy_por_10,navy_por_11,navy_por_12,navy_por_13,navy_por_14,navy_por_15,navy_por_16,navy_por_2,navy_por_3,navy_por_4,navy_por_5,navy_por_6,navy_por_7,navy_por_8,"
+#define PORTUGAL_MODELS_2 ",navy_por_9,off_por_1,off_por_10,off_por_11,off_por_2,off_por_3,off_por_4,off_por_5,off_por_6,off_por_7,off_por_8,off_por_9,por_mush_1,por_mush_2,por_mush_3,por_mush_4,por_mush_5,por_mush_6,por_mush_7,por_mush_8,sold_por_1,sold_por_10,sold_por_11,sold_por_12,sold_por_13,sold_por_14,sold_por_15,sold_por_16,sold_por_2,sold_por_3,sold_por_4,sold_por_5,sold_por_6,sold_por_7,sold_por_8,sold_por_9,urban_mush_por_1,urban_mush_por_2,urban_mush_por_3,urban_mush_por_4,urban_mush_por_5,urban_mush_por_6,urban_mush_por_7,urban_mush_por_8,urban_por_1,urban_por_2,urban_por_3,urban_por_4,urban_por_5,urban_por_6,urban_por_7,urban_por_8,"
+
+// nome curto para MODELOS 3D: Portugal tem modelos proprios ("por")
+// icone da colonia no mapa-mundi (icons.tga): Portugal usa a linha 12
+int NationWorldMapIcon(int iNation)
+{
+	if (iNation == PORTUGAL) return 12;
+	return iNation;
+}
+
+string NationModelShortName(int iNation)
+{
+	if (iNation == PORTUGAL) return "por";
+	return NationShortName(iNation);
+}
+
+bool PortugalModelExists(string sModel)
+{
+	string sKey = "," + sModel + ",";
+	if (findSubStr(PORTUGAL_MODELS_1, sKey, 0) >= 0) return true;
+	return findSubStr(PORTUGAL_MODELS_2, sKey, 0) >= 0;
+}
+
+// rede de seguranca: modelo portugues que nao existe -> equivalente espanhol
+string PortugalFixModel(string sModel)
+{
+	bool bPor = findSubStr(sModel, "_por_", 0) >= 0;
+	if (!bPor && strlen(sModel) > 4)
+	{
+		if (strcut(sModel, 0, 3) == "por_") bPor = true;
+	}
+	if (!bPor) return sModel;
+	if (PortugalModelExists(sModel)) return sModel;
+	if (findSubStr(sModel, "_por_", 0) >= 0) return StrReplaceAll(sModel, "_por_", "_spa_");
+	return "spa_" + strcut(sModel, 4, strlen(sModel) - 1);
+}
+
+// retrato: modelo portugues usa o retrato do equivalente ingles
+string PortugalPortraitModel(string sModel)
+{
+	if (!PortugalModelExists(sModel)) return sModel;
+	if (findSubStr(sModel, "_por_", 0) >= 0) return StrReplaceAll(sModel, "_por_", "_eng_");
+	return "eng_" + strcut(sModel, 4, strlen(sModel) - 1);
+}
+
+// navios: Portugal usa a lista de navios disponiveis da Espanha
+int NationForShipList(int iNation)
+{
+	if (iNation == PORTUGAL) return SPAIN;
+	return iNation;
+}
+
+// Nova Nacao: da ao jogador o posto de Governador-Geral (6o posto portugues).
+// Para ser chamada pela linha de missoes de Portugal. Exige a carta de corso portuguesa equipada.
+bool Portugal_SetGovernorGeneral()
+{
+	if (!isMainCharacterPatented()) return false;
+	ref itm;
+	makeref(itm, Items[sti(pchar.EquipedPatentId)]);
+	if (sti(itm.Nation) != PORTUGAL) return false;
+	itm.TitulCur = 6;
+	itm.TitulCurNext = 0;
+	return true;
+}
+
+// Nova Nacao: nacao europeia ao acaso, incluindo Portugal (sem piratas)
+int Portugal_RandEuroNation()
+{
+	int n = rand(4);
+	if (n == 4) n = PORTUGAL;
+	return n;
+}
+
+// Nova Nacao: a cada 20 dias, um boato sobre Portugal (metade nas colonias portuguesas, metade fora delas)
+void Portugal_RumourTick()
+{
+	if (CheckAttribute(pchar, "questTemp.PorRumour.control_year"))
+	{
+		if (GetQuestPastDayParam("questTemp.PorRumour") < 20) return;
+	}
+	SaveCurrentQuestDateParam("questTemp.PorRumour");
+	int i = rand(9);
+	string sKey = "Diplomat_dialog_" + (2111 + i);
+	if (i < 5) AddSimpleRumour(StringFromKey(sKey), PORTUGAL, 30, 3);
+	else AddSimpleRumour(StringFromKey(sKey), PORTUGAL + 10, 30, 3);
+}
+
+// Nova Nacao: Cumana e Caracas nao sao cercadas durante a linha de missoes de Portugal
+bool Portugal_ColonyProtected(string sColony)
+{
+	if (sColony != "Cumana" && sColony != "Caracas") return false;
+	if (!CheckAttribute(pchar, "questTemp.PorLine")) return false;
+	string sSt = pchar.questTemp.PorLine;
+	if (sSt == "" || sSt == "done") return false;
+	return true;
+}
+
+// Nova Nacao: troca o modelo dos governadores de Cumana e Caracas (faixa espanhola -> portuguesa) em saves antigos
+void Portugal_FixMayorModels()
+{
+	Portugal_FixOneMayor("Caracas_Mayor", "huber_21", "huber_por21");
+	Portugal_FixOneMayor("Cumana_Mayor", "huber_26", "huber_por26");
+	Portugal_FixOneMayor("POR_Rep", "huber_0", "huber_por0");
+	Portugal_FixCapturedMayors();
+	Portugal_CheckLineEnd();
+}
+
+void Portugal_FixOneMayor(string sId, string sOld, string sNew)
+{
+	int i = GetCharacterIndex(sId);
+	if (i < 0) return;
+	if (Characters[i].model != sOld) return;
+	Characters[i].model = sNew;
+	if (IsEntity(&Characters[i])) Characters_RefreshModel(&Characters[i]);
+}
+
+string Portugal_GovPoolItem(int k)
+{
+	string sM = "huber_por21";
+	if (k == 0) sM = "huber_por19";
+	if (k == 1) sM = "huber_por20";
+	if (k == 2) sM = "huber_por21";
+	if (k == 3) sM = "huber_por26";
+	if (k == 4) sM = "huber_2";
+	if (k == 5) sM = "huber_18";
+	if (k == 6) sM = "huber_24";
+	return sM;
+}
+
+bool Portugal_ModelInUse(string sM)
+{
+	int n;
+	for (n = 0; n < MAX_CHARACTERS; n++)
+	{
+		if (!CheckAttribute(&Characters[n], "model")) continue;
+		if (Characters[n].model == sM) return true;
+	}
+	return false;
+}
+
+string Portugal_GovModel()
+{
+	int iStart = rand(6);
+	int k, j;
+	string sM;
+	for (k = 0; k < 7; k++)
+	{
+		j = iStart + k;
+		if (j >= 7) j = j - 7;
+		sM = Portugal_GovPoolItem(j);
+		if (!Portugal_ModelInUse(sM)) return sM;
+	}
+	sM = Portugal_GovPoolItem(iStart);
+	return sM;
+}
+
+void Portugal_FixCapturedMayors()
+{
+	int i, iChar;
+	string sM;
+	for (i = 0; i < MAX_COLONIES; i++)
+	{
+		if (!CheckAttribute(&colonies[i], "nation")) continue;
+		if (sti(colonies[i].nation) != PORTUGAL) continue;
+		iChar = GetCharacterIndex(colonies[i].id + "_Mayor");
+		if (iChar < 0) continue;
+		if (!CheckAttribute(&Characters[iChar], "model")) continue;
+		sM = Characters[iChar].model;
+		if (findsubstr(sM, "usurer_", 0) != 0 && findsubstr(sM, "portman_", 0) != 0) continue;
+		Characters[iChar].model = Portugal_GovModel();
+		FaceMaker(&Characters[iChar]);
+		if (IsEntity(&Characters[iChar])) Characters_RefreshModel(&Characters[iChar]);
+	}
+}
+
+// saves em que a linha de Portugal ja terminou: liberar o mundo vivo como no fim das linhas das nacoes
+void Portugal_CheckLineEnd()
+{
+	if (!bWorldAlivePause) return;
+	if (!CheckAttribute(pchar, "questTemp.PorLine")) return;
+	if (pchar.questTemp.PorLine != "done") return;
+	bWorldAlivePause = false;
+	Log_Info(StringFromKey("Diplomat_dialog_2121"));
+}
+
+#endreplace

@@ -1,0 +1,36 @@
+#find
+picture	= England,512,0,640,128
+#replacewith
+picture	= England,512,0,640,128
+; Nova Nacao: Portugal
+picture	= Portugal,640,0,768,128
+#endreplace
+
+#find
+picture = Pirate,160,0,192,32
+#replacewith
+picture = Pirate,160,0,192,32
+; Nova Nacao: Portugal
+picture = Portugal,224,32,256,64
+#endreplace
+
+#find
+[PERK_ENABLE]
+#replacewith
+[PERK_ENABLE]
+picture = FlagPor,0,1536,128,1664
+#endreplace
+
+#find
+[PERK_DISABLE]
+#replacewith
+[PERK_DISABLE]
+picture = FlagPor,0,1536,128,1664
+#endreplace
+
+#find
+picture = NationPirate,1036,1812,1266,2028
+#replacewith
+picture = NationPirate,1036,1812,1266,2028
+picture = NationPortugal,1292,1812,1522,2028
+#endreplace

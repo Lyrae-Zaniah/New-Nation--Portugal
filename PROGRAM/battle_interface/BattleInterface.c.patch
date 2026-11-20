@@ -1,0 +1,43 @@
+#find
+				case FRANCE:	BI_intNRetValue[3] = 2;	break;
+#replacewith
+				case FRANCE:	BI_intNRetValue[3] = 2;	break;
+				// Nova Nacao: Portugal copia o caso SPAIN
+				case PORTUGAL:		BI_intNRetValue[3] = 1;	break; // icone portugues em small_nations
+#endreplace
+
+#find
+			case FRANCE: 	BI_intNRetValue[0] = 2; break;
+			case SPAIN: 	BI_intNRetValue[0] = 3; break;
+#replacewith
+			case FRANCE: 	BI_intNRetValue[0] = 2; break;
+			// Nova Nacao: Portugal copia o caso SPAIN
+			case PORTUGAL: 	BI_intNRetValue[0] = 4; break; // coluna da bandeira portuguesa
+			case SPAIN: 	BI_intNRetValue[0] = 3; break;
+#endreplace
+
+#find
+			case FRANCE: 	BI_intNRetValue[0] = 2; break;
+			case SPAIN: 	BI_intNRetValue[0] = 3; break;						
+#replacewith
+			case FRANCE: 	BI_intNRetValue[0] = 2; break;
+			// Nova Nacao: Portugal copia o caso SPAIN
+			case PORTUGAL: 	BI_intNRetValue[0] = 4; break; // coluna da bandeira portuguesa
+			case SPAIN: 	BI_intNRetValue[0] = 3; break;						
+#endreplace
+
+#find
+			case FRANCE:	BI_intNRetValue[1] = 2;	break;
+#replacewith
+			case FRANCE:	BI_intNRetValue[1] = 2;	break;
+			// Nova Nacao: Portugal copia o caso SPAIN
+			case PORTUGAL:		BI_intNRetValue[1] = 1;	break; // icone portugues em small_nations
+#endreplace
+
+#find
+	        case FRANCE:	ret = "fra_" + (1 + rand(5));	break;
+#replacewith
+	        case FRANCE:	ret = "fra_" + (1 + rand(5));	break;
+	        // Nova Nacao: Portugal copia o caso SPAIN
+	        case PORTUGAL:		ret = "spa_" + (1 + rand(4));	break;
+#endreplace

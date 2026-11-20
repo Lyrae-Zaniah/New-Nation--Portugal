@@ -1,0 +1,11 @@
+#find
+	worldMap.labels.Cumana_town.icon = SPAIN;
+#replacewith
+	worldMap.labels.Cumana_town.icon = 12; // Nova Nacao: bandeira portuguesa (linha 12 de icons.tga)
+#endreplace
+
+#find
+	worldMap.labels.Caracas_town.icon = SPAIN;
+#replacewith
+	worldMap.labels.Caracas_town.icon = 12; // Nova Nacao: bandeira portuguesa (linha 12 de icons.tga)
+#endreplace

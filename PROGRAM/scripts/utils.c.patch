@@ -1,0 +1,81 @@
+#find
+    SetNationRelationBoth(HOLLAND, FRANCE, RELATION_FRIEND);
+#replacewith
+    SetNationRelationBoth(HOLLAND, FRANCE, RELATION_FRIEND);
+
+    // Nova Nacao: Portugal (1660 - Guerra da Restauracao contra a Espanha ate 1668,
+    // alianca anglo-portuguesa de 1661, apoio frances discreto, paz de Haia com a Holanda em 1661)
+    SetNationRelationBoth(PORTUGAL, SPAIN,   RELATION_ENEMY);
+    SetNationRelationBoth(PORTUGAL, PIRATE,  RELATION_ENEMY);
+    SetNationRelationBoth(PORTUGAL, ENGLAND, RELATION_FRIEND);
+    SetNationRelationBoth(PORTUGAL, FRANCE,  RELATION_FRIEND);
+    SetNationRelationBoth(PORTUGAL, HOLLAND, RELATION_NEUTRAL);
+#endreplace
+
+#find
+    SetNationRelation2MainCharacter(HOLLAND, GetNationRelation(sti(pchar.nation), HOLLAND));
+#replacewith
+    SetNationRelation2MainCharacter(HOLLAND, GetNationRelation(sti(pchar.nation), HOLLAND));
+    SetNationRelation2MainCharacter(PORTUGAL, GetNationRelation(sti(pchar.nation), PORTUGAL));
+#endreplace
+
+#find
+		case "elite_eng_mush":sBody = "elite";  iNumber = rand(4)+1; break;	//Хайлендеры
+#replacewith
+		case "elite_eng_mush":sBody = "elite";  iNumber = rand(4)+1; break;	//Хайлендеры
+		case "elite_por":	sBody = "elite";  iNumber = rand(4)+1;	 break;	// Nova Nacao: elite portuguesa (base inglesa)
+#endreplace
+
+#find
+			sPrefix = "_" + NationShortName(iNation) + "_";
+#replacewith
+			sPrefix = "_" + NationModelShortName(iNation) + "_";
+#endreplace
+
+#find
+			case FRANCE:	sBody = "fra_mush"; iNumber = rand(7)+1; sPrefix = "_"; break;
+#replacewith
+			case FRANCE:	sBody = "fra_mush"; iNumber = rand(7)+1; sPrefix = "_"; break;
+			// Nova Nacao: Portugal copia o caso SPAIN
+			case PORTUGAL:		sBody = "por_mush"; iNumber = rand(7)+1; sPrefix = "_"; break;
+#endreplace
+
+#find
+	float fPirate   = 1.0;
+#replacewith
+	float fPirate   = 1.0;
+	float fPortugal = 0.4; // Nova Nacao: presenca menor no Caribe
+#endreplace
+
+#find
+							fPirate += 0.2;
+						break;
+					}
+#replacewith
+							fPirate += 0.2;
+						break;
+						case PORTUGAL:
+							fPortugal += 0.4;
+						break;
+					}
+#endreplace
+
+#find
+	float fProbablyNation = frand(fEngland + fFrance + fSpain + fHolland + fPirate);
+#replacewith
+	float fProbablyNation = frand(fEngland + fFrance + fSpain + fHolland + fPortugal + fPirate);
+#endreplace
+
+#find
+	fHolland  = fSpain   + fHolland;
+#replacewith
+	fHolland  = fSpain   + fHolland;
+	fPortugal = fHolland + fPortugal;
+#endreplace
+
+#find
+	if(fProbablyNation <= fHolland)	return HOLLAND;
+#replacewith
+	if(fProbablyNation <= fHolland)	return HOLLAND;
+	if(fProbablyNation <= fPortugal)	return PORTUGAL;
+#endreplace

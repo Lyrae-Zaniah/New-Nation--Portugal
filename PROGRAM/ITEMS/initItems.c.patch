@@ -1,0 +1,13 @@
+#find
+	n = InitPatents(n,	"hol",	HOLLAND);	// каперский патент Голландии
+#replacewith
+	n = InitPatents(n,	"hol",	HOLLAND);	// каперский патент Голландии
+	n = InitPatents(n,	"por",	PORTUGAL);	// Nova Nacao: carta de corso de Portugal
+#endreplace
+
+#find
+	n = InitQuestItems(n,	"HolTradeLicence",		13,			"ITEMS_4",	0,		0.1,	"",			"",			"");
+#replacewith
+	n = InitQuestItems(n,	"HolTradeLicence",		13,			"ITEMS_4",	0,		0.1,	"",			"",			"");
+	n = InitQuestItems(n,	"PorTradeLicence",		7,			"ITEMS_4",	0,		0.1,	"",			"",			""); // Nova Nacao: licenca de comercio portuguesa
+#endreplace

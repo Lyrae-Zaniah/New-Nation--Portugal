@@ -1,0 +1,5 @@
+#find
+        Model = "off_" + NationShortName(iNation) + "_" + (rand(1) + 1);
+#replacewith
+        Model = "off_" + NationModelShortName(iNation) + "_" + (rand(1) + 1);
+#endreplace

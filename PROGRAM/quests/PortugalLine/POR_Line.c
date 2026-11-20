@@ -16,7 +16,7 @@ void POR_SetRank(int iRank)
 	if (sti(itm.TitulCur) >= iRank) return;
 	itm.TitulCur = iRank;
 	itm.TitulCurNext = 0;
-	Log_Info(StringFromKey("POR_Line_dialog_3", GetAddress_FormTitle(PORTUGAL, iRank)));
+	Log_Info(StringFromKey("Diplomat_dialog_2003", GetAddress_FormTitle(PORTUGAL, iRank)));
 }
 
 void POR_SetLocCond(string sQuest, string sLoc)
@@ -93,8 +93,18 @@ ref POR_MakeLandNpc(string sId, string sModel, string sName, string sLastName, s
 	sld.Dialog.CurrentNode = "First time";
 	LAi_SetImmortal(sld, true);
 	LAi_LoginInCaptureTown(sld, true);
-	ChangeCharacterAddressGroup(sld, sLoc, sGroup, sLocator);
-	LAi_SetStayTypeNoGroup(sld);
+	if (sGroup == "sit")
+	{
+		// sentado a uma mesa da taverna, como os fregueses
+		FreeSitLocator(sLoc, sLocator);
+		ChangeCharacterAddressGroup(sld, sLoc, sGroup, sLocator);
+		LAi_SetSitType(sld);
+	}
+	else
+	{
+		ChangeCharacterAddressGroup(sld, sLoc, sGroup, sLocator);
+		LAi_SetStayTypeNoGroup(sld);
+	}
 	AddLandQuestMark_Main(sld, "POR_Line");
 	return sld;
 }
@@ -130,6 +140,8 @@ void POR_M1_Start()
 void POR_M1_Battle(string qName)
 {
 	ref sld;
+	DeleteAttribute(pchar, "questTemp.PorLine.M1Boarded");
+	DeleteAttribute(pchar, "questTemp.PorLine.M1Sunk");
 	POR_NewGroup("POR_M1", "pirate");
 	sld = POR_AddShip("POR_M1", 1, "pirate_" + (rand(15) + 1), PIRATE, SHIP_BRIGANTINE, CANNON_TYPE_CANNON_LBS16, 2, "blade24");
 	sld.name = "Bento";
@@ -151,7 +163,15 @@ void POR_M1_Win(string qName)
 	Island_SetReloadEnableGlobal("Trinidad", true);
 	DeleteAttribute(pchar, "questTemp.PorLine.Cabin");
 	pchar.questTemp.PorLine = "M1_done";
-	AddQuestRecord("POR_Line", "2");
+	if (CheckAttribute(pchar, "questTemp.PorLine.M1Boarded"))
+	{
+		AddQuestRecord("POR_Line", "2");
+	}
+	else
+	{
+		pchar.questTemp.PorLine.M1Sunk = true;
+		AddQuestRecord("POR_Line", "2b");
+	}
 	POR_GovMark(true);
 }
 
@@ -177,7 +197,7 @@ void POR_M2_Start()
 {
 	pchar.questTemp.PorLine = "M2_go";
 	AddQuestRecord("POR_Line", "3");
-	POR_MakeLandNpc("POR_Tome", "citiz_" + (rand(9) + 11), "Tomé", "Ferraz", "Villemstad_tavern", "goto", "goto1");
+	POR_MakeLandNpc("POR_Tome", "citiz_" + (rand(9) + 11), "Tomé", "Ferraz", "Villemstad_tavern", "sit", "sit_base1");
 }
 
 void POR_M2_ToAruba()
@@ -191,6 +211,8 @@ void POR_M2_ToAruba()
 void POR_M2_Battle(string qName)
 {
 	ref sld;
+	DeleteAttribute(pchar, "questTemp.PorLine.M2Boarded");
+	DeleteAttribute(pchar, "questTemp.PorLine.M2Sunk");
 	POR_NewGroup("POR_M2", "war");
 	sld = POR_AddShip("POR_M2", 1, "navy_off_spa_3", SPAIN, SHIP_BRIG, CANNON_TYPE_CANNON_LBS16, 3, "blade26");
 	sld.name = "Íñigo";
@@ -212,7 +234,16 @@ void POR_M2_Win(string qName)
 	Island_SetReloadEnableGlobal("Aruba", true);
 	DeleteAttribute(pchar, "questTemp.PorLine.Cabin");
 	pchar.questTemp.PorLine = "M2_done";
-	AddQuestRecord("POR_Line", "5");
+	if (CheckAttribute(pchar, "questTemp.PorLine.M2Boarded"))
+	{
+		AddQuestRecord("POR_Line", "5");
+	}
+	else
+	{
+		pchar.questTemp.PorLine.M2Sunk = true;
+		pchar.questTemp.PorLine.Letters = true;
+		AddQuestRecord("POR_Line", "5b");
+	}
 	POR_GovMark(true);
 }
 
@@ -247,7 +278,9 @@ void POR_M3_Battle(string qName)
 	DeleteAttribute(pchar, "questTemp.PorLine.MerchLost");
 	// a flauta de Pernambuco (aliada)
 	POR_NewGroup("POR_M3_Ours", "trade");
-	sld = POR_AddShip("POR_M3_Ours", 1, "citiz_" + (rand(9) + 11), PORTUGAL, SHIP_FLEUT, CANNON_TYPE_CANNON_LBS12, 0, "blade24");
+	pchar.questTemp.PorLine.AmaroModel = "merch_" + (rand(14) + 1);
+	string sAmaro = pchar.questTemp.PorLine.AmaroModel;
+	sld = POR_AddShip("POR_M3_Ours", 1, sAmaro, PORTUGAL, SHIP_FLEUT, CANNON_TYPE_CANNON_LBS12, 0, "blade24");
 	sld.name = "Amaro";
 	sld.lastname = "Teles";
 	sld.Ship.Name = "Desterro";
@@ -296,7 +329,9 @@ void POR_M3_Win(string qName)
 		// o capitao da flauta quer conversar na taverna
 		pchar.questTemp.PorLine = "M3_amaro";
 		AddQuestRecord("POR_Line", "7a");
-		POR_MakeLandNpc("POR_Amaro", "citiz_" + (rand(9) + 11), "Amaro", "Teles", "Cumana_tavern", "goto", "goto1");
+		string sAmaroM = "merch_" + (rand(14) + 1);
+		if (CheckAttribute(pchar, "questTemp.PorLine.AmaroModel")) sAmaroM = pchar.questTemp.PorLine.AmaroModel;
+		POR_MakeLandNpc("POR_Amaro", sAmaroM, "Amaro", "Teles", "Cumana_tavern", "sit", "sit_base3");
 		return;
 	}
 	POR_GovMark(true);
@@ -363,7 +398,9 @@ void POR_M4_Win(string qName)
 	Island_SetReloadEnableGlobal("Caiman", true);
 	DeleteAttribute(pchar, "questTemp.PorLine.Cabin");
 	pchar.questTemp.PorLine = "M4_done";
-	AddQuestRecord("POR_Line", "9");
+	// abordou e falou com o Roiz, ou so afundou a esquadra
+	if (CheckAttribute(pchar, "questTemp.PorLine.RoizBoarded")) AddQuestRecord("POR_Line", "9");
+	else AddQuestRecord("POR_Line", "9b");
 	POR_GovMark(true);
 }
 
@@ -385,7 +422,7 @@ void POR_M4_Reward()
 	// a investigacao continua sem o governador
 	pchar.questTemp.PorLine = "M5_godinho";
 	AddQuestRecord("POR_Line", "10");
-	POR_MakeLandNpc("POR_Godinho", "citiz_" + (rand(9) + 11), "Simão", "Godinho", "Caracas_tavern", "goto", "goto1");
+	POR_MakeLandNpc("POR_Godinho", "citiz_" + (rand(9) + 11), "Simão", "Godinho", "Caracas_tavern", "sit", "sit_base2");
 }
 
 // ---------------------------------------------------------------- missao 5: o livro de contas
@@ -394,7 +431,7 @@ void POR_M5_ToSecretary()
 	pchar.questTemp.PorLine = "M5_secretary";
 	AddQuestRecord("POR_Line", "11");
 	RemoveLandQuestMark_Main(CharacterFromID("POR_Godinho"), "POR_Line");
-	POR_MakeLandNpc("POR_Lourenco", "citiz_" + (rand(9) + 11), "Lourenço", "Viegas", "Cumana_tavern", "goto", "goto1");
+	POR_MakeLandNpc("POR_Lourenco", "citiz_" + (rand(9) + 11), "Lourenço", "Viegas", "Cumana_tavern", "sit", "sit_base4");
 }
 
 // ---------------------------------------------------------------- missao 6: a ira do governador
@@ -429,7 +466,7 @@ void POR_M6_RepArrives()
 	pchar.questTemp.PorLine = "M6_rep";
 	AddQuestRecord("POR_Line", "13");
 	POR_RemoveNpc("POR_Lourenco");
-	POR_MakeLandNpc("POR_Rep", "huber_0", "Álvaro", "Coutinho", "Cumana_townhall", "goto", "goto1");
+	POR_MakeLandNpc("POR_Rep", "huber_por0", "Álvaro", "Coutinho", "Cumana_townhall", "goto", "goto1");
 }
 
 void POR_M6_Win(string qName)
@@ -527,11 +564,12 @@ void POR_Final()
 	RemoveLandQuestMark_Main(CharacterFromID("POR_Rep"), "POR_Line");
 	POR_SetRank(5);
 	Portugal_SetGovernorGeneral();
-	Log_Info(StringFromKey("POR_Line_dialog_3", GetAddress_FormTitle(PORTUGAL, 6)));
+	Log_Info(StringFromKey("Diplomat_dialog_2003", GetAddress_FormTitle(PORTUGAL, 6)));
 	AddMoneyToCharacter(pchar, 100000);
 	ChangeCharacterNationReputation(pchar, PORTUGAL, 20);
 	AddCharacterExpToSkill(pchar, "Leadership", 300);
 	pchar.questTemp.PorLine = "done";
+	Portugal_CheckLineEnd();
 	AddQuestRecord("POR_Line", "16");
 	CloseQuestHeader("POR_Line");
 	POR_GG_Init();
@@ -579,7 +617,7 @@ void POR_GG_CheckSeat()
 		if (!POR_GG_IsSeatColony(i)) continue;
 		pchar.questTemp.PorGG.Seat = colonies[i].id;
 		if (GetCharacterIndex("POR_Sec") >= 0) ChangeCharacterAddressGroup(CharacterFromID("POR_Sec"), colonies[i].id + "_townhall", "goto", "goto1");
-		Log_Info(StringFromKey("POR_Line_dialog_109", GetCityName(colonies[i].id)));
+		Log_Info(StringFromKey("Diplomat_dialog_2109", GetCityName(colonies[i].id)));
 		return;
 	}
 }
@@ -619,7 +657,7 @@ void POR_GG_Income(string qName)
 	{
 		// o tesouro acumula ate o Governador-Geral retirar
 		pchar.questTemp.PorGG.Treasury = sti(pchar.questTemp.PorGG.Treasury) + iSum;
-		Log_Info(StringFromKey("POR_Line_dialog_102", GetCityName(pchar.questTemp.PorGG.Seat), FindMoneyString(iSum)));
+		Log_Info(StringFromKey("Diplomat_dialog_2102", GetCityName(pchar.questTemp.PorGG.Seat), FindMoneyString(iSum)));
 	}
 	DoQuestFunctionDelay("POR_GG_Rearm", 1.0);
 }

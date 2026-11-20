@@ -1,0 +1,25 @@
+#find
+Permite cambiar tu bandera por la de Holanda. La probabilidad de que tu disfraz sea descubierto depende de tu sigilo, del número y clase de barcos en la escuadra, así como del número de barcos enemigos y recompensas.
+~
+Disponible solo para el Personaje Principal.
+}
+Capellan1 {Sermón}
+perkCapellan1
+{
+#replacewith
+Permite cambiar tu bandera por la de Holanda. La probabilidad de que tu disfraz sea descubierto depende de tu sigilo, del número y clase de barcos en la escuadra, así como del número de barcos enemigos y recompensas.
+~
+Disponible solo para el Personaje Principal.
+}
+
+FlagPor {Bandera portuguesa}
+perkFlagPor
+{
+Permite cambiar tu bandera por la de Portugal. La probabilidad de que tu disfraz sea descubierto depende de tu sigilo, del número y clase de barcos en la escuadra, así como del número de barcos enemigos y recompensas.
+~
+Disponible solo para el Personaje Principal.
+}
+Capellan1 {Sermón}
+perkCapellan1
+{
+#endreplace

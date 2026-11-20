@@ -1,0 +1,10 @@
+#find
+Spain_descr {Espanha. Uma grande potência colonial em declínio. Atualmente detendo a maior parte das ilhas do Caribe e do continente espanhol, a Espanha se vê sob constante pressão da Inglaterra e da França, que buscam reivindicar para si as infinitas riquezas do Novo Mundo.}
+#replacewith
+Spain_descr {Espanha. Uma grande potência colonial em declínio. Atualmente detendo a maior parte das ilhas do Caribe e do continente espanhol, a Espanha se vê sob constante pressão da Inglaterra e da França, que buscam reivindicar para si as infinitas riquezas do Novo Mundo.}
+Portugal_descr
+{
+Portugal. Há apenas vinte anos Portugal recuperou sua própria coroa da Espanha, e a Casa de Bragança ainda luta por sua independência. Sua verdadeira riqueza está no Brasil, mas seus navios também cruzam as águas do Caribe, e não há amizade com os espanhóis. Portugal conta com a velha aliança com a Inglaterra e com o apoio da França.
+}
+
+#endreplace

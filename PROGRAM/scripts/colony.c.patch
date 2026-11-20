@@ -1,0 +1,88 @@
+#find
+					sCharType = "elite_" + NationShortName(nation);
+					if (nation == ENGLAND)
+#replacewith
+					sCharType = "elite_" + NationModelShortName(nation);
+					if (nation == ENGLAND || nation == PORTUGAL) // Nova Nacao: elite_por copia elite_eng
+#endreplace
+
+#find
+    natmod = NationShortName(nation);
+#replacewith
+    natmod = NationModelShortName(nation);
+#endreplace
+
+#find
+		if(Builder.greeting == "mayor_capture") Builder.greeting = NationShortName(sti(Builder.nation)) + "_gov_common";
+#replacewith
+		if(Builder.greeting == "mayor_capture") Builder.greeting = NationAssetShortName(sti(Builder.nation)) + "_gov_common";
+#endreplace
+
+#find
+        DeleteAttribute(PChar, "questTemp.DontNullDeposit");
+    }
+    ClearIslandShips(sColony); // убрать корабли в порту, сбегли
+	// флаг на карте
+	sColony = sColony + "_town";
+	worldMap.labels.(sColony).icon = iNation;
+	if (IsEntity(&worldmap))
+	{
+	    SendMessage(&worldMap,"l",MSG_WORLDMAP_UPDATE_LABELS);
+	}
+#replacewith
+        DeleteAttribute(PChar, "questTemp.DontNullDeposit");
+    }
+    ClearIslandShips(sColony); // убрать корабли в порту, сбегли
+	// флаг на карте
+	sColony = sColony + "_town";
+	worldMap.labels.(sColony).icon = NationWorldMapIcon(iNation); // Nova Nacao
+	if (IsEntity(&worldmap))
+	{
+	    SendMessage(&worldMap,"l",MSG_WORLDMAP_UPDATE_LABELS);
+	}
+#endreplace
+
+#find
+        }
+    }
+    ClearIslandShips(sColony); // убрать корабли в порту, сбегли
+	// флаг на карте
+	sColony = sColony + "_town";
+	worldMap.labels.(sColony).icon = iNation;
+	if (IsEntity(&worldmap))
+	{
+	    SendMessage(&worldMap,"l",MSG_WORLDMAP_UPDATE_LABELS);
+	}
+#replacewith
+        }
+    }
+    ClearIslandShips(sColony); // убрать корабли в порту, сбегли
+	// флаг на карте
+	sColony = sColony + "_town";
+	worldMap.labels.(sColony).icon = NationWorldMapIcon(iNation); // Nova Nacao
+	if (IsEntity(&worldmap))
+	{
+	    SendMessage(&worldMap,"l",MSG_WORLDMAP_UPDATE_LABELS);
+	}
+#endreplace
+
+#find
+			if(rand(30) <= 14) rmodel = "usurer_"+(rand(14)+1);
+			else rmodel = "portman_"+(rand(15)+1);
+#replacewith
+			if (natGover == PORTUGAL)
+			{
+				rmodel = Portugal_GovModel();
+			}
+			else
+			{
+				if(rand(30) <= 14) rmodel = "usurer_"+(rand(14)+1);
+				else rmodel = "portman_"+(rand(15)+1);
+			}
+#endreplace
+
+#find
+			Ch.greeting = NationShortName(sti(Ch.nation)) + "_gov_common";
+#replacewith
+			Ch.greeting = NationAssetShortName(sti(Ch.nation)) + "_gov_common";
+#endreplace

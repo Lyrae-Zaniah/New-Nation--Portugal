@@ -1,0 +1,10 @@
+#find
+Spain_descr {Hiszpania. Wielkie, lecz słabnące mocarstwo kolonialne. Obecnie kontroluje większość wysp karaibskich i hiszpańskie wybrzeże, lecz nieustannie znajduje się pod presją Anglii i Francji, które pragną zagarnąć niewyczerpane bogactwa Nowego Świata dla siebie.}
+#replacewith
+Spain_descr {Hiszpania. Wielkie, lecz słabnące mocarstwo kolonialne. Obecnie kontroluje większość wysp karaibskich i hiszpańskie wybrzeże, lecz nieustannie znajduje się pod presją Anglii i Francji, które pragną zagarnąć niewyczerpane bogactwa Nowego Świata dla siebie.}
+Portugal_descr
+{
+Portugalia. Zaledwie dwadzieścia lat temu Portugalia odzyskała własną koronę z rąk Hiszpanii, a dom Braganza wciąż walczy o niepodległość. Jej prawdziwe bogactwo leży w Brazylii, ale jej statki pływają też po Karaibach i nie darzy ona Hiszpanów przyjaźnią. Portugalia polega na starym sojuszu z Anglią i na wsparciu Francji.
+}
+
+#endreplace

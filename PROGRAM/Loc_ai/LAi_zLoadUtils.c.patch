@@ -1,0 +1,71 @@
+#find
+		for (i=1; i<=num; i++)
+		{
+			if(iNation == PIRATE)
+			{
+				sType = "mush_ctz_" + (rand(2)+7);
+			}
+			else
+			{
+				sType = "milit_mush_" + NationShortName(iNation) + "_" + (rand(7)+1);
+			}
+			chr = GetCharacter(NPC_GenerateCharacter("GenChar_"+i+"_", sType, "man", "mushketer", sti(pchar.rank), iNation, 2, false));
+			chr.id = "GenChar_"+i+"_" + chr.index;	
+			chr.reputation = (1 + rand(44) + rand(44));// репа всем горожанам
+			chr.City = Colonies[iColony].id;
+			chr.CityType = "soldier";
+			chr.plantation = "guardian";
+#replacewith
+		for (i=1; i<=num; i++)
+		{
+			if(iNation == PIRATE)
+			{
+				sType = "mush_ctz_" + (rand(2)+7);
+			}
+			else
+			{
+				sType = "milit_mush_" + NationModelShortName(iNation) + "_" + (rand(7)+1);
+			}
+			chr = GetCharacter(NPC_GenerateCharacter("GenChar_"+i+"_", sType, "man", "mushketer", sti(pchar.rank), iNation, 2, false));
+			chr.id = "GenChar_"+i+"_" + chr.index;	
+			chr.reputation = (1 + rand(44) + rand(44));// репа всем горожанам
+			chr.City = Colonies[iColony].id;
+			chr.CityType = "soldier";
+			chr.plantation = "guardian";
+#endreplace
+
+#find
+ 		for (i = 1; i <= num; i++)
+		{
+			if(iNation == PIRATE)
+			{
+				sType = "mush_ctz_" + (rand(2)+7);
+			}
+			else
+			{
+				sType = "milit_mush_" + NationShortName(iNation) + "_" + (rand(7)+1);
+			}
+			chr = GetCharacter(NPC_GenerateCharacter("GenChar_"+i+"_", sType, "man", "mushketer", sti(pchar.rank), iNation, 2, false));
+			chr.id = "GenChar_"+i+"_" + chr.index;	
+			chr.reputation = (1 + rand(44) + rand(44));// репа всем горожанам
+			chr.City = Colonies[iColony].id;
+			chr.CityType = "soldier";
+			chr.plantation = "guardian";
+#replacewith
+ 		for (i = 1; i <= num; i++)
+		{
+			if(iNation == PIRATE)
+			{
+				sType = "mush_ctz_" + (rand(2)+7);
+			}
+			else
+			{
+				sType = "milit_mush_" + NationModelShortName(iNation) + "_" + (rand(7)+1);
+			}
+			chr = GetCharacter(NPC_GenerateCharacter("GenChar_"+i+"_", sType, "man", "mushketer", sti(pchar.rank), iNation, 2, false));
+			chr.id = "GenChar_"+i+"_" + chr.index;	
+			chr.reputation = (1 + rand(44) + rand(44));// репа всем горожанам
+			chr.City = Colonies[iColony].id;
+			chr.CityType = "soldier";
+			chr.plantation = "guardian";
+#endreplace

@@ -1,0 +1,44 @@
+#find
+   
+    int n, iMaxNation = func_max_pos(sti(aData.nation_0), sti(aData.nation_1), sti(aData.nation_2), sti(aData.nation_3));
+#replacewith
+   
+    int n2;
+    int n, iMaxNation = func_max_pos(sti(aData.nation_0), sti(aData.nation_1), sti(aData.nation_2), sti(aData.nation_3));
+#endreplace
+
+#find
+            if (TrySetupSiege(rand(PIRATE - 1), "рандом ")) return true;
+#replacewith
+            // Nova Nacao: Portugal tambem pode ser atacado (10% das escolhas ao acaso)
+            n2 = rand(PIRATE - 1);
+            if (rand(9) == 0) n2 = PORTUGAL;
+            if (TrySetupSiege(n2, "рандом ")) return true;
+#endreplace
+
+#find
+	if (sColony == "Providencia") return false; //временно заблокируем
+#replacewith
+	if (sColony == "Providencia") return false; //временно заблокируем
+	// Nova Nacao: nao cercar as colonias portuguesas durante a linha de missoes de Portugal
+	if (Portugal_ColonyProtected(sColony)) return false;
+#endreplace
+
+#find
+    base.nation_4 = 0;
+#replacewith
+    base.nation_4 = 0;
+    base.nation_5 = 0; // Nova Nacao: Portugal
+#endreplace
+
+#find
+		
+		case PIRATE:
+#replacewith
+		
+		case PORTUGAL:
+        	return XI_ConvertString("manOfPortugal");
+        break;
+
+		case PIRATE:
+#endreplace

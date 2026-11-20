@@ -1,0 +1,6 @@
+#find
+TextureCountColumn = 4
+#replacewith
+; Nova Nacao: 8 colunas (0-3 originais, 4 = Portugal, 5-7 sem uso)
+TextureCountColumn = 8
+#endreplace

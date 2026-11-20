@@ -1,0 +1,318 @@
+#find
+    CreateString(true,"HolH","","INTERFACE_ULTRASMALL",COLOR_NORMAL,700,302,SCRIPT_ALIGN_CENTER,1.0);
+#replacewith
+    CreateString(true,"HolH","","INTERFACE_ULTRASMALL",COLOR_NORMAL,700,302,SCRIPT_ALIGN_CENTER,1.0);
+    CreateString(true,"PorH","","INTERFACE_ULTRASMALL",COLOR_NORMAL,700,358,SCRIPT_ALIGN_CENTER,1.0); // Nova Nacao
+#endreplace
+
+#find
+     SetFormatedText("NATION_RELATION_HOLLAND", XI_ConvertString("Holland") + "\n\n" + GetNationReputation(pchar, HOLLAND));
+#replacewith
+     SetFormatedText("NATION_RELATION_HOLLAND", XI_ConvertString("Holland") + "\n\n" + GetNationReputation(pchar, HOLLAND));
+     SetFormatedText("NATION_RELATION_PORTUGAL", XI_ConvertString("Portugal") + "\n\n" + GetNationReputation(pchar, PORTUGAL)); // Nova Nacao
+#endreplace
+
+#find
+	 SetVAligmentFormatedText("NATION_RELATION_HOLLAND");
+#replacewith
+	 SetVAligmentFormatedText("NATION_RELATION_HOLLAND");
+	 SetVAligmentFormatedText("NATION_RELATION_PORTUGAL");
+#endreplace
+
+#find
+	int WidthIcons = 60;
+	int HeightIcons = 60;
+	string OffsetIcons = "4,7";
+	
+	// int WidthIcons = 65;
+	// int HeightIcons = 65;
+	// string OffsetIcons = "4,6";
+	
+	GameInterface.TABLE_NATIONS.hr.td1.str = "";
+	GameInterface.TABLE_NATIONS.hr.td1.scale = 0.0;
+ 	GameInterface.TABLE_NATIONS.hr.td2.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.hr.td2.icon.image = Nations[0].Name;
+	GameInterface.TABLE_NATIONS.hr.td2.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.hr.td2.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.hr.td2.icon.offset = OffsetIcons;
+ 	GameInterface.TABLE_NATIONS.hr.td3.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.hr.td3.icon.image = Nations[1].Name;
+	GameInterface.TABLE_NATIONS.hr.td3.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.hr.td3.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.hr.td3.icon.offset = OffsetIcons;
+	GameInterface.TABLE_NATIONS.hr.td4.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.hr.td4.icon.image = Nations[2].Name;
+	GameInterface.TABLE_NATIONS.hr.td4.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.hr.td4.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.hr.td4.icon.offset = OffsetIcons;
+	GameInterface.TABLE_NATIONS.hr.td5.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.hr.td5.icon.image = Nations[3].Name;
+	GameInterface.TABLE_NATIONS.hr.td5.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.hr.td5.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.hr.td5.icon.offset = OffsetIcons;
+	GameInterface.TABLE_NATIONS.hr.td6.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.hr.td6.icon.image = Nations[4].Name;
+	GameInterface.TABLE_NATIONS.hr.td6.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.hr.td6.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.hr.td6.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr1.td1.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.tr1.td1.icon.image = Nations[0].Name;
+	GameInterface.TABLE_NATIONS.tr1.td1.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.tr1.td1.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.tr1.td1.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr1.td2.str = "";
+	GameInterface.TABLE_NATIONS.tr1.td2.scale = 0.0;
+
+	GameInterface.TABLE_NATIONS.tr1.td3.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr1.td3.icon.image = GetRelationName(GetNationRelation(0, 1));
+	GameInterface.TABLE_NATIONS.tr1.td3.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr1.td3.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr1.td3.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr1.td4.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr1.td4.icon.image = GetRelationName(GetNationRelation(0, 2));
+	GameInterface.TABLE_NATIONS.tr1.td4.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr1.td4.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr1.td4.icon.offset = OffsetIcons;
+				
+	GameInterface.TABLE_NATIONS.tr1.td5.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr1.td5.icon.image = GetRelationName(GetNationRelation(0, 3));
+	GameInterface.TABLE_NATIONS.tr1.td5.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr1.td5.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr1.td5.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr1.td6.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr1.td6.icon.image = GetRelationName(GetNationRelation(0, 4));
+	GameInterface.TABLE_NATIONS.tr1.td6.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr1.td6.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr1.td6.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr2.td1.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.tr2.td1.icon.image = Nations[1].Name;
+	GameInterface.TABLE_NATIONS.tr2.td1.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.tr2.td1.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.tr2.td1.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr2.td2.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr2.td2.icon.image = GetRelationName(GetNationRelation(1, 0));
+	GameInterface.TABLE_NATIONS.tr2.td2.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr2.td2.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr2.td2.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr2.td3.str = "";
+	GameInterface.TABLE_NATIONS.tr2.td3.scale = 0.0;
+	
+	GameInterface.TABLE_NATIONS.tr2.td4.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr2.td4.icon.image = GetRelationName(GetNationRelation(1, 2));
+	GameInterface.TABLE_NATIONS.tr2.td4.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr2.td4.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr2.td4.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr2.td5.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr2.td5.icon.image = GetRelationName(GetNationRelation(1, 3));
+	GameInterface.TABLE_NATIONS.tr2.td5.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr2.td5.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr2.td5.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr2.td6.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr2.td6.icon.image = GetRelationName(GetNationRelation(1, 4));
+	GameInterface.TABLE_NATIONS.tr2.td6.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr2.td6.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr2.td6.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr3.td1.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.tr3.td1.icon.image = Nations[2].Name;
+	GameInterface.TABLE_NATIONS.tr3.td1.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.tr3.td1.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.tr3.td1.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr3.td2.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr3.td2.icon.image = GetRelationName(GetNationRelation(2, 0));
+	GameInterface.TABLE_NATIONS.tr3.td2.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr3.td2.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr3.td2.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr3.td3.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr3.td3.icon.image = GetRelationName(GetNationRelation(2, 1));
+	GameInterface.TABLE_NATIONS.tr3.td3.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr3.td3.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr3.td3.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr3.td4.str = "";
+	GameInterface.TABLE_NATIONS.tr3.td4.scale = 0.0;
+	
+	GameInterface.TABLE_NATIONS.tr3.td5.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr3.td5.icon.image = GetRelationName(GetNationRelation(2, 3));
+	GameInterface.TABLE_NATIONS.tr3.td5.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr3.td5.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr3.td5.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr3.td6.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr3.td6.icon.image = GetRelationName(GetNationRelation(2, 4));
+	GameInterface.TABLE_NATIONS.tr3.td6.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr3.td6.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr3.td6.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr4.td1.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.tr4.td1.icon.image = Nations[3].Name;
+	GameInterface.TABLE_NATIONS.tr4.td1.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.tr4.td1.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.tr4.td1.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr4.td2.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr4.td2.icon.image = GetRelationName(GetNationRelation(3, 0));
+	GameInterface.TABLE_NATIONS.tr4.td2.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr4.td2.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr4.td2.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr4.td3.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr4.td3.icon.image = GetRelationName(GetNationRelation(3, 1));
+	GameInterface.TABLE_NATIONS.tr4.td3.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr4.td3.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr4.td3.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr4.td4.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr4.td4.icon.image = GetRelationName(GetNationRelation(3, 2));
+	GameInterface.TABLE_NATIONS.tr4.td4.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr4.td4.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr4.td4.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr4.td5.str = "";
+	GameInterface.TABLE_NATIONS.tr4.td5.scale = 0.0;
+	
+	GameInterface.TABLE_NATIONS.tr4.td6.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr4.td6.icon.image = GetRelationName(GetNationRelation(3, 4));
+	GameInterface.TABLE_NATIONS.tr4.td6.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr4.td6.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr4.td6.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr5.td1.icon.group = "NATIONS";
+	GameInterface.TABLE_NATIONS.tr5.td1.icon.image = Nations[4].Name;
+	GameInterface.TABLE_NATIONS.tr5.td1.icon.width = WidthIcons;
+    GameInterface.TABLE_NATIONS.tr5.td1.icon.height = HeightIcons;
+    GameInterface.TABLE_NATIONS.tr5.td1.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr5.td2.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr5.td2.icon.image = GetRelationName(GetNationRelation(4, 0));
+	GameInterface.TABLE_NATIONS.tr5.td2.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr5.td2.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr5.td2.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr5.td3.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr5.td3.icon.image = GetRelationName(GetNationRelation(4, 1));
+	GameInterface.TABLE_NATIONS.tr5.td3.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr5.td3.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr5.td3.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr5.td4.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr5.td4.icon.image = GetRelationName(GetNationRelation(4, 2));
+	GameInterface.TABLE_NATIONS.tr5.td4.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr5.td4.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr5.td4.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr5.td5.icon.group = "RELATIONS";
+	GameInterface.TABLE_NATIONS.tr5.td5.icon.image = GetRelationName(GetNationRelation(4, 3));
+	GameInterface.TABLE_NATIONS.tr5.td5.icon.width = WidthIcons;
+	GameInterface.TABLE_NATIONS.tr5.td5.icon.height = HeightIcons;
+	GameInterface.TABLE_NATIONS.tr5.td5.icon.offset = OffsetIcons;
+	
+	GameInterface.TABLE_NATIONS.tr5.td6.str = "";
+	GameInterface.TABLE_NATIONS.tr5.td6.scale = 0.0;
+}
+#replacewith
+	// Nova Nacao: tabela gerada por laco para MAX_NATIONS (antes era 5x5 escrita a mao)
+	int WidthIcons = 52;
+	int HeightIcons = 52;
+	string OffsetIcons = "4,6";
+	int i, j;
+	string sRow, sCol;
+
+	GameInterface.TABLE_NATIONS.hr.td1.str = "";
+	GameInterface.TABLE_NATIONS.hr.td1.scale = 0.0;
+	for (j = 0; j < MAX_NATIONS; j++)
+	{
+		sCol = "td" + (j + 2);
+		GameInterface.TABLE_NATIONS.hr.(sCol).icon.group = "NATIONS";
+		GameInterface.TABLE_NATIONS.hr.(sCol).icon.image = Nations[j].Name;
+		GameInterface.TABLE_NATIONS.hr.(sCol).icon.width = WidthIcons;
+		GameInterface.TABLE_NATIONS.hr.(sCol).icon.height = HeightIcons;
+		GameInterface.TABLE_NATIONS.hr.(sCol).icon.offset = OffsetIcons;
+	}
+
+	for (i = 0; i < MAX_NATIONS; i++)
+	{
+		sRow = "tr" + (i + 1);
+		GameInterface.TABLE_NATIONS.(sRow).td1.icon.group = "NATIONS";
+		GameInterface.TABLE_NATIONS.(sRow).td1.icon.image = Nations[i].Name;
+		GameInterface.TABLE_NATIONS.(sRow).td1.icon.width = WidthIcons;
+		GameInterface.TABLE_NATIONS.(sRow).td1.icon.height = HeightIcons;
+		GameInterface.TABLE_NATIONS.(sRow).td1.icon.offset = OffsetIcons;
+
+		for (j = 0; j < MAX_NATIONS; j++)
+		{
+			sCol = "td" + (j + 2);
+			if (i == j)
+			{
+				GameInterface.TABLE_NATIONS.(sRow).(sCol).str = "";
+				GameInterface.TABLE_NATIONS.(sRow).(sCol).scale = 0.0;
+				continue;
+			}
+			GameInterface.TABLE_NATIONS.(sRow).(sCol).icon.group = "RELATIONS";
+			GameInterface.TABLE_NATIONS.(sRow).(sCol).icon.image = GetRelationName(GetNationRelation(i, j));
+			GameInterface.TABLE_NATIONS.(sRow).(sCol).icon.width = WidthIcons;
+			GameInterface.TABLE_NATIONS.(sRow).(sCol).icon.height = HeightIcons;
+			GameInterface.TABLE_NATIONS.(sRow).(sCol).icon.offset = OffsetIcons;
+		}
+	}
+}
+
+#endreplace
+
+#find
+    	case HOLLAND:	HollandProcess();	break;
+#replacewith
+    	case HOLLAND:	HollandProcess();	break;
+    	case PORTUGAL:	PortugalProcess();	break; // Nova Nacao
+#endreplace
+
+#find
+    if (curNationIdx < 0) curNationIdx = 4;
+    if (curNationIdx > 4) curNationIdx = 0;
+#replacewith
+    if (curNationIdx < 0) curNationIdx = MAX_NATIONS - 1; // Nova Nacao: inclui Portugal
+    if (curNationIdx > MAX_NATIONS - 1) curNationIdx = 0;
+#endreplace
+
+#find
+		IsCharacterPerkOn(mchar,"FlagHol"))
+#replacewith
+		IsCharacterPerkOn(mchar,"FlagHol")  ||
+		IsCharacterPerkOn(mchar,"FlagPor"))
+#endreplace
+
+#find
+    DoQuestCheckDelay("PostVideo_Start", 0.2);
+    ProcessExitCancel();
+}
+
+void HollandProcess()
+{
+    PChar.GenQuest.VideoAVI        = "Holland";
+#replacewith
+    DoQuestCheckDelay("PostVideo_Start", 0.2);
+    ProcessExitCancel();
+}
+
+// Nova Nacao: Portugal nao tem video de hastear bandeira, troca direto
+void PortugalProcess()
+{
+    DoQuestCheckDelay("por_flag_rise", 0.2);
+    ProcessExitCancel();
+}
+
+void HollandProcess()
+{
+    PChar.GenQuest.VideoAVI        = "Holland";
+#endreplace

@@ -1,0 +1,25 @@
+#find
+Permite trocar sua bandeira pela bandeira da Holanda. A chance de seu disfarce falhar depende da furtividade, do número e das classes dos navios no esquadrão, além do número de navios inimigos e recompensas.
+~
+Disponível apenas para o Personagem Principal.
+}
+Capellan1 {Sermão}
+perkCapellan1
+{
+#replacewith
+Permite trocar sua bandeira pela bandeira da Holanda. A chance de seu disfarce falhar depende da furtividade, do número e das classes dos navios no esquadrão, além do número de navios inimigos e recompensas.
+~
+Disponível apenas para o Personagem Principal.
+}
+
+FlagPor {Bandeira de Portugal}
+perkFlagPor
+{
+Permite trocar sua bandeira pela bandeira de Portugal. A chance de seu disfarce falhar depende da furtividade, do número e das classes dos navios no esquadrão, além do número de navios inimigos e recompensas.
+~
+Disponível apenas para o Personagem Principal.
+}
+Capellan1 {Sermão}
+perkCapellan1
+{
+#endreplace

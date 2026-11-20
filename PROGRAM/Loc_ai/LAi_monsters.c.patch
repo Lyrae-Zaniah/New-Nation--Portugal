@@ -1,0 +1,17 @@
+#find
+					chr = GetCharacter(NPC_GenerateCharacter(str + i, "off_"+NationShortName(iNation)+"_"+(rand(1)+5), "man", "man", iRank+2, iNation, 1, true));
+#replacewith
+					chr = GetCharacter(NPC_GenerateCharacter(str + i, "off_"+NationModelShortName(iNation)+"_"+(rand(1)+5), "man", "man", iRank+2, iNation, 1, true));
+#endreplace
+
+#find
+						chr = GetCharacter(NPC_GenerateCharacter(str + i, NationShortName(iNation)+"_mush_"+(rand(3)+1), "man", "mushketer", iRank, iNation, 1, false));
+#replacewith
+						chr = GetCharacter(NPC_GenerateCharacter(str + i, NationModelShortName(iNation)+"_mush_"+(rand(3)+1), "man", "mushketer", iRank, iNation, 1, false));
+#endreplace
+
+#find
+						chr = GetCharacter(NPC_GenerateCharacter(str + i, "sold_"+NationShortName(iNation)+"_"+(rand(7)+1), "man", "man", iRank, iNation, 1, true));
+#replacewith
+						chr = GetCharacter(NPC_GenerateCharacter(str + i, "sold_"+NationModelShortName(iNation)+"_"+(rand(7)+1), "man", "man", iRank, iNation, 1, true));
+#endreplace

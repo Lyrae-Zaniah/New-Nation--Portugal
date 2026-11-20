@@ -1,0 +1,551 @@
+#find
+Entendido, gracias por la información.
+}
+#replacewith
+Entendido, gracias por la información.
+}
+Diplomat_dialog_901 {
+de Portugal
+}
+Diplomat_dialog_902 {
+Portugal sigue en guerra con España, así que no faltarán presas españolas para un corsario audaz. La patente de corso te costará @<FindMoneyString>.
+}
+Diplomat_dialog_903 {
+¡Una causa digna! Que sea Portugal.
+}
+// Nova Nacao: textos da linha de Portugal
+Diplomat_dialog_1001 {
+¿De qué desea hablar?
+}
+Diplomat_dialog_1002 {
+De nada, Excelencia.
+}
+Diplomat_dialog_1003 {
+La Corona de Portugal no tiene ninguna misión especial para usted por ahora. Sirva bien a nuestras colonias y vuelva más tarde.
+}
+Diplomat_dialog_1004 {
+Como desee, Excelencia.
+}
+Diplomat_dialog_1005 {
+You have your orders, corsair. I don't recall asking for a visit.
+}
+Diplomat_dialog_1006 {
+Of course, Your Excellency.
+}
+Diplomat_dialog_1007 {
+The pirates are scattered, and Caracas sleeps soundly. Go and enjoy your rank, Admiral. When the Crown needs you, I will know where to find you. I always do.
+}
+Diplomat_dialog_1008 {
+A corsair with a Portuguese letter of marque. How unusual. Most of your kind sell their flag to whoever pays more... No matter. I don't need your loyalty, only your guns. Do you know what is happening between Cumaná and Trinidad?
+}
+Diplomat_dialog_1009 {
+I have heard of merchantmen going missing.
+}
+Diplomat_dialog_1010 {
+Seven ships in four months. Seven! Sugar, tobacco, cloth from Lisbon. The pirates always seem to know when and where to strike, as if they had a pilot's chart of our routes.
+}
+Diplomat_dialog_1011 {
+Do you know who they are?
+}
+Diplomat_dialog_1012 {
+Rabble. Their captain is said to call his brigantine the Corvo Negro and to haunt the waters around Trinidad. That is all you need to know.
+}
+Diplomat_dialog_1013 {
+If they know our routes, someone is talking. Shouldn't we find out who?
+}
+Diplomat_dialog_1014 {
+Thinking is my task, corsair; yours is to sink. Go to Trinidad, send them to the bottom, and report to me, and to no one else. Is that clear?
+}
+Diplomat_dialog_1015 {
+Perfectly clear.
+}
+Diplomat_dialog_1016 {
+You're back. And alive, which is more than I wagered. Well?
+}
+Diplomat_dialog_1017 {
+The Corvo Negro is gone. Her captain was Portuguese, a man from Recife. He was carrying Spanish doubloons and a list with the dates our ships leave Cumaná.
+}
+Diplomat_dialog_1018 {
+A list... Give it to me. The Spanish gold doesn't surprise me; every scoundrel on these seas is paid in pieces of eight. And sailing dates can be bought in any tavern from a drunken harbour clerk.
+}
+Diplomat_dialog_1019 {
+(hand over the list) Here.
+}
+Diplomat_dialog_1020 {
+Good. You did well, better than I expected. By the authority vested in me, I raise you to Captain. Take these 15,000 piastres. And corsair... keep these things to yourself. Rumours frighten merchants more than pirates do.
+}
+Diplomat_dialog_1021 {
+And what now, Your Excellency?
+}
+Diplomat_dialog_1022 {
+Now we follow the gold. A merchant of ours in Willemstad, Tomé Ferraz, trades with everyone, Dutch, Spaniards, smugglers. If anyone knows who feeds these pirates, it is him. He owes me nothing, so don't expect him to be friendly.
+}
+Diplomat_dialog_1023 {
+I'll find him in the tavern.
+}
+Diplomat_dialog_1024 {
+Ferraz talked, then? He usually only talks about prices.
+}
+Diplomat_dialog_1025 {
+He pointed me to a Spanish courier off Aruba. I took her. Her letters promise gold for every Portuguese ship taken here, and for raids on the sugar fleets of Pernambuco and Bahia. And they mention 'our friend in Caracas'.
+}
+Diplomat_dialog_1026 {
+Spain has spies in every port of the New World, and Caracas is a port. Nothing more. Those letters are evidence for Lisbon, a matter for diplomats, not corsairs. Hand them over; I'll send them on the next ship.
+}
+Diplomat_dialog_1027 {
+(hand over the letters) As you wish.
+}
+Diplomat_dialog_1028 {
+The courier threw most of them overboard. What's left is barely legible.
+}
+Diplomat_dialog_1029 {
+Sensible. Here are 20,000 piastres. You are learning how things are done here.
+}
+Diplomat_dialog_1030 {
+...Unfortunate. Then burn whatever is left; half-legible papers only start rumours. Here are 20,000 piastres.
+}
+Diplomat_dialog_1031 {
+Understood.
+}
+Diplomat_dialog_1032 {
+No rest for you yet. The fluyt Desterro is bringing sugar from Pernambuco to Cumaná, and I am told the pirates mean to take her right under our walls. She must arrive. Her cargo... is important to the colony.
+}
+Diplomat_dialog_1033 {
+How do you know they will attack her?
+}
+Diplomat_dialog_1034 {
+I know many things, Capitão. That is why I govern and you sail. Go to Cumaná.
+}
+Diplomat_dialog_1035 {
+On my way.
+}
+Diplomat_dialog_1036 {
+The Desterro?
+}
+Diplomat_dialog_1037 {
+Safe in port, the pirates scattered. Her captain told me the same band burned mills near Recife, and that their route was known only to your office.
+}
+Diplomat_dialog_1038 {
+Captains always blame the governor when they get frightened. My office, the harbour master, the insurers in Lisbon... half the world knew that route. You did your job; that is what matters. From today you are Capitão-Mor. Here are 25,000 piastres.
+}
+Diplomat_dialog_1039 {
+The pirates are destroyed, but the Desterro went down with them.
+}
+Diplomat_dialog_1040 {
+A pity about the sugar. Still, the pirates paid, and I need officers who don't run. You are Capitão-Mor all the same. Take 10,000 piastres.
+}
+Diplomat_dialog_1041 {
+Now the head of the snake. Gaspar Roiz, called Iron Hand, keeps his squadron off the Cayman Islands. He is cleverer than the others, and he has grown... greedy. Destroy him, and these waters will be quiet again.
+}
+Diplomat_dialog_1042 {
+Greedy? You speak as if you knew him.
+}
+Diplomat_dialog_1043 {
+I know what every governor knows: a pirate who takes too much ends up wanting everything. Go. And if you find anything on board, papers, letters, anything, bring it straight to me.
+}
+Diplomat_dialog_1044 {
+Understood.
+}
+Diplomat_dialog_1045 {
+Is Iron Hand dead?
+}
+Diplomat_dialog_1046 {
+His squadron is gone.
+}
+Diplomat_dialog_1047 {
+And on board? I told you to bring me anything you found.
+}
+Diplomat_dialog_1048 {
+Rum, powder and a few rotten charts. Nothing of interest.
+}
+Diplomat_dialog_1049 {
+A ledger. Cargoes and buyers.
+}
+Diplomat_dialog_1050 {
+A pirate's accounts. Fascinating. Give it to me; it will help the magistrates in Lisbon. And forget whatever you read in it, Capitão-Mor. Memory is a dangerous thing in the tropics.
+}
+Diplomat_dialog_1051 {
+(hand over the ledger) Of course.
+}
+Diplomat_dialog_1052 {
+For this victory, I name you Admiral. Here are 40,000 piastres. You have been a most useful instrument, Admiral. I won't forget it.
+}
+Diplomat_dialog_1053 {
+Neither will I, Your Excellency.
+}
+Diplomat_dialog_1054 {
+You serve another crown. Portugal does not share its corsairs.
+}
+Diplomat_dialog_1055 {
+The Corvo Negro is at the bottom. We pulled one of her men out of the water, and he swore the captain was Portuguese, a man from Recife. The captain's chest floated free of the wreck, with Spanish doubloons and a list of the dates our ships leave Cumaná.
+}
+Diplomat_dialog_1056 {
+He pointed me to a Spanish courier off Aruba. I sent her to the bottom, but her mail bag floated. What the sea spared of the letters promises gold for every Portuguese ship taken here, and for raids on the sugar fleets of Pernambuco and Bahia. And they mention 'our friend in Caracas'.
+}
+Diplomat_dialog_1057 {
+The sea got to most of them. What's left is barely legible.
+}
+Diplomat_dialog_2001 {
+I have nothing to say to you.
+}
+Diplomat_dialog_2002 {
+Farewell.
+}
+Diplomat_dialog_2003 {
+Promoted: @<GetAddress_FormTitle>
+}
+Diplomat_dialog_2004 {
+Then we end it here.
+}
+Diplomat_dialog_2005 {
+So the governor sends a privateer under our own flag. Lower your sword a moment, captain. I'd like to know the name of the man who's going to kill me.
+}
+Diplomat_dialog_2006 {
+You're Portuguese. Why are you hunting your own people?
+}
+Diplomat_dialog_2007 {
+My own people? I was born in Recife. When the Dutch took it, Lisbon sent prayers and no ships. Twelve years we fought on our own. My own people left us to rot.
+}
+Diplomat_dialog_2008 {
+So now you sell yourself to Spain.
+}
+Diplomat_dialog_2009 {
+I sell myself to whoever pays. The gold comes in Spanish coin, yes. But the gold isn't the strange part, captain.
+}
+Diplomat_dialog_2010 {
+Then what is?
+}
+Diplomat_dialog_2011 {
+We always know the day your ships leave Cumaná. Always. Spaniards don't know that kind of thing. Think about it, if you live long enough. I've said too much already.
+}
+Diplomat_dialog_2012 {
+Surrender, and you'll stand trial.
+}
+Diplomat_dialog_2013 {
+A trial in Caracas? No, thank you. I'd rather die with a blade in my hand.
+}
+Diplomat_dialog_2014 {
+Tomé Ferraz? Never heard of him. If you're looking for wine, ask the innkeeper.
+}
+Diplomat_dialog_2015 {
+The Governor-General sent me.
+}
+Diplomat_dialog_2016 {
+Then the Governor-General may come and fetch me himself. Barreto never did anything for me but tax my cargo. Good day.
+}
+Diplomat_dialog_2017 {
+I sank the Corvo Negro. Bento Malheiro is dead.
+}
+Diplomat_dialog_2018 {
+...Malheiro. I knew him in Recife, before. He was a good man once. Sit down. Not too close.
+}
+Diplomat_dialog_2019 {
+Someone pays these pirates in Spanish gold. Who carries it?
+}
+Diplomat_dialog_2020 {
+Information is my trade, and a boy on the docks risked his neck to get it. Three thousand piastres for him. I'll take nothing for myself, in Malheiro's memory.
+}
+Diplomat_dialog_2021 {
+(pay 3,000 piastres) Here.
+}
+Diplomat_dialog_2022 {
+I don't have that much on me.
+}
+Diplomat_dialog_2023 {
+Then come back when you do. The boy won't wait forever, and neither will I.
+}
+Diplomat_dialog_2024 {
+A courier, the Santa Clara, sails from Havana every month and anchors off Aruba to meet the pirates' paymaster. She is due any day now. Take her, and you will have letters, not rumours.
+}
+Diplomat_dialog_2025 {
+Thank you, Tomé.
+}
+Diplomat_dialog_2026 {
+Don't thank me. One more thing: when you have those letters, think hard before you hand them to anyone. Some men in this colony have done very well from these wars.
+}
+Diplomat_dialog_2027 {
+Who do you mean?
+}
+Diplomat_dialog_2028 {
+I mean nothing. I'm a merchant, and merchants who mean things don't live long. Go, the Santa Clara won't wait.
+}
+Diplomat_dialog_2029 {
+We have nothing more to discuss, captain.
+}
+Diplomat_dialog_2030 {
+Enough, enough! The Santa Clara strikes her colours. I am a courier, señor, not a soldier.
+}
+Diplomat_dialog_2031 {
+Then you won't mind showing me the letters you carry.
+}
+Diplomat_dialog_2032 {
+Letters? They went overboard the moment I saw your flag. That is what couriers are for.
+}
+Diplomat_dialog_2033 {
+Then I'll search your cabin. Every board of it.
+}
+Diplomat_dialog_2034 {
+...Search, then. You'll find a few half-burnt pages in the stove. I wasn't quick enough. And you'll understand nothing: the important names were never written down.
+}
+Diplomat_dialog_2035 {
+We'll see about that.
+}
+Diplomat_dialog_2036 {
+You're the captain who pulled us out of that mess? Amaro Teles, master of the Desterro. Sit, sit. Wine for the captain!
+}
+Diplomat_dialog_2037 {
+Those pirates were waiting for you. How did they know?
+}
+Diplomat_dialog_2038 {
+That's what I keep asking myself. The same band burned three mills near Recife last spring, and they always knew where to go. This voyage I changed course at Barbados on purpose. Only the Governor-General's office had my new route. Nobody else.
+}
+Diplomat_dialog_2039 {
+Be careful who you say that to.
+}
+Diplomat_dialog_2040 {
+I know, I know. I'm only a sugar captain. Forget it; it's the wine talking. But thank you, captain. My crew owes you their lives.
+}
+Diplomat_dialog_2041 {
+To your health, captain!
+}
+Diplomat_dialog_2042 {
+Stop. Your men can wait a moment, and so can mine. You've won, Admiral, or whatever Barreto calls you these days. Let's talk like businessmen.
+}
+Diplomat_dialog_2043 {
+You know the Governor-General's name very well for a pirate.
+}
+Diplomat_dialog_2044 {
+I know a great many names. Tell me: why do you think he sent you after me, and not after the Spaniards who pay us? Because I asked for a bigger share. That's all. You're his broom, sweeping away whoever gets in his way.
+}
+Diplomat_dialog_2045 {
+Words are cheap for a man about to hang.
+}
+Diplomat_dialog_2046 {
+Then here's something that isn't. In my strongbox there's a ledger. Every cargo, every buyer. Read it, and you'll know who you really work for. My life for the ledger. Fair?
+}
+Diplomat_dialog_2047 {
+Fair. Surrender, and you'll live to see a court.
+}
+Diplomat_dialog_2048 {
+I'll take the ledger off your corpse.
+}
+Diplomat_dialog_2049 {
+A sensible man. Rare in these waters. My sword is yours.
+}
+Diplomat_dialog_2050 {
+Barreto chose his dog well. En garde, then!
+}
+Diplomat_dialog_2051 {
+Take him below.
+}
+Diplomat_dialog_2052 {
+Godinho, yes, merchant. Wholesale. If you want to buy, come to the warehouse tomorrow. I don't do business in taverns.
+}
+Diplomat_dialog_2053 {
+I've read Gaspar Roiz's ledger. Your name appears on every page.
+}
+Diplomat_dialog_2054 {
+I want to talk about sugar. Stolen sugar.
+}
+Diplomat_dialog_2055 {
+I don't know what you're talking about, and I'd thank you to lower your voice. Good evening.
+}
+Diplomat_dialog_2056 {
+Then perhaps I'll ask the Governor-General what you buy, and from whom.
+}
+Diplomat_dialog_2057 {
+No! Not him, for God's sake... Listen. I only bought what the Palace told me to buy, at the price they set. Everything went to the governor's warehouses, under his own seal. I'm a small man. Small men don't say no to Barreto.
+}
+Diplomat_dialog_2058 {
+I need proof, not your word.
+}
+Diplomat_dialog_2059 {
+His secretary, Lourenço Viegas, copied every contract. A careful man. He fled to Cumaná when Iron Hand's squadron went down; he knows what that means. Find him in the tavern there. And you never saw me.
+}
+Diplomat_dialog_2060 {
+I've told you everything! Leave me alone!
+}
+Diplomat_dialog_2061 {
+Who sent you? ...No. Don't answer. If you were his man, I'd already be dead in an alley.
+}
+Diplomat_dialog_2062 {
+Godinho told me you kept copies of the contracts.
+}
+Diplomat_dialog_2063 {
+Godinho talks too much, but this once it may save us both. Tell me first: why are you doing this? He made you rich, gave you rank.
+}
+Diplomat_dialog_2064 {
+I swore to serve the Crown, not Barreto.
+}
+Diplomat_dialog_2065 {
+Because I don't like being used.
+}
+Diplomat_dialog_2066 {
+Then listen. Four years ago His Excellency made an agreement with a Spanish agent in Havana. Spain pays the pirates to ruin our trade, here and in Brazil. The pirates hand over the cargoes. His Excellency sells them through Godinho, and the profit is split. The colonies bleed, Lisbon hears of 'pirates', and he grows rich.
+}
+Diplomat_dialog_2067 {
+And me?
+}
+Diplomat_dialog_2068 {
+You? When Iron Hand demanded half, the governor needed someone to get rid of him without dirtying his own hands. A corsair with ambition, eager for rank. Forgive me, Admiral, but you were perfect.
+}
+Diplomat_dialog_2069 {
+Then give me the proof.
+}
+Diplomat_dialog_2070 {
+Here are the copies, with his seal. Only the Crown can judge a Governor-General. A Desembargador sent by El-Rei, Dom Álvaro de Sousa Coutinho, is aboard a ship due off Cumaná any hour now. Barreto knows it too, and he will not let that ship reach port. Put to sea, see it safely in, and then give him these at the residence.
+}
+Diplomat_dialog_2071 {
+Stay hidden, Lourenço.
+}
+Diplomat_dialog_2072 {
+Go, Admiral, and may God protect you.
+}
+Diplomat_dialog_2073 {
+Dom Álvaro de Sousa Coutinho, Desembargador of the Casa da Suplicação, here by order of His Majesty Dom Afonso VI. They tell me you insisted on seeing me. Be brief.
+}
+Diplomat_dialog_2074 {
+I have proof that Governor-General Barreto de Meneses is working with Spain to plunder his own colonies.
+}
+Diplomat_dialog_2075 {
+A serious accusation. Do you know how many governors are denounced every year? Usually by the men they owe money to. Why should I believe a corsair whose rank the accused himself gave him?
+}
+Diplomat_dialog_2076 {
+Don't believe me. Read the contracts: his seal, Spanish signatures, cargoes from our ships. His secretary copied them himself.
+}
+Diplomat_dialog_2077 {
+...His seal. And the dates match the losses Lisbon has been recording for years. God help us. You have done the Crown a service that few would have dared. By the powers El-Rei has granted me, I name you General of His Majesty's fleet in these waters.
+}
+Diplomat_dialog_2078 {
+And these Spanish letters you kept... they remove any doubt about the agreement with Havana. You were prudent not to hand them over.
+}
+Diplomat_dialog_2079 {
+What of Barreto?
+}
+Diplomat_dialog_2080 {
+A rider came in from Caracas an hour ago. Barreto left the residence last night and boarded his galleon, the São Miguel, with his treasure. He knew. He must not reach Spanish waters. Bring him back, alive if you can. He owes answers to more people than me.
+}
+Diplomat_dialog_2081 {
+He won't escape.
+}
+Diplomat_dialog_2082 {
+The traitor is still at large, General. Every hour counts.
+}
+Diplomat_dialog_2083 {
+You're back. Tell me it is over.
+}
+Diplomat_dialog_2084 {
+He's in my hold, in irons. He surrendered his sword.
+}
+Diplomat_dialog_2085 {
+He chose to go down with the São Miguel.
+}
+Diplomat_dialog_2086 {
+Then justice is done, one way or another. Now listen carefully, because this is not a reward, it is a burden. These colonies need someone who has proven his loyalty with deeds. By order of His Majesty, I name you Governor-General of the Portuguese colonies of the Caribbean.
+}
+Diplomat_dialog_2087 {
+I accept, Your Excellency.
+}
+Diplomat_dialog_2088 {
+As Governor-General, a tenth of the profits of every Portuguese colony is yours by right, paid each month into the treasury at Caracas. Lourenço Viegas will keep your accounts; he has proven he can be trusted. Take also 100,000 piastres from Barreto's treasure. And remember: Lisbon is far away, but it was watching him too.
+}
+Diplomat_dialog_2089 {
+I won't forget it.
+}
+Diplomat_dialog_2090 {
+Go with God, Governador.
+}
+Diplomat_dialog_2091 {
+Ah. Of course it's you. I should have had you killed off Trinidad, when it would have cost me nothing.
+}
+Diplomat_dialog_2092 {
+Francisco Barreto de Meneses, in the name of El-Rei, you are under arrest for treason.
+}
+Diplomat_dialog_2093 {
+Treason. Such a big word. For twenty years Lisbon sent us bishops and tax collectors, never ships. Who kept these colonies alive? Me. I simply took my share.
+}
+Diplomat_dialog_2094 {
+And me? Was I just a tool from the start?
+}
+Diplomat_dialog_2095 {
+From the first day. A good tool, I'll grant you. Malheiro was getting careless, Iron Hand was getting greedy, and you cleared them away and thanked me for the rank. Don't take it personally. Everyone here is someone's tool. Coutinho too, you'll see.
+}
+Diplomat_dialog_2096 {
+Your share was paid in Portuguese blood. Your sword.
+}
+Diplomat_dialog_2097 {
+...Take it. Let Lisbon judge me. Lisbon has always been slow.
+}
+Diplomat_dialog_2098 {
+Your Excellency. The treasury holds @<FindMoneyString> from the colonies' tithe.
+}
+Diplomat_dialog_2099 {
+Your Excellency. The treasury is empty for now; the colonies pay at the start of each month.
+}
+Diplomat_dialog_2100 {
+I'll take it.
+}
+Diplomat_dialog_2101 {
+Here you are, every coin accounted for. Unlike some of your predecessors, I write everything down.
+}
+Diplomat_dialog_2102 {
+The colonies' tithe has arrived at the treasury in @<GetCityName>: @<FindMoneyString>.
+}
+Diplomat_dialog_2103 {
+Your Excellency, Governor-General! The colony is at your orders. What brings you here?
+}
+Diplomat_dialog_2104 {
+I want to move the seat of government.
+}
+Diplomat_dialog_2105 {
+As Your Excellency wishes. The treasury and the archives go wherever the Governor-General resides. Where shall we move?
+}
+Diplomat_dialog_2106 {
+There is no other Portuguese colony with a residence fit for the government, Your Excellency.
+}
+Diplomat_dialog_2107 {
+Never mind, we stay here.
+}
+Diplomat_dialog_2108 {
+Very well. I'll have the chests and the archives loaded tonight. You will find me in the residence of @<GetCityName>.
+}
+Diplomat_dialog_2109 {
+The seat of government has fallen to the enemy! Lourenço Viegas fled with the treasury to @<GetCityName>.
+}
+Diplomat_dialog_2110 {
+The Governor-General? Your Excellency jests: he is standing right in front of me.
+}
+Diplomat_dialog_2111 {
+They say the sugar fleet from Bahia lost two more ships to Spanish privateers this season. Lisbon promises escorts, as always.
+}
+Diplomat_dialog_2112 {
+A ship from Pernambuco brought news: the Dutch are gone from Recife for good, but the planters say the mills will take years to recover.
+}
+Diplomat_dialog_2113 {
+The garrison hasn't been paid in three months. The officers say the money is stuck somewhere between Lisbon and Bahia.
+}
+Diplomat_dialog_2114 {
+Spanish privateers out of Cartagena have been seen off our coast. The merchants want to sail in convoy, but nobody wants to pay for the escort.
+}
+Diplomat_dialog_2115 {
+A Jesuit from Brazil preached in the church last Sunday. He said the Indians of the sertão are better Christians than half the sailors in this port.
+}
+Diplomat_dialog_2116 {
+The Portuguese in Cumaná and Caracas pay well for Spanish prizes. Lisbon is still at war with Madrid, and their governors aren't fussy about who brings the ships in.
+}
+Diplomat_dialog_2117 {
+They say Portuguese caravels slip between the islands with Brazilian sugar and tobacco, and that their pilots know every reef from here to Bahia.
+}
+Diplomat_dialog_2118 {
+A Portuguese captain drank here last week and swore that Lisbon and Madrid will make peace within a few years. Nobody believed him.
+}
+Diplomat_dialog_2119 {
+They say the English king means to marry a Portuguese princess. If that's true, Portuguese ships will soon have English guns behind them.
+}
+Diplomat_dialog_2120 {
+In Spanish ports they call the Portuguese rebels. In Portuguese ports they call the Spaniards thieves. If you ask me, both are right.
+}
+Diplomat_dialog_2121 {
+With your service to Portugal complete, the nations of the Caribbean now act on their own. You may now take colonies for the Portuguese crown.
+}
+#endreplace

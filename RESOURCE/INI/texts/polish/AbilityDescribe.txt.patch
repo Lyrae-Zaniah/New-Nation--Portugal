@@ -1,0 +1,25 @@
+#find
+Daje możliwość zmiany flagi na flagę Holandii. Szansa, że przebranie nie zadziała, zależy od umiejętności skradania się, liczby i klas okrętów w eskadrze oraz liczby wrogich statków i wysokości nagród.
+~
+Dostępne tylko dla Głównego Bohatera.
+}
+Capellan1 {Kazanie}
+perkCapellan1
+{
+#replacewith
+Daje możliwość zmiany flagi na flagę Holandii. Szansa, że przebranie nie zadziała, zależy od umiejętności skradania się, liczby i klas okrętów w eskadrze oraz liczby wrogich statków i wysokości nagród.
+~
+Dostępne tylko dla Głównego Bohatera.
+}
+
+FlagPor {Flaga Portugalii}
+perkFlagPor
+{
+Daje możliwość zmiany flagi na flagę Portugalii. Szansa, że przebranie nie zadziała, zależy od umiejętności skradania się, liczby i klas okrętów w eskadrze oraz liczby wrogich statków i wysokości nagród.
+~
+Dostępne tylko dla Głównego Bohatera.
+}
+Capellan1 {Kazanie}
+perkCapellan1
+{
+#endreplace

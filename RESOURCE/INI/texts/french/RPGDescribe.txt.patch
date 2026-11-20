@@ -1,0 +1,10 @@
+#find
+Spain_descr {Espagne. Grande puissance coloniale en déclin, elle contrôle la majeure partie des îles des Caraïbes et du continent espagnol. Mais l’Angleterre et la France, avides des richesses sans fin du Nouveau Monde, la pressent de toutes parts.}
+#replacewith
+Spain_descr {Espagne. Grande puissance coloniale en déclin, elle contrôle la majeure partie des îles des Caraïbes et du continent espagnol. Mais l’Angleterre et la France, avides des richesses sans fin du Nouveau Monde, la pressent de toutes parts.}
+Portugal_descr
+{
+Portugal. Il y a vingt ans à peine, le Portugal a repris sa couronne à l’Espagne, et la maison de Bragance se bat encore pour son indépendance. Sa vraie richesse est au Brésil, mais ses navires sillonnent aussi la mer des Caraïbes, et il n’a aucune amitié pour les Espagnols. Le Portugal compte sur sa vieille alliance avec l’Angleterre et sur le soutien de la France.
+}
+
+#endreplace

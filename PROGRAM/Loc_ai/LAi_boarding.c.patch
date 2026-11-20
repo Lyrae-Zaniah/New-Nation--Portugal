@@ -1,0 +1,13 @@
+#find
+			return "navy_mush_" + NationShortName(iNation) + "_" + (rand(2)+1); //Флот
+#replacewith
+			return "navy_mush_" + NationModelShortName(iNation) + "_" + (rand(2)+1); //Флот
+#endreplace
+
+#find
+		if(shClass == 1) model = "navy_mush_" + NationShortName(iNation) + "_" + (rand(2)+4); //Ветераны
+		else model = "navy_mush_" + NationShortName(iNation) + "_" + (rand(2)+1); //Флот
+#replacewith
+		if(shClass == 1) model = "navy_mush_" + NationModelShortName(iNation) + "_" + (rand(2)+4); //Ветераны
+		else model = "navy_mush_" + NationModelShortName(iNation) + "_" + (rand(2)+1); //Флот
+#endreplace

@@ -1,0 +1,19 @@
+#find
+		case "Cavalier":
+			modelFirst  = "urban_" + NationShortName(sti(sld.nation)) + "_" + (rand(7)+1);
+			modelSecond = "urban_" + NationShortName(sti(sld.nation)) + "_" + (rand(7)+1);
+#replacewith
+		case "Cavalier":
+			modelFirst  = "urban_" + NationModelShortName(sti(sld.nation)) + "_" + (rand(7)+1);
+			modelSecond = "urban_" + NationModelShortName(sti(sld.nation)) + "_" + (rand(7)+1);
+#endreplace
+
+#find
+		case "CoatHonor":
+			modelFirst  = "urban_" + NationShortName(sti(sld.nation)) + "_" + (rand(7)+1);
+			modelSecond = "urban_" + NationShortName(sti(sld.nation)) + "_" + (rand(7)+1);
+#replacewith
+		case "CoatHonor":
+			modelFirst  = "urban_" + NationModelShortName(sti(sld.nation)) + "_" + (rand(7)+1);
+			modelSecond = "urban_" + NationModelShortName(sti(sld.nation)) + "_" + (rand(7)+1);
+#endreplace

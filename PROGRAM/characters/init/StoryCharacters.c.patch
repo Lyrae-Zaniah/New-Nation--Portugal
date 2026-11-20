@@ -1,0 +1,27 @@
+#find
+	ch.notMoveAble = true; //не переезжать
+#replacewith
+	ch.notMoveAble = true; //не переезжать
+	n = n + 1;
+
+	makeref(ch,Characters[n]);		// Nova Nacao: GOVERNADOR-GERAL de Portugal
+	ch.name 	= "Francisco";
+	ch.lastname = "Barreto"; // governador-geral do Estado do Brasil (1657-1663)
+	ch.id		= "por_guber";
+	ch.model	= "huber_spa";
+	ch.model.animation	= "man";
+	ch.sex = "man";
+	ch.location	= "Caracas_townhall";
+	ch.location.group = "sit";
+	ch.location.locator = "sit1";
+	ch.Dialog.Filename = "Common_Governor.c";
+	ch.nation = PORTUGAL;
+	ch.rank 	= 10;
+	LAi_NoRebirthEnable(ch);
+	LAi_RemoveLoginTime(ch);
+	LAi_SetHuberStayType(ch);
+	LAi_group_MoveCharacter(ch, "PORTUGAL_CITIZENS");
+	LAi_SetHP(ch, 100.0, 100.0);
+	LAi_SetImmortal(ch, true);
+	ch.greeting = "Gr_Hovernor";
+#endreplace

@@ -1,0 +1,16 @@
+#find
+Address_Form_Pir_Title5 {Legend}
+
+NationKingsName_Spa {His Catholic Majesty Carlos II Habsburg}
+#replacewith
+Address_Form_Pir_Title5 {Legend}
+
+Address_Form_Por_Title1 {Corsair}
+Address_Form_Por_Title2 {Captain}
+Address_Form_Por_Title3 {Capitão-Mor}
+Address_Form_Por_Title4 {Admiral}
+Address_Form_Por_Title5 {General}
+Address_Form_Por_Title6 {Governor}
+
+NationKingsName_Spa {His Catholic Majesty Carlos II Habsburg}
+#endreplace

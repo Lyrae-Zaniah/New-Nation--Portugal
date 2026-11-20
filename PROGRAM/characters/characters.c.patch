@@ -1,0 +1,8 @@
+#find
+{
+	CreateEntity(&character, character.model.entity);
+#replacewith
+{
+	character.model = PortugalFixModel(character.model); // Nova Nacao: Portugal
+	CreateEntity(&character, character.model.entity);
+#endreplace

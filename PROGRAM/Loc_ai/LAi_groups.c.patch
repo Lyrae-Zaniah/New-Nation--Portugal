@@ -1,0 +1,14 @@
+#find
+	LAi_group_SetAlarmDown("HOLLAND_CITIZENS", LAI_GROUP_PLAYER, 0.02);
+#replacewith
+	LAi_group_SetAlarmDown("HOLLAND_CITIZENS", LAI_GROUP_PLAYER, 0.02);
+
+	// Nova Nacao: Portugal
+	LAi_group_Register("PORTUGAL_CITIZENS");
+	LAi_group_SetLookRadius("PORTUGAL_CITIZENS", LAI_GROUP_GRD_LOOK);
+	LAi_group_SetHearRadius("PORTUGAL_CITIZENS", LAI_GROUP_GRD_HEAR);
+	LAi_group_SetSayRadius("PORTUGAL_CITIZENS", LAI_GROUP_GRD_SAY);
+	LAi_group_SetPriority("PORTUGAL_CITIZENS", LAI_GROUP_PGUARDS);
+	LAi_group_SetAlarmReaction("PORTUGAL_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_ENEMY, LAI_GROUP_NEITRAL);
+	LAi_group_SetAlarmDown("PORTUGAL_CITIZENS", LAI_GROUP_PLAYER, 0.02);
+#endreplace

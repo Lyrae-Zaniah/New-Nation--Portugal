@@ -1,0 +1,5 @@
+#find
+				if (GetNationTypeByName(sAttr) == iNation && rShip.nation.(sAttr) == true) bOk = true;
+#replacewith
+				if (GetNationTypeByName(sAttr) == NationForShipList(iNation) && rShip.nation.(sAttr) == true) bOk = true;
+#endreplace

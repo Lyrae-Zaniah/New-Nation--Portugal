@@ -1,0 +1,10 @@
+#find
+Spain_descr {España. Una gran potencia colonial en decadencia. Actualmente controla la mayor parte de las islas del Caribe y Tierra Firme, pero se encuentra bajo la presión constante de Inglaterra y Francia, que buscan apropiarse de las inagotables riquezas del Nuevo Mundo.}
+#replacewith
+Spain_descr {España. Una gran potencia colonial en decadencia. Actualmente controla la mayor parte de las islas del Caribe y Tierra Firme, pero se encuentra bajo la presión constante de Inglaterra y Francia, que buscan apropiarse de las inagotables riquezas del Nuevo Mundo.}
+Portugal_descr
+{
+Portugal. Hace apenas veinte años Portugal recuperó su propia corona de manos de España, y la Casa de Braganza todavía lucha por su independencia. Su verdadera riqueza está en Brasil, pero sus barcos también navegan por el Caribe, y no son amigos de los españoles. Portugal confía en su vieja alianza con Inglaterra y en el apoyo de Francia.
+}
+
+#endreplace

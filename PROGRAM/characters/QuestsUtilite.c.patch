@@ -1,0 +1,19 @@
+#find
+		}*/
+#replacewith
+		}*/
+        // Nova Nacao: linha de missoes de Portugal
+        if (CheckAttribute(pchar, "questTemp.PorLine.Cabin") && refChar.CaptanId == pchar.questTemp.PorLine.Cabin)
+        {
+            LAi_SetCheckMinHP(refChar, 10, true, "QuestAboardCabinDialog");
+        }
+#endreplace
+
+#find
+	for(int i=0; i<4; i++)
+	{
+#replacewith
+	for(int i=0; i<MAX_NATIONS; i++) // Nova Nacao: inclui Portugal
+	{
+		if (i == PIRATE) continue;
+#endreplace

@@ -1,0 +1,67 @@
+#find
+					music = NationShortName(sti(Colonies[iColony].nation)) + temp;
+#replacewith
+					music = NationAssetShortName(sti(Colonies[iColony].nation)) + temp;
+#endreplace
+
+#find
+					music = NationShortName(sti(Colonies[iColony].nation)) + "_tavern";
+#replacewith
+					music = NationAssetShortName(sti(Colonies[iColony].nation)) + "_tavern";
+#endreplace
+
+#find
+					music = NationShortName(sti(Colonies[iColony].nation)) + "_gubernator";
+#replacewith
+					music = NationAssetShortName(sti(Colonies[iColony].nation)) + "_gubernator";
+#endreplace
+
+#find
+					temp = NationShortName(sti(Colonies[iColony].nation));
+#replacewith
+					temp = NationAssetShortName(sti(Colonies[iColony].nation));
+#endreplace
+
+#find
+				if (iParent != -1)
+				{
+					temp = NationShortName(sti(Colonies[iParent].nation));
+
+					if (temp != "pir")
+						music = temp + "_fort";
+#replacewith
+				if (iParent != -1)
+				{
+					temp = NationAssetShortName(sti(Colonies[iParent].nation));
+
+					if (temp != "pir")
+						music = temp + "_fort";
+#endreplace
+
+#find
+				if (iParent != -1)
+				{
+					temp = NationShortName(sti(Colonies[iParent].nation));
+
+					if (temp != "pir")
+						music = temp + "_ammo";
+#replacewith
+				if (iParent != -1)
+				{
+					temp = NationAssetShortName(sti(Colonies[iParent].nation));
+
+					if (temp != "pir")
+						music = temp + "_ammo";
+#endreplace
+
+#find
+							sNatShortC = NationShortName(sti(Colonies[iColony].nation));
+#replacewith
+							sNatShortC = NationAssetShortName(sti(Colonies[iColony].nation));
+#endreplace
+
+#find
+							sNatShortP = NationShortName(sti(Colonies[iParent].nation));
+#replacewith
+							sNatShortP = NationAssetShortName(sti(Colonies[iParent].nation));
+#endreplace

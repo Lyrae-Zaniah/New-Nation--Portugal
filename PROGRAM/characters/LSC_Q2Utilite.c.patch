@@ -1,0 +1,58 @@
+#find
+	_ch.perks.list.FlagSpa = "1";
+	_ch.perks.list.FlagHol = "1";
+	/// Канонир >
+	_ch.perks.list.FastReload = "1";
+#replacewith
+	_ch.perks.list.FlagSpa = "1";
+	_ch.perks.list.FlagHol = "1";
+	_ch.perks.list.FlagPor = "1"; // Nova Nacao
+	/// Канонир >
+	_ch.perks.list.FastReload = "1";
+#endreplace
+
+#find
+	_ch.perks.list.FlagSpa = "1";
+	_ch.perks.list.FlagHol = "1";
+	/// Канонир >
+	_ch.perks.list.HullDamageUp = "1";
+#replacewith
+	_ch.perks.list.FlagSpa = "1";
+	_ch.perks.list.FlagHol = "1";
+	_ch.perks.list.FlagPor = "1"; // Nova Nacao
+	/// Канонир >
+	_ch.perks.list.HullDamageUp = "1";
+#endreplace
+
+#find
+	// забираем просроченные лицензии
+	for (i=0; i<4; i++)
+	{
+#replacewith
+	Portugal_RumourTick(); // Nova Nacao: boatos sobre Portugal
+	Portugal_FixMayorModels(); // Nova Nacao: governadores com a faixa portuguesa em saves antigos
+	// забираем просроченные лицензии
+	for (i=0; i<MAX_NATIONS; i++) // Nova Nacao: inclui Portugal
+	{
+		if (i == PIRATE) continue;
+#endreplace
+
+#find
+{
+	Restrictor(&_nation, 0, 4);
+
+#replacewith
+{
+	Restrictor(&_nation, 0, MAX_NATIONS - 1); // Nova Nacao: inclui Portugal
+
+#endreplace
+
+#find
+{
+	Restrictor(&_nation, 0, 4);
+	Restrictor(&iRandType, 0, 2);
+#replacewith
+{
+	Restrictor(&_nation, 0, MAX_NATIONS - 1); // Nova Nacao: inclui Portugal
+	Restrictor(&iRandType, 0, 2);
+#endreplace

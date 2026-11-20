@@ -1,0 +1,128 @@
+#find
+Por causa do purser, Victor Bretier sofreu grandes perdas financeiras, e eu decidi não me envolver no conflito deles.
+}
+#replacewith
+Por causa do purser, Victor Bretier sofreu grandes perdas financeiras, e eu decidi não me envolver no conflito deles.
+}
+
+// Nova Nacao: linha de missoes de Portugal
+POR_Line
+{
+Pela Glória da Coroa
+}
+
+POR_Line.1
+{
+O Governador-Geral das colônias portuguesas, Francisco Barreto de Meneses, me recebeu com frieza, mas me deu uma missão: piratas estão tomando nossos mercantes entre Cumaná e Trinidad, sempre sabendo quando eles zarpam. Devo encontrar o Corvo Negro nas águas de Trinidad, afundá-lo e prestar contas só a ele.
+}
+
+POR_Line.f
+{
+Deixei a área antes do fim do combate. O inimigo continua lá; preciso voltar e terminar o serviço.
+}
+
+POR_Line.2
+{
+O Corvo Negro não existe mais. O capitão, Bento Malheiro, era português, do Recife. Antes de morrer disse uma coisa estranha: os piratas sempre sabem o dia em que nossos navios saem de Cumaná, 'e espanhol não sabe esse tipo de coisa'. Entre as coisas dele: dobrões espanhóis e uma lista com as nossas datas de partida. Devo informar o Governador-Geral em Caracas.
+}
+
+POR_Line.3
+{
+Promovido a Capitão. O governador ficou com a lista e mandou que eu me calasse. Agora devo encontrar Tomé Ferraz, um mercador português na taverna de Willemstad, em Curaçao. Dizem que não é simpático.
+}
+
+POR_Line.4
+{
+Tomé Ferraz só se abriu quando contei sobre o Malheiro. Um correio espanhol, a Santa Clara, traz o pagamento dos piratas de Havana e fundeia em Aruba. Preciso interceptá-la. Tomé me avisou para pensar bem antes de entregar as cartas a alguém.
+}
+
+POR_Line.5
+{
+A Santa Clara foi tomada. Das cartas meio queimadas consegui ler: ouro por cada navio português tomado no Caribe, ataques às frotas de açúcar de Pernambuco e da Bahia, e uma menção a 'nosso amigo em Caracas'. Devo informar o Governador-Geral.
+}
+
+POR_Line.6
+{
+O governador tratou o 'nosso amigo em Caracas' como só mais um espião. Agora devo proteger a flauta Desterro, que traz açúcar de Pernambuco, quando ela chegar a Cumaná. Como ele sabe que os piratas vão atacar ali?
+}
+
+POR_Line.7a
+{
+Os piratas de Cumaná foram derrotados e a Desterro está a salvo. O capitão dela, Amaro Teles, quer me pagar uma bebida na taverna de Cumaná.
+}
+
+POR_Line.7
+{
+Amaro Teles mudou o rumo de propósito nesta viagem. Só o gabinete do Governador-Geral conhecia a nova rota, e mesmo assim os piratas estavam à espera dele. Devo informar o governador... com cuidado.
+}
+
+POR_Line.7b
+{
+Os piratas de Cumaná foram derrotados, mas a Desterro afundou. Devo informar o Governador-Geral.
+}
+
+POR_Line.8
+{
+Promovido a Capitão-Mor. O governador quer que eu destrua a esquadra de Gaspar Roiz, o 'Mão de Ferro', nas Ilhas Cayman. Diz que Roiz 'ficou ganancioso', e quer que qualquer papel encontrado a bordo seja levado direto a ele.
+}
+
+POR_Line.9
+{
+A esquadra do Mão de Ferro foi destruída. Roiz disse que o governador só me mandou atrás dele porque ele pediu uma parte maior. No cofre dele encontrei um livro de contas: cargas tomadas de navios portugueses, todas vendidas a um comerciante de Caracas, Simão Godinho, 'por ordem do Palácio'. Preciso decidir o que contar ao governador.
+}
+
+POR_Line.9b
+{
+A esquadra do Mão de Ferro está no fundo do mar, e Gaspar Roiz com ela. Entre os destroços boiando, meus homens pescaram um cofre lacrado. Dentro havia um livro de contas: cargas tomadas de navios portugueses, todas vendidas a um comerciante de Caracas, Simão Godinho, 'por ordem do Palácio'. Preciso decidir o que contar ao governador.
+}
+
+POR_Line.10
+{
+Promovido a Almirante. O governador me chamou de 'um instrumento muito útil'. Tenho o nome de Simão Godinho; preciso encontrá-lo na taverna de Caracas.
+}
+
+POR_Line.11
+{
+Godinho cedeu quando mencionei o governador: as mercadorias roubadas iam para os armazéns do governador, com o selo dele. O secretário, Lourenço Viegas, copiou todos os contratos e fugiu para Cumaná. Preciso encontrá-lo na taverna de lá.
+}
+
+POR_Line.12
+{
+Enfim a verdade. Barreto fez um pacto com um agente espanhol em Havana: a Espanha paga os piratas, os piratas entregam as cargas, e o governador as vende e divide o lucro. E eu fui a vassoura que ele usou para varrer os piratas que pediam demais. Lourenço me deu as cópias dos contratos. O desembargador da Coroa, Dom Álvaro de Sousa Coutinho, está chegando por mar, e o Barreto vai tentar impedi-lo. Preciso sair para o mar perto de Cumaná e proteger o navio dele, e depois entregar as cópias a ele na residência de Cumaná.
+}
+
+POR_Line.13
+{
+Matadores sob a bandeira espanhola esperavam o navio do desembargador perto de Cumaná. Já não estão lá, e Dom Álvaro desembarcou. Ele me espera na residência de Cumaná.
+}
+
+POR_Line.14
+{
+Dom Álvaro leu os contratos e me nomeou General. Mas Barreto de Meneses fugiu de Caracas no seu galeão, o São Miguel. Preciso interceptá-lo nas águas de Caracas, vivo se possível.
+}
+
+POR_Line.15
+{
+Barreto de Meneses se rendeu. Admitiu que me usou desde o primeiro dia. Devo levá-lo a Dom Álvaro na residência de Cumaná.
+}
+
+POR_Line.15b
+{
+O São Miguel afundou, e Barreto de Meneses com ele. Devo levar a notícia a Dom Álvaro na residência de Cumaná.
+}
+
+POR_Line.16
+{
+A rede pirata foi desfeita e o traidor levado à justiça. Por ordem de Sua Majestade Dom Afonso VI, sou agora o Governador-Geral das colônias portuguesas do Caribe. Todo mês, a décima parte do lucro de cada colônia portuguesa vai para o tesouro de Caracas, onde Lourenço Viegas cuida das minhas contas.
+}
+
+POR_Line.2b
+{
+O Corvo Negro afundou com o capitão. Meus homens tiraram da água um pirata meio afogado: o capitão era Bento Malheiro, um português do Recife, e 'sempre sabia o dia em que nossos navios saem de Cumaná'. O baú do capitão boiou entre os destroços: dobrões espanhóis e uma lista com as nossas datas de partida. Devo informar o Governador-Geral em Caracas.
+}
+
+POR_Line.5b
+{
+A Santa Clara foi a pique, mas a mala de oleado do correio boiou entre os destroços. Das cartas encharcadas consegui ler: ouro por cada navio português tomado no Caribe, ataques às frotas de açúcar de Pernambuco e da Bahia, e uma menção a 'nosso amigo em Caracas'. Devo informar o Governador-Geral.
+}
+#endreplace

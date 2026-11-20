@@ -1,0 +1,81 @@
+#find
+	SetEventHandler("selectHolland", "selectHolland", 0);
+#replacewith
+	SetEventHandler("selectHolland", "selectHolland", 0);
+	SetEventHandler("selectPortugal", "selectPortugal", 0); // Nova Nacao
+#endreplace
+
+#find
+	    SelectNation(HOLLAND);
+	}
+	else
+	{
+	    SelectNation(sti(NullCharacter.HeroParam.nation));
+	}
+}
+
+void selectPirate()
+{
+	if (IsFreeplayModeStart())
+	{
+	    SelectNation(PIRATE);
+	}
+	else
+#replacewith
+	    SelectNation(HOLLAND);
+	}
+	else
+	{
+	    SelectNation(sti(NullCharacter.HeroParam.nation));
+	}
+}
+
+// Nova Nacao
+void selectPortugal()
+{
+	if (IsFreeplayModeStart())
+	{
+	    SelectNation(PORTUGAL);
+	}
+	else
+	{
+	    SelectNation(sti(NullCharacter.HeroParam.nation));
+	}
+}
+
+void selectPirate()
+{
+	if (IsFreeplayModeStart())
+	{
+	    SelectNation(PIRATE);
+	}
+	else
+#endreplace
+
+#find
+	DelEventHandler("selectHolland", "selectHolland");
+#replacewith
+	DelEventHandler("selectHolland", "selectHolland");
+	DelEventHandler("selectPortugal", "selectPortugal"); // Nova Nacao
+#endreplace
+
+#find
+			sText1 = GetRPGText(Nations[HOLLAND].Name + "_descr");
+#replacewith
+			sText1 = GetRPGText(Nations[HOLLAND].Name + "_descr");
+			if (!IsFreePlayModeStart())
+				sText2 = XI_ConvertString("SelChar_StoryDesc");
+		break;
+
+		case "PORTUGAL":
+			sHeader = XI_ConvertString("Portugal");
+			sText1 = GetRPGText(Nations[PORTUGAL].Name + "_descr");
+#endreplace
+
+#find
+		case FRANCE:	return "Easy"; break;
+#replacewith
+		case FRANCE:	return "Easy"; break;
+		// Nova Nacao: Portugal copia o caso SPAIN
+		case PORTUGAL:		return "Medium"; break;
+#endreplace

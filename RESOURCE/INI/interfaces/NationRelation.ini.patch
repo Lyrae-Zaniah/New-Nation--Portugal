@@ -1,0 +1,45 @@
+#find
+item = 20,FORMATEDTEXT,NATION_RELATION_HOLLAND
+#replacewith
+item = 20,FORMATEDTEXT,NATION_RELATION_HOLLAND
+item = 20,FORMATEDTEXT,NATION_RELATION_PORTUGAL
+#endreplace
+
+#find
+rowquantity = 6
+colquantity = 6
+#replacewith
+rowquantity = 7
+colquantity = 7
+#endreplace
+
+#find
+colswidth = 75,75,75,75,75,75
+rowsheight = 75,75,75,75,75,75
+NormalLineHeight = 75
+#replacewith
+colswidth = 64,64,64,64,64,64,64
+rowsheight = 64,64,64,64,64,64,64
+NormalLineHeight = 64
+#endreplace
+
+#find
+picture = HOLLAND,col:{255,128,128,128},pos:{620,266,652,298}
+#replacewith
+picture = HOLLAND,col:{255,128,128,128},pos:{620,266,652,298}
+picture = PORTUGAL,col:{255,128,128,128},pos:{620,322,652,354}
+#endreplace
+
+#find
+position = 660,264,780,296
+#replacewith
+position = 660,264,780,296
+lineSpace = 8
+font = interface_normal
+fontScale = 0.75
+lineSpace = 13
+valignment = 1
+
+[NATION_RELATION_PORTUGAL]
+position = 660,320,780,352
+#endreplace

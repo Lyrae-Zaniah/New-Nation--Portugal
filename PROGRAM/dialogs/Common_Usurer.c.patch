@@ -1,0 +1,13 @@
+#find
+					pchar.questTemp.Slavetraderbrig.Island = "Tortuga";
+				break;
+				case SPAIN :
+#replacewith
+					pchar.questTemp.Slavetraderbrig.Island = "Tortuga";
+				break;
+				// Nova Nacao: Portugal copia o caso SPAIN
+				case PORTUGAL:
+					pchar.questTemp.Slavetraderbrig.Island = "Cuba2";
+				break;
+				case SPAIN :
+#endreplace

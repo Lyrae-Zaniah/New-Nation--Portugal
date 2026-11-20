@@ -1,0 +1,77 @@
+#find
+				if (pchar.questTemp.NationQuest == "")
+				{
+					if (pchar.questTemp.piratesLine == "begin" || pchar.questTemp.piratesLine == "over" || pchar.questTemp.piratesLine == "waiting_Q8" || pchar.questTemp.LSC == "over")
+					{
+						link.l1 = StringFromKey("Common_Governor_37");
+						link.l1.go = "work_1";
+						if (!bWorldAlivePause && pchar.questTemp.State == "") //eddy. только, если не проходил линейку.
+						{
+							link.l1.go = "onlyGenWork_Alter";
+#replacewith
+				if (sti(NPChar.nation) == PORTUGAL) // Nova Nacao: linha de missoes de Portugal
+				{
+					link.l1 = StringFromKey("Common_Governor_37");
+					link.l1.go = "work_1";
+					if (pchar.questTemp.NationQuest != "")
+					{
+						link.l1 = StringFromKey("Common_Governor_42");
+						link.l1.go = "onlyGenWork_1";
+					}
+				}
+				else
+				{
+					if (pchar.questTemp.NationQuest == "")
+					{
+						if (pchar.questTemp.piratesLine == "begin" || pchar.questTemp.piratesLine == "over" || pchar.questTemp.piratesLine == "waiting_Q8" || pchar.questTemp.LSC == "over")
+						{
+							link.l1 = StringFromKey("Common_Governor_37");
+							link.l1.go = "work_1";
+							if (!bWorldAlivePause && pchar.questTemp.State == "") //eddy. только, если не проходил линейку.
+							{
+								link.l1.go = "onlyGenWork_Alter";
+							}
+						}
+						else
+						{
+							link.l1 = StringFromKey("Common_Governor_38");
+							link.l1.go = "onlyGenWork_2";
+#endreplace
+
+#find
+						link.l1 = StringFromKey("Common_Governor_38");
+						link.l1.go = "onlyGenWork_2";
+					}
+				}
+				else
+				{
+					if (pchar.questTemp.NationQuest == NPChar.nation)
+					{
+						link.l1 = StringFromKey("Common_Governor_41", RandPhraseSimple(
+									StringFromKey("Common_Governor_39", pchar),
+									StringFromKey("Common_Governor_40")));
+						link.l1.go = "work_1";
+					}
+					else
+					{
+						// линейкам - фиг
+						link.l1 = StringFromKey("Common_Governor_42");
+						link.l1.go = "onlyGenWork_1";
+					}
+#replacewith
+						if (pchar.questTemp.NationQuest == NPChar.nation)
+						{
+							link.l1 = StringFromKey("Common_Governor_41", RandPhraseSimple(
+										StringFromKey("Common_Governor_39", pchar),
+										StringFromKey("Common_Governor_40")));
+							link.l1.go = "work_1";
+						}
+						else
+						{
+							// линейкам - фиг
+							link.l1 = StringFromKey("Common_Governor_42");
+							link.l1.go = "onlyGenWork_1";
+						}
+					}
+
+#endreplace

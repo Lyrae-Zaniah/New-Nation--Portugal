@@ -1,0 +1,80 @@
+#find
+				sFaceID = GetRandSubString(sFrManFaces);
+#replacewith
+				sFaceID = GetRandSubString(sFrManFaces);
+			break;
+			// Nova Nacao: Portugal copia o caso SPAIN
+			case PORTUGAL:		
+				sFaceID = GetRandSubString(sSpManFaces);
+#endreplace
+
+#find
+	string sModel = rCharacter.model;
+#replacewith
+	string sModel = PortugalPortraitModel(rCharacter.model); // Nova Nacao: retrato do modelo ingles equivalente
+#endreplace
+
+#find
+		case "huber_20"		:		rCharacter.FaceId = 301; 	break;
+		case "huber_21"		:		rCharacter.FaceId = 302; 	break;
+#replacewith
+		case "huber_20"		:		rCharacter.FaceId = 301; 	break;
+		case "huber_por19"	:		rCharacter.FaceId = 300; 	break;
+		case "huber_por20"	:		rCharacter.FaceId = 301; 	break;
+		case "huber_21"		:		rCharacter.FaceId = 302; 	break;
+		case "huber_por21"	:		rCharacter.FaceId = 302; 	break;
+		case "huber_por26"	:		rCharacter.FaceId = 307; 	break;
+#endreplace
+
+#find
+		case "FelixMendoza"		:		rCharacter.FaceId = 2426; 	break; // Феликс Мендоза
+	}
+}
+#replacewith
+		case "FelixMendoza"		:		rCharacter.FaceId = 2426; 	break; // Феликс Мендоза
+	}
+	// Nova Nacao: retratos dos oficiais navais portugueses (face_5511..5516)
+	if (sModel != rCharacter.model && CheckAttribute(rCharacter, "FaceId"))
+	{
+		int iPorFace = sti(rCharacter.FaceId);
+		if (iPorFace >= 511 && iPorFace <= 516) rCharacter.FaceId = iPorFace + 5000;
+	}
+}
+#endreplace
+
+#find
+				if(shClass >= 4) 				ModelPirate = "navy_off_" + NationShortName(sti(Chref.nation)) + "_" + (rand(1) + 1); //МЛАДШИЕ
+				if(shClass <  4 && shClass > 1)	ModelPirate = "navy_off_" + NationShortName(sti(Chref.nation)) + "_" + (rand(1) + 3); //СТАРШИЕ
+#replacewith
+				if(shClass >= 4) 				ModelPirate = "navy_off_" + NationModelShortName(sti(Chref.nation)) + "_" + (rand(1) + 1); //МЛАДШИЕ
+				if(shClass <  4 && shClass > 1)	ModelPirate = "navy_off_" + NationModelShortName(sti(Chref.nation)) + "_" + (rand(1) + 3); //СТАРШИЕ
+#endreplace
+
+#find
+							ModelPirate = "off_" + NationShortName(sti(Chref.nation)) + "_" + (rand(4) + 7);
+#replacewith
+							ModelPirate = "off_" + NationModelShortName(sti(Chref.nation)) + "_" + (rand(4) + 7);
+#endreplace
+
+#find
+							ModelPirate = "navy_off_" + NationShortName(sti(Chref.nation)) + "_6";
+							else ModelPirate = "navy_off_" + NationShortName(sti(Chref.nation)) + "_5"; //ВЫСШИЕ
+#replacewith
+							ModelPirate = "navy_off_" + NationModelShortName(sti(Chref.nation)) + "_6";
+							else ModelPirate = "navy_off_" + NationModelShortName(sti(Chref.nation)) + "_5"; //ВЫСШИЕ
+#endreplace
+
+#find
+				ModelPirate = "navy_off_" + NationShortName(sti(Chref.nation)) + "_" + (rand(1) + 1); //берём МЛАДШИХ
+#replacewith
+				ModelPirate = "navy_off_" + NationModelShortName(sti(Chref.nation)) + "_" + (rand(1) + 1); //берём МЛАДШИХ
+#endreplace
+
+#find
+{
+	SendMessage(rChar, "lss", MSG_CHARACTER_SETMODEL, rChar.model, rChar.model.animation);
+#replacewith
+{
+	rChar.model = PortugalFixModel(rChar.model); // Nova Nacao: Portugal
+	SendMessage(rChar, "lss", MSG_CHARACTER_SETMODEL, rChar.model, rChar.model.animation);
+#endreplace

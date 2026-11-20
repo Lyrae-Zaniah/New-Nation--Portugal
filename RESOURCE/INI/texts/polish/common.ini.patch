@@ -1,0 +1,13 @@
+#find
+string = under spanish flag, " pod hiszpańską banderą."
+#replacewith
+string = under spanish flag, " pod hiszpańską banderą."
+string = under portuguese flag, " pod portugalską banderą."
+#endreplace
+
+#find
+string = spahunter, "Hiszpania"
+#replacewith
+string = spahunter, "Hiszpania"
+string = porhunter, "Portugalia"
+#endreplace

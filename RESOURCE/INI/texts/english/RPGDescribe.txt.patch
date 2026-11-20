@@ -1,0 +1,18 @@
+#find
+Spain. A great but waning colonial power. Currently holding the greater part of the Caribbean islands and the Spanish Main, Spain finds itself under constant pressure from England and France, who are seeking to claim the endless riches of the New World for themselves.
+}
+
+Pirate_descr
+{
+#replacewith
+Spain. A great but waning colonial power. Currently holding the greater part of the Caribbean islands and the Spanish Main, Spain finds itself under constant pressure from England and France, who are seeking to claim the endless riches of the New World for themselves.
+}
+
+Portugal_descr
+{
+Portugal. Only twenty years ago Portugal regained its own crown from Spain, and the House of Braganza still fights for its independence. Its true wealth lies in Brazil, but its ships also sail the waters of the Caribbean, and it is no friend of the Spanish. Portugal relies on the old alliance with England and on French support.
+}
+
+Pirate_descr
+{
+#endreplace

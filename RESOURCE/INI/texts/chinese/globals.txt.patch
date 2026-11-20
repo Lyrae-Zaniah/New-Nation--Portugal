@@ -1,0 +1,16 @@
+#find
+Address_Form_Pir_Title5 {传奇}
+
+NationKingsName_Spa {天主教陛下卡洛斯二世.哈布斯堡}
+#replacewith
+Address_Form_Pir_Title5 {传奇}
+
+Address_Form_Por_Title1 {私掠船长}
+Address_Form_Por_Title2 {舰长}
+Address_Form_Por_Title3 {总舰长}
+Address_Form_Por_Title4 {海军上将}
+Address_Form_Por_Title5 {统帅}
+Address_Form_Por_Title6 {总督}
+
+NationKingsName_Spa {天主教陛下卡洛斯二世.哈布斯堡}
+#endreplace

@@ -1,0 +1,32 @@
+#find
+			link.l4.go = "SetNationLicence_3";
+#replacewith
+			link.l4.go = "SetNationLicence_3";
+			link.l5 = StringFromKey("Diplomat_dialog_901"); // Nova Nacao: Portugal
+			link.l5.go = "SetNationLicence_5";
+#endreplace
+
+#find
+				link.l4.go = "SetNationPatent_3";
+			}
+			link.l9 = StringFromKey("Diplomat_dialog_75");
+#replacewith
+				link.l4.go = "SetNationPatent_3";
+			}
+			if (GetPatentNation() != PORTUGAL) // Nova Nacao
+			{
+				link.l5 = StringFromKey("Diplomat_dialog_901");
+				link.l5.go = "SetNationPatent_5";
+			}
+			link.l9 = StringFromKey("Diplomat_dialog_75");
+#endreplace
+
+#find
+					link.l1 = StringFromKey("Diplomat_dialog_83");
+#replacewith
+					link.l1 = StringFromKey("Diplomat_dialog_83");
+				break;
+				case PORTUGAL : // Nova Nacao
+					dialog.text = StringFromKey("Diplomat_dialog_902", FindMoneyString(sti(pchar.PatentPrice)));
+					link.l1 = StringFromKey("Diplomat_dialog_903");
+#endreplace

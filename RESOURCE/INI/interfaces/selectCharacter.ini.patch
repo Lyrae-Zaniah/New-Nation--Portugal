@@ -1,0 +1,103 @@
+#find
+item = 201,PICTURE,HOLLAND
+#replacewith
+item = 201,PICTURE,HOLLAND
+item = 201,PICTURE,PORTUGAL
+#endreplace
+
+#find
+nodelist = NATIONS_FRAME_CAPTIONS,ENGLAND,FRANCE,SPAIN,HOLLAND,PIRATE,NATION_DIFFICULT,NATION_RELATION_ICONS
+#replacewith
+nodelist = NATIONS_FRAME_CAPTIONS,ENGLAND,FRANCE,SPAIN,HOLLAND,PIRATE,PORTUGAL,NATION_DIFFICULT,NATION_RELATION_ICONS
+#endreplace
+
+#find
+string = England,font:INTERFACE_NORMAL,pos:{355,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.9,state:{CS}
+string = France,font:INTERFACE_NORMAL,pos:{453,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.9,state:{CS}
+string = Spain,font:INTERFACE_NORMAL,pos:{552,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.9,state:{CS}
+string = Holland,font:INTERFACE_NORMAL,pos:{650,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.9,state:{CS}
+string = Pirate,font:INTERFACE_NORMAL,pos:{749,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.9,state:{CS}
+#replacewith
+; Nova Nacao: 6 nacoes (Portugal e o 6o item, desenhado entre Espanha e Holanda)
+string = England,font:INTERFACE_NORMAL,pos:{333,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.8,state:{CS}
+string = France,font:INTERFACE_NORMAL,pos:{419,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.8,state:{CS}
+string = Spain,font:INTERFACE_NORMAL,pos:{506,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.8,state:{CS}
+string = Holland,font:INTERFACE_NORMAL,pos:{679,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.8,state:{CS}
+string = Pirate,font:INTERFACE_NORMAL,pos:{765,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.8,state:{CS}
+string = Portugal,font:INTERFACE_NORMAL,pos:{592,236},fc:{255,255,255,255},bc:{0,128,128,128},scale:0.8,state:{CS}
+#endreplace
+
+#find
+position = 305,137,401,227
+#replacewith
+position = 291,140,375,219
+#endreplace
+
+#find
+position = 403,137,499,227
+#replacewith
+position = 377,140,461,219
+#endreplace
+
+#find
+position = 501,137,597,227
+groupName = RECON_SELECT_CHARACTER
+picName = NationSpain
+#replacewith
+position = 464,140,548,219
+groupName = RECON_SELECT_CHARACTER
+picName = NationSpain
+bShowGlowCursor = 0
+UseTrigger = 1
+
+[PORTUGAL]
+command = click,event:selectPortugal
+;command = rclick,select:PORTUGAL,event:ShowInfoWindow
+position = 550,140,634,219
+groupName = RECON_SELECT_CHARACTER
+picName = NationPortugal
+#endreplace
+
+#find
+position = 599,137,695,227
+#replacewith
+position = 637,140,721,219
+#endreplace
+
+#find
+position = 697,137,793,227
+#replacewith
+position = 723,140,807,219
+#endreplace
+
+#find
+picture = Enemy,col:{255,128,128,128},pos:{340,262,367,289}
+picture = Enemy,col:{255,128,128,128},pos:{438,262,465,289}
+picture = Enemy,col:{255,128,128,128},pos:{536,262,563,289}
+picture = Enemy,col:{255,128,128,128},pos:{634,262,661,289}
+picture = Enemy,col:{255,128,128,128},pos:{732,262,759,289}
+
+[NATION_SELECT_BACK]
+groupName = RECON_SELECT_CHARACTER
+picture = SelectionLight,col:{255,128,128,128},pos:{280,112,426,252}
+picture = SelectionLight,col:{255,128,128,128},pos:{378,112,524,252}
+picture = SelectionLight,col:{255,128,128,128},pos:{476,112,622,252}
+picture = SelectionLight,col:{255,128,128,128},pos:{574,112,720,252}
+picture = SelectionLight,col:{255,128,128,128},pos:{672,112,818,252}
+#replacewith
+picture = Enemy,col:{255,128,128,128},pos:{320,262,347,289}
+picture = Enemy,col:{255,128,128,128},pos:{406,262,433,289}
+picture = Enemy,col:{255,128,128,128},pos:{493,262,520,289}
+picture = Enemy,col:{255,128,128,128},pos:{666,262,693,289}
+picture = Enemy,col:{255,128,128,128},pos:{752,262,779,289}
+picture = Enemy,col:{255,128,128,128},pos:{579,262,606,289}
+
+[NATION_SELECT_BACK]
+groupName = RECON_SELECT_CHARACTER
+picture = SelectionLight,col:{255,128,128,128},pos:{269,118,397,240}
+picture = SelectionLight,col:{255,128,128,128},pos:{355,118,483,240}
+picture = SelectionLight,col:{255,128,128,128},pos:{442,118,570,240}
+picture = SelectionLight,col:{255,128,128,128},pos:{615,118,743,240}
+picture = SelectionLight,col:{255,128,128,128},pos:{701,118,829,240}
+picture = SelectionLight,col:{255,128,128,128},pos:{528,118,656,240}
+#endreplace

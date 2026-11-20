@@ -1,0 +1,13 @@
+#find
+				imageName = "loading\sea_" + (4 + rand(1)) + ".tga";
+			break;
+			case SPAIN:		
+#replacewith
+				imageName = "loading\sea_" + (4 + rand(1)) + ".tga";
+			break;
+			// Nova Nacao: Portugal copia o caso SPAIN
+			case PORTUGAL:		
+				imageName = "loading\sea_" + (6 + rand(1)) + ".tga";
+			break;
+			case SPAIN:		
+#endreplace

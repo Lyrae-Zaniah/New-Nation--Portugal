@@ -1,0 +1,23 @@
+#find
+		Colonies[n].visible = true;
+		Colonies[n].smuggling_nation = SPAIN;
+		Colonies[n].nation = SPAIN;
+		Colonies[n].island = "Caracas";
+#replacewith
+		Colonies[n].visible = true;
+		Colonies[n].smuggling_nation = PORTUGAL; // Nova Nacao (era SPAIN)
+		Colonies[n].nation = PORTUGAL; // Nova Nacao (era SPAIN)
+		Colonies[n].island = "Caracas";
+#endreplace
+
+#find
+		Colonies[n].visible = true;
+		Colonies[n].smuggling_nation = SPAIN;
+		Colonies[n].nation = SPAIN;
+		Colonies[n].island = "Cumana";
+#replacewith
+		Colonies[n].visible = true;
+		Colonies[n].smuggling_nation = PORTUGAL; // Nova Nacao (era SPAIN)
+		Colonies[n].nation = PORTUGAL; // Nova Nacao (era SPAIN)
+		Colonies[n].island = "Cumana";
+#endreplace

@@ -1,0 +1,7 @@
+#find
+			case FRANCE 	: Nation = 2; break;
+#replacewith
+			case FRANCE 	: Nation = 2; break;
+			// Nova Nacao: Portugal copia o caso SPAIN
+			case PORTUGAL: Nation = 5; break; // quadro portugues em WorldMapEnsigns.tga
+#endreplace

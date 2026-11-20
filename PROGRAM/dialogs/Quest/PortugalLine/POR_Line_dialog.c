@@ -31,98 +31,100 @@ void ProcessDialogEvent()
 			sCab = "-";
 			if (CheckAttribute(pchar, "questTemp.PorLine.Cabin")) sCab = pchar.questTemp.PorLine.Cabin;
 
-			dialog.text = StringFromKey("POR_Line_dialog_1");
-			link.l1 = StringFromKey("POR_Line_dialog_2");
+			dialog.text = StringFromKey("Diplomat_dialog_2001");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
 			link.l1.go = "exit";
 
 			// capitaes na cabine (abordagem)
 			if (sId == sCab && sSt == "M1_go")
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_5");
-				link.l1 = StringFromKey("POR_Line_dialog_6");
+				dialog.text = StringFromKey("Diplomat_dialog_2005");
+				link.l1 = StringFromKey("Diplomat_dialog_2006");
+				pchar.questTemp.PorLine.M1Boarded = true;
 				link.l1.go = "M1_C2";
 			}
 			if (sId == sCab && sSt == "M2_aruba")
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_30");
-				link.l1 = StringFromKey("POR_Line_dialog_31");
+				dialog.text = StringFromKey("Diplomat_dialog_2030");
+				link.l1 = StringFromKey("Diplomat_dialog_2031");
+				pchar.questTemp.PorLine.M2Boarded = true;
 				link.l1.go = "M2_C2";
 			}
 			if (sId == sCab && sSt == "M4_go")
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_42");
-				link.l1 = StringFromKey("POR_Line_dialog_43");
+				dialog.text = StringFromKey("Diplomat_dialog_2042");
+				link.l1 = StringFromKey("Diplomat_dialog_2043");
 				link.l1.go = "M4_C2";
 			}
 			if (sId == sCab && sSt == "M7_go")
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_91");
-				link.l1 = StringFromKey("POR_Line_dialog_92");
+				dialog.text = StringFromKey("Diplomat_dialog_2091");
+				link.l1 = StringFromKey("Diplomat_dialog_2092");
 				link.l1.go = "M7_C2";
 			}
 			// personagens em terra
 			if (sId == "POR_Tome")
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_29");
-				link.l1 = StringFromKey("POR_Line_dialog_2");
+				dialog.text = StringFromKey("Diplomat_dialog_2029");
+				link.l1 = StringFromKey("Diplomat_dialog_2002");
 				link.l1.go = "exit";
 				if (sSt == "M2_go")
 				{
 					if (CheckAttribute(pchar, "questTemp.PorLine.TomeOpen"))
 					{
-						dialog.text = StringFromKey("POR_Line_dialog_20");
-						link.l1 = StringFromKey("POR_Line_dialog_21");
+						dialog.text = StringFromKey("Diplomat_dialog_2020");
+						link.l1 = StringFromKey("Diplomat_dialog_2021");
 						link.l1.go = "Tome_Pay";
-						link.l2 = StringFromKey("POR_Line_dialog_22");
+						link.l2 = StringFromKey("Diplomat_dialog_2022");
 						link.l2.go = "Tome_NoMoney";
 					}
 					else
 					{
-						dialog.text = StringFromKey("POR_Line_dialog_14");
-						link.l1 = StringFromKey("POR_Line_dialog_15");
+						dialog.text = StringFromKey("Diplomat_dialog_2014");
+						link.l1 = StringFromKey("Diplomat_dialog_2015");
 						link.l1.go = "Tome_Gov";
-						link.l2 = StringFromKey("POR_Line_dialog_17");
+						link.l2 = StringFromKey("Diplomat_dialog_2017");
 						link.l2.go = "Tome_Bento";
-						link.l3 = StringFromKey("POR_Line_dialog_2");
+						link.l3 = StringFromKey("Diplomat_dialog_2002");
 						link.l3.go = "exit";
 					}
 				}
 			}
 			if (sId == "POR_Amaro")
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_41");
-				link.l1 = StringFromKey("POR_Line_dialog_2");
+				dialog.text = StringFromKey("Diplomat_dialog_2041");
+				link.l1 = StringFromKey("Diplomat_dialog_2002");
 				link.l1.go = "exit";
 				if (sSt == "M3_amaro")
 				{
-					dialog.text = StringFromKey("POR_Line_dialog_36");
-					link.l1 = StringFromKey("POR_Line_dialog_37");
+					dialog.text = StringFromKey("Diplomat_dialog_2036");
+					link.l1 = StringFromKey("Diplomat_dialog_2037");
 					link.l1.go = "Amaro_2";
 				}
 			}
 			if (sId == "POR_Godinho")
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_60");
-				link.l1 = StringFromKey("POR_Line_dialog_2");
+				dialog.text = StringFromKey("Diplomat_dialog_2060");
+				link.l1 = StringFromKey("Diplomat_dialog_2002");
 				link.l1.go = "exit";
 				if (sSt == "M5_godinho")
 				{
-					dialog.text = StringFromKey("POR_Line_dialog_52");
-					link.l1 = StringFromKey("POR_Line_dialog_53");
+					dialog.text = StringFromKey("Diplomat_dialog_2052");
+					link.l1 = StringFromKey("Diplomat_dialog_2053");
 					link.l1.go = "God_2";
-					link.l2 = StringFromKey("POR_Line_dialog_54");
+					link.l2 = StringFromKey("Diplomat_dialog_2054");
 					link.l2.go = "God_Deny";
 				}
 			}
 			if (sId == "POR_Lourenco")
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_72");
-				link.l1 = StringFromKey("POR_Line_dialog_2");
+				dialog.text = StringFromKey("Diplomat_dialog_2072");
+				link.l1 = StringFromKey("Diplomat_dialog_2002");
 				link.l1.go = "exit";
 				if (sSt == "M5_secretary")
 				{
-					dialog.text = StringFromKey("POR_Line_dialog_61");
-					link.l1 = StringFromKey("POR_Line_dialog_62");
+					dialog.text = StringFromKey("Diplomat_dialog_2061");
+					link.l1 = StringFromKey("Diplomat_dialog_2062");
 					link.l1.go = "Lou_2";
 				}
 			}
@@ -130,50 +132,49 @@ void ProcessDialogEvent()
 			{
 				iTreasury = 0;
 				if (CheckAttribute(pchar, "questTemp.PorGG.Treasury")) iTreasury = sti(pchar.questTemp.PorGG.Treasury);
+				dialog.text = StringFromKey("Diplomat_dialog_2099");
+				link.l1 = StringFromKey("Diplomat_dialog_2104");
+				link.l1.go = "Sec_Move";
+				link.l2 = StringFromKey("Diplomat_dialog_2002");
+				link.l2.go = "exit";
 				if (iTreasury > 0)
 				{
-					dialog.text = StringFromKey("POR_Line_dialog_98", FindMoneyString(iTreasury));
-					link.l1 = StringFromKey("POR_Line_dialog_100");
+					dialog.text = StringFromKey("Diplomat_dialog_2098", FindMoneyString(iTreasury));
+					link.l1 = StringFromKey("Diplomat_dialog_2100");
 					link.l1.go = "Sec_Take";
+					link.l2 = StringFromKey("Diplomat_dialog_2104");
+					link.l2.go = "Sec_Move";
+					link.l3 = StringFromKey("Diplomat_dialog_2002");
+					link.l3.go = "exit";
 				}
-				else
-				{
-					dialog.text = StringFromKey("POR_Line_dialog_99");
-					link.l1 = StringFromKey("POR_Line_dialog_2");
-					link.l1.go = "exit";
-				}
-				link.l2 = StringFromKey("POR_Line_dialog_104");
-				link.l2.go = "Sec_Move";
-				link.l3 = StringFromKey("POR_Line_dialog_2");
-				link.l3.go = "exit";
 			}
 			if (sId == "POR_Rep")
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_90");
-				link.l1 = StringFromKey("POR_Line_dialog_2");
+				dialog.text = StringFromKey("Diplomat_dialog_2090");
+				link.l1 = StringFromKey("Diplomat_dialog_2002");
 				link.l1.go = "exit";
 				if (sSt == "M6_rep")
 				{
-					dialog.text = StringFromKey("POR_Line_dialog_73");
-					link.l1 = StringFromKey("POR_Line_dialog_74");
+					dialog.text = StringFromKey("Diplomat_dialog_2073");
+					link.l1 = StringFromKey("Diplomat_dialog_2074");
 					link.l1.go = "Rep_2";
 				}
 				if (sSt == "M7_go")
 				{
-					dialog.text = StringFromKey("POR_Line_dialog_82");
-					link.l1 = StringFromKey("POR_Line_dialog_81");
+					dialog.text = StringFromKey("Diplomat_dialog_2082");
+					link.l1 = StringFromKey("Diplomat_dialog_2081");
 					link.l1.go = "exit";
 				}
 				if (sSt == "M7_captured")
 				{
-					dialog.text = StringFromKey("POR_Line_dialog_83");
-					link.l1 = StringFromKey("POR_Line_dialog_84");
+					dialog.text = StringFromKey("Diplomat_dialog_2083");
+					link.l1 = StringFromKey("Diplomat_dialog_2084");
 					link.l1.go = "Rep_5";
 				}
 				if (sSt == "M7_sunk")
 				{
-					dialog.text = StringFromKey("POR_Line_dialog_83");
-					link.l1 = StringFromKey("POR_Line_dialog_85");
+					dialog.text = StringFromKey("Diplomat_dialog_2083");
+					link.l1 = StringFromKey("Diplomat_dialog_2085");
 					link.l1.go = "Rep_5";
 				}
 			}
@@ -203,188 +204,189 @@ void ProcessDialogEvent()
 
 		// ---- missao 1: Bento Malheiro
 		case "M1_C2":
-			dialog.text = StringFromKey("POR_Line_dialog_7");
-			link.l1 = StringFromKey("POR_Line_dialog_8");
+			dialog.text = StringFromKey("Diplomat_dialog_2007");
+			link.l1 = StringFromKey("Diplomat_dialog_2008");
 			link.l1.go = "M1_C3";
 		break;
 
 		case "M1_C3":
-			dialog.text = StringFromKey("POR_Line_dialog_9");
-			link.l1 = StringFromKey("POR_Line_dialog_10");
+			dialog.text = StringFromKey("Diplomat_dialog_2009");
+			link.l1 = StringFromKey("Diplomat_dialog_2010");
 			link.l1.go = "M1_C4";
 		break;
 
 		case "M1_C4":
-			dialog.text = StringFromKey("POR_Line_dialog_11");
-			link.l1 = StringFromKey("POR_Line_dialog_12");
+			dialog.text = StringFromKey("Diplomat_dialog_2011");
+			link.l1 = StringFromKey("Diplomat_dialog_2012");
 			link.l1.go = "M1_C5";
 		break;
 
 		case "M1_C5":
-			dialog.text = StringFromKey("POR_Line_dialog_13");
-			link.l1 = StringFromKey("POR_Line_dialog_4");
+			dialog.text = StringFromKey("Diplomat_dialog_2013");
+			link.l1 = StringFromKey("Diplomat_dialog_2004");
 			link.l1.go = "Cabin_Fight";
 		break;
 
 		// ---- missao 2: Tome Ferraz
 		case "Tome_Gov":
-			dialog.text = StringFromKey("POR_Line_dialog_16");
-			link.l1 = StringFromKey("POR_Line_dialog_17");
+			dialog.text = StringFromKey("Diplomat_dialog_2016");
+			link.l1 = StringFromKey("Diplomat_dialog_2017");
 			link.l1.go = "Tome_Bento";
-			link.l2 = StringFromKey("POR_Line_dialog_2");
+			link.l2 = StringFromKey("Diplomat_dialog_2002");
 			link.l2.go = "exit";
 		break;
 
 		case "Tome_Bento":
-			dialog.text = StringFromKey("POR_Line_dialog_18");
-			link.l1 = StringFromKey("POR_Line_dialog_19");
+			dialog.text = StringFromKey("Diplomat_dialog_2018");
+			link.l1 = StringFromKey("Diplomat_dialog_2019");
 			link.l1.go = "Tome_Price";
 			pchar.questTemp.PorLine.TomeOpen = true;
 		break;
 
 		case "Tome_Price":
-			dialog.text = StringFromKey("POR_Line_dialog_20");
-			link.l1 = StringFromKey("POR_Line_dialog_21");
+			dialog.text = StringFromKey("Diplomat_dialog_2020");
+			link.l1 = StringFromKey("Diplomat_dialog_2021");
 			link.l1.go = "Tome_Pay";
-			link.l2 = StringFromKey("POR_Line_dialog_22");
+			link.l2 = StringFromKey("Diplomat_dialog_2022");
 			link.l2.go = "Tome_NoMoney";
 		break;
 
 		case "Tome_NoMoney":
-			dialog.text = StringFromKey("POR_Line_dialog_23");
-			link.l1 = StringFromKey("POR_Line_dialog_2");
+			dialog.text = StringFromKey("Diplomat_dialog_2023");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
 			link.l1.go = "exit";
 		break;
 
 		case "Tome_Pay":
 			if (sti(pchar.money) < 3000)
 			{
-				dialog.text = StringFromKey("POR_Line_dialog_23");
-				link.l1 = StringFromKey("POR_Line_dialog_2");
+				dialog.text = StringFromKey("Diplomat_dialog_2023");
+				link.l1 = StringFromKey("Diplomat_dialog_2002");
 				link.l1.go = "exit";
 				break;
 			}
 			AddMoneyToCharacter(pchar, -3000);
-			dialog.text = StringFromKey("POR_Line_dialog_24");
-			link.l1 = StringFromKey("POR_Line_dialog_25");
+			dialog.text = StringFromKey("Diplomat_dialog_2024");
+			link.l1 = StringFromKey("Diplomat_dialog_2025");
 			link.l1.go = "Tome_3";
 		break;
 
 		case "Tome_3":
-			dialog.text = StringFromKey("POR_Line_dialog_26");
-			link.l1 = StringFromKey("POR_Line_dialog_27");
+			dialog.text = StringFromKey("Diplomat_dialog_2026");
+			link.l1 = StringFromKey("Diplomat_dialog_2027");
 			link.l1.go = "Tome_4";
 		break;
 
 		case "Tome_4":
-			dialog.text = StringFromKey("POR_Line_dialog_28");
-			link.l1 = StringFromKey("POR_Line_dialog_2");
+			dialog.text = StringFromKey("Diplomat_dialog_2028");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
 			link.l1.go = "exit";
 			POR_M2_ToAruba();
 		break;
 
 		// ---- missao 2: correio espanhol
 		case "M2_C2":
-			dialog.text = StringFromKey("POR_Line_dialog_32");
-			link.l1 = StringFromKey("POR_Line_dialog_33");
+			dialog.text = StringFromKey("Diplomat_dialog_2032");
+			link.l1 = StringFromKey("Diplomat_dialog_2033");
 			link.l1.go = "M2_C3";
 		break;
 
 		case "M2_C3":
-			dialog.text = StringFromKey("POR_Line_dialog_34");
-			link.l1 = StringFromKey("POR_Line_dialog_35");
+			dialog.text = StringFromKey("Diplomat_dialog_2034");
+			link.l1 = StringFromKey("Diplomat_dialog_2035");
 			link.l1.go = "Cabin_Surrender";
 			pchar.questTemp.PorLine.Letters = true;
 		break;
 
 		// ---- missao 3: Amaro Teles
 		case "Amaro_2":
-			dialog.text = StringFromKey("POR_Line_dialog_38");
-			link.l1 = StringFromKey("POR_Line_dialog_39");
+			dialog.text = StringFromKey("Diplomat_dialog_2038");
+			link.l1 = StringFromKey("Diplomat_dialog_2039");
 			link.l1.go = "Amaro_3";
 		break;
 
 		case "Amaro_3":
-			dialog.text = StringFromKey("POR_Line_dialog_40");
-			link.l1 = StringFromKey("POR_Line_dialog_2");
+			dialog.text = StringFromKey("Diplomat_dialog_2040");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
 			link.l1.go = "exit";
 			POR_M3_AmaroDone();
 		break;
 
 		// ---- missao 4: Gaspar Roiz
 		case "M4_C2":
-			dialog.text = StringFromKey("POR_Line_dialog_44");
-			link.l1 = StringFromKey("POR_Line_dialog_45");
+			pchar.questTemp.PorLine.RoizBoarded = true;
+			dialog.text = StringFromKey("Diplomat_dialog_2044");
+			link.l1 = StringFromKey("Diplomat_dialog_2045");
 			link.l1.go = "M4_C3";
 		break;
 
 		case "M4_C3":
-			dialog.text = StringFromKey("POR_Line_dialog_46");
-			link.l1 = StringFromKey("POR_Line_dialog_47");
+			dialog.text = StringFromKey("Diplomat_dialog_2046");
+			link.l1 = StringFromKey("Diplomat_dialog_2047");
 			link.l1.go = "M4_Deal";
-			link.l2 = StringFromKey("POR_Line_dialog_48");
+			link.l2 = StringFromKey("Diplomat_dialog_2048");
 			link.l2.go = "M4_NoDeal";
 		break;
 
 		case "M4_Deal":
-			dialog.text = StringFromKey("POR_Line_dialog_49");
-			link.l1 = StringFromKey("POR_Line_dialog_51");
+			dialog.text = StringFromKey("Diplomat_dialog_2049");
+			link.l1 = StringFromKey("Diplomat_dialog_2051");
 			link.l1.go = "Cabin_Surrender";
 			pchar.questTemp.PorLine.RoizAlive = true;
 		break;
 
 		case "M4_NoDeal":
-			dialog.text = StringFromKey("POR_Line_dialog_50");
-			link.l1 = StringFromKey("POR_Line_dialog_4");
+			dialog.text = StringFromKey("Diplomat_dialog_2050");
+			link.l1 = StringFromKey("Diplomat_dialog_2004");
 			link.l1.go = "Cabin_Fight";
 		break;
 
 		// ---- missao 5: Simao Godinho
 		case "God_Deny":
-			dialog.text = StringFromKey("POR_Line_dialog_55");
-			link.l1 = StringFromKey("POR_Line_dialog_56");
+			dialog.text = StringFromKey("Diplomat_dialog_2055");
+			link.l1 = StringFromKey("Diplomat_dialog_2056");
 			link.l1.go = "God_2";
-			link.l2 = StringFromKey("POR_Line_dialog_53");
+			link.l2 = StringFromKey("Diplomat_dialog_2053");
 			link.l2.go = "God_2";
 		break;
 
 		case "God_2":
-			dialog.text = StringFromKey("POR_Line_dialog_57");
-			link.l1 = StringFromKey("POR_Line_dialog_58");
+			dialog.text = StringFromKey("Diplomat_dialog_2057");
+			link.l1 = StringFromKey("Diplomat_dialog_2058");
 			link.l1.go = "God_3";
 		break;
 
 		case "God_3":
-			dialog.text = StringFromKey("POR_Line_dialog_59");
-			link.l1 = StringFromKey("POR_Line_dialog_2");
+			dialog.text = StringFromKey("Diplomat_dialog_2059");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
 			link.l1.go = "exit";
 			POR_M5_ToSecretary();
 		break;
 
 		// ---- missao 5/6: Lourenco Viegas
 		case "Lou_2":
-			dialog.text = StringFromKey("POR_Line_dialog_63");
-			link.l1 = StringFromKey("POR_Line_dialog_64");
+			dialog.text = StringFromKey("Diplomat_dialog_2063");
+			link.l1 = StringFromKey("Diplomat_dialog_2064");
 			link.l1.go = "Lou_3";
-			link.l2 = StringFromKey("POR_Line_dialog_65");
+			link.l2 = StringFromKey("Diplomat_dialog_2065");
 			link.l2.go = "Lou_3";
 		break;
 
 		case "Lou_3":
-			dialog.text = StringFromKey("POR_Line_dialog_66");
-			link.l1 = StringFromKey("POR_Line_dialog_67");
+			dialog.text = StringFromKey("Diplomat_dialog_2066");
+			link.l1 = StringFromKey("Diplomat_dialog_2067");
 			link.l1.go = "Lou_4";
 		break;
 
 		case "Lou_4":
-			dialog.text = StringFromKey("POR_Line_dialog_68");
-			link.l1 = StringFromKey("POR_Line_dialog_69");
+			dialog.text = StringFromKey("Diplomat_dialog_2068");
+			link.l1 = StringFromKey("Diplomat_dialog_2069");
 			link.l1.go = "Lou_5";
 		break;
 
 		case "Lou_5":
-			dialog.text = StringFromKey("POR_Line_dialog_70");
-			link.l1 = StringFromKey("POR_Line_dialog_71");
+			dialog.text = StringFromKey("Diplomat_dialog_2070");
+			link.l1 = StringFromKey("Diplomat_dialog_2071");
 			link.l1.go = "exit";
 			POR_M6_Start();
 		break;
@@ -394,13 +396,13 @@ void ProcessDialogEvent()
 			iTreasury = sti(pchar.questTemp.PorGG.Treasury);
 			AddMoneyToCharacter(pchar, iTreasury);
 			pchar.questTemp.PorGG.Treasury = 0;
-			dialog.text = StringFromKey("POR_Line_dialog_101");
-			link.l1 = StringFromKey("POR_Line_dialog_2");
+			dialog.text = StringFromKey("Diplomat_dialog_2101");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
 			link.l1.go = "exit";
 		break;
 
 		case "Sec_Move":
-			dialog.text = StringFromKey("POR_Line_dialog_106");
+			dialog.text = StringFromKey("Diplomat_dialog_2106");
 			n = 0;
 			for (i = 0; i < MAX_COLONIES; i++)
 			{
@@ -412,8 +414,8 @@ void ProcessDialogEvent()
 				link.(sAttr) = GetCityName(colonies[i].id);
 				link.(sAttr).go = "SecMove_" + i;
 			}
-			if (n > 0) dialog.text = StringFromKey("POR_Line_dialog_105");
-			link.l9 = StringFromKey("POR_Line_dialog_107");
+			if (n > 0) dialog.text = StringFromKey("Diplomat_dialog_2105");
+			link.l9 = StringFromKey("Diplomat_dialog_2107");
 			link.l9.go = "exit";
 		break;
 
@@ -421,62 +423,62 @@ void ProcessDialogEvent()
 			i = sti(NPChar.quest.SeatIdx);
 			pchar.questTemp.PorGG.Seat = colonies[i].id;
 			NPChar.PorMoveTo = colonies[i].id;
-			dialog.text = StringFromKey("POR_Line_dialog_108", GetCityName(colonies[i].id));
-			link.l1 = StringFromKey("POR_Line_dialog_2");
+			dialog.text = StringFromKey("Diplomat_dialog_2108", GetCityName(colonies[i].id));
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
 			link.l1.go = "exit";
 		break;
 
 		// ---- missao 6/7: Representante da Coroa
 		case "Rep_2":
-			dialog.text = StringFromKey("POR_Line_dialog_75");
-			link.l1 = StringFromKey("POR_Line_dialog_76");
+			dialog.text = StringFromKey("Diplomat_dialog_2075");
+			link.l1 = StringFromKey("Diplomat_dialog_2076");
 			link.l1.go = "Rep_3";
 		break;
 
 		case "Rep_3":
-			dialog.text = StringFromKey("POR_Line_dialog_77");
-			if (CheckAttribute(pchar, "questTemp.PorLine.LettersKept")) dialog.text = StringFromKey("POR_Line_dialog_77") + " " + StringFromKey("POR_Line_dialog_78");
-			link.l1 = StringFromKey("POR_Line_dialog_79");
+			dialog.text = StringFromKey("Diplomat_dialog_2077");
+			if (CheckAttribute(pchar, "questTemp.PorLine.LettersKept")) dialog.text = StringFromKey("Diplomat_dialog_2077") + " " + StringFromKey("Diplomat_dialog_2078");
+			link.l1 = StringFromKey("Diplomat_dialog_2079");
 			link.l1.go = "Rep_4";
 			POR_SetRank(5);
 		break;
 
 		case "Rep_4":
-			dialog.text = StringFromKey("POR_Line_dialog_80");
-			link.l1 = StringFromKey("POR_Line_dialog_81");
+			dialog.text = StringFromKey("Diplomat_dialog_2080");
+			link.l1 = StringFromKey("Diplomat_dialog_2081");
 			link.l1.go = "exit";
 			POR_M7_Start();
 		break;
 
 		case "Rep_5":
-			dialog.text = StringFromKey("POR_Line_dialog_86");
-			link.l1 = StringFromKey("POR_Line_dialog_87");
+			dialog.text = StringFromKey("Diplomat_dialog_2086");
+			link.l1 = StringFromKey("Diplomat_dialog_2087");
 			link.l1.go = "Rep_6";
 		break;
 
 		case "Rep_6":
-			dialog.text = StringFromKey("POR_Line_dialog_88");
-			link.l1 = StringFromKey("POR_Line_dialog_89");
+			dialog.text = StringFromKey("Diplomat_dialog_2088");
+			link.l1 = StringFromKey("Diplomat_dialog_2089");
 			link.l1.go = "exit";
 			POR_Final();
 		break;
 
 		// ---- missao 7: o governador traidor
 		case "M7_C2":
-			dialog.text = StringFromKey("POR_Line_dialog_93");
-			link.l1 = StringFromKey("POR_Line_dialog_94");
+			dialog.text = StringFromKey("Diplomat_dialog_2093");
+			link.l1 = StringFromKey("Diplomat_dialog_2094");
 			link.l1.go = "M7_C3";
 		break;
 
 		case "M7_C3":
-			dialog.text = StringFromKey("POR_Line_dialog_95");
-			link.l1 = StringFromKey("POR_Line_dialog_96");
+			dialog.text = StringFromKey("Diplomat_dialog_2095");
+			link.l1 = StringFromKey("Diplomat_dialog_2096");
 			link.l1.go = "M7_C4";
 		break;
 
 		case "M7_C4":
-			dialog.text = StringFromKey("POR_Line_dialog_97");
-			link.l1 = StringFromKey("POR_Line_dialog_51");
+			dialog.text = StringFromKey("Diplomat_dialog_2097");
+			link.l1 = StringFromKey("Diplomat_dialog_2051");
 			link.l1.go = "Cabin_Surrender";
 			pchar.questTemp.PorLine.GovCaptured = true;
 		break;

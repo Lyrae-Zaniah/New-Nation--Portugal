@@ -1,0 +1,25 @@
+#find
+Ermöglicht es, deine Flagge gegen die der Niederlande zu tauschen. Die Wahrscheinlichkeit, dass deine Tarnung auffliegt, hängt von deiner Tarnung, der Anzahl und Klasse der Schiffe im Geschwader sowie von der Zahl feindlicher Schiffe und Kopfgelder ab.
+~
+Nur für den Hauptcharakter verfügbar.
+}
+Capellan1 {Predigt}
+perkCapellan1
+{
+#replacewith
+Ermöglicht es, deine Flagge gegen die der Niederlande zu tauschen. Die Wahrscheinlichkeit, dass deine Tarnung auffliegt, hängt von deiner Tarnung, der Anzahl und Klasse der Schiffe im Geschwader sowie von der Zahl feindlicher Schiffe und Kopfgelder ab.
+~
+Nur für den Hauptcharakter verfügbar.
+}
+
+FlagPor {Portugiesische Flagge}
+perkFlagPor
+{
+Ermöglicht es, deine Flagge gegen die Portugals zu tauschen. Die Wahrscheinlichkeit, dass deine Tarnung auffliegt, hängt von deiner Tarnung, der Anzahl und Klasse der Schiffe im Geschwader sowie von der Zahl feindlicher Schiffe und Kopfgelder ab.
+~
+Nur für den Hauptcharakter verfügbar.
+}
+Capellan1 {Predigt}
+perkCapellan1
+{
+#endreplace

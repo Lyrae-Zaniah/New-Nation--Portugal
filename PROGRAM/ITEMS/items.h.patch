@@ -1,0 +1,7 @@
+#find
+#define TOTAL_ITEMS				1191 		// Warship 08.05.09 - Новая система предметов
+#define ITEMS_QUANTITY			596  		// не забываем менять номер
+#replacewith
+#define TOTAL_ITEMS				1193 // Nova Nacao: +2 (carta de corso e licenca de Portugal) 		// Warship 08.05.09 - Новая система предметов
+#define ITEMS_QUANTITY			598 // Nova Nacao: +2 (patent_por, PorTradeLicence)  		// не забываем менять номер
+#endreplace

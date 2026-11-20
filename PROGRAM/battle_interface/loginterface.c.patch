@@ -1,0 +1,6 @@
+#find
+		case "pirhunter": IconIndex = 46; break;
+#replacewith
+		case "pirhunter": IconIndex = 46; break;
+		case "porhunter": IconIndex = 240; break; // Nova Nacao: Portugal
+#endreplace

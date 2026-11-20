@@ -1,0 +1,551 @@
+#find
+Entendido, obrigado pela informação.
+}
+#replacewith
+Entendido, obrigado pela informação.
+}
+Diplomat_dialog_901 {
+de Portugal
+}
+Diplomat_dialog_902 {
+Portugal ainda está em guerra com a Espanha, então não faltarão presas espanholas para um corsário ousado. A carta de corso vai lhe custar @<FindMoneyString>.
+}
+Diplomat_dialog_903 {
+Uma causa digna! Que seja Portugal.
+}
+// Nova Nacao: textos da linha de Portugal
+Diplomat_dialog_1001 {
+Do que deseja tratar?
+}
+Diplomat_dialog_1002 {
+Nada, Vossa Excelência.
+}
+Diplomat_dialog_1003 {
+A Coroa de Portugal não tem nenhuma missão especial para você no momento. Sirva bem às nossas colônias e volte mais tarde.
+}
+Diplomat_dialog_1004 {
+Como quiser, Vossa Excelência.
+}
+Diplomat_dialog_1005 {
+Você já tem suas ordens, corsário. Não me lembro de ter pedido visita.
+}
+Diplomat_dialog_1006 {
+Claro, Vossa Excelência.
+}
+Diplomat_dialog_1007 {
+Os piratas estão dispersos, e Caracas dorme tranquila. Vá aproveitar sua patente, Almirante. Quando a Coroa precisar de você, saberei onde encontrá-lo. Eu sempre sei.
+}
+Diplomat_dialog_1008 {
+Um corsário com carta de corso portuguesa. Que raridade. A maioria da sua laia vende a bandeira a quem pagar mais... Não importa. Não preciso da sua lealdade, só dos seus canhões. Sabe o que está acontecendo entre Cumaná e Trinidad?
+}
+Diplomat_dialog_1009 {
+Ouvi falar de mercantes desaparecendo.
+}
+Diplomat_dialog_1010 {
+Sete navios em quatro meses. Sete! Açúcar, tabaco, tecido de Lisboa. Os piratas parecem sempre saber quando e onde atacar, como se tivessem a carta de navegação das nossas rotas.
+}
+Diplomat_dialog_1011 {
+Sabe quem são eles?
+}
+Diplomat_dialog_1012 {
+Ralé. Dizem que o capitão chama o seu bergantim de Corvo Negro e que ronda as águas de Trinidad. É tudo o que você precisa saber.
+}
+Diplomat_dialog_1013 {
+Se eles conhecem nossas rotas, alguém está falando. Não deveríamos descobrir quem?
+}
+Diplomat_dialog_1014 {
+Pensar é tarefa minha, corsário; a sua é afundar. Vá a Trinidad, mande-os para o fundo e preste contas a mim, e a mais ninguém. Fui claro?
+}
+Diplomat_dialog_1015 {
+Perfeitamente.
+}
+Diplomat_dialog_1016 {
+Você voltou. E vivo, o que é mais do que apostei. E então?
+}
+Diplomat_dialog_1017 {
+O Corvo Negro afundou. O capitão era português, um homem do Recife. Levava dobrões espanhóis e uma lista com as datas de saída dos nossos navios de Cumaná.
+}
+Diplomat_dialog_1018 {
+Uma lista... Dê-me isso. O ouro espanhol não me surpreende; todo canalha destes mares é pago em reales. E datas de partida se compram em qualquer taverna, de algum escrivão do porto bêbado.
+}
+Diplomat_dialog_1019 {
+(entregar a lista) Aqui está.
+}
+Diplomat_dialog_1020 {
+Bom. Você se saiu bem, melhor do que eu esperava. Pela autoridade que me foi confiada, eu o elevo a Capitão. Tome estes 15.000 pesos. E, corsário... guarde essas coisas para si. Boatos assustam mais os mercadores do que os piratas.
+}
+Diplomat_dialog_1021 {
+E agora, Vossa Excelência?
+}
+Diplomat_dialog_1022 {
+Agora seguimos o ouro. Um mercador nosso em Willemstad, Tomé Ferraz, negocia com todo mundo: holandeses, espanhóis, contrabandistas. Se alguém sabe quem sustenta esses piratas, é ele. Ele não me deve nada, então não espere simpatia.
+}
+Diplomat_dialog_1023 {
+Vou procurá-lo na taverna.
+}
+Diplomat_dialog_1024 {
+Então o Ferraz falou? Ele costuma falar só de preços.
+}
+Diplomat_dialog_1025 {
+Ele me indicou um correio espanhol em Aruba. Eu o tomei. As cartas prometem ouro por cada navio português tomado aqui, e por ataques às frotas de açúcar de Pernambuco e da Bahia. E falam de 'nosso amigo em Caracas'.
+}
+Diplomat_dialog_1026 {
+A Espanha tem espiões em todos os portos do Novo Mundo, e Caracas é um porto. Só isso. Essas cartas são provas para Lisboa, assunto de diplomatas, não de corsários. Entregue-as; mandarei no próximo navio.
+}
+Diplomat_dialog_1027 {
+(entregar as cartas) Como quiser.
+}
+Diplomat_dialog_1028 {
+O correio jogou a maioria ao mar. O que sobrou mal dá para ler.
+}
+Diplomat_dialog_1029 {
+Sensato. Aqui estão 20.000 pesos. Você está aprendendo como as coisas funcionam por aqui.
+}
+Diplomat_dialog_1030 {
+...Lamentável. Então queime o que sobrou; papéis meio legíveis só servem para começar boatos. Aqui estão 20.000 pesos.
+}
+Diplomat_dialog_1031 {
+Entendido.
+}
+Diplomat_dialog_1032 {
+Ainda não há descanso. A flauta Desterro traz açúcar de Pernambuco para Cumaná, e me dizem que os piratas querem tomá-la debaixo das nossas muralhas. Ela tem de chegar. A carga dela... é importante para a colônia.
+}
+Diplomat_dialog_1033 {
+Como sabe que vão atacá-la?
+}
+Diplomat_dialog_1034 {
+Eu sei de muitas coisas, Capitão. Por isso eu governo e você navega. Vá para Cumaná.
+}
+Diplomat_dialog_1035 {
+Estou a caminho.
+}
+Diplomat_dialog_1036 {
+E a Desterro?
+}
+Diplomat_dialog_1037 {
+Segura no porto, os piratas dispersos. O capitão dela me contou que o mesmo bando queimou engenhos perto do Recife, e que a rota dela só era conhecida pelo seu gabinete.
+}
+Diplomat_dialog_1038 {
+Capitães sempre culpam o governador quando se assustam. Meu gabinete, o capitão do porto, os seguradores de Lisboa... meio mundo conhecia aquela rota. Você fez o seu trabalho; é o que importa. A partir de hoje você é Capitão-Mor. Aqui estão 25.000 pesos.
+}
+Diplomat_dialog_1039 {
+Os piratas foram destruídos, mas a Desterro afundou junto.
+}
+Diplomat_dialog_1040 {
+Uma pena pelo açúcar. Ainda assim, os piratas pagaram, e preciso de oficiais que não fujam. Você é Capitão-Mor mesmo assim. Tome 10.000 pesos.
+}
+Diplomat_dialog_1041 {
+Agora a cabeça da cobra. Gaspar Roiz, chamado Mão de Ferro, mantém a esquadra dele nas Ilhas Cayman. É mais esperto que os outros, e ficou... ganancioso. Destrua-o, e estas águas voltam a ficar calmas.
+}
+Diplomat_dialog_1042 {
+Ganancioso? Fala como se o conhecesse.
+}
+Diplomat_dialog_1043 {
+Sei o que todo governador sabe: pirata que leva demais acaba querendo tudo. Vá. E se encontrar qualquer coisa a bordo, papéis, cartas, qualquer coisa, traga direto para mim.
+}
+Diplomat_dialog_1044 {
+Entendido.
+}
+Diplomat_dialog_1045 {
+O Mão de Ferro está morto?
+}
+Diplomat_dialog_1046 {
+A esquadra dele não existe mais.
+}
+Diplomat_dialog_1047 {
+E a bordo? Eu disse para me trazer qualquer coisa que encontrasse.
+}
+Diplomat_dialog_1048 {
+Rum, pólvora e umas cartas náuticas podres. Nada de interesse.
+}
+Diplomat_dialog_1049 {
+Um livro de contas. Cargas e compradores.
+}
+Diplomat_dialog_1050 {
+As contas de um pirata. Fascinante. Dê-me isso; vai ajudar os magistrados em Lisboa. E esqueça o que leu nele, Capitão-Mor. Memória é coisa perigosa nos trópicos.
+}
+Diplomat_dialog_1051 {
+(entregar o livro) Claro.
+}
+Diplomat_dialog_1052 {
+Por esta vitória, eu o nomeio Almirante. Aqui estão 40.000 pesos. Você foi um instrumento muito útil, Almirante. Não vou me esquecer.
+}
+Diplomat_dialog_1053 {
+Nem eu, Vossa Excelência.
+}
+Diplomat_dialog_1054 {
+Você serve outra coroa. Portugal não divide seus corsários.
+}
+Diplomat_dialog_1055 {
+O Corvo Negro está no fundo. Tiramos um dos homens dele da água, e ele jurou que o capitão era português, um homem do Recife. O baú do capitão boiou entre os destroços, com dobrões espanhóis e uma lista com as datas de saída dos nossos navios de Cumaná.
+}
+Diplomat_dialog_1056 {
+Ele me indicou um correio espanhol em Aruba. Mandei-o para o fundo, mas a mala do correio boiou. O que o mar poupou das cartas promete ouro por cada navio português tomado aqui, e por ataques às frotas de açúcar de Pernambuco e da Bahia. E falam de 'nosso amigo em Caracas'.
+}
+Diplomat_dialog_1057 {
+O mar estragou a maioria. O que sobrou mal dá para ler.
+}
+Diplomat_dialog_2001 {
+Não tenho nada a lhe dizer.
+}
+Diplomat_dialog_2002 {
+Até logo.
+}
+Diplomat_dialog_2003 {
+Promovido: @<GetAddress_FormTitle>
+}
+Diplomat_dialog_2004 {
+Então acabamos aqui.
+}
+Diplomat_dialog_2005 {
+Então o governador manda um corsário sob a nossa própria bandeira. Baixe a espada um instante, capitão. Quero saber o nome de quem vai me matar.
+}
+Diplomat_dialog_2006 {
+Você é português. Por que caça a sua própria gente?
+}
+Diplomat_dialog_2007 {
+Minha própria gente? Nasci no Recife. Quando os holandeses o tomaram, Lisboa mandou orações e nenhum navio. Doze anos lutamos sozinhos. Minha gente nos deixou apodrecer.
+}
+Diplomat_dialog_2008 {
+E agora se vende à Espanha.
+}
+Diplomat_dialog_2009 {
+Eu me vendo a quem paga. O ouro vem em moeda espanhola, sim. Mas o estranho não é o ouro, capitão.
+}
+Diplomat_dialog_2010 {
+Então o que é?
+}
+Diplomat_dialog_2011 {
+A gente sempre sabe o dia em que os seus navios saem de Cumaná. Sempre. Espanhol não sabe esse tipo de coisa. Pense nisso, se viver o bastante. Já falei demais.
+}
+Diplomat_dialog_2012 {
+Renda-se, e você terá um julgamento.
+}
+Diplomat_dialog_2013 {
+Um julgamento em Caracas? Não, obrigado. Prefiro morrer de espada na mão.
+}
+Diplomat_dialog_2014 {
+Tomé Ferraz? Nunca ouvi falar. Se procura vinho, fale com o taverneiro.
+}
+Diplomat_dialog_2015 {
+O Governador-Geral me mandou.
+}
+Diplomat_dialog_2016 {
+Então o Governador-Geral que venha me buscar pessoalmente. O Barreto nunca fez nada por mim além de taxar a minha carga. Bom dia.
+}
+Diplomat_dialog_2017 {
+Afundei o Corvo Negro. Bento Malheiro está morto.
+}
+Diplomat_dialog_2018 {
+...Malheiro. Eu o conheci no Recife, antes. Já foi um bom homem. Sente-se. Não muito perto.
+}
+Diplomat_dialog_2019 {
+Alguém paga esses piratas com ouro espanhol. Quem leva o dinheiro?
+}
+Diplomat_dialog_2020 {
+Informação é o meu negócio, e um rapaz do cais arriscou o pescoço por ela. Três mil pesos para ele. Para mim não quero nada, em memória do Malheiro.
+}
+Diplomat_dialog_2021 {
+(pagar 3.000 pesos) Tome.
+}
+Diplomat_dialog_2022 {
+Não tenho tudo isso comigo.
+}
+Diplomat_dialog_2023 {
+Então volte quando tiver. O rapaz não vai esperar para sempre, nem eu.
+}
+Diplomat_dialog_2024 {
+Um correio, a Santa Clara, sai de Havana todo mês e fundeia em Aruba para encontrar o pagador dos piratas. Deve chegar a qualquer momento. Tome-a, e você terá cartas, não boatos.
+}
+Diplomat_dialog_2025 {
+Obrigado, Tomé.
+}
+Diplomat_dialog_2026 {
+Não agradeça. Mais uma coisa: quando tiver essas cartas, pense bem antes de entregá-las a alguém. Há homens nesta colônia que lucraram muito com essas guerras.
+}
+Diplomat_dialog_2027 {
+De quem está falando?
+}
+Diplomat_dialog_2028 {
+Não estou falando de ninguém. Sou mercador, e mercador que fala de alguém não vive muito. Vá, a Santa Clara não vai esperar.
+}
+Diplomat_dialog_2029 {
+Não temos mais nada a tratar, capitão.
+}
+Diplomat_dialog_2030 {
+Basta, basta! A Santa Clara arria a bandeira. Sou correio, señor, não soldado.
+}
+Diplomat_dialog_2031 {
+Então não vai se importar de me mostrar as cartas que leva.
+}
+Diplomat_dialog_2032 {
+Cartas? Foram ao mar assim que vi sua bandeira. É para isso que servem os correios.
+}
+Diplomat_dialog_2033 {
+Então vou revistar a sua cabine. Tábua por tábua.
+}
+Diplomat_dialog_2034 {
+...Revista, então. Vai achar umas páginas meio queimadas no fogareiro. Não fui rápido o bastante. E não vai entender nada: os nomes importantes nunca foram escritos.
+}
+Diplomat_dialog_2035 {
+Veremos.
+}
+Diplomat_dialog_2036 {
+É o capitão que nos tirou daquela enrascada? Amaro Teles, mestre da Desterro. Sente-se, sente-se. Vinho para o capitão!
+}
+Diplomat_dialog_2037 {
+Aqueles piratas estavam esperando vocês. Como sabiam?
+}
+Diplomat_dialog_2038 {
+É o que me pergunto. O mesmo bando queimou três engenhos perto do Recife na primavera, e sempre sabiam onde ir. Nesta viagem mudei o rumo em Barbados de propósito. Só o gabinete do Governador-Geral tinha a minha nova rota. Mais ninguém.
+}
+Diplomat_dialog_2039 {
+Cuidado com quem você diz isso.
+}
+Diplomat_dialog_2040 {
+Eu sei, eu sei. Sou só um capitão de açúcar. Esqueça, é o vinho falando. Mas obrigado, capitão. Minha tripulação lhe deve a vida.
+}
+Diplomat_dialog_2041 {
+À sua saúde, capitão!
+}
+Diplomat_dialog_2042 {
+Pare. Seus homens podem esperar um instante, e os meus também. Você venceu, Almirante, ou seja lá como o Barreto o chama hoje em dia. Vamos conversar como homens de negócio.
+}
+Diplomat_dialog_2043 {
+Para um pirata, você conhece bem o nome do Governador-Geral.
+}
+Diplomat_dialog_2044 {
+Conheço muitos nomes. Me diga: por que acha que ele o mandou atrás de mim, e não dos espanhóis que nos pagam? Porque eu pedi uma parte maior. Só isso. Você é a vassoura dele, varrendo quem atrapalha.
+}
+Diplomat_dialog_2045 {
+Palavras são baratas para quem está prestes a ser enforcado.
+}
+Diplomat_dialog_2046 {
+Então aqui vai algo que não é. No meu cofre há um livro de contas. Cada carga, cada comprador. Leia, e vai saber para quem trabalha de verdade. Minha vida pelo livro. Justo?
+}
+Diplomat_dialog_2047 {
+Justo. Renda-se, e você vai viver para ver um tribunal.
+}
+Diplomat_dialog_2048 {
+Vou tirar o livro do seu cadáver.
+}
+Diplomat_dialog_2049 {
+Um homem sensato. Coisa rara nestas águas. Minha espada é sua.
+}
+Diplomat_dialog_2050 {
+O Barreto escolheu bem o seu cão. Em guarda, então!
+}
+Diplomat_dialog_2051 {
+Levem-no para baixo.
+}
+Diplomat_dialog_2052 {
+Godinho, sim, comerciante. Atacado. Se quer comprar, vá ao armazém amanhã. Não faço negócio em taverna.
+}
+Diplomat_dialog_2053 {
+Eu li o livro de contas de Gaspar Roiz. Seu nome aparece em todas as páginas.
+}
+Diplomat_dialog_2054 {
+Quero falar de açúcar. Açúcar roubado.
+}
+Diplomat_dialog_2055 {
+Não sei do que está falando, e agradeço se baixar a voz. Boa noite.
+}
+Diplomat_dialog_2056 {
+Então talvez eu pergunte ao Governador-Geral o que você compra, e de quem.
+}
+Diplomat_dialog_2057 {
+Não! Ele não, pelo amor de Deus... Escute. Eu só comprava o que o Palácio mandava, pelo preço que eles fixavam. Tudo ia para os armazéns do governador, com o selo dele. Sou um homem pequeno. Homem pequeno não diz não ao Barreto.
+}
+Diplomat_dialog_2058 {
+Preciso de provas, não da sua palavra.
+}
+Diplomat_dialog_2059 {
+O secretário dele, Lourenço Viegas, copiou todos os contratos. Homem cuidadoso. Fugiu para Cumaná quando a esquadra do Mão de Ferro afundou; ele sabe o que isso significa. Procure-o na taverna de lá. E você nunca me viu.
+}
+Diplomat_dialog_2060 {
+Já contei tudo! Deixe-me em paz!
+}
+Diplomat_dialog_2061 {
+Quem o mandou? ...Não. Não responda. Se fosse homem dele, eu já estaria morto num beco.
+}
+Diplomat_dialog_2062 {
+O Godinho me disse que você guardava cópias dos contratos.
+}
+Diplomat_dialog_2063 {
+O Godinho fala demais, mas desta vez talvez isso salve nós dois. Me diga primeiro: por que está fazendo isso? Ele o enriqueceu, lhe deu patente.
+}
+Diplomat_dialog_2064 {
+Jurei servir a Coroa, não o Barreto.
+}
+Diplomat_dialog_2065 {
+Porque não gosto de ser usado.
+}
+Diplomat_dialog_2066 {
+Então escute. Há quatro anos Sua Excelência fez um acordo com um agente espanhol em Havana. A Espanha paga os piratas para arruinar o nosso comércio, aqui e no Brasil. Os piratas entregam as cargas. Sua Excelência as vende pelo Godinho, e o lucro é dividido. As colônias sangram, Lisboa ouve falar de 'piratas', e ele enriquece.
+}
+Diplomat_dialog_2067 {
+E eu?
+}
+Diplomat_dialog_2068 {
+Você? Quando o Mão de Ferro exigiu metade, o governador precisava de alguém para se livrar dele sem sujar as mãos. Um corsário ambicioso, ávido por patente. Perdoe-me, Almirante, mas você era perfeito.
+}
+Diplomat_dialog_2069 {
+Então me dê as provas.
+}
+Diplomat_dialog_2070 {
+Aqui estão as cópias, com o selo dele. Só a Coroa pode julgar um Governador-Geral. Um desembargador enviado por El-Rei, Dom Álvaro de Sousa Coutinho, vem num navio que deve chegar a Cumaná a qualquer hora. O Barreto também sabe disso, e não vai deixar esse navio entrar no porto. Vá para o mar, garanta que ele chegue, e depois entregue isto a ele na residência.
+}
+Diplomat_dialog_2071 {
+Fique escondido, Lourenço.
+}
+Diplomat_dialog_2072 {
+Vá, Almirante, e que Deus o proteja.
+}
+Diplomat_dialog_2073 {
+Dom Álvaro de Sousa Coutinho, desembargador da Casa da Suplicação, aqui por ordem de Sua Majestade Dom Afonso VI. Disseram-me que você insistiu em me ver. Seja breve.
+}
+Diplomat_dialog_2074 {
+Tenho provas de que o Governador-Geral Barreto de Meneses trabalha com a Espanha para saquear as próprias colônias.
+}
+Diplomat_dialog_2075 {
+Uma acusação séria. Sabe quantos governadores são denunciados todo ano? Em geral, por quem lhes deve dinheiro. Por que eu acreditaria num corsário cuja patente foi dada pelo próprio acusado?
+}
+Diplomat_dialog_2076 {
+Não acredite em mim. Leia os contratos: o selo dele, assinaturas espanholas, cargas dos nossos navios. O próprio secretário dele os copiou.
+}
+Diplomat_dialog_2077 {
+...O selo dele. E as datas batem com as perdas que Lisboa registra há anos. Deus nos ajude. Você prestou à Coroa um serviço que poucos ousariam. Pelos poderes que El-Rei me concedeu, eu o nomeio General da frota de Sua Majestade nestas águas.
+}
+Diplomat_dialog_2078 {
+E estas cartas espanholas que você guardou... tiram qualquer dúvida sobre o acordo com Havana. Foi prudente em não entregá-las.
+}
+Diplomat_dialog_2079 {
+E o Barreto?
+}
+Diplomat_dialog_2080 {
+Chegou um cavaleiro de Caracas há uma hora. O Barreto saiu da residência ontem à noite e embarcou no seu galeão, o São Miguel, com o seu tesouro. Ele sabia. Não pode chegar a águas espanholas. Traga-o de volta, vivo se puder. Ele deve explicações a mais gente do que a mim.
+}
+Diplomat_dialog_2081 {
+Ele não vai escapar.
+}
+Diplomat_dialog_2082 {
+O traidor ainda está solto, General. Cada hora conta.
+}
+Diplomat_dialog_2083 {
+Você voltou. Diga-me que acabou.
+}
+Diplomat_dialog_2084 {
+Está no meu porão, a ferros. Entregou a espada.
+}
+Diplomat_dialog_2085 {
+Preferiu afundar com o São Miguel.
+}
+Diplomat_dialog_2086 {
+Então a justiça está feita, de um jeito ou de outro. Agora escute bem, porque isto não é uma recompensa, é um fardo. Estas colônias precisam de alguém que tenha provado a lealdade com atos. Por ordem de Sua Majestade, eu o nomeio Governador-Geral das colônias portuguesas do Caribe.
+}
+Diplomat_dialog_2087 {
+Eu aceito, Vossa Excelência.
+}
+Diplomat_dialog_2088 {
+Como Governador-Geral, a décima parte dos lucros de cada colônia portuguesa é sua por direito, paga todo mês ao tesouro de Caracas. Lourenço Viegas cuidará das suas contas; ele provou que é de confiança. Tome também 100.000 pesos do tesouro do Barreto. E lembre-se: Lisboa fica longe, mas também estava de olho nele.
+}
+Diplomat_dialog_2089 {
+Não vou esquecer.
+}
+Diplomat_dialog_2090 {
+Vá com Deus, Governador.
+}
+Diplomat_dialog_2091 {
+Ah. Claro que é você. Eu devia ter mandado matá-lo em Trinidad, quando não me custaria nada.
+}
+Diplomat_dialog_2092 {
+Francisco Barreto de Meneses, em nome de El-Rei, você está preso por traição.
+}
+Diplomat_dialog_2093 {
+Traição. Que palavra grande. Por vinte anos Lisboa nos mandou bispos e cobradores de impostos, nunca navios. Quem manteve estas colônias vivas? Eu. Só peguei a minha parte.
+}
+Diplomat_dialog_2094 {
+E eu? Fui só uma ferramenta desde o começo?
+}
+Diplomat_dialog_2095 {
+Desde o primeiro dia. Uma boa ferramenta, admito. O Malheiro estava ficando descuidado, o Mão de Ferro, ganancioso, e você limpou o caminho e ainda me agradeceu pela patente. Não leve para o lado pessoal. Todo mundo aqui é ferramenta de alguém. O Coutinho também, você vai ver.
+}
+Diplomat_dialog_2096 {
+Sua parte foi paga com sangue português. Sua espada.
+}
+Diplomat_dialog_2097 {
+...Tome. Que Lisboa me julgue. Lisboa sempre foi lenta.
+}
+Diplomat_dialog_2098 {
+Vossa Excelência. O tesouro guarda @<FindMoneyString> da décima das colônias.
+}
+Diplomat_dialog_2099 {
+Vossa Excelência. O tesouro está vazio por enquanto; as colônias pagam no começo de cada mês.
+}
+Diplomat_dialog_2100 {
+Vou retirar.
+}
+Diplomat_dialog_2101 {
+Aqui está, cada moeda registrada. Diferente de certos antecessores seus, eu anoto tudo.
+}
+Diplomat_dialog_2102 {
+A décima das colônias chegou ao tesouro de @<GetCityName>: @<FindMoneyString>.
+}
+Diplomat_dialog_2103 {
+Vossa Excelência, Governador-Geral! A colônia está às suas ordens. O que o traz aqui?
+}
+Diplomat_dialog_2104 {
+Quero transferir a sede do governo.
+}
+Diplomat_dialog_2105 {
+Como Vossa Excelência quiser. O tesouro e o arquivo vão para onde o Governador-Geral residir. Para onde nos mudamos?
+}
+Diplomat_dialog_2106 {
+Não há outra colônia portuguesa com residência à altura do governo, Vossa Excelência.
+}
+Diplomat_dialog_2107 {
+Deixe, ficamos aqui.
+}
+Diplomat_dialog_2108 {
+Muito bem. Mando carregar os baús e o arquivo esta noite. Vossa Excelência me encontrará na residência de @<GetCityName>.
+}
+Diplomat_dialog_2109 {
+A sede do governo caiu nas mãos do inimigo! Lourenço Viegas fugiu com o tesouro para @<GetCityName>.
+}
+Diplomat_dialog_2110 {
+O Governador-Geral? Vossa Excelência está brincando: ele está bem na minha frente.
+}
+Diplomat_dialog_2111 {
+Dizem que a frota do açúcar da Bahia perdeu mais dois navios para corsários espanhóis nesta temporada. Lisboa promete escolta, como sempre.
+}
+Diplomat_dialog_2112 {
+Um navio de Pernambuco trouxe notícias: os holandeses saíram do Recife de vez, mas os senhores de engenho dizem que os engenhos vão levar anos para se recuperar.
+}
+Diplomat_dialog_2113 {
+A guarnição está sem soldo há três meses. Os oficiais dizem que o dinheiro está preso em algum lugar entre Lisboa e a Bahia.
+}
+Diplomat_dialog_2114 {
+Viram corsários espanhóis de Cartagena perto da nossa costa. Os mercadores querem navegar em comboio, mas ninguém quer pagar a escolta.
+}
+Diplomat_dialog_2115 {
+Um jesuíta do Brasil pregou na igreja domingo passado. Disse que os índios do sertão são cristãos melhores que metade dos marinheiros deste porto.
+}
+Diplomat_dialog_2116 {
+Os portugueses de Cumaná e Caracas pagam bem por presas espanholas. Lisboa continua em guerra com Madri, e os governadores de lá não fazem questão de saber quem traz os navios.
+}
+Diplomat_dialog_2117 {
+Dizem que as caravelas portuguesas passam entre as ilhas com açúcar e tabaco do Brasil, e que os pilotos delas conhecem cada recife daqui até a Bahia.
+}
+Diplomat_dialog_2118 {
+Um capitão português bebeu aqui semana passada e jurou que Lisboa e Madri vão fazer as pazes em poucos anos. Ninguém acreditou.
+}
+Diplomat_dialog_2119 {
+Dizem que o rei da Inglaterra pretende casar com uma princesa portuguesa. Se for verdade, logo os navios portugueses vão ter canhões ingleses do lado deles.
+}
+Diplomat_dialog_2120 {
+Nos portos espanhóis chamam os portugueses de rebeldes. Nos portos portugueses chamam os espanhóis de ladrões. Se quer saber, os dois têm razão.
+}
+Diplomat_dialog_2121 {
+Com seu serviço a Portugal concluído, as nações do Caribe agora agem por conta própria. Você já pode tomar colônias para a coroa portuguesa.
+}
+#endreplace

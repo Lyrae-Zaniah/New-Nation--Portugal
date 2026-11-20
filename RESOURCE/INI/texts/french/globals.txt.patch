@@ -1,0 +1,12 @@
+#find
+Address_Form_Pir_Title5 {Légende}
+#replacewith
+Address_Form_Pir_Title5 {Légende}
+
+Address_Form_Por_Title1 {Corsário}
+Address_Form_Por_Title2 {Capitão}
+Address_Form_Por_Title3 {Capitão-Mor}
+Address_Form_Por_Title4 {Almirante}
+Address_Form_Por_Title5 {General}
+Address_Form_Por_Title6 {Governador}
+#endreplace

@@ -1,0 +1,77 @@
+#find
+	int iNation = sti(characters[GetCharacterIndex(sGenLocation + " Fort Commander")].nation);
+	string sShortNation = NationShortName(iNation); // Для модельки
+#replacewith
+	int iNation = sti(characters[GetCharacterIndex(sGenLocation + " Fort Commander")].nation);
+	string sShortNation = NationModelShortName(iNation); // Для модельки
+#endreplace
+
+#find
+		string sShortNation = NationShortName(iNation); // Для модельки
+#replacewith
+		string sShortNation = NationModelShortName(iNation); // Для модельки
+#endreplace
+
+#find
+			iPatrolOfficer = NPC_GenerateCharacter(str + i, "off_"+NationShortName(iNation)+"_"+(rand(1)+5), "man", "man", iRank + 2, iNation, 1, true);
+#replacewith
+			iPatrolOfficer = NPC_GenerateCharacter(str + i, "off_"+NationModelShortName(iNation)+"_"+(rand(1)+5), "man", "man", iRank + 2, iNation, 1, true);
+#endreplace
+
+#find
+				chr = GetCharacter(NPC_GenerateCharacter(str + i, NationShortName(iNation)+"_mush_"+(rand(3)+1), "man", "mushketer", iRank, iNation, 1, false));
+#replacewith
+				chr = GetCharacter(NPC_GenerateCharacter(str + i, NationModelShortName(iNation)+"_mush_"+(rand(3)+1), "man", "mushketer", iRank, iNation, 1, false));
+#endreplace
+
+#find
+				chr = GetCharacter(NPC_GenerateCharacter(str + i, "sold_"+NationShortName(iNation)+"_"+(rand(7)+1), "man", "man", iRank, iNation, 1, true));
+#replacewith
+				chr = GetCharacter(NPC_GenerateCharacter(str + i, "sold_"+NationModelShortName(iNation)+"_"+(rand(7)+1), "man", "man", iRank, iNation, 1, true));
+#endreplace
+
+#find
+			int iPatrolOfficer = NPC_GenerateCharacter(str + i, "off_"+NationShortName(iNation)+"_"+(rand(1)+1), "man", "man", iRank + 2, iNation, 1, true);
+#replacewith
+			int iPatrolOfficer = NPC_GenerateCharacter(str + i, "off_"+NationModelShortName(iNation)+"_"+(rand(1)+1), "man", "man", iRank + 2, iNation, 1, true);
+#endreplace
+
+#find
+		{
+			chr = GetCharacter(NPC_GenerateCharacter(str + i, "sold_"+NationShortName(iNation)+"_"+(rand(7)+1), "man", "man", iRank, iNation, 1, true));
+#replacewith
+		{
+			chr = GetCharacter(NPC_GenerateCharacter(str + i, "sold_"+NationModelShortName(iNation)+"_"+(rand(7)+1), "man", "man", iRank, iNation, 1, true));
+#endreplace
+
+#find
+	ref chref = GetCharacter(NPC_GenerateCharacter("CapComission_1", "navy_off_"+NationShortName(iNation)+"_"+(rand(3)+1), "man", "man", iRank, iNation, -1, true));
+#replacewith
+	ref chref = GetCharacter(NPC_GenerateCharacter("CapComission_1", "navy_off_"+NationModelShortName(iNation)+"_"+(rand(3)+1), "man", "man", iRank, iNation, -1, true));
+#endreplace
+
+#find
+        Model = "off_" + NationShortName(iNation) + "_" + (rand(1) + 1);
+#replacewith
+        Model = "off_" + NationModelShortName(iNation) + "_" + (rand(1) + 1);
+#endreplace
+
+#find
+				chref.Hold_GenQuest.Nation = rand(3);
+#replacewith
+				chref.Hold_GenQuest.Nation = Portugal_RandEuroNation(); // Nova Nacao
+#endreplace
+
+#find
+		case 1: // "подельник"
+			chref.Hold_GenQuest.Nation = rand(3);
+#replacewith
+		case 1: // "подельник"
+			chref.Hold_GenQuest.Nation = Portugal_RandEuroNation(); // Nova Nacao
+#endreplace
+
+#find
+			chref.Hold_GenQuest.City = GetQuestNationsCity(rand(3));							
+#replacewith
+			chref.Hold_GenQuest.City = GetQuestNationsCity(Portugal_RandEuroNation()); // Nova Nacao							
+#endreplace

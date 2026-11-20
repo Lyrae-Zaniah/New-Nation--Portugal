@@ -1,0 +1,13 @@
+#find
+string = under spanish flag, "， 悬挂西班牙旗帜。 "
+#replacewith
+string = under spanish flag, "， 悬挂西班牙旗帜。 "
+string = under portuguese flag, "， 悬挂葡萄牙旗帜。 "
+#endreplace
+
+#find
+string = spahunter, "西班牙"
+#replacewith
+string = spahunter, "西班牙"
+string = porhunter, "葡萄牙"
+#endreplace

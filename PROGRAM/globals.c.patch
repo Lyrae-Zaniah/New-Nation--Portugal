@@ -1,0 +1,23 @@
+#find
+#define	MAX_NATIONS       5
+#define MAX_NATIONS_SQR   25
+#replacewith
+#define	MAX_NATIONS       6
+#define MAX_NATIONS_SQR   36
+#endreplace
+
+#find
+#define PIRATE		4
+#replacewith
+#define PIRATE		4
+// Nova Nacao: Portugal
+#define PORTUGAL	5
+#endreplace
+
+#find
+string 	sSpManGenNames[21], sSpWomenGenNames[9], sSpGenFamilies[54];
+#replacewith
+string 	sSpManGenNames[21], sSpWomenGenNames[9], sSpGenFamilies[54];
+// Nova Nacao: nomes portugueses (preenchidos em InitPortugueseNames, Characters_names.c)
+string 	sPoManNames[2], sPoWomenNames[2], sPoFamilies[2], sRndShpPoName[2];
+#endreplace

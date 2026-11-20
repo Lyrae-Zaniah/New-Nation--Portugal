@@ -1,0 +1,64 @@
+#find
+					sType = "urban_mush_" + NationShortName(iNation) + "_" + (rand(7)+1);
+#replacewith
+					sType = "urban_mush_" + NationModelShortName(iNation) + "_" + (rand(7)+1);
+#endreplace
+
+#find
+			else
+				sType = "urban_mush_" + NationShortName(iNation) + "_" + (rand(7)+1);
+#replacewith
+			else
+				sType = "urban_mush_" + NationModelShortName(iNation) + "_" + (rand(7)+1);
+#endreplace
+
+#find
+			string slai_group, locatorName, nShortName;
+			nShortName = NationShortName(iNation);
+#replacewith
+			string slai_group, locatorName, nShortName;
+			nShortName = NationModelShortName(iNation);
+#endreplace
+
+#find
+			case FRANCE:	sTemp = "off_fra_"+(rand(1)+1);		break;
+#replacewith
+			case FRANCE:	sTemp = "off_fra_"+(rand(1)+1);		break;
+			// Nova Nacao: Portugal copia o caso SPAIN
+			case PORTUGAL: 	sTemp = "off_por_"+(rand(1)+1);		break;
+#endreplace
+
+#find
+{
+	ref chr;
+#replacewith
+{
+	Portugal_FixMayorModels(); // Nova Nacao: governadores com a faixa portuguesa em saves antigos
+	ref chr;
+#endreplace
+
+#find
+		if(iColony != -1 && !sti(Colonies[iColony].HeroOwn)) sModel = "guard_" + NationShortName(iNation) + "_" + (rand(3)+1);
+#replacewith
+		if(iColony != -1 && !sti(Colonies[iColony].HeroOwn)) sModel = "guard_" + NationModelShortName(iNation) + "_" + (rand(3)+1);
+#endreplace
+
+#find
+			slai_group = GetNationNameByType(iNation)  + "_citizens";
+			nShortName = NationShortName(iNation);
+#replacewith
+			slai_group = GetNationNameByType(iNation)  + "_citizens";
+			nShortName = NationModelShortName(iNation);
+#endreplace
+
+#find
+			sld = GetCharacter(NPC_GenerateCharacter(loc.parent_colony+"AmmoOff", "off_"+NationShortName(iNation)+"_"+(rand(4)+7), "man", "man", iRank, iNation, 2, true));
+#replacewith
+			sld = GetCharacter(NPC_GenerateCharacter(loc.parent_colony+"AmmoOff", "off_"+NationModelShortName(iNation)+"_"+(rand(4)+7), "man", "man", iRank, iNation, 2, true));
+#endreplace
+
+#find
+				sld = GetCharacter(NPC_GenerateCharacter(loc.parent_colony+"AmmoSold_"+i, "sold_"+NationShortName(iNation)+"_"+(rand(7)+9), "man", "man", iRank, iNation, 2, true)); //watch_quest_moment
+#replacewith
+				sld = GetCharacter(NPC_GenerateCharacter(loc.parent_colony+"AmmoSold_"+i, "sold_"+NationModelShortName(iNation)+"_"+(rand(7)+9), "man", "man", iRank, iNation, 2, true)); //watch_quest_moment
+#endreplace

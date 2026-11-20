@@ -1,0 +1,160 @@
+#find
+			Flag_HOLLAND();
+#replacewith
+			Flag_HOLLAND();
+		break;
+
+		case "por_flag_rise": // Nova Nacao
+			Flag_PORTUGAL();
+#endreplace
+
+#find
+					SaveCurrentNpcQuestDateParam(&locations[reload_location_index], "PearlSantaCatalina");
+					switch (iTemp)
+					{
+						case ENGLAND:    sTemp = "milit_eng_" + (rand(7) + 1);        break;
+						case FRANCE:    sTemp = "milit_fra_" + (rand(7) + 1);        break;
+						case SPAIN:        sTemp = "milit_spa_" + (rand(7) + 1);    break;
+						case HOLLAND:    sTemp = "milit_hol_" + (rand(7) + 1);        break;
+						case PIRATE:    sTemp = "citiz_" + (rand(9) + 51);            break; //ПРОМЫСЕЛ НАШ, на охране слоник-базич
+					}
+#replacewith
+					SaveCurrentNpcQuestDateParam(&locations[reload_location_index], "PearlSantaCatalina");
+					switch (iTemp)
+					{
+						case ENGLAND:    sTemp = "milit_eng_" + (rand(7) + 1);        break;
+						case FRANCE:    sTemp = "milit_fra_" + (rand(7) + 1);        break;
+						// Nova Nacao: Portugal copia o caso SPAIN
+						case PORTUGAL:        sTemp = "milit_por_" + (rand(7) + 1);    break;
+						case SPAIN:        sTemp = "milit_spa_" + (rand(7) + 1);    break;
+						case HOLLAND:    sTemp = "milit_hol_" + (rand(7) + 1);        break;
+						case PIRATE:    sTemp = "citiz_" + (rand(9) + 51);            break; //ПРОМЫСЕЛ НАШ, на охране слоник-базич
+					}
+#endreplace
+
+#find
+					SaveCurrentNpcQuestDateParam(&locations[reload_location_index], "PearlTeno");
+					switch (iTemp)
+					{
+						case ENGLAND:    sTemp = "milit_eng_" + (rand(7) + 1);        break;
+						case FRANCE:    sTemp = "milit_fra_" + (rand(7) + 1);        break;
+						case SPAIN:        sTemp = "milit_spa_" + (rand(7) + 1);    break;
+						case HOLLAND:    sTemp = "milit_hol_" + (rand(7) + 1);        break;
+						case PIRATE:    sTemp = "citiz_" + (rand(9) + 51);            break; //ПРОМЫСЕЛ НАШ, на охране слоник-базич
+					}
+#replacewith
+					SaveCurrentNpcQuestDateParam(&locations[reload_location_index], "PearlTeno");
+					switch (iTemp)
+					{
+						case ENGLAND:    sTemp = "milit_eng_" + (rand(7) + 1);        break;
+						case FRANCE:    sTemp = "milit_fra_" + (rand(7) + 1);        break;
+						// Nova Nacao: Portugal copia o caso SPAIN
+						case PORTUGAL:        sTemp = "milit_por_" + (rand(7) + 1);    break;
+						case SPAIN:        sTemp = "milit_spa_" + (rand(7) + 1);    break;
+						case HOLLAND:    sTemp = "milit_hol_" + (rand(7) + 1);        break;
+						case PIRATE:    sTemp = "citiz_" + (rand(9) + 51);            break; //ПРОМЫСЕЛ НАШ, на охране слоник-базич
+					}
+#endreplace
+
+#find
+			sTemp = NationShortName(sti(colonies[iTemp].nation));
+#replacewith
+			sTemp = NationModelShortName(sti(colonies[iTemp].nation));
+#endreplace
+
+#find
+	SetNationRelation2MainCharacter(HOLLAND, RELATION_ENEMY);
+
+	LAi_group_SetRelation("PIRATE_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_NEITRAL);
+#replacewith
+	SetNationRelation2MainCharacter(HOLLAND, RELATION_ENEMY);
+
+	SetNationRelation2MainCharacter(PORTUGAL, RELATION_ENEMY); // Nova Nacao
+
+	LAi_group_SetRelation("PIRATE_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_NEITRAL);
+#endreplace
+
+#find
+	SetNationRelation2MainCharacter(HOLLAND, GetNationRelation(FRANCE, HOLLAND));
+
+	LAi_group_SetRelation("FRANCE_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_NEITRAL);
+#replacewith
+	SetNationRelation2MainCharacter(HOLLAND, GetNationRelation(FRANCE, HOLLAND));
+
+	SetNationRelation2MainCharacter(PORTUGAL, GetNationRelation(FRANCE, PORTUGAL)); // Nova Nacao
+
+	LAi_group_SetRelation("FRANCE_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_NEITRAL);
+#endreplace
+
+#find
+	SetNationRelation2MainCharacter(HOLLAND, GetNationRelation(ENGLAND, HOLLAND));
+#replacewith
+	SetNationRelation2MainCharacter(HOLLAND, GetNationRelation(ENGLAND, HOLLAND));
+
+	SetNationRelation2MainCharacter(PORTUGAL, GetNationRelation(ENGLAND, PORTUGAL)); // Nova Nacao
+#endreplace
+
+#find
+	SetNationRelation2MainCharacter(HOLLAND, GetNationRelation(SPAIN, HOLLAND));
+
+	LAi_group_SetRelation("SPAIN_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_NEITRAL);
+	//Relation_SPAIN_SOLDIERS();
+	LAi_group_ClearAllTargets();
+#replacewith
+	SetNationRelation2MainCharacter(HOLLAND, GetNationRelation(SPAIN, HOLLAND));
+
+	SetNationRelation2MainCharacter(PORTUGAL, GetNationRelation(SPAIN, PORTUGAL)); // Nova Nacao
+
+	LAi_group_SetRelation("SPAIN_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_NEITRAL);
+	//Relation_SPAIN_SOLDIERS();
+	LAi_group_ClearAllTargets();
+	DoQuestCheckDelay("NationUpdate", 3.0);
+	UpdateRelations();
+	if (bSeaActive)
+	{
+		RefreshBattleInterface();
+	}
+	if (isEntity(&worldMap))
+	{
+		wdmSetNationFlag(sti(pchar.nation));
+	}
+}
+
+// Nova Nacao: hastear a bandeira de Portugal
+void Flag_PORTUGAL()
+{
+	PChar.nation = PORTUGAL;
+	Ship_FlagRefresh(PChar); //флаг на лету
+	SetNationToOfficers(PORTUGAL);
+
+	SetNationRelation2MainCharacter(ENGLAND, GetNationRelation(ENGLAND, PORTUGAL));
+	SetNationRelation2MainCharacter(FRANCE, GetNationRelation(FRANCE, PORTUGAL));
+	SetNationRelation2MainCharacter(SPAIN, GetNationRelation(SPAIN, PORTUGAL));
+	SetNationRelation2MainCharacter(PIRATE, RELATION_ENEMY);
+	SetNationRelation2MainCharacter(HOLLAND, GetNationRelation(PORTUGAL, HOLLAND));
+
+	SetNationRelation2MainCharacter(PORTUGAL, RELATION_FRIEND);
+
+	LAi_group_SetRelation("PORTUGAL_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_NEITRAL);
+	
+	LAi_group_ClearAllTargets();
+#endreplace
+
+#find
+	SetNationRelation2MainCharacter(HOLLAND, RELATION_FRIEND);
+
+	LAi_group_SetRelation("HOLLAND_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_NEITRAL);
+#replacewith
+	SetNationRelation2MainCharacter(HOLLAND, RELATION_FRIEND);
+
+	SetNationRelation2MainCharacter(PORTUGAL, GetNationRelation(HOLLAND, PORTUGAL)); // Nova Nacao
+
+	LAi_group_SetRelation("HOLLAND_CITIZENS", LAI_GROUP_PLAYER, LAI_GROUP_NEITRAL);
+#endreplace
+
+#find
+		case HOLLAND:    Flag_HOLLAND();    break;
+#replacewith
+		case HOLLAND:    Flag_HOLLAND();    break;
+		case PORTUGAL:    Flag_PORTUGAL();    break; // Nova Nacao
+#endreplace

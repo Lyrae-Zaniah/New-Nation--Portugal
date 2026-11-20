@@ -1,0 +1,12 @@
+#find
+						totalInfo = totalInfo + XI_ConvertString("under spanish flag");
+					break;
+					case HOLLAND:		
+#replacewith
+						totalInfo = totalInfo + XI_ConvertString("under spanish flag");
+					break;
+					case PORTUGAL:
+						totalInfo = totalInfo + XI_ConvertString("under portuguese flag");
+					break;
+					case HOLLAND:		
+#endreplace

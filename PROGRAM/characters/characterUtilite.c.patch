@@ -1,0 +1,143 @@
+#find
+void SetRandomNameToCharacter(ref rCharacter)
+{
+	int iNation = sti(rCharacter.nation);
+	if (iNation == -1) iNation = PIRATE;
+	while (iNation == PIRATE) { iNation = rand(MAX_NATIONS - 2); }
+	
+	ref rNames, rLastNames;
+    // fix -->
+#replacewith
+void SetRandomNameToCharacter(ref rCharacter)
+{
+	int iNation = sti(rCharacter.nation);
+	if (iNation == -1) iNation = PIRATE;
+	while (iNation == PIRATE) { iNation = rand(MAX_NATIONS - 1); } // Nova Nacao: inclui Portugal
+	
+	ref rNames, rLastNames;
+    // fix -->
+#endreplace
+
+#find
+			if (rCharacter.sex != "man" && rCharacter.sex != "skeleton") rNames = &sFrWomenNames;
+			rLastNames = &sFrFamilies;
+		break;
+#replacewith
+			if (rCharacter.sex != "man" && rCharacter.sex != "skeleton") rNames = &sFrWomenNames;
+			rLastNames = &sFrFamilies;
+		break;
+		// Nova Nacao: nomes portugueses
+		case PORTUGAL:
+			rNames = &sPoManNames;
+			if (rCharacter.sex != "man" && rCharacter.sex != "skeleton") rNames = &sPoWomenNames;
+			rLastNames = &sPoFamilies;
+		break;
+#endreplace
+
+#find
+string GenerateRandomName(int iNation, string sSex)
+{
+	if (iNation == -1) iNation = PIRATE;
+	while (iNation == PIRATE) { iNation = rand(MAX_NATIONS - 2); }
+	
+	ref rNames, rLastNames;
+#replacewith
+string GenerateRandomName(int iNation, string sSex)
+{
+	if (iNation == -1) iNation = PIRATE;
+	while (iNation == PIRATE) { iNation = rand(MAX_NATIONS - 1); } // Nova Nacao: inclui Portugal
+	
+	ref rNames, rLastNames;
+#endreplace
+
+#find
+			if (sSex != "man") rNames = &sFrWomenNames;
+			rLastNames = &sFrFamilies;
+		break;
+#replacewith
+			if (sSex != "man") rNames = &sFrWomenNames;
+			rLastNames = &sFrFamilies;
+		break;
+		// Nova Nacao: nomes portugueses
+		case PORTUGAL:
+			rNames = &sPoManNames;
+			if (sSex != "man") rNames = &sPoWomenNames;
+			rLastNames = &sPoFamilies;
+		break;
+#endreplace
+
+#find
+void SetRandomNameToCharacter_Generator(ref rCharacter)
+{
+	int iNation = sti(rCharacter.nation);
+	if (iNation == -1) iNation = PIRATE;
+	while (iNation == PIRATE) { iNation = rand(MAX_NATIONS - 2); }
+	
+	ref rNames, rLastNames;
+    // fix -->
+#replacewith
+void SetRandomNameToCharacter_Generator(ref rCharacter)
+{
+	int iNation = sti(rCharacter.nation);
+	if (iNation == -1) iNation = PIRATE;
+	while (iNation == PIRATE) { iNation = rand(MAX_NATIONS - 1); } // Nova Nacao: inclui Portugal
+	
+	ref rNames, rLastNames;
+    // fix -->
+#endreplace
+
+#find
+			if (rCharacter.sex != "man" && rCharacter.sex != "skeleton") rNames = &sFrWomenGenNames;
+			rLastNames = &sFrGenFamilies;
+		break;
+#replacewith
+			if (rCharacter.sex != "man" && rCharacter.sex != "skeleton") rNames = &sFrWomenGenNames;
+			rLastNames = &sFrGenFamilies;
+		break;
+		// Nova Nacao: nomes portugueses
+		case PORTUGAL:
+			rNames = &sPoManNames;
+			if (rCharacter.sex != "man" && rCharacter.sex != "skeleton") rNames = &sPoWomenNames;
+			rLastNames = &sPoFamilies;
+		break;
+#endreplace
+
+#find
+string GenerateRandomName_Generator(int iNation, string sSex)
+{
+	if (iNation == -1) iNation = PIRATE;
+	while (iNation == PIRATE) { iNation = rand(MAX_NATIONS - 2); }
+	
+	ref rNames, rLastNames;
+#replacewith
+string GenerateRandomName_Generator(int iNation, string sSex)
+{
+	if (iNation == -1) iNation = PIRATE;
+	while (iNation == PIRATE) { iNation = rand(MAX_NATIONS - 1); } // Nova Nacao: inclui Portugal
+	
+	ref rNames, rLastNames;
+#endreplace
+
+#find
+			if (sSex != "man") rNames = &sFrWomenGenNames;
+			rLastNames = &sFrGenFamilies;
+		break;
+#replacewith
+			if (sSex != "man") rNames = &sFrWomenGenNames;
+			rLastNames = &sFrGenFamilies;
+		break;
+		// Nova Nacao: nomes portugueses
+		case PORTUGAL:
+			rNames = &sPoManNames;
+			if (sSex != "man") rNames = &sPoWomenNames;
+			rLastNames = &sPoFamilies;
+		break;
+#endreplace
+
+#find
+		case 5:
+			iVal = sti(chr.reputation.smuggler);
+#replacewith
+		case PORTUGAL: // Nova Nacao (antes o indice 5 era a reputacao de contrabandista, que nao era usada)
+			iVal = ChangeCharacterNationReputation(chr, PORTUGAL, 0);
+#endreplace

@@ -1,0 +1,58 @@
+#find
+#include "quests\EmmanuelPardalLine\EPL_4_DressmakerNobleLady.c"
+#replacewith
+#include "quests\EmmanuelPardalLine\EPL_4_DressmakerNobleLady.c"
+#include "quests\PortugalLine\POR_Line.c" // Nova Nacao: linha de missoes de Portugal
+#endreplace
+
+#find
+	//наши
+	string sTemp = NationShortName(sti(pchar.nation));
+#replacewith
+	//наши
+	string sTemp = NationModelShortName(sti(pchar.nation));
+#endreplace
+
+#find
+	int iTemp, i;
+	string sTemp = NationShortName(sti(pchar.nation));
+#replacewith
+	int iTemp, i;
+	string sTemp = NationModelShortName(sti(pchar.nation));
+#endreplace
+
+#find
+			sld = GetCharacter(NPC_GenerateCharacter("CaracasCit_" + i, RandCitizenModel(), "man", "man", 10, SPAIN, -1, true));
+#replacewith
+			sld = GetCharacter(NPC_GenerateCharacter("CaracasCit_" + i, RandCitizenModel(), "man", "man", 10, PORTUGAL, -1, true));
+#endreplace
+
+#find
+	sld = GetCharacter(NPC_GenerateCharacter("CapBrigAttack", "off_" + NationShortName(iNation) + "_" + (rand(1) + 1), "man", "man", 35, sNation, 3, true));//создание кэпа
+#replacewith
+	sld = GetCharacter(NPC_GenerateCharacter("CapBrigAttack", "off_" + NationModelShortName(iNation) + "_" + (rand(1) + 1), "man", "man", 35, sNation, 3, true));//создание кэпа
+#endreplace
+
+#find
+		sld = GetCharacter(NPC_GenerateCharacter("SLSold" + i, "sold_" + NationShortName(iNation) + "_" + (rand(1) + 1), "man", "man", iTemp, iNation, 0, true));
+#replacewith
+		sld = GetCharacter(NPC_GenerateCharacter("SLSold" + i, "sold_" + NationModelShortName(iNation) + "_" + (rand(1) + 1), "man", "man", iTemp, iNation, 0, true));
+#endreplace
+
+#find
+	sld = GetCharacter(NPC_GenerateCharacter("SLOfficer", "off_" + NationShortName(iNation) + "_" + (rand(1) + 5), "man", "man", iTemp, iNation, 0, true));
+#replacewith
+	sld = GetCharacter(NPC_GenerateCharacter("SLOfficer", "off_" + NationModelShortName(iNation) + "_" + (rand(1) + 5), "man", "man", iTemp, iNation, 0, true));
+#endreplace
+
+#find
+	ref off_chr = GetCharacter(NPC_GenerateCharacter("psq1_off", "off_" + NationShortName(iNation) + "_" + (rand(1) + 5), "man", "man", iRank, iNation, 0, true));
+#replacewith
+	ref off_chr = GetCharacter(NPC_GenerateCharacter("psq1_off", "off_" + NationModelShortName(iNation) + "_" + (rand(1) + 5), "man", "man", iRank, iNation, 0, true));
+#endreplace
+
+#find
+		sld = GetCharacter(NPC_GenerateCharacter("psq1_" + i, "sold_" + NationShortName(iNation) + "_" + (rand(4) + 1), "man", "man", iRank, iNation, 0, true));
+#replacewith
+		sld = GetCharacter(NPC_GenerateCharacter("psq1_" + i, "sold_" + NationModelShortName(iNation) + "_" + (rand(4) + 1), "man", "man", iRank, iNation, 0, true));
+#endreplace

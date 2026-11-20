@@ -1,0 +1,6 @@
+#find
+	InitPerk("FlagHol",					"ship",		"",											0,			0,				1,			0,		"",				0,		0,		0,		0,			""); // Флаг Голландии
+#replacewith
+	InitPerk("FlagHol",					"ship",		"",											0,			0,				1,			0,		"",				0,		0,		0,		0,			""); // Флаг Голландии
+	InitPerk("FlagPor",					"ship",		"",											0,			0,				1,			0,		"",				0,		0,		0,		0,			""); // Nova Nacao: bandeira de Portugal
+#endreplace

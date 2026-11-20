@@ -1,0 +1,22 @@
+#find
+			case "holhunter":  iNation = HOLLAND; break;
+#replacewith
+			case "holhunter":  iNation = HOLLAND; break;
+			case "porhunter":  iNation = PORTUGAL; break; // Nova Nacao
+#endreplace
+
+#find
+			return "hol";
+#replacewith
+			return "hol";
+		break;
+		case PORTUGAL:
+			return "por";
+#endreplace
+
+#find
+	SetGovenourToCity(HOLLAND, "Villemstad");
+#replacewith
+	SetGovenourToCity(HOLLAND, "Villemstad");
+	SetGovenourToCity(PORTUGAL, "Caracas"); // Nova Nacao: capital portuguesa
+#endreplace
