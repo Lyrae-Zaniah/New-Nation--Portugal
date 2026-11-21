@@ -48,6 +48,13 @@ string NationAssetShortName(int iNation)
 	return NationShortName(iNation);
 }
 
+// nome da pasta de musica (Colony\Town\<nacao>): Portugal usa as musicas espanholas
+string NationAssetTypeName(int iNation)
+{
+	if (iNation == PORTUGAL) return GetNationNameByType(SPAIN);
+	return GetNationNameByType(iNation);
+}
+
 // Modelos portugueses (uniformes ingleses recoloridos: vermelho -> branco)
 #define PORTUGAL_MODELS_1 ",elite_por_1,elite_por_2,elite_por_3,elite_por_4,elite_por_5,guard_por_1,guard_por_2,guard_por_3,guard_por_4,milit_mush_por_1,milit_mush_por_2,milit_mush_por_3,milit_mush_por_4,milit_mush_por_5,milit_mush_por_6,milit_mush_por_7,milit_mush_por_8,milit_por_1,milit_por_2,milit_por_3,milit_por_4,milit_por_5,milit_por_6,milit_por_7,milit_por_8,navy_mush_por_1,navy_mush_por_2,navy_mush_por_3,navy_mush_por_4,navy_mush_por_5,navy_mush_por_6,navy_off_por_1,navy_off_por_2,navy_off_por_3,navy_off_por_4,navy_off_por_5,navy_off_por_6,navy_por_1,navy_por_10,navy_por_11,navy_por_12,navy_por_13,navy_por_14,navy_por_15,navy_por_16,navy_por_2,navy_por_3,navy_por_4,navy_por_5,navy_por_6,navy_por_7,navy_por_8,"
 #define PORTUGAL_MODELS_2 ",navy_por_9,off_por_1,off_por_10,off_por_11,off_por_2,off_por_3,off_por_4,off_por_5,off_por_6,off_por_7,off_por_8,off_por_9,por_mush_1,por_mush_2,por_mush_3,por_mush_4,por_mush_5,por_mush_6,por_mush_7,por_mush_8,sold_por_1,sold_por_10,sold_por_11,sold_por_12,sold_por_13,sold_por_14,sold_por_15,sold_por_16,sold_por_2,sold_por_3,sold_por_4,sold_por_5,sold_por_6,sold_por_7,sold_por_8,sold_por_9,urban_mush_por_1,urban_mush_por_2,urban_mush_por_3,urban_mush_por_4,urban_mush_por_5,urban_mush_por_6,urban_mush_por_7,urban_mush_por_8,urban_por_1,urban_por_2,urban_por_3,urban_por_4,urban_por_5,urban_por_6,urban_por_7,urban_por_8,"

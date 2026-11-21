@@ -56,12 +56,16 @@
 
 #find
 							sNatShortC = NationShortName(sti(Colonies[iColony].nation));
+							sNatTypeC = GetNationNameByType(sti(Colonies[iColony].nation));
 #replacewith
 							sNatShortC = NationAssetShortName(sti(Colonies[iColony].nation));
+							sNatTypeC = NationAssetTypeName(sti(Colonies[iColony].nation));
 #endreplace
 
 #find
 							sNatShortP = NationShortName(sti(Colonies[iParent].nation));
+							sNatTypeP = GetNationNameByType(sti(Colonies[iParent].nation));
 #replacewith
 							sNatShortP = NationAssetShortName(sti(Colonies[iParent].nation));
+							sNatTypeP = NationAssetTypeName(sti(Colonies[iParent].nation));
 #endreplace
