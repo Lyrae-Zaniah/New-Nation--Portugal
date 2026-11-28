@@ -138,9 +138,14 @@ void Portugal_RumourTick()
 		if (GetQuestPastDayParam("questTemp.PorRumour") < 20) return;
 	}
 	SaveCurrentQuestDateParam("questTemp.PorRumour");
-	int i = rand(9);
-	string sKey = "Diplomat_dialog_" + (2111 + i);
-	if (i < 5) AddSimpleRumour(StringFromKey(sKey), PORTUGAL, 30, 3);
+	int i = rand(19);
+	int iKey = 2111 + i;
+	if (i >= 10) iKey = 2112 + i; // 2121 e a mensagem de mundo liberado
+	string sKey = "Diplomat_dialog_" + iKey;
+	bool bHome = false;
+	if (i < 5) bHome = true;
+	if (i >= 10 && i < 15) bHome = true;
+	if (bHome) AddSimpleRumour(StringFromKey(sKey), PORTUGAL, 30, 3);
 	else AddSimpleRumour(StringFromKey(sKey), PORTUGAL + 10, 30, 3);
 }
 
@@ -157,11 +162,23 @@ bool Portugal_ColonyProtected(string sColony)
 // Nova Nacao: troca o modelo dos governadores de Cumana e Caracas (faixa espanhola -> portuguesa) em saves antigos
 void Portugal_FixMayorModels()
 {
+	Portugal_SetResidenceTextures();
+	POR_BF_Tick(); // Nova Nacao: Frota do Brasil
+	POR_GG_FixSecPos(); // Nova Nacao: secretario ao lado do governador em Caracas
 	Portugal_FixOneMayor("Caracas_Mayor", "huber_21", "huber_por21");
 	Portugal_FixOneMayor("Cumana_Mayor", "huber_26", "huber_por26");
 	Portugal_FixOneMayor("POR_Rep", "huber_0", "huber_por0");
 	Portugal_FixCapturedMayors();
 	Portugal_CheckLineEnd();
+}
+
+// Nova Nacao: azulejos nas residencias de Cumana e Caracas (pasta de texturas so dessas duas; o resto cai na pasta comum)
+void Portugal_SetResidenceTextures()
+{
+	int i = FindLocation("Cumana_townhall");
+	if (i >= 0) Locations[i].filespath.textures = "PortugalRes\Cumana";
+	i = FindLocation("Caracas_townhall");
+	if (i >= 0) Locations[i].filespath.textures = "PortugalRes\Caracas";
 }
 
 void Portugal_FixOneMayor(string sId, string sOld, string sNew)
@@ -240,6 +257,22 @@ void Portugal_CheckLineEnd()
 	if (pchar.questTemp.PorLine != "done") return;
 	bWorldAlivePause = false;
 	Log_Info(StringFromKey("Diplomat_dialog_2121"));
+}
+
+// pintura nacional do casco: a 5a variante (indice 4) e a portuguesa
+int Portugal_HullNation(int i)
+{
+	if (i == 4) return PORTUGAL;
+	return i;
+}
+
+// navios com a pintura portuguesa (pasta Hull5 vinda do mod).
+// A busca de pastas do jogo nao enxerga pastas de mods, entao a lista fica aqui.
+int Portugal_ExtraHull(ref rShip)
+{
+	if (!CheckAttribute(rShip, "isNationalHull")) return 0;
+	if (sti(rShip.isNationalHull) != true) return 0;
+	return 5;
 }
 
 #endreplace

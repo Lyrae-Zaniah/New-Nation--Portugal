@@ -1,0 +1,53 @@
+#find
+Mogę wręczyć ci sakiewkę ze złotem. Albo zaproponować udział w ciekawym przedsięwzięciu. W tym liście generał-gubernator informuje, że w forcie Kumany znajduje się teraz złoto warte co najmniej dwieście tysięcy reali. W mojej flotylli są trzy okręty, ich kapitanowie to moi wspólnicy. Dołącz do nas – a łup podzielimy na czterech, zgodnie z prawami bractwa. No i jak?
+#replacewith
+Mogę wręczyć ci sakiewkę ze złotem. Albo zaproponować udział w ciekawym przedsięwzięciu. W tym liście generał-gubernator informuje, że w forcie Maracaibo znajduje się teraz złoto warte co najmniej dwieście tysięcy reali. W mojej flotylli są trzy okręty, ich kapitanowie to moi wspólnicy. Dołącz do nas – a łup podzielimy na czterech, zgodnie z prawami bractwa. No i jak?
+#endreplace
+
+#find
+No dobrze, jesteś gotów zająć miejsce w naszej eskadrze. Witaj na pokładzie i ruszamy do Cumana!
+}
+FraLineNpc_1_118_f {
+No dobrze, jesteś gotowa, by zająć miejsce w naszej eskadrze. Witaj na pokładzie i ruszamy do Cumana!
+#replacewith
+No dobrze, jesteś gotów zająć miejsce w naszej eskadrze. Witaj na pokładzie i ruszamy do Maracaibo!
+}
+FraLineNpc_1_118_f {
+No dobrze, jesteś gotowa, by zająć miejsce w naszej eskadrze. Witaj na pokładzie i ruszamy do Maracaibo!
+#endreplace
+
+#find
+Plan jest dość prosty. Wchodzimy tam i zdobywamy Kumanę szturmem. Potem znajdujemy złoto, dzielimy je i każdy rusza w swoją stronę.
+#replacewith
+Plan jest dość prosty. Wchodzimy tam i zdobywamy Maracaibo szturmem. Potem znajdujemy złoto, dzielimy je i każdy rusza w swoją stronę.
+#endreplace
+
+#find
+W takim razie ruszajmy do Cumany, i to jak najszybciej!
+#replacewith
+W takim razie ruszajmy do Maracaibo, i to jak najszybciej!
+#endreplace
+
+#find
+Gratuluję ci udanego uwolnienia, ale wyprawy na Cumanę nie będzie.
+#replacewith
+Gratuluję ci udanego uwolnienia, ale wyprawy na Maracaibo nie będzie.
+#endreplace
+
+#find
+To bardzo proste, mon cher. W Kumane nie ma już złota, zostało wywiezione. W naszym przypadku stracony czas kosztował nas 200 tysięcy reali. Ot, tyle...
+}
+FraLineNpc_1_133_f {
+To bardzo proste, kochanie. W Kumane nie ma już złota, zostało wywiezione. W naszym przypadku stracony czas kosztował nas 200 tysięcy reali. Ot, tyle...
+#replacewith
+To bardzo proste, mon cher. W Maracaibo nie ma już złota, zostało wywiezione. W naszym przypadku stracony czas kosztował nas 200 tysięcy reali. Ot, tyle...
+}
+FraLineNpc_1_133_f {
+To bardzo proste, kochanie. W Maracaibo nie ma już złota, zostało wywiezione. W naszym przypadku stracony czas kosztował nas 200 tysięcy reali. Ot, tyle...
+#endreplace
+
+#find
+Kapitanie, nie możemy tracić czasu, musimy natychmiast zdobyć Kumanę, zanim złoto zniknie.
+#replacewith
+Kapitanie, nie możemy tracić czasu, musimy natychmiast zdobyć Maracaibo, zanim złoto zniknie.
+#endreplace

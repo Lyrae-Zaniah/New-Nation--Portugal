@@ -1,0 +1,29 @@
+#find
+You haven’t taken either Cumana or Caracas yet. The entire Main coast is still under Spanish control...
+#replacewith
+You haven’t taken either Cartagena or Maracaibo yet. The entire Main coast is still under Spanish control...
+#endreplace
+
+#find
+You’ve captured Caracas! That’s splendid, @<GetFullName>. But Cumaná is still unconquered. Hurry!
+#replacewith
+You’ve captured Maracaibo! That’s splendid, @<GetFullName>. But Cartagena is still unconquered. Hurry!
+#endreplace
+
+#find
+Cumana belongs to England now, and that's thanks to you! Excellent work, @<GetFullName>! But I also expect you to take Caracas—it must be captured as well!
+#replacewith
+Cartagena belongs to England now, and that's thanks to you! Excellent work, @<GetFullName>! But I also expect you to take Maracaibo—it must be captured as well!
+#endreplace
+
+#find
+Cumana and Caracas have been captured! Now this stretch of the Main belongs to England!
+#replacewith
+Cartagena and Maracaibo have been captured! Now this stretch of the Main belongs to England!
+#endreplace
+
+#find
+Our answer to the Spanish attack on Port Royal will be our own assault on Spanish cities.\nNear Trinidad on the mainland, there are two Spanish towns: Cumaná and Caracas. Capture these towns and swear their people to the allegiance of His Majesty Charles II Stuart.\nAssist in appointing a new administration to restore proper city governance and ensure swift collection of taxes and duties.
+#replacewith
+Our answer to the Spanish attack on Port Royal will be our own assault on Spanish cities.\nOn the mainland, there are two Spanish towns: Cartagena and Maracaibo. Capture these towns and swear their people to the allegiance of His Majesty Charles II Stuart.\nAssist in appointing a new administration to restore proper city governance and ensure swift collection of taxes and duties.
+#endreplace

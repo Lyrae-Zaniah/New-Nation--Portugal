@@ -1,0 +1,59 @@
+#find
+Es ist ein großes Glück, dass du gerade rechtzeitig angekommen bist. Ich habe eine sehr wichtige Aufgabe für dich. Die Sache ist die: Der berüchtigte Freibeuter Captain Ansel hat es geschafft, englische und französische Kaperfahrer zu vereinen, um einen Angriff auf Cumaná zu starten.
+#replacewith
+Es ist ein großes Glück, dass du gerade rechtzeitig angekommen bist. Ich habe eine sehr wichtige Aufgabe für dich. Die Sache ist die: Der berüchtigte Freibeuter Captain Ansel hat es geschafft, englische und französische Kaperfahrer zu vereinen, um einen Angriff auf Cartagena zu starten.
+#endreplace
+
+#find
+Einige der Flüchtlinge aus Cumana sind bereits hier angekommen. Du hast es nicht geschafft, die Stadt und ihre Bewohner zu retten.
+}
+spa_Governor_94_m {
+Ich bin mit allen gesetzten Segeln nach Cumana geeilt, ohne auch nur eine Minute anzuhalten. Trotzdem habe ich es nicht rechtzeitig geschafft – es war einfach unmöglich.
+}
+spa_Governor_94_f {
+Ich segelte mit vollen Segeln nach Cumana und hielt nicht einmal für eine Minute irgendwo an. Trotzdem kam ich nicht rechtzeitig an – es war einfach unmöglich.
+}
+spa_Governor_95 {
+Einige der Flüchtlinge aus Cumana sind bereits hier angekommen. Du hast es nicht geschafft, die Stadt und ihre Bewohner zu retten.
+#replacewith
+Einige der Flüchtlinge aus Cartagena sind bereits hier angekommen. Du hast es nicht geschafft, die Stadt und ihre Bewohner zu retten.
+}
+spa_Governor_94_m {
+Ich bin mit allen gesetzten Segeln nach Cartagena geeilt, ohne auch nur eine Minute anzuhalten. Trotzdem habe ich es nicht rechtzeitig geschafft – es war einfach unmöglich.
+}
+spa_Governor_94_f {
+Ich segelte mit vollen Segeln nach Cartagena und hielt nicht einmal für eine Minute irgendwo an. Trotzdem kam ich nicht rechtzeitig an – es war einfach unmöglich.
+}
+spa_Governor_95 {
+Einige der Flüchtlinge aus Cartagena sind bereits hier angekommen. Du hast es nicht geschafft, die Stadt und ihre Bewohner zu retten.
+#endreplace
+
+#find
+Ich wurde bereits darüber informiert, dass Cumana gerettet wurde. Großartig!
+#replacewith
+Ich wurde bereits darüber informiert, dass Cartagena gerettet wurde. Großartig!
+#endreplace
+
+#find
+Doch es steht uns nicht zu, in Verzweiflung zu verfallen. Wir stehen am äußersten Rand des Messers und strafen unsere Feinde im Namen Spaniens und des Allmächtigen Herrn! Und da wir erneut herausgefordert werden, müssen wir mit Ehre antworten.\nImmer wieder haben Schurken und Verbrecher aller Art – die Ladrones – unsere Städte eingenommen, unsere Kolonisten gefoltert und getötet.\nDiesmal müssen wir die standhafte Verteidigung von Cumaná sicherstellen, und das ist eure Aufgabe. Begebt euch unverzüglich nach Cumaná und wehrt den Angriff der Ladrones unter dem Kommando von Captain Ansel ab.
+#replacewith
+Doch es steht uns nicht zu, in Verzweiflung zu verfallen. Wir stehen am äußersten Rand des Messers und strafen unsere Feinde im Namen Spaniens und des Allmächtigen Herrn! Und da wir erneut herausgefordert werden, müssen wir mit Ehre antworten.\nImmer wieder haben Schurken und Verbrecher aller Art – die Ladrones – unsere Städte eingenommen, unsere Kolonisten gefoltert und getötet.\nDiesmal müssen wir die standhafte Verteidigung von Cartagena sicherstellen, und das ist eure Aufgabe. Begebt euch unverzüglich nach Cartagena und wehrt den Angriff der Ladrones unter dem Kommando von Captain Ansel ab.
+#endreplace
+
+#find
+Man sagt, Captain @<GetFullName> konnte die Menschen von Cumana nicht retten! Ein trauriges Schicksal...
+}
+spa_Governor_270_f {
+Man sagt, Captain @<GetFullName> konnte die Menschen von Cumaná nicht retten! Ein trauriges Schicksal...
+#replacewith
+Man sagt, Captain @<GetFullName> konnte die Menschen von Cartagena nicht retten! Ein trauriges Schicksal...
+}
+spa_Governor_270_f {
+Man sagt, Captain @<GetFullName> konnte die Menschen von Cartagena nicht retten! Ein trauriges Schicksal...
+#endreplace
+
+#find
+Kapitän, man sagt, Sie hätten Cumana gerettet! Gestatten Sie mir, meine Bewunderung auszudrücken, @<GetAddress_Form>...
+#replacewith
+Kapitän, man sagt, Sie hätten Cartagena gerettet! Gestatten Sie mir, meine Bewunderung auszudrücken, @<GetAddress_Form>...
+#endreplace

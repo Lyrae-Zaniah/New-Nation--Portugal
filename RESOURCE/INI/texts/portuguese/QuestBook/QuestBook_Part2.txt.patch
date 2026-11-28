@@ -1,0 +1,35 @@
+#find
+Eng_Line_11_OccupyMein {Captura de Caracas e Cumaná}
+Eng_Line_11_OccupyMein.1 {Fui incumbido por Sir Thomas Modyford, Governador-Geral da Jamaica, de capturar as cidades espanholas de Cumaná e Caracas e fazê-las jurar lealdade à Inglaterra.}
+Eng_Line_11_OccupyMein.2 {Caracas foi capturada e agora pertence à Inglaterra.}
+Eng_Line_11_OccupyMein.3 {Cumana foi capturada e pertence à Inglaterra.}
+#replacewith
+Eng_Line_11_OccupyMein {Captura de Maracaibo e Cartagena}
+Eng_Line_11_OccupyMein.1 {Fui incumbido por Sir Thomas Modyford, Governador-Geral da Jamaica, de capturar as cidades espanholas de Cartagena e Maracaibo e fazê-las jurar lealdade à Inglaterra.}
+Eng_Line_11_OccupyMein.2 {Maracaibo foi capturada e agora pertence à Inglaterra.}
+Eng_Line_11_OccupyMein.3 {Cartagena foi capturada e pertence à Inglaterra.}
+#endreplace
+
+#find
+Spa_Line_8_SaveCumana {Defendendo Cumana do ataque do esquadrão pirata franco-inglês combinado}
+Spa_Line_8_SaveCumana.1 {Recebi uma nova missão do Governador-Geral espanhol Francisco Oregon y Gascon. Um esquadrão franco-britânico de corsários sob o comando do capitão Ansel está indo para Cumana para capturar a cidade. Preciso ajudar a guarnição de Cumana a repelir o ataque e derrotar a frota de corsários.}
+Spa_Line_8_SaveCumana.2 {Não cheguei a tempo em Cumana. Os piratas fizeram seu trabalho—Cumana foi saqueada e devastada.}
+Spa_Line_8_SaveCumana.3 {Consegui chegar a Cumana a tempo. Enfrentei os piratas e afundei todos os navios deles. Cumana está salva.}
+Spa_Line_8_SaveCumana.4 {Cheguei a Cumana bem a tempo — os piratas já estavam cercando a cidade. No entanto, não consegui ajudar; as forças dos piratas eram fortes demais. Tive que recuar...}
+#replacewith
+Spa_Line_8_SaveCumana {Defendendo Cartagena do ataque do esquadrão pirata franco-inglês combinado}
+Spa_Line_8_SaveCumana.1 {Recebi uma nova missão do Governador-Geral espanhol Francisco Oregon y Gascon. Um esquadrão franco-britânico de corsários sob o comando do capitão Ansel está indo para Cartagena para capturar a cidade. Preciso ajudar a guarnição de Cartagena a repelir o ataque e derrotar a frota de corsários.}
+Spa_Line_8_SaveCumana.2 {Não cheguei a tempo em Cartagena. Os piratas fizeram seu trabalho—Cartagena foi saqueada e devastada.}
+Spa_Line_8_SaveCumana.3 {Consegui chegar a Cartagena a tempo. Enfrentei os piratas e afundei todos os navios deles. Cartagena está salva.}
+Spa_Line_8_SaveCumana.4 {Cheguei a Cartagena bem a tempo — os piratas já estavam cercando a cidade. No entanto, não consegui ajudar; as forças dos piratas eram fortes demais. Tive que recuar...}
+#endreplace
+
+#find
+Fra_Line_6_Olone.3 {Concordei em participar do ataque a Cumaná como parte do esquadrão de Olonne. Rumo a Cumaná!}
+Fra_Line_6_Olone.4 {Chegamos tarde a Cumana, e já não havia mais dinheiro. L’Olonnais me culpou por tudo, e tive que enfrentá-lo em um duelo de corsários.}
+Fra_Line_6_Olone.5 {Tomamos Cumaná, dividimos o dinheiro e cada um seguiu seu caminho. Um negócio bem-sucedido.}
+#replacewith
+Fra_Line_6_Olone.3 {Concordei em participar do ataque a Maracaibo como parte do esquadrão de Olonne. Rumo a Maracaibo!}
+Fra_Line_6_Olone.4 {Chegamos tarde a Maracaibo, e já não havia mais dinheiro. L’Olonnais me culpou por tudo, e tive que enfrentá-lo em um duelo de corsários.}
+Fra_Line_6_Olone.5 {Tomamos Maracaibo, dividimos o dinheiro e cada um seguiu seu caminho. Um negócio bem-sucedido.}
+#endreplace

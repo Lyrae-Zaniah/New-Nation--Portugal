@@ -1,0 +1,35 @@
+#find
+Eng_Line_11_OccupyMein {Capture of Caracas and Cumaná}
+Eng_Line_11_OccupyMein.1 {I have been commissioned by Sir Thomas Modyford, Governor-General of Jamaica, to capture the Spanish cities of Cumaná and Caracas and bring them to swear allegiance to England.}
+Eng_Line_11_OccupyMein.2 {Caracas has been captured and now belongs to England.}
+Eng_Line_11_OccupyMein.3 {Cumana has been captured and belongs to England.}
+#replacewith
+Eng_Line_11_OccupyMein {Capture of Maracaibo and Cartagena}
+Eng_Line_11_OccupyMein.1 {I have been commissioned by Sir Thomas Modyford, Governor-General of Jamaica, to capture the Spanish cities of Cartagena and Maracaibo and bring them to swear allegiance to England.}
+Eng_Line_11_OccupyMein.2 {Maracaibo has been captured and now belongs to England.}
+Eng_Line_11_OccupyMein.3 {Cartagena has been captured and belongs to England.}
+#endreplace
+
+#find
+Spa_Line_8_SaveCumana {Defending Cumana from the attack of the combined Franco-English pirate squadron}
+Spa_Line_8_SaveCumana.1 {I have a new assignment from the Spanish Governor-General Francisco Oregon y Gascon. A combined Franco-British squadron of privateers under the command of Captain Ansel is heading for Cumana to capture the city. I need to help the Cumana garrison repel the attack and defeat the privateer fleet.}
+Spa_Line_8_SaveCumana.2 {I didn’t make it to Cumana in time. The pirates did their work—Cumana has been looted and devastated.}
+Spa_Line_8_SaveCumana.3 {I managed to reach Cumana in time. I engaged the pirates and sank all their ships. Cumana is saved.}
+Spa_Line_8_SaveCumana.4 {I reached Cumana just in time—the pirates were already besieging the city. However, I was unable to help; the pirates’ forces were too strong. I had to withdraw...}
+#replacewith
+Spa_Line_8_SaveCumana {Defending Cartagena from the attack of the combined Franco-English pirate squadron}
+Spa_Line_8_SaveCumana.1 {I have a new assignment from the Spanish Governor-General Francisco Oregon y Gascon. A combined Franco-British squadron of privateers under the command of Captain Ansel is heading for Cartagena to capture the city. I need to help the Cartagena garrison repel the attack and defeat the privateer fleet.}
+Spa_Line_8_SaveCumana.2 {I didn’t make it to Cartagena in time. The pirates did their work—Cartagena has been looted and devastated.}
+Spa_Line_8_SaveCumana.3 {I managed to reach Cartagena in time. I engaged the pirates and sank all their ships. Cartagena is saved.}
+Spa_Line_8_SaveCumana.4 {I reached Cartagena just in time—the pirates were already besieging the city. However, I was unable to help; the pirates’ forces were too strong. I had to withdraw...}
+#endreplace
+
+#find
+Fra_Line_6_Olone.3 {I agreed to take part in the attack on Cumaná as part of Olonne’s squadron. Set course for Cumaná!}
+Fra_Line_6_Olone.4 {We were late to Cumana, and there was no money left. L’Olonnais blamed me for everything, and I had to fight him in a corsair duel.}
+Fra_Line_6_Olone.5 {We took Cumaná, split the money, and went our separate ways. A successful venture.}
+#replacewith
+Fra_Line_6_Olone.3 {I agreed to take part in the attack on Maracaibo as part of Olonne’s squadron. Set course for Maracaibo!}
+Fra_Line_6_Olone.4 {We were late to Maracaibo, and there was no money left. L’Olonnais blamed me for everything, and I had to fight him in a corsair duel.}
+Fra_Line_6_Olone.5 {We took Maracaibo, split the money, and went our separate ways. A successful venture.}
+#endreplace

@@ -1,0 +1,29 @@
+#find
+Nie zdobyliście jeszcze ani Cumana, ani Caracas. Całe wybrzeże Maina wciąż jest pod panowaniem Hiszpanów...
+#replacewith
+Nie zdobyliście jeszcze ani Cartagena, ani Maracaibo. Całe wybrzeże Maina wciąż jest pod panowaniem Hiszpanów...
+#endreplace
+
+#find
+Zdobyliście Caracas! To wspaniale, @<GetFullName>. Ale Cumaná wciąż nie została zajęta. Pośpieszcie się!
+#replacewith
+Zdobyliście Maracaibo! To wspaniale, @<GetFullName>. Ale Cartagena wciąż nie została zajęta. Pośpieszcie się!
+#endreplace
+
+#find
+Cumana należy do Anglii i to twoja zasługa! Znakomicie, @<GetFullName>! Ale oczekuję od ciebie także zdobycia Caracas, które również musi zostać zajęte!
+#replacewith
+Cartagena należy do Anglii i to twoja zasługa! Znakomicie, @<GetFullName>! Ale oczekuję od ciebie także zdobycia Maracaibo, które również musi zostać zajęte!
+#endreplace
+
+#find
+Cumana i Caracas zostały zdobyte! Teraz to wybrzeże Mainy należy do Anglii!
+#replacewith
+Cartagena i Maracaibo zostały zdobyte! Teraz to wybrzeże Mainy należy do Anglii!
+#endreplace
+
+#find
+Odpowiedzią na atak Hiszpanów na Port Royal będzie nasz atak na hiszpańskie miasta.\nW pobliżu Trinidadu, na kontynencie, znajdują się dwa hiszpańskie miasta: Cumaná i Caracas. Zajmij te miasta i złóż ich ludność do przysięgi Jego Królewskiej Mości Karolowi II Stuartowi.\nWesprzyj powołanie nowej administracji, aby unormować zarządzanie miastami i jak najszybciej rozpocząć pobór podatków oraz ceł.
+#replacewith
+Odpowiedzią na atak Hiszpanów na Port Royal będzie nasz atak na hiszpańskie miasta.\nNa kontynencie znajdują się dwa hiszpańskie miasta: Cartagena i Maracaibo. Zajmij te miasta i złóż ich ludność do przysięgi Jego Królewskiej Mości Karolowi II Stuartowi.\nWesprzyj powołanie nowej administracji, aby unormować zarządzanie miastami i jak najszybciej rozpocząć pobór podatków oraz ceł.
+#endreplace

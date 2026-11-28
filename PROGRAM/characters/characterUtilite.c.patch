@@ -135,6 +135,13 @@ string GenerateRandomName_Generator(int iNation, string sSex)
 #endreplace
 
 #find
+						chref.model = GetSubStringByNum(chref.HeroModel, sti(arItm.model));
+#replacewith
+						chref.model = GetSubStringByNum(chref.HeroModel, sti(arItm.model));
+						if (arItm.id == "suit_por") POR_Suit_Equip(chref); // Nova Nacao: traje portugues
+#endreplace
+
+#find
 		case 5:
 			iVal = sti(chr.reputation.smuggler);
 #replacewith

@@ -147,6 +147,37 @@ void ProcessDialogEvent()
 					link.l3 = StringFromKey("Diplomat_dialog_2002");
 					link.l3.go = "exit";
 				}
+				if (CheckAttribute(pchar, "questTemp.PorGG"))
+				{
+					link.l4 = StringFromKey("Diplomat_dialog_2138");
+					link.l4.go = "Ord_Ask";
+					// recompensas de Lisboa esperando com o secretario
+					sAttr = POR_Ord_Gift();
+					if (sAttr == "habit")
+					{
+						POR_GG_GiveHabit();
+						dialog.text = StringFromKey("Diplomat_dialog_2158");
+						link.l1 = StringFromKey("Diplomat_dialog_2159");
+						link.l1.go = "exit";
+						DeleteAttribute(Link, "l2");
+						DeleteAttribute(Link, "l3");
+						DeleteAttribute(Link, "l4");
+					}
+					if (sAttr == "ship")
+					{
+						dialog.text = StringFromKey("Diplomat_dialog_2162");
+						link.l1 = StringFromKey("Diplomat_dialog_2002");
+						if (POR_GG_StoreShip())
+						{
+							dialog.text = StringFromKey("Diplomat_dialog_2160");
+							link.l1 = StringFromKey("Diplomat_dialog_2161");
+						}
+						link.l1.go = "exit";
+						DeleteAttribute(Link, "l2");
+						DeleteAttribute(Link, "l3");
+						DeleteAttribute(Link, "l4");
+					}
+				}
 			}
 			if (sId == "POR_Rep")
 			{
@@ -186,7 +217,7 @@ void ProcessDialogEvent()
 			DialogExit();
 			if (CheckAttribute(NPChar, "PorMoveTo"))
 			{
-				ChangeCharacterAddressGroup(NPChar, NPChar.PorMoveTo + "_townhall", "goto", "goto1");
+				ChangeCharacterAddressGroup(NPChar, NPChar.PorMoveTo + "_townhall", "goto", POR_SecLocator(NPChar.PorMoveTo));
 				DeleteAttribute(NPChar, "PorMoveTo");
 			}
 		break;
@@ -481,6 +512,109 @@ void ProcessDialogEvent()
 			link.l1 = StringFromKey("Diplomat_dialog_2051");
 			link.l1.go = "Cabin_Surrender";
 			pchar.questTemp.PorLine.GovCaptured = true;
+		break;
+
+		// ---- despachos do Governador-Geral (opcionais, sem prazo e sem punicao)
+		case "Ord_Ask":
+			POR_Ord_Migrate();
+			sSt = POR_Ord_State();
+			if (POR_Ord_FleetOffer())
+			{
+				// a defesa da frota depende so da frota: nao espera o intervalo nem o outro despacho
+				sSt = POR_Ord_Offer(true);
+				iTreasury = sti(pchar.questTemp.PorOrdOffer.Reward);
+				dialog.text = StringFromKey("Diplomat_dialog_2142", POR_Ord_PlaceName(pchar.questTemp.PorOrdOffer.Island), FindMoneyString(iTreasury));
+				link.l1 = StringFromKey("Diplomat_dialog_2143");
+				link.l1.go = "Ord_Accept";
+				link.l2 = StringFromKey("Diplomat_dialog_2144");
+				link.l2.go = "Ord_Decline";
+			}
+			else
+			{
+				if (sSt != "")
+				{
+					dialog.text = StringFromKey("Diplomat_dialog_2147", POR_Ord_PlaceName(pchar.questTemp.PorOrd.Island));
+					if (sSt == "supply") dialog.text = StringFromKey("Diplomat_dialog_2155", POR_Ord_PlaceName(pchar.questTemp.PorOrd.Island), pchar.questTemp.PorOrd.Qty, POR_Ord_GoodName("PorOrd"));
+					link.l1 = StringFromKey("Diplomat_dialog_2148");
+					link.l1.go = "exit";
+					link.l2 = StringFromKey("Diplomat_dialog_2149");
+					link.l2.go = "Ord_Cancel";
+					if (POR_Ord_SupplyReady())
+					{
+						link.l1 = StringFromKey("Diplomat_dialog_2156");
+						link.l1.go = "Ord_Deliver";
+						link.l3 = StringFromKey("Diplomat_dialog_2148");
+						link.l3.go = "exit";
+					}
+				}
+				else
+				{
+					if (POR_OrdF_Active())
+					{
+						dialog.text = StringFromKey("Diplomat_dialog_2147", POR_Ord_PlaceName(pchar.questTemp.PorOrdF.Island));
+						link.l1 = StringFromKey("Diplomat_dialog_2148");
+						link.l1.go = "exit";
+						link.l2 = StringFromKey("Diplomat_dialog_2149");
+						link.l2.go = "Ord_CancelF";
+					}
+					if (!POR_OrdF_Active())
+					{
+						dialog.text = StringFromKey("Diplomat_dialog_2139");
+						link.l1 = StringFromKey("Diplomat_dialog_2002");
+						link.l1.go = "exit";
+					}
+					if (POR_Ord_Ready())
+					{
+						sSt = POR_Ord_Offer(false);
+						iTreasury = sti(pchar.questTemp.PorOrdOffer.Reward);
+						sAttr = POR_Ord_PlaceName(pchar.questTemp.PorOrdOffer.Island);
+						dialog.text = StringFromKey("Diplomat_dialog_2140", sAttr, FindMoneyString(iTreasury));
+						if (sSt == "smug") dialog.text = StringFromKey("Diplomat_dialog_2141", sAttr, FindMoneyString(iTreasury));
+						if (sSt == "priv") dialog.text = StringFromKey("Diplomat_dialog_2152", POR_Ord_PrivFull("PorOrdOffer"), sAttr, FindMoneyString(iTreasury));
+						if (sSt == "escort") dialog.text = StringFromKey("Diplomat_dialog_2153", sAttr, FindMoneyString(iTreasury));
+						if (sSt == "supply") dialog.text = StringFromKey("Diplomat_dialog_2154", sAttr, POR_Ord_GoodName("PorOrdOffer"), pchar.questTemp.PorOrdOffer.Qty, FindMoneyString(iTreasury));
+						link.l1 = StringFromKey("Diplomat_dialog_2143");
+						link.l1.go = "Ord_Accept";
+						link.l2 = StringFromKey("Diplomat_dialog_2144");
+						link.l2.go = "Ord_Decline";
+					}
+				}
+			}
+		break;
+
+		case "Ord_Accept":
+			POR_Ord_Accept();
+			dialog.text = StringFromKey("Diplomat_dialog_2145");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
+			link.l1.go = "exit";
+		break;
+
+		case "Ord_Decline":
+			DeleteAttribute(pchar, "questTemp.PorOrdOffer");
+			dialog.text = StringFromKey("Diplomat_dialog_2146");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
+			link.l1.go = "exit";
+		break;
+
+		case "Ord_Cancel":
+			POR_Ord_Cancel("PorOrd");
+			dialog.text = StringFromKey("Diplomat_dialog_2150");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
+			link.l1.go = "exit";
+		break;
+
+		case "Ord_Deliver":
+			POR_Ord_SupplyDeliver();
+			dialog.text = StringFromKey("Diplomat_dialog_2157");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
+			link.l1.go = "exit";
+		break;
+
+		case "Ord_CancelF":
+			POR_Ord_Cancel("PorOrdF");
+			dialog.text = StringFromKey("Diplomat_dialog_2150");
+			link.l1 = StringFromKey("Diplomat_dialog_2002");
+			link.l1.go = "exit";
 		break;
 	}
 }

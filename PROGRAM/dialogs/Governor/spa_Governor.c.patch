@@ -1,0 +1,11 @@
+#find
+			Pchar.quest.Sp8SaveCumana_Battle.win_condition.l1.location = "Cumana";
+#replacewith
+			Pchar.quest.Sp8SaveCumana_Battle.win_condition.l1.location = "Cartahena"; // Nova Nacao: Cumana agora e portuguesa
+#endreplace
+
+#find
+			SetLocationCapturedState("Cumana_town", false);
+#replacewith
+			SetLocationCapturedState("Cartahena_town", false);
+#endreplace

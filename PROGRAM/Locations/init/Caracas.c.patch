@@ -1,0 +1,6 @@
+#find
+	locations[n].filespath.models = "locations\inside\residence03";
+#replacewith
+	locations[n].filespath.models = "locations\inside\residence03";
+	locations[n].filespath.textures = "PortugalRes\Caracas"; // Nova Nacao: azulejos
+#endreplace

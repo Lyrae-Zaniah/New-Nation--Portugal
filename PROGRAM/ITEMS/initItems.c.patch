@@ -11,3 +11,20 @@
 	n = InitQuestItems(n,	"HolTradeLicence",		13,			"ITEMS_4",	0,		0.1,	"",			"",			"");
 	n = InitQuestItems(n,	"PorTradeLicence",		7,			"ITEMS_4",	0,		0.1,	"",			"",			""); // Nova Nacao: licenca de comercio portuguesa
 #endreplace
+
+#find
+	n = InitTrinkets(n,	"indian16",	16,			"ITEMS_5",	15,		3.0,	0.05,	"sapphire",	3);		// "Раскрашенный сосуд"
+#replacewith
+	n = InitTrinkets(n,	"indian16",	16,			"ITEMS_5",	15,		3.0,	0.05,	"sapphire",	3);		// "Раскрашенный сосуд"
+	// Nova Nacao 1.1.0: itens portugueses (icones em ITEMS_POR; bonus em RPGUtilite.c; raridade 0 = so por missao)
+	n = InitTrinkets(n,	"por_habit",	1,			"ITEMS_POR",	5000,	0.5,	0.0,	"pursel",	1);		// Habito da Ordem de Cristo (+10 Lideranca)
+	n = InitTrinkets(n,	"por_astrolabe",	2,			"ITEMS_POR",	3500,	2.0,	0.0,	"pursel",	1);		// Astrolabio nautico (+5 Navegacao)
+	n = InitTrinkets(n,	"por_sphere",	3,			"ITEMS_POR",	4500,	3.0,	0.0,	"pursel",	1);		// Esfera armilar (+5 Comercio, +5 Lideranca)
+#endreplace
+
+#find
+	n = InitSuits(n,	"suit_3",	2,			"ITEMS_1",	0.0,		6,		150000,	0.0,	"8",		true,	20,			"unique");		// "Дворянское платье"	(при ношении: +20 Лидерство)
+#replacewith
+	n = InitSuits(n,	"suit_3",	2,			"ITEMS_1",	0.0,		6,		150000,	0.0,	"8",		true,	20,			"unique");		// "Дворянское платье"	(при ношении: +20 Лидерство)
+	n = InitSuits(n,	"suit_por",	4,			"ITEMS_POR",	0.0,		6,		150000,	0.0,	"9",		true,	1,			"unique");		// Nova Nacao: Traje de Nobre Portugues (modelo 9 = <Heroi>_P; +15 Lideranca)
+#endreplace

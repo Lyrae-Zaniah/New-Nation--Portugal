@@ -1,0 +1,19 @@
+#find
+	iHulls = GetShipHulls(_real_ship.Name);
+#replacewith
+	iHulls = GetShipHulls(_real_ship.Name);
+	if (Portugal_ExtraHull(_real_ship) > iHulls) iHulls = Portugal_ExtraHull(_real_ship);
+#endreplace
+
+#find
+		hullAmount = 4;
+#replacewith
+		hullAmount = 4;
+		if (iHulls > 4) hullAmount = 5;
+#endreplace
+
+#find
+			GameInterface.(_tableName).(_trAttr).td1.icon1.image = GetNationNameByType(i);
+#replacewith
+			GameInterface.(_tableName).(_trAttr).td1.icon1.image = GetNationNameByType(Portugal_HullNation(i));
+#endreplace

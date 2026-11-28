@@ -1,0 +1,29 @@
+#find
+Aún no has tomado ni Cumana ni Caracas. Toda la costa del continente sigue bajo control español...
+#replacewith
+Aún no has tomado ni Cartagena ni Maracaibo. Toda la costa del continente sigue bajo control español...
+#endreplace
+
+#find
+¡Has capturado Caracas! Eso es magnífico, @<GetFullName>. Pero Cumaná sigue sin ser conquistada. ¡Date prisa!
+#replacewith
+¡Has capturado Maracaibo! Eso es magnífico, @<GetFullName>. Pero Cartagena sigue sin ser conquistada. ¡Date prisa!
+#endreplace
+
+#find
+¡Cumana pertenece ahora a Inglaterra, y eso es gracias a ti! ¡Excelente trabajo, @<GetFullName>! Pero también espero que tomes Caracas; debe ser capturada igualmente.
+#replacewith
+¡Cartagena pertenece ahora a Inglaterra, y eso es gracias a ti! ¡Excelente trabajo, @<GetFullName>! Pero también espero que tomes Maracaibo; debe ser capturada igualmente.
+#endreplace
+
+#find
+¡Cumana y Caracas han sido capturadas! ¡Ahora este tramo del continente pertenece a Inglaterra!
+#replacewith
+¡Cartagena y Maracaibo han sido capturadas! ¡Ahora este tramo del continente pertenece a Inglaterra!
+#endreplace
+
+#find
+Nuestra respuesta al ataque español contra Port Royal será nuestro propio asalto a ciudades españolas.\nCerca de Trinidad, en tierra firme, hay dos ciudades españolas: Cumaná y Caracas. Captura estas ciudades y haz que su gente jure lealtad a Su Majestad Carlos II Stuart.\nAyuda a nombrar una nueva administración para restablecer el buen gobierno de la ciudad y asegurar la rápida recaudación de impuestos y aranceles.
+#replacewith
+Nuestra respuesta al ataque español contra Port Royal será nuestro propio asalto a ciudades españolas.\nEn tierra firme, hay dos ciudades españolas: Cartagena y Maracaibo. Captura estas ciudades y haz que su gente jure lealtad a Su Majestad Carlos II Stuart.\nAyuda a nombrar una nueva administración para restablecer el buen gobierno de la ciudad y asegurar la rápida recaudación de impuestos y aranceles.
+#endreplace

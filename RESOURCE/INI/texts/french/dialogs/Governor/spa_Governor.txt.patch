@@ -1,0 +1,59 @@
+#find
+Vous êtes arrivé juste à temps, c’est une vraie chance. J’ai une mission très importante à vous confier. Voilà le problème : le célèbre flibustier, le capitaine Ansel, a réussi à unir des corsaires anglais et français pour lancer une attaque contre Cumaná.
+#replacewith
+Vous êtes arrivé juste à temps, c’est une vraie chance. J’ai une mission très importante à vous confier. Voilà le problème : le célèbre flibustier, le capitaine Ansel, a réussi à unir des corsaires anglais et français pour lancer une attaque contre Cartagena.
+#endreplace
+
+#find
+Certains réfugiés de Cumana sont déjà arrivés ici. Vous n’avez pas réussi à sauver la ville ni ses habitants.
+}
+spa_Governor_94_m {
+J’ai filé vers Cumana toutes voiles dehors, sans m’arrêter une seule minute. Mais malgré tout, je ne suis pas arrivé à temps—c’était tout simplement impossible.
+}
+spa_Governor_94_f {
+Je filais vers Cumana toutes voiles dehors, sans m’arrêter nulle part, même pas une minute. Pourtant, je ne suis pas arrivé à temps — c’était tout simplement impossible.
+}
+spa_Governor_95 {
+Certains réfugiés de Cumana sont déjà arrivés ici. Vous n’avez pas réussi à sauver la ville ni ses habitants.
+#replacewith
+Certains réfugiés de Cartagena sont déjà arrivés ici. Vous n’avez pas réussi à sauver la ville ni ses habitants.
+}
+spa_Governor_94_m {
+J’ai filé vers Cartagena toutes voiles dehors, sans m’arrêter une seule minute. Mais malgré tout, je ne suis pas arrivé à temps—c’était tout simplement impossible.
+}
+spa_Governor_94_f {
+Je filais vers Cartagena toutes voiles dehors, sans m’arrêter nulle part, même pas une minute. Pourtant, je ne suis pas arrivé à temps — c’était tout simplement impossible.
+}
+spa_Governor_95 {
+Certains réfugiés de Cartagena sont déjà arrivés ici. Vous n’avez pas réussi à sauver la ville ni ses habitants.
+#endreplace
+
+#find
+On m’a déjà informé que Cumana a été sauvée. Splendide!
+#replacewith
+On m’a déjà informé que Cartagena a été sauvée. Splendide!
+#endreplace
+
+#find
+Cependant, il ne nous sied pas de céder au désespoir. Nous sommes au fil de la lame, châtiant nos ennemis au nom de l’Espagne et du Seigneur Tout-Puissant! Et puisque l’on nous met une fois de plus au défi, nous devons répondre avec honneur.\nÀ maintes reprises, des bandits et criminels de tout acabit — les ladrones — se sont emparés de nos villes, ont torturé et tué nos colons.\nCette fois, nous devons assurer la défense résolue de Cumaná, et telle est votre mission. Rendez-vous immédiatement à Cumaná et repoussez l’attaque des ladrones sous le commandement du capitaine Ansel.
+#replacewith
+Cependant, il ne nous sied pas de céder au désespoir. Nous sommes au fil de la lame, châtiant nos ennemis au nom de l’Espagne et du Seigneur Tout-Puissant! Et puisque l’on nous met une fois de plus au défi, nous devons répondre avec honneur.\nÀ maintes reprises, des bandits et criminels de tout acabit — les ladrones — se sont emparés de nos villes, ont torturé et tué nos colons.\nCette fois, nous devons assurer la défense résolue de Cartagena, et telle est votre mission. Rendez-vous immédiatement à Cartagena et repoussez l’attaque des ladrones sous le commandement du capitaine Ansel.
+#endreplace
+
+#find
+On dit que le capitaine @<GetFullName> n’a pas réussi à sauver les habitants de Cumana! Quel triste sort...
+}
+spa_Governor_270_f {
+On raconte que le capitaine @<GetFullName> n’a pas réussi à sauver les habitants de Cumaná! Quel triste sort...
+#replacewith
+On dit que le capitaine @<GetFullName> n’a pas réussi à sauver les habitants de Cartagena! Quel triste sort...
+}
+spa_Governor_270_f {
+On raconte que le capitaine @<GetFullName> n’a pas réussi à sauver les habitants de Cartagena! Quel triste sort...
+#endreplace
+
+#find
+Capitaine, on dit que c’est vous qui avez sauvé Cumana! Permettez-moi de vous exprimer mon admiration, @<GetAddress_Form>...
+#replacewith
+Capitaine, on dit que c’est vous qui avez sauvé Cartagena! Permettez-moi de vous exprimer mon admiration, @<GetAddress_Form>...
+#endreplace

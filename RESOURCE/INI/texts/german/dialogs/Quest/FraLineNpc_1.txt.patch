@@ -1,0 +1,53 @@
+#find
+Ich kann dir einen Beutel Gold geben. Oder ich biete dir an, bei einem interessanten Unternehmen mitzumachen. In diesem Brief berichtet der Generalgouverneur, dass sich im Fort Cumaná derzeit Gold im Wert von mindestens zweihunderttausend Reales befindet. Meine Flottille besteht aus drei Schiffen, deren Kapitäne meine Partner sind. Schließ dich uns an – und wir teilen die Beute zu viert, wie es der Kodex der Bruderschaft verlangt. Was sagst du?
+#replacewith
+Ich kann dir einen Beutel Gold geben. Oder ich biete dir an, bei einem interessanten Unternehmen mitzumachen. In diesem Brief berichtet der Generalgouverneur, dass sich im Fort Maracaibo derzeit Gold im Wert von mindestens zweihunderttausend Reales befindet. Meine Flottille besteht aus drei Schiffen, deren Kapitäne meine Partner sind. Schließ dich uns an – und wir teilen die Beute zu viert, wie es der Kodex der Bruderschaft verlangt. Was sagst du?
+#endreplace
+
+#find
+Dann bist du bereit, deinen Platz in unserem Geschwader einzunehmen. Willkommen an Bord – jetzt auf nach Cumaná!
+}
+FraLineNpc_1_118_f {
+Dann bist du bereit, deinen Platz in unserem Geschwader einzunehmen. Willkommen an Bord – jetzt auf nach Cumaná!
+#replacewith
+Dann bist du bereit, deinen Platz in unserem Geschwader einzunehmen. Willkommen an Bord – jetzt auf nach Maracaibo!
+}
+FraLineNpc_1_118_f {
+Dann bist du bereit, deinen Platz in unserem Geschwader einzunehmen. Willkommen an Bord – jetzt auf nach Maracaibo!
+#endreplace
+
+#find
+Der Plan ist einfach. Wir gehen dorthin, nehmen Cumaná im Sturm, finden das Gold, teilen es auf und gehen dann jeder unserer Wege.
+#replacewith
+Der Plan ist einfach. Wir gehen dorthin, nehmen Maracaibo im Sturm, finden das Gold, teilen es auf und gehen dann jeder unserer Wege.
+#endreplace
+
+#find
+Dann weiter nach Cumaná, und so schnell wie möglich!
+#replacewith
+Dann weiter nach Maracaibo, und so schnell wie möglich!
+#endreplace
+
+#find
+Glückwunsch zu deiner gelungenen Flucht, aber es wird keinen Zug nach Cumana geben.
+#replacewith
+Glückwunsch zu deiner gelungenen Flucht, aber es wird keinen Zug nach Maracaibo geben.
+#endreplace
+
+#find
+Es ist ganz einfach, mon cher. In Cumana gibt es kein Gold mehr – alles wurde fortgeschafft. In unserem Fall hat uns der Zeitverlust also 200.000 Reales gekostet. So ist das eben...
+}
+FraLineNpc_1_133_f {
+Ganz einfach, Liebling. In Cumana gibt es kein Gold mehr – alles wurde schon weggebracht. In unserem Fall hat uns die verlorene Zeit zweihunderttausend Reales gekostet. So ist das eben...
+#replacewith
+Es ist ganz einfach, mon cher. In Maracaibo gibt es kein Gold mehr – alles wurde fortgeschafft. In unserem Fall hat uns der Zeitverlust also 200.000 Reales gekostet. So ist das eben...
+}
+FraLineNpc_1_133_f {
+Ganz einfach, Liebling. In Maracaibo gibt es kein Gold mehr – alles wurde schon weggebracht. In unserem Fall hat uns die verlorene Zeit zweihunderttausend Reales gekostet. So ist das eben...
+#endreplace
+
+#find
+Kapitän, wir dürfen keine Zeit verlieren – wir müssen Cumana sofort einnehmen, bevor das Gold verschwindet.
+#replacewith
+Kapitän, wir dürfen keine Zeit verlieren – wir müssen Maracaibo sofort einnehmen, bevor das Gold verschwindet.
+#endreplace

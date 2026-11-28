@@ -1,0 +1,37 @@
+#find
+Do not look for the ship at sea. Look for those who left it alive. Midnight. The old cemetery.
+}
+#replacewith
+Do not look for the ship at sea. Look for those who left it alive. Midnight. The old cemetery.
+}
+
+itmname_NovaNacao	{Nova Nacao: Portugal}
+itmname_por_habit	{Habit of the Order of Christ}
+itmdescr_por_habit
+{
+The insignia of a knight of the Military Order of Our Lord Jesus Christ, heir to the Templars in Portugal. The King grants it only to those who have served the Crown well, and every Portuguese captain recognises it at a glance.
+~
+Passive: +10 Leadership.
+}
+itmname_por_astrolabe	{Mariner's Astrolabe}
+itmdescr_por_astrolabe
+{
+A heavy bronze ring that Portuguese pilots hang from a finger to take the height of the sun at noon. With it and the tables of declination, a good pilot knows his latitude even on a pitching deck.
+~
+Passive: +5 Navigation.
+}
+itmname_por_sphere	{Armillary Sphere}
+itmdescr_por_sphere
+{
+The rings of the heavens around the Earth: the emblem of King Manuel and of the age of the Discoveries. Portuguese captains keep one in the cabin to remind everyone who mapped the world first.
+~
+Passive: +5 Commerce, +5 Leadership.
+}
+itmname_suit_por	{Portuguese Noble Attire}
+itmdescr_suit_por
+{
+White silk and gold embroidery: the attire of a fidalgo in the service of the Portuguese Crown. Lisbon sends it to those who agree to serve the King in the Indies.
+~
+When worn: +15 Leadership.
+}
+#endreplace

@@ -1,0 +1,11 @@
+#find
+The city of Cumaná is now under the protection of England. All taxes, trade duties, and other payments must be made to the new English administration.
+#replacewith
+The city of Cartagena is now under the protection of England. All taxes, trade duties, and other payments must be made to the new English administration.
+#endreplace
+
+#find
+We’ve learned there are 200,000 reals in Cumana... We’re here for that money.
+#replacewith
+We’ve learned there are 200,000 reals in Maracaibo... We’re here for that money.
+#endreplace

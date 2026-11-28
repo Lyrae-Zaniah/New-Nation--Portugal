@@ -1,0 +1,41 @@
+#find
+Tak, wszystko w porządku, monsieur. Co więcej, zdążyliśmy zdobyć Cumanę i zgarnęliśmy niezłą zdobycz.
+#replacewith
+Tak, wszystko w porządku, monsieur. Co więcej, zdążyliśmy zdobyć Maracaibo i zgarnęliśmy niezłą zdobycz.
+#endreplace
+
+#find
+Panie generał-gubernatorze, umówiłem się z L’Olonnais na zdobycie Cumany... Zdobyliśmy ją, ale potem doszło do kłótni... W każdym razie, L’Olonnais nie żyje, sir...
+#replacewith
+Panie generał-gubernatorze, umówiłem się z L’Olonnais na zdobycie Maracaibo... Zdobyliśmy ją, ale potem doszło do kłótni... W każdym razie, L’Olonnais nie żyje, sir...
+#endreplace
+
+#find
+Och, to wspaniale. W gruncie rzeczy właśnie na zdobyciu Kumany mi zależało. Cóż, świetna robota, mój przyjacielu. Jestem w pełni zadowolony z twojej sprawności.
+}
+fra_Governor_217_f {
+Och, to wspaniale. W gruncie rzeczy właśnie na zdobyciu Kumany mi zależało. No cóż, świetna robota, mademoiselle. Jestem całkowicie zadowolony z pani sprawności.
+#replacewith
+Och, to wspaniale. W gruncie rzeczy właśnie na zdobyciu Maracaibo mi zależało. Cóż, świetna robota, mój przyjacielu. Jestem w pełni zadowolony z twojej sprawności.
+}
+fra_Governor_217_f {
+Och, to wspaniale. W gruncie rzeczy właśnie na zdobyciu Maracaibo mi zależało. No cóż, świetna robota, mademoiselle. Jestem całkowicie zadowolony z pani sprawności.
+#endreplace
+
+#find
+Po mieście krążą plotki, że splądrowałeś Kumanę razem z François L’Olonnais. Wygląda na to, że hiszpańscy donowie nieźle się przestraszyli!
+#replacewith
+Po mieście krążą plotki, że splądrowałeś Maracaibo razem z François L’Olonnais. Wygląda na to, że hiszpańscy donowie nieźle się przestraszyli!
+#endreplace
+
+#find
+Zaproponował mi wyprawę na Cumanę. Niestety, musiałem odmówić. Jednak sądzę, że poradzi sobie i beze mnie, mając w swojej eskadrze trzy okręty.
+}
+fra_Governor_223_f {
+Zaproponował mi wyprawę na Cumanę. Niestety, musiałam odmówić. Jednak sądzę, że poradzi sobie i beze mnie, mając w swojej eskadrze trzy okręty.
+#replacewith
+Zaproponował mi wyprawę na Maracaibo. Niestety, musiałem odmówić. Jednak sądzę, że poradzi sobie i beze mnie, mając w swojej eskadrze trzy okręty.
+}
+fra_Governor_223_f {
+Zaproponował mi wyprawę na Maracaibo. Niestety, musiałam odmówić. Jednak sądzę, że poradzi sobie i beze mnie, mając w swojej eskadrze trzy okręty.
+#endreplace

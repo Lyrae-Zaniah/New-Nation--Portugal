@@ -1,0 +1,37 @@
+#find
+Sucht das Schiff nicht auf See. Sucht nach denen, die es lebend verlassen haben. Mitternacht. Der alte Friedhof.
+}
+#replacewith
+Sucht das Schiff nicht auf See. Sucht nach denen, die es lebend verlassen haben. Mitternacht. Der alte Friedhof.
+}
+
+itmname_NovaNacao	{Nova Nacao: Portugal}
+itmname_por_habit	{Habit des Christusordens}
+itmdescr_por_habit
+{
+Das Abzeichen eines Ritters des Militärordens Unseres Herrn Jesus Christus, Erbe der Templer in Portugal. Der König verleiht es nur denen, die der Krone gut gedient haben, und jeder portugiesische Kapitän erkennt es auf den ersten Blick.
+~
+Passiv: +10 Führung.
+}
+itmname_por_astrolabe	{Seeastrolabium}
+itmdescr_por_astrolabe
+{
+Ein schwerer Bronzering, den portugiesische Lotsen an einem Finger aufhängen, um mittags die Sonnenhöhe zu messen. Damit und mit den Deklinationstafeln kennt ein guter Lotse seine Breite selbst auf einem schlingernden Deck.
+~
+Passiv: +5 Navigation.
+}
+itmname_por_sphere	{Armillarsphäre}
+itmdescr_por_sphere
+{
+Die Ringe des Himmels um die Erde: das Wahrzeichen König Manuels und des Zeitalters der Entdeckungen. Portugiesische Kapitäne bewahren eine in der Kajüte auf, um jeden daran zu erinnern, wer die Welt zuerst kartiert hat.
+~
+Passiv: +5 Handel, +5 Führung.
+}
+itmname_suit_por	{Portugiesische Adelstracht}
+itmdescr_suit_por
+{
+Weiße Seide und Goldstickerei: die Tracht eines Fidalgo im Dienst der portugiesischen Krone. Lissabon schickt sie jenen, die bereit sind, dem König in Westindien zu dienen.
+~
+Beim Tragen: +15 Führung.
+}
+#endreplace

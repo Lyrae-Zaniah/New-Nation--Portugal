@@ -1,0 +1,6 @@
+#find
+		RouteGoldFleet(); // KZ > теперь здесь (было в Map_TraderSucces): сюда приходит и энкаунтер, истёкший вне карты (wdmUpdateAllEncounterLivetime)
+#replacewith
+		RouteGoldFleet(); // KZ > теперь здесь (было в Map_TraderSucces): сюда приходит и энкаунтер, истёкший вне карты (wdmUpdateAllEncounterLivetime)
+	if (HasSubStr(sChar, "POR_BF_Head_")) POR_BF_Arrived(sChar); // Nova Nacao: Frota do Brasil chegou ao porto
+#endreplace

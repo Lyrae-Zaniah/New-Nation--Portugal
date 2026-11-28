@@ -1,0 +1,41 @@
+#find
+Sim, está tudo bem, monsieur. Além disso, conseguimos tomar Cumaná e capturamos um bom prêmio.
+#replacewith
+Sim, está tudo bem, monsieur. Além disso, conseguimos tomar Maracaibo e capturamos um bom prêmio.
+#endreplace
+
+#find
+Monsieur Governador-Geral, Olonais e eu concordamos em tomar Cumaná... Nós a tomamos, mas depois houve uma briga... Resumindo, Olonais está morto, senhor...
+#replacewith
+Monsieur Governador-Geral, Olonais e eu concordamos em tomar Maracaibo... Nós a tomamos, mas depois houve uma briga... Resumindo, Olonais está morto, senhor...
+#endreplace
+
+#find
+Ah, isso é maravilhoso. Na verdade, conquistar Cumana era exatamente o que eu queria. Muito bem, excelente trabalho, meu amigo. Fiquei bastante satisfeito com a sua rapidez.
+}
+fra_Governor_217_f {
+Ah, isso é maravilhoso. Na verdade, capturar Cumana era exatamente o que eu queria. Muito bem, excelente trabalho, mademoiselle. Estou bastante satisfeito com sua eficiência.
+#replacewith
+Ah, isso é maravilhoso. Na verdade, conquistar Maracaibo era exatamente o que eu queria. Muito bem, excelente trabalho, meu amigo. Fiquei bastante satisfeito com a sua rapidez.
+}
+fra_Governor_217_f {
+Ah, isso é maravilhoso. Na verdade, capturar Maracaibo era exatamente o que eu queria. Muito bem, excelente trabalho, mademoiselle. Estou bastante satisfeito com sua eficiência.
+#endreplace
+
+#find
+Dizem por aí que você saqueou Cumana com François l’Olonnais. Parece que os espanhóis ficaram apavorados!
+#replacewith
+Dizem por aí que você saqueou Maracaibo com François l’Olonnais. Parece que os espanhóis ficaram apavorados!
+#endreplace
+
+#find
+Ele me convidou para uma incursão a Cumana. Infelizmente, tive que recusar. Ainda assim, acredito que ele vai se sair bem sem mim, já que sua esquadra tem três navios.
+}
+fra_Governor_223_f {
+Ele me convidou para uma expedição a Cumaná. Infelizmente, tive que recusar. Ainda assim, acredito que ele vai se sair bem sem mim, já que o esquadrão dele tem três navios.
+#replacewith
+Ele me convidou para uma incursão a Maracaibo. Infelizmente, tive que recusar. Ainda assim, acredito que ele vai se sair bem sem mim, já que sua esquadra tem três navios.
+}
+fra_Governor_223_f {
+Ele me convidou para uma expedição a Maracaibo. Infelizmente, tive que recusar. Ainda assim, acredito que ele vai se sair bem sem mim, já que o esquadrão dele tem três navios.
+#endreplace

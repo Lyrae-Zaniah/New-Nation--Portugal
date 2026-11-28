@@ -1,0 +1,37 @@
+#find
+Não procurem o navio no mar. Procurem aqueles que saíram dele vivos. Meia-noite. O velho cemitério.
+}
+#replacewith
+Não procurem o navio no mar. Procurem aqueles que saíram dele vivos. Meia-noite. O velho cemitério.
+}
+
+itmname_NovaNacao	{Nova Nacao: Portugal}
+itmname_por_habit	{Hábito da Ordem de Cristo}
+itmdescr_por_habit
+{
+A insígnia de cavaleiro da Ordem Militar de Nosso Senhor Jesus Cristo, herdeira dos Templários em Portugal. O Rei só a concede a quem serviu bem a Coroa, e todo capitão português a reconhece de longe.
+~
+Passivo: +10 Liderança.
+}
+itmname_por_astrolabe	{Astrolábio Náutico}
+itmdescr_por_astrolabe
+{
+Um pesado aro de bronze que os pilotos portugueses penduram no dedo para tomar a altura do sol ao meio-dia. Com ele e as tábuas de declinação, um bom piloto sabe a sua latitude até num convés que joga.
+~
+Passivo: +5 Navegação.
+}
+itmname_por_sphere	{Esfera Armilar}
+itmdescr_por_sphere
+{
+Os anéis do céu em volta da Terra: o emblema de D. Manuel e da era dos Descobrimentos. Os capitães portugueses guardam uma na cabine para lembrar a todos quem mapeou o mundo primeiro.
+~
+Passivo: +5 Comércio, +5 Liderança.
+}
+itmname_suit_por	{Traje de Nobre Português}
+itmdescr_suit_por
+{
+Seda branca e bordados de ouro: o traje de um fidalgo a serviço da Coroa portuguesa. Lisboa o envia a quem aceita servir o Rei nas Índias.
+~
+Ao usar: +15 Liderança.
+}
+#endreplace

@@ -1,0 +1,35 @@
+#find
+Eng_Line_11_OccupyMein {Eroberung von Caracas und Cumaná}
+Eng_Line_11_OccupyMein.1 {Im Auftrag von Sir Thomas Modyford, dem Generalgouverneur von Jamaika, soll ich die spanischen Städte Cumaná und Caracas einnehmen und sie dazu bringen, der englischen Krone die Treue zu schwören.}
+Eng_Line_11_OccupyMein.2 {Caracas wurde erobert und gehört jetzt England.}
+Eng_Line_11_OccupyMein.3 {Cumana wurde erobert und gehört nun England.}
+#replacewith
+Eng_Line_11_OccupyMein {Eroberung von Maracaibo und Cartagena}
+Eng_Line_11_OccupyMein.1 {Im Auftrag von Sir Thomas Modyford, dem Generalgouverneur von Jamaika, soll ich die spanischen Städte Cartagena und Maracaibo einnehmen und sie dazu bringen, der englischen Krone die Treue zu schwören.}
+Eng_Line_11_OccupyMein.2 {Maracaibo wurde erobert und gehört jetzt England.}
+Eng_Line_11_OccupyMein.3 {Cartagena wurde erobert und gehört nun England.}
+#endreplace
+
+#find
+Spa_Line_8_SaveCumana {Verteidigung von Cumana gegen den Angriff des vereinten französisch-englischen Piratengeschwaders}
+Spa_Line_8_SaveCumana.1 {Ich habe einen neuen Auftrag vom spanischen Generalgouverneur Francisco Oregon y Gascon. Ein gemeinsames französisch-britisches Geschwader von Freibeutern unter dem Kommando von Kapitän Ansel steuert auf Cumana zu, um die Stadt einzunehmen. Ich muss der Garnison von Cumana helfen, den Angriff abzuwehren und die Flotte der Freibeuter zu besiegen.}
+Spa_Line_8_SaveCumana.2 {Ich habe es nicht rechtzeitig nach Cumana geschafft. Die Piraten haben ganze Arbeit geleistet – Cumana wurde geplündert und verwüstet.}
+Spa_Line_8_SaveCumana.3 {Ich habe es geschafft, rechtzeitig in Cumana anzukommen. Ich habe die Piraten angegriffen und alle ihre Schiffe versenkt. Cumana ist gerettet.}
+Spa_Line_8_SaveCumana.4 {Ich kam gerade noch rechtzeitig in Cumana an – die Piraten belagerten bereits die Stadt. Doch ich konnte nicht helfen; die Kräfte der Piraten waren zu stark. Ich musste mich zurückziehen...}
+#replacewith
+Spa_Line_8_SaveCumana {Verteidigung von Cartagena gegen den Angriff des vereinten französisch-englischen Piratengeschwaders}
+Spa_Line_8_SaveCumana.1 {Ich habe einen neuen Auftrag vom spanischen Generalgouverneur Francisco Oregon y Gascon. Ein gemeinsames französisch-britisches Geschwader von Freibeutern unter dem Kommando von Kapitän Ansel steuert auf Cartagena zu, um die Stadt einzunehmen. Ich muss der Garnison von Cartagena helfen, den Angriff abzuwehren und die Flotte der Freibeuter zu besiegen.}
+Spa_Line_8_SaveCumana.2 {Ich habe es nicht rechtzeitig nach Cartagena geschafft. Die Piraten haben ganze Arbeit geleistet – Cartagena wurde geplündert und verwüstet.}
+Spa_Line_8_SaveCumana.3 {Ich habe es geschafft, rechtzeitig in Cartagena anzukommen. Ich habe die Piraten angegriffen und alle ihre Schiffe versenkt. Cartagena ist gerettet.}
+Spa_Line_8_SaveCumana.4 {Ich kam gerade noch rechtzeitig in Cartagena an – die Piraten belagerten bereits die Stadt. Doch ich konnte nicht helfen; die Kräfte der Piraten waren zu stark. Ich musste mich zurückziehen...}
+#endreplace
+
+#find
+Fra_Line_6_Olone.3 {Ich habe zugestimmt, am Angriff auf Cumaná als Teil von Olonnes Geschwader teilzunehmen. Kurs auf Cumaná!}
+Fra_Line_6_Olone.4 {Wir kamen zu spät nach Cumana, und es war kein Geld mehr übrig. L’Olonnais gab mir an allem die Schuld, und ich musste im Korsarenduell gegen ihn antreten.}
+Fra_Line_6_Olone.5 {Wir haben Cumaná eingenommen, das Geld aufgeteilt und sind dann getrennte Wege gegangen. Ein erfolgreicher Zug.}
+#replacewith
+Fra_Line_6_Olone.3 {Ich habe zugestimmt, am Angriff auf Maracaibo als Teil von Olonnes Geschwader teilzunehmen. Kurs auf Maracaibo!}
+Fra_Line_6_Olone.4 {Wir kamen zu spät nach Maracaibo, und es war kein Geld mehr übrig. L’Olonnais gab mir an allem die Schuld, und ich musste im Korsarenduell gegen ihn antreten.}
+Fra_Line_6_Olone.5 {Wir haben Maracaibo eingenommen, das Geld aufgeteilt und sind dann getrennte Wege gegangen. Ein erfolgreicher Zug.}
+#endreplace

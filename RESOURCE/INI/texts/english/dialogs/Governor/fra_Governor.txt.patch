@@ -1,0 +1,41 @@
+#find
+Yes, everything’s fine, monsieur. On top of that, we managed to seize Cumaná and took quite a prize.
+#replacewith
+Yes, everything’s fine, monsieur. On top of that, we managed to seize Maracaibo and took quite a prize.
+#endreplace
+
+#find
+Monsieur Governor-General, Olonais and I agreed to take Cumaná... We took it, but then there was a quarrel... In short, Olonais is dead, sir...
+#replacewith
+Monsieur Governor-General, Olonais and I agreed to take Maracaibo... We took it, but then there was a quarrel... In short, Olonais is dead, sir...
+#endreplace
+
+#find
+Oh, that's wonderful. In fact, capturing Cumana was exactly what I was after. Well then, splendid work, my friend. I'm quite pleased with your swiftness.
+}
+fra_Governor_217_f {
+Oh, that's wonderful. In fact, capturing Cumana was exactly what I was after. Well then, splendid work, mademoiselle. I'm quite pleased with your efficiency.
+#replacewith
+Oh, that's wonderful. In fact, capturing Maracaibo was exactly what I was after. Well then, splendid work, my friend. I'm quite pleased with your swiftness.
+}
+fra_Governor_217_f {
+Oh, that's wonderful. In fact, capturing Maracaibo was exactly what I was after. Well then, splendid work, mademoiselle. I'm quite pleased with your efficiency.
+#endreplace
+
+#find
+Rumor has it you sacked Cumana with François l’Olonnais. Looks like the Spanish dons really soiled themselves!
+#replacewith
+Rumor has it you sacked Maracaibo with François l’Olonnais. Looks like the Spanish dons really soiled themselves!
+#endreplace
+
+#find
+He invited me on a raid to Cumana. Unfortunately, I had to decline. Still, I believe he’ll manage just fine without me, since his squadron has three ships.
+}
+fra_Governor_223_f {
+He invited me on an expedition to Cumaná. Unfortunately, I had to decline. Still, I believe he’ll manage just fine without me, since his squadron has three ships.
+#replacewith
+He invited me on a raid to Maracaibo. Unfortunately, I had to decline. Still, I believe he’ll manage just fine without me, since his squadron has three ships.
+}
+fra_Governor_223_f {
+He invited me on an expedition to Maracaibo. Unfortunately, I had to decline. Still, I believe he’ll manage just fine without me, since his squadron has three ships.
+#endreplace

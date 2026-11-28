@@ -11,3 +11,10 @@ string = spahunter, "Spanien"
 string = spahunter, "Spanien"
 string = porhunter, "Portugal"
 #endreplace
+
+#find
+string = SC_HullDesc3, "Königliche Niederländische Marine"
+#replacewith
+string = SC_HullDesc3, "Königliche Niederländische Marine"
+string = SC_HullDesc4, "Portugiesische Königliche Marine"
+#endreplace

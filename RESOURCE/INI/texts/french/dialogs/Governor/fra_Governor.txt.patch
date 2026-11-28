@@ -1,0 +1,41 @@
+#find
+Oui, tout va bien, monsieur. En plus, nous avons réussi à prendre Cumaná et avons remporté un beau butin.
+#replacewith
+Oui, tout va bien, monsieur. En plus, nous avons réussi à prendre Maracaibo et avons remporté un beau butin.
+#endreplace
+
+#find
+Monsieur le Gouverneur général, Olonais et moi étions convenus de prendre Cumaná... Nous l’avons prise, mais ensuite il y a eu une dispute... Bref, Olonais est mort, monsieur...
+#replacewith
+Monsieur le Gouverneur général, Olonais et moi étions convenus de prendre Maracaibo... Nous l’avons prise, mais ensuite il y a eu une dispute... Bref, Olonais est mort, monsieur...
+#endreplace
+
+#find
+Oh, c'est merveilleux. En fait, prendre Cumana était précisément mon objectif. Eh bien, excellent travail, mon ami. Je suis vraiment satisfait de ta rapidité.
+}
+fra_Governor_217_f {
+Oh, c’est merveilleux. En fait, la prise de Cumana était précisément ce que je recherchais. Eh bien, excellent travail, mademoiselle. Je suis vraiment satisfait de votre efficacité.
+#replacewith
+Oh, c'est merveilleux. En fait, prendre Maracaibo était précisément mon objectif. Eh bien, excellent travail, mon ami. Je suis vraiment satisfait de ta rapidité.
+}
+fra_Governor_217_f {
+Oh, c’est merveilleux. En fait, la prise de Maracaibo était précisément ce que je recherchais. Eh bien, excellent travail, mademoiselle. Je suis vraiment satisfait de votre efficacité.
+#endreplace
+
+#find
+On raconte que tu as pillé Cumana avec François l’Olonnais. On dirait bien que les dignitaires espagnols ont vraiment perdu leur sang-froid!
+#replacewith
+On raconte que tu as pillé Maracaibo avec François l’Olonnais. On dirait bien que les dignitaires espagnols ont vraiment perdu leur sang-froid!
+#endreplace
+
+#find
+Il m’a invité à participer à un raid sur Cumana. Malheureusement, j’ai dû refuser. Je pense tout de même qu’il s’en sortira très bien sans moi, puisque son escadre compte trois navires.
+}
+fra_Governor_223_f {
+Il m’a invité à une expédition à Cumaná. Malheureusement, j’ai dû refuser. Je pense tout de même qu’il s’en sortira très bien sans moi, puisque son escadre compte trois navires.
+#replacewith
+Il m’a invité à participer à un raid sur Maracaibo. Malheureusement, j’ai dû refuser. Je pense tout de même qu’il s’en sortira très bien sans moi, puisque son escadre compte trois navires.
+}
+fra_Governor_223_f {
+Il m’a invité à une expédition à Maracaibo. Malheureusement, j’ai dû refuser. Je pense tout de même qu’il s’en sortira très bien sans moi, puisque son escadre compte trois navires.
+#endreplace

@@ -1,0 +1,37 @@
+#find
+Nie szukajcie statku na morzu. Szukajcie tych, którzy zeszli z niego żywi. Północ. Stary cmentarz.
+}
+#replacewith
+Nie szukajcie statku na morzu. Szukajcie tych, którzy zeszli z niego żywi. Północ. Stary cmentarz.
+}
+
+itmname_NovaNacao	{Nova Nacao: Portugal}
+itmname_por_habit	{Habit Zakonu Chrystusa}
+itmdescr_por_habit
+{
+Insygnia rycerza Zakonu Wojskowego Pana Naszego Jezusa Chrystusa, dziedzica templariuszy w Portugalii. Król nadaje je tylko tym, którzy dobrze służyli Koronie, a każdy portugalski kapitan rozpoznaje je na pierwszy rzut oka.
+~
+Pasywnie: +10 Dowodzenie.
+}
+itmname_por_astrolabe	{Astrolabium żeglarskie}
+itmdescr_por_astrolabe
+{
+Ciężki pierścień z brązu, który portugalscy piloci zawieszają na palcu, by w południe zmierzyć wysokość słońca. Dzięki niemu i tablicom deklinacji dobry pilot zna swoją szerokość geograficzną nawet na kołyszącym się pokładzie.
+~
+Pasywnie: +5 Nawigacja.
+}
+itmname_por_sphere	{Sfera armilarna}
+itmdescr_por_sphere
+{
+Pierścienie niebios wokół Ziemi: godło króla Manuela i epoki Odkryć. Portugalscy kapitanowie trzymają ją w kajucie, by przypominała wszystkim, kto pierwszy nakreślił mapę świata.
+~
+Pasywnie: +5 Handel, +5 Dowodzenie.
+}
+itmname_suit_por	{Strój portugalskiego szlachcica}
+itmdescr_suit_por
+{
+Biały jedwab i złote hafty: strój fidalga w służbie portugalskiej Korony. Lizbona przysyła go tym, którzy zgadzają się służyć królowi w Indiach.
+~
+Po założeniu: +15 Dowodzenie.
+}
+#endreplace

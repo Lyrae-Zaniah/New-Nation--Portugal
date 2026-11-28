@@ -1,0 +1,53 @@
+#find
+Puedo entregarte una bolsa de oro. O puedo ofrecerte participar en un negocio interesante. En esta carta, el gobernador general informa que ahora mismo hay oro por al menos doscientos mil reales en el fuerte de Cumaná. Mi flotilla tiene tres barcos, sus capitanes son mis socios. Únete a nosotros y repartiremos el botín entre cuatro, como dicta el código de la hermandad. Entonces, ¿qué dices?
+#replacewith
+Puedo entregarte una bolsa de oro. O puedo ofrecerte participar en un negocio interesante. En esta carta, el gobernador general informa que ahora mismo hay oro por al menos doscientos mil reales en el fuerte de Maracaibo. Mi flotilla tiene tres barcos, sus capitanes son mis socios. Únete a nosotros y repartiremos el botín entre cuatro, como dicta el código de la hermandad. Entonces, ¿qué dices?
+#endreplace
+
+#find
+Bien, entonces estás listo para unirte a nuestro escuadrón. Bienvenido a bordo—¡ahora rumbo a Cumaná!
+}
+FraLineNpc_1_118_f {
+Bien, entonces estás lista para unirte a nuestro escuadrón. Bienvenida a bordo—¡ahora rumbo a Cumaná!
+#replacewith
+Bien, entonces estás listo para unirte a nuestro escuadrón. Bienvenido a bordo—¡ahora rumbo a Maracaibo!
+}
+FraLineNpc_1_118_f {
+Bien, entonces estás lista para unirte a nuestro escuadrón. Bienvenida a bordo—¡ahora rumbo a Maracaibo!
+#endreplace
+
+#find
+El plan es bastante simple. Vamos allí, tomamos Cumaná por asalto, luego encontramos el oro, lo repartimos y cada uno sigue su camino.
+#replacewith
+El plan es bastante simple. Vamos allí, tomamos Maracaibo por asalto, luego encontramos el oro, lo repartimos y cada uno sigue su camino.
+#endreplace
+
+#find
+Entonces rumbo a Cumaná, ¡y tan rápido como podamos!
+#replacewith
+Entonces rumbo a Maracaibo, ¡y tan rápido como podamos!
+#endreplace
+
+#find
+Felicidades por tu escape exitoso, pero no habrá expedición a Cumana.
+#replacewith
+Felicidades por tu escape exitoso, pero no habrá expedición a Maracaibo.
+#endreplace
+
+#find
+Es bastante simple, mon cher. Ya no queda oro en Cumana, se lo han llevado todo. Así que, en nuestro caso, el tiempo perdido nos costó 200,000 reales. Así es...
+}
+FraLineNpc_1_133_f {
+Es sencillo, cariño. Ya no queda oro en Cumana, se lo han llevado todo. Así que en nuestro caso, el tiempo perdido nos costó doscientos mil reales. Así es...
+#replacewith
+Es bastante simple, mon cher. Ya no queda oro en Maracaibo, se lo han llevado todo. Así que, en nuestro caso, el tiempo perdido nos costó 200,000 reales. Así es...
+}
+FraLineNpc_1_133_f {
+Es sencillo, cariño. Ya no queda oro en Maracaibo, se lo han llevado todo. Así que en nuestro caso, el tiempo perdido nos costó doscientos mil reales. Así es...
+#endreplace
+
+#find
+Capitán, no podemos perder tiempo—debemos tomar Cumana de inmediato, antes de que el oro desaparezca.
+#replacewith
+Capitán, no podemos perder tiempo—debemos tomar Maracaibo de inmediato, antes de que el oro desaparezca.
+#endreplace

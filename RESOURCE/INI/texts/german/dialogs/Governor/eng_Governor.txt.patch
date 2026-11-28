@@ -1,0 +1,29 @@
+#find
+Ihr habt weder Cumana noch Caracas eingenommen. Die gesamte Küste des Main steht noch immer unter spanischer Kontrolle...
+#replacewith
+Ihr habt weder Cartagena noch Maracaibo eingenommen. Die gesamte Küste des Main steht noch immer unter spanischer Kontrolle...
+#endreplace
+
+#find
+Ihr habt Caracas eingenommen! Das ist großartig, @<GetFullName>. Aber Cumaná ist noch nicht erobert. Beeilt euch!
+#replacewith
+Ihr habt Maracaibo eingenommen! Das ist großartig, @<GetFullName>. Aber Cartagena ist noch nicht erobert. Beeilt euch!
+#endreplace
+
+#find
+Cumana gehört jetzt England, und das ist Ihr Verdienst! Hervorragende Arbeit, @<GetFullName>! Aber ich erwarte auch, dass Sie Caracas einnehmen – auch diese Stadt muss erobert werden!
+#replacewith
+Cartagena gehört jetzt England, und das ist Ihr Verdienst! Hervorragende Arbeit, @<GetFullName>! Aber ich erwarte auch, dass Sie Maracaibo einnehmen – auch diese Stadt muss erobert werden!
+#endreplace
+
+#find
+Cumana und Caracas wurden eingenommen! Jetzt gehört dieser Abschnitt des Festlands England!
+#replacewith
+Cartagena und Maracaibo wurden eingenommen! Jetzt gehört dieser Abschnitt des Festlands England!
+#endreplace
+
+#find
+Unsere Antwort auf den spanischen Angriff auf Port Royal wird unser eigener Angriff auf spanische Städte sein.\nIn der Nähe von Trinidad auf dem Festland gibt es zwei spanische Städte: Cumaná und Caracas. Erobern Sie diese Städte und verpflichten Sie ihre Bewohner auf die Treue zu Seiner Majestät Charles II Stuart.\nHelfen Sie dabei, eine neue Verwaltung einzusetzen, um eine ordnungsgemäße Stadtführung wiederherzustellen und eine zügige Erhebung von Steuern und Abgaben sicherzustellen.
+#replacewith
+Unsere Antwort auf den spanischen Angriff auf Port Royal wird unser eigener Angriff auf spanische Städte sein.\nAuf dem Festland gibt es zwei spanische Städte: Cartagena und Maracaibo. Erobern Sie diese Städte und verpflichten Sie ihre Bewohner auf die Treue zu Seiner Majestät Charles II Stuart.\nHelfen Sie dabei, eine neue Verwaltung einzusetzen, um eine ordnungsgemäße Stadtführung wiederherzustellen und eine zügige Erhebung von Steuern und Abgaben sicherzustellen.
+#endreplace

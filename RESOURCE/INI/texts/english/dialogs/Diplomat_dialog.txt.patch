@@ -13,7 +13,7 @@ Portugal is still at war with Spain, so there will be plenty of Spanish prizes f
 Diplomat_dialog_903 {
 A worthy cause! Portugal it is.
 }
-// Nova Nacao: textos da linha de Portugal
+Diplomat_dialog_NovaNacao {Nova Nacao: Portugal}
 Diplomat_dialog_1001 {
 What do you wish to discuss?
 }
@@ -547,5 +547,137 @@ In Spanish ports they call the Portuguese rebels. In Portuguese ports they call 
 }
 Diplomat_dialog_2121 {
 With your service to Portugal complete, the nations of the Caribbean now act on their own. You may now take colonies for the Portuguese crown.
+}
+Diplomat_dialog_2122 {
+News from the Kingdom at last: at Elvas our army broke the Spanish siege and sent their tercios running back to Badajoz. The priest rang the bells for an hour.
+}
+Diplomat_dialog_2123 {
+They say the Queen Regent was born a Spaniard, a Guzmán of Medina Sidonia, and still she fights Madrid harder than any man at court. 'Better queen for a day than duchess for a lifetime', she said.
+}
+Diplomat_dialog_2124 {
+Padre Vieira is preaching in Maranhão against the settlers who enslave the Indians. The settlers swear they will put him on the first ship back to Lisbon.
+}
+Diplomat_dialog_2125 {
+Half the garrison are degredados, men exiled from Lisbon for their crimes. The officers say they fight well enough, as long as you never turn your back on them at cards.
+}
+Diplomat_dialog_2126 {
+The Brazil Company charges for every chest of sugar it escorts. The merchants grumble, but since the Dutch took the last ships that sailed alone, nobody leaves port without the convoy.
+}
+Diplomat_dialog_2127 {
+France and Spain signed a peace in the Pyrenees, and the French king promised to stop helping Portugal. Now Madrid can send every regiment it has against Lisbon.
+}
+Diplomat_dialog_2128 {
+The Dutch are talking peace with the Portuguese. They have given up on Brazil, they say, but they want to be paid for it in gold and in salt from Setúbal.
+}
+Diplomat_dialog_2129 {
+A German general who served the French is said to be sailing for Lisbon with a few hundred veterans to train the Portuguese army. Schomberg, they call him.
+}
+Diplomat_dialog_2130 {
+Brazilwood is a monopoly of the Portuguese crown, and the dyers of Amsterdam pay a fortune for it. Any captain who finds a load of it without the King's seal can name his price, if he keeps his mouth shut.
+}
+Diplomat_dialog_2131 {
+The Portuguese ships that call here carry Madeira wine. It crosses the ocean twice in the hold and comes out better than it went in. In Port Royal they pay double for it.
+}
+Diplomat_dialog_2132 {
+Brazil Fleet
+}
+Diplomat_dialog_2133 {
+They say the Brazil fleet has sailed from Bahia with sugar and tobacco, bound for @<GetCityName>. Every privateer in the Caribbean will be sharpening his knives.
+}
+Diplomat_dialog_2134 {
+The Brazil fleet dropped anchor at @<GetCityName>. The warehouses are full of sugar and the taverns are full of sailors.
+}
+Diplomat_dialog_2135 {
+The Brazil fleet never made port. They say her flagship was sent to the bottom and the merchantmen scattered like chickens.
+}
+Diplomat_dialog_2136 {
+The Brazil fleet has sailed from Bahia, bound for @<GetCityName>.
+}
+Diplomat_dialog_2137 {
+The Brazil fleet has reached @<GetCityName>. The Crown's share of the cargo, @<FindMoneyString>, went into the treasury.
+}
+Diplomat_dialog_2138 {
+Any dispatches for me, Lourenço?
+}
+Diplomat_dialog_2139 {
+Nothing that needs Your Excellency, for now. Lisbon writes slowly, and the colonies are quiet. Ask me again in a few weeks.
+}
+Diplomat_dialog_2140 {
+A pirate has been taking our coasters in the waters of @<sPlace>. The captains say she flies no flag and leaves no one alive to complain. If Your Excellency has the time, the treasury will pay @<sMoney> for her.
+}
+Diplomat_dialog_2141 {
+Smugglers are landing sugar and tobacco in the waters of @<sPlace> without paying a real to the Crown. The customs house asks for help, and it will pay @<sMoney>. Whatever is in their holds is Your Excellency's.
+}
+Diplomat_dialog_2142 {
+Bad news from our spies: Spanish privateers mean to fall on part of the Brazil fleet in the waters of @<sPlace>, before it reaches port. If Your Excellency can be there first, the treasury will pay @<sMoney>, and the Crown's share of the cargo will be larger.
+}
+Diplomat_dialog_2143 {
+I'll take care of it.
+}
+Diplomat_dialog_2144 {
+Not now. Give it to someone else.
+}
+Diplomat_dialog_2145 {
+Very well. The reward goes into the treasury as soon as the news arrives; Your Excellency need not come back here for it.
+}
+Diplomat_dialog_2146 {
+As you wish. The garrison captains will be glad of the work.
+}
+Diplomat_dialog_2147 {
+Your Excellency already has a dispatch in hand: the waters of @<sPlace>. There is no hurry, but the matter is still open.
+}
+Diplomat_dialog_2148 {
+I haven't forgotten.
+}
+Diplomat_dialog_2149 {
+Give that dispatch to someone else.
+}
+Diplomat_dialog_2150 {
+Done. No one will ask questions; the Governor-General has more important things to do.
+}
+Diplomat_dialog_2151 {
+Dispatch complete: @<FindMoneyString> was deposited in the treasury.
+}
+Diplomat_dialog_2152 {
+@<sName>, a Spanish privateer, has sworn to take a Portuguese ship for every week he spends at sea, and so far he has kept his word. He was last seen in the waters of @<sPlace>. The treasury will pay @<sMoney> for him.
+}
+Diplomat_dialog_2153 {
+A desembargador of the Relação is sailing on Crown business, and the pirates know it. His ship will pass through the waters of @<sPlace>; meet him there and see that he arrives safely. The treasury will pay @<sMoney>.
+}
+Diplomat_dialog_2154 {
+The garrison of @<sPlace> is short of @<sGood>: they need @<sQty>. Bring it to me and the treasury will pay @<sMoney>, well above the market price.
+}
+Diplomat_dialog_2155 {
+The garrison of @<sPlace> is still waiting for @<sQty> of @<sGood>. There is no hurry, but the matter is still open.
+}
+Diplomat_dialog_2156 {
+I've brought the supplies for the garrison.
+}
+Diplomat_dialog_2157 {
+Every barrel counted and signed for. The garrison will be grateful, though they will never say so. The money is already in the treasury.
+}
+Diplomat_dialog_2158 {
+Your Excellency, a letter from Lisbon under the royal seal. For your services to the Crown, His Majesty has made you a knight of the Order of Christ. Here is the habit. Few in the Indies have the right to wear it.
+}
+Diplomat_dialog_2159 {
+It is an honour to serve the Crown.
+}
+Diplomat_dialog_2160 {
+Your Excellency, the galleon Padre Eterno has dropped anchor in the port. She was built in Rio de Janeiro, and they say there is no larger ship in all the seas. Lisbon sends her to the Governor-General. She is waiting in the docks; the harbour master will hand her over whenever you wish, free of charge.
+}
+Diplomat_dialog_2161 {
+Then let's not keep her waiting.
+}
+Diplomat_dialog_2162 {
+Your Excellency, Lisbon has sent you the galleon Padre Eterno, but the docks here are full of your ships. Free a berth with the harbour master and come back, and she is yours.
+}
+Diplomat_dialog_2163 {
+In thanks, the pilot of the Brazil fleet gave you his astrolabe.
+}
+Diplomat_dialog_2164 {
+In the privateer's cabin you found an armillary sphere, taken from some Portuguese ship.
+}
+Diplomat_dialog_2165 {
+Lisbon sent you the attire of a Portuguese noble: white silk and gold, worthy of the Crown's service.
 }
 #endreplace

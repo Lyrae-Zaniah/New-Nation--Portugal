@@ -1,0 +1,37 @@
+#find
+No busquen el barco en el mar. Busquen a quienes salieron de él con vida. Medianoche. El viejo cementerio.
+}
+#replacewith
+No busquen el barco en el mar. Busquen a quienes salieron de él con vida. Medianoche. El viejo cementerio.
+}
+
+itmname_NovaNacao	{Nova Nacao: Portugal}
+itmname_por_habit	{Hábito de la Orden de Cristo}
+itmdescr_por_habit
+{
+La insignia de un caballero de la Orden Militar de Nuestro Señor Jesucristo, heredera de los templarios en Portugal. El rey solo la concede a quienes han servido bien a la Corona, y cualquier capitán portugués la reconoce de un vistazo.
+~
+Pasivo: +10 Liderazgo.
+}
+itmname_por_astrolabe	{Astrolabio náutico}
+itmdescr_por_astrolabe
+{
+Un pesado anillo de bronce que los pilotos portugueses cuelgan de un dedo para tomar la altura del sol a mediodía. Con él y las tablas de declinación, un buen piloto conoce su latitud incluso en una cubierta que cabecea.
+~
+Pasivo: +5 Navegación.
+}
+itmname_por_sphere	{Esfera armilar}
+itmdescr_por_sphere
+{
+Los anillos de los cielos alrededor de la Tierra: el emblema del rey Manuel y de la era de los Descubrimientos. Los capitanes portugueses guardan una en el camarote para recordar a todos quién cartografió el mundo primero.
+~
+Pasivo: +5 Comercio, +5 Liderazgo.
+}
+itmname_suit_por	{Atuendo de noble portugués}
+itmdescr_suit_por
+{
+Seda blanca y bordados de oro: el atuendo de un fidalgo al servicio de la Corona portuguesa. Lisboa lo envía a quienes aceptan servir al rey en las Indias.
+~
+Al llevarlo: +15 Liderazgo.
+}
+#endreplace

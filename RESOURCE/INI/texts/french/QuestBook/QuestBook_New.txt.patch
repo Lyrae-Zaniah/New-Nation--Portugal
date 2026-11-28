@@ -8,121 +8,192 @@
 // Nova Nacao: linha de missoes de Portugal
 POR_Line
 {
-For the Glory of the Crown
+Pour la gloire de la Couronne
 }
 
 POR_Line.1
 {
-The Governor-General of the Portuguese colonies, Francisco Barreto de Meneses, received me coldly but gave me a commission: pirates are taking our merchantmen between Cumaná and Trinidad, always knowing when they sail. I must find the Corvo Negro in the waters of Trinidad and sink her, and report only to him.
+Le gouverneur général des colonies portugaises, Francisco Barreto de Meneses, m'a reçu froidement mais m'a confié une mission : des pirates s'emparent de nos navires marchands entre Cumaná et la Trinité, sachant toujours quand ils appareillent. Je dois trouver le Corvo Negro dans les eaux de la Trinité, le couler, et ne rendre compte qu'à lui.
 }
 
 POR_Line.f
 {
-I left the area before the fight was over. The enemy is still there; I must go back and finish the job.
+J'ai quitté la zone avant la fin du combat. L'ennemi est toujours là ; je dois y retourner et finir le travail.
 }
 
 POR_Line.2
 {
-The Corvo Negro is no more. Her captain, Bento Malheiro, was Portuguese, from Recife. Before he died he said something strange: the pirates always know the day our ships leave Cumaná, 'and Spaniards don't know that kind of thing'. Among his things: Spanish doubloons and a list of our sailing dates. I must report to the Governor-General in Caracas.
+Le Corvo Negro n'est plus. Son capitaine, Bento Malheiro, était portugais, de Recife. Avant de mourir, il a dit quelque chose d'étrange : les pirates savent toujours le jour où nos navires quittent Cumaná, « et les Espagnols ne savent pas ce genre de choses ». Parmi ses affaires : des doublons espagnols et une liste de nos dates d'appareillage. Je dois faire mon rapport au gouverneur général à Caracas.
 }
 
 POR_Line.3
 {
-Promoted to Captain. The governor kept the list and told me to keep quiet. Now I must find Tomé Ferraz, a Portuguese merchant in the tavern of Willemstad, on Curaçao. He is said to be unfriendly.
+Promu capitaine. Le gouverneur a gardé la liste et m'a dit de me taire. Je dois maintenant trouver Tomé Ferraz, un marchand portugais, à la taverne de Willemstad, sur Curaçao. On dit qu'il n'est pas aimable.
 }
 
 POR_Line.4
 {
-Tomé Ferraz only opened up when I told him about Malheiro. A Spanish courier, the Santa Clara, brings the pirates' pay from Havana and anchors off Aruba. I must intercept her. Tomé warned me to think hard before handing the letters to anyone.
+Tomé Ferraz ne s'est ouvert que lorsque je lui ai parlé de Malheiro. Un courrier espagnol, le Santa Clara, apporte la paie des pirates depuis La Havane et mouille au large d'Aruba. Je dois l'intercepter. Tomé m'a conseillé de bien réfléchir avant de remettre les lettres à qui que ce soit.
 }
 
 POR_Line.5
 {
-The Santa Clara has been taken. From the half-burnt letters I could read: gold for every Portuguese ship taken in the Caribbean, raids on the sugar fleets of Pernambuco and Bahia, and a mention of 'our friend in Caracas'. I must report to the Governor-General.
+Le Santa Clara a été pris. Dans les lettres à moitié brûlées, j'ai pu lire : de l'or pour chaque navire portugais capturé dans les Caraïbes, des raids contre les flottes sucrières de Pernambouc et de Bahia, et une mention de « notre ami à Caracas ». Je dois faire mon rapport au gouverneur général.
 }
 
 POR_Line.6
 {
-The governor dismissed 'our friend in Caracas' as just another spy. Now I must protect the fluyt Desterro, bringing sugar from Pernambuco, when she arrives at Cumaná. How does he know the pirates will strike there?
+Le gouverneur a balayé « notre ami à Caracas » comme un espion de plus. Je dois maintenant protéger la flûte Desterro, qui apporte du sucre de Pernambouc, à son arrivée à Cumaná. Comment sait-il que les pirates frapperont là ?
 }
 
 POR_Line.7a
 {
-The pirates off Cumaná have been beaten and the Desterro is safe. Her captain, Amaro Teles, wants to buy me a drink in the tavern of Cumaná.
+Les pirates au large de Cumaná ont été battus et le Desterro est sauf. Son capitaine, Amaro Teles, veut m'offrir un verre à la taverne de Cumaná.
 }
 
 POR_Line.7
 {
-Amaro Teles changed course on purpose this voyage. Only the Governor-General's office knew his new route, and the pirates were waiting for him anyway. I must report to the governor... carefully.
+Amaro Teles a changé de cap exprès pour ce voyage. Seuls les bureaux du gouverneur général connaissaient sa nouvelle route, et pourtant les pirates l'attendaient. Je dois faire mon rapport au gouverneur... prudemment.
 }
 
 POR_Line.7b
 {
-The pirates off Cumaná have been beaten, but the Desterro went down. I must report to the Governor-General.
+Les pirates au large de Cumaná ont été battus, mais le Desterro a sombré. Je dois faire mon rapport au gouverneur général.
 }
 
 POR_Line.8
 {
-Promoted to Capitão-Mor. The governor wants me to destroy the squadron of Gaspar Roiz, 'Iron Hand', off the Cayman Islands. He says Roiz 'has grown greedy', and he wants any papers found on board brought straight to him.
+Promu Capitão-Mor. Le gouverneur veut que je détruise l'escadre de Gaspar Roiz, « Main de Fer », au large des îles Caïmans. Il dit que Roiz « est devenu avide », et il veut que tous les papiers trouvés à bord lui soient remis directement.
 }
 
 POR_Line.9
 {
-Iron Hand's squadron is destroyed. Roiz said the governor sent me after him only because he had asked for a bigger share. In his strongbox I found a ledger: cargoes taken from Portuguese ships, all sold to a merchant in Caracas, Simão Godinho, 'by order of the Palace'. I must decide what to tell the governor.
+L'escadre de Main de Fer est détruite. Roiz a dit que le gouverneur ne m'avait lancé à ses trousses que parce qu'il avait réclamé une plus grosse part. Dans son coffre, j'ai trouvé un registre : des cargaisons prises sur des navires portugais, toutes vendues à un marchand de Caracas, Simão Godinho, « sur ordre du Palais ». Je dois décider de ce que je dirai au gouverneur.
 }
 
 POR_Line.9b
 {
-Iron Hand's squadron is at the bottom of the sea, and Gaspar Roiz with it. Among the floating wreckage my men fished out a sealed strongbox. Inside was a ledger: cargoes taken from Portuguese ships, all sold to a merchant in Caracas, Simão Godinho, 'by order of the Palace'. I must decide what to tell the governor.
+L'escadre de Main de Fer gît au fond de la mer, et Gaspar Roiz avec elle. Parmi les débris, mes hommes ont repêché un coffre scellé. À l'intérieur, un registre : des cargaisons prises sur des navires portugais, toutes vendues à un marchand de Caracas, Simão Godinho, « sur ordre du Palais ». Je dois décider de ce que je dirai au gouverneur.
 }
 
 POR_Line.10
 {
-Promoted to Admiral. The governor called me 'a most useful instrument'. I have Simão Godinho's name; I must find him in the tavern of Caracas.
+Promu amiral. Le gouverneur m'a appelé « un instrument des plus utiles ». J'ai le nom de Simão Godinho ; je dois le trouver à la taverne de Caracas.
 }
 
 POR_Line.11
 {
-Godinho broke when I mentioned the governor: the stolen goods went to the governor's warehouses, under his own seal. His secretary, Lourenço Viegas, copied every contract and fled to Cumaná. I must find him in the tavern there.
+Godinho a craqué quand j'ai mentionné le gouverneur : les marchandises volées allaient dans les entrepôts du gouverneur, sous son propre sceau. Son secrétaire, Lourenço Viegas, a copié chaque contrat et s'est enfui à Cumaná. Je dois le trouver à la taverne là-bas.
 }
 
 POR_Line.12
 {
-The truth at last. Barreto made a pact with a Spanish agent in Havana: Spain pays the pirates, the pirates hand over the cargoes, and the governor sells them and shares the profit. And I was the broom he used to sweep away the pirates who demanded too much. Lourenço gave me the copies of the contracts. The Crown's Desembargador, Dom Álvaro de Sousa Coutinho, is arriving by ship, and Barreto will try to stop him. I must put to sea off Cumaná and protect his ship, then deliver the copies to him in the residence of Cumaná.
+Enfin la vérité. Barreto a passé un pacte avec un agent espagnol à La Havane : l'Espagne paie les pirates, les pirates remettent les cargaisons, et le gouverneur les vend et partage le profit. Et j'étais le balai dont il se servait pour écarter les pirates trop gourmands. Lourenço m'a remis les copies des contrats. Le desembargador de la Couronne, Dom Álvaro de Sousa Coutinho, arrive par la mer, et Barreto tentera de l'arrêter. Je dois prendre la mer au large de Cumaná et protéger son navire, puis lui remettre les copies à la résidence de Cumaná.
 }
 
 POR_Line.13
 {
-Killers under the Spanish flag were waiting off Cumaná for the Desembargador's ship. They are gone, and Dom Álvaro has landed. He is waiting for me in the residence of Cumaná.
+Des tueurs sous pavillon espagnol attendaient le navire du desembargador au large de Cumaná. Ils ne sont plus, et Dom Álvaro a débarqué. Il m'attend à la résidence de Cumaná.
 }
 
 POR_Line.14
 {
-Dom Álvaro read the contracts and named me General. But Barreto de Meneses has fled Caracas aboard his galleon, the São Miguel. I must intercept him in the waters of Caracas, alive if possible.
+Dom Álvaro a lu les contrats et m'a nommé général. Mais Barreto de Meneses a fui Caracas à bord de son galion, le São Miguel. Je dois l'intercepter dans les eaux de Caracas, vivant si possible.
 }
 
 POR_Line.15
 {
-Barreto de Meneses surrendered. He admitted he used me from the first day. I must take him to Dom Álvaro in the residence of Cumaná.
+Barreto de Meneses s'est rendu. Il a reconnu s'être servi de moi dès le premier jour. Je dois le conduire à Dom Álvaro, à la résidence de Cumaná.
 }
 
 POR_Line.15b
 {
-The São Miguel went down, and Barreto de Meneses with her. I must take the news to Dom Álvaro in the residence of Cumaná.
+Le São Miguel a sombré, et Barreto de Meneses avec lui. Je dois porter la nouvelle à Dom Álvaro, à la résidence de Cumaná.
 }
 
 POR_Line.16
 {
-The pirate network is broken and the traitor has been brought to justice. By order of His Majesty Dom Afonso VI, I am now the Governor-General of the Portuguese colonies of the Caribbean. Every month a tenth of each Portuguese colony's profit goes to the treasury in Caracas, where Lourenço Viegas keeps my accounts.
+Le réseau des pirates est démantelé et le traître a été traduit en justice. Sur ordre de Sa Majesté Dom Afonso VI, je suis désormais gouverneur général des colonies portugaises des Caraïbes. Chaque mois, le dixième du profit de chaque colonie portugaise est versé au trésor de Caracas, où Lourenço Viegas tient mes comptes.
 }
 
 POR_Line.2b
 {
-The Corvo Negro went down with her captain. My men pulled a half-drowned pirate out of the water: the captain was Bento Malheiro, a Portuguese from Recife, and he 'always knew the day our ships leave Cumaná'. The captain's chest floated free of the wreck: Spanish doubloons and a list of our sailing dates. I must report to the Governor-General in Caracas.
+Le Corvo Negro a sombré avec son capitaine. Mes hommes ont repêché un pirate à moitié noyé : le capitaine était Bento Malheiro, un Portugais de Recife, et il « savait toujours le jour où nos navires quittent Cumaná ». Le coffre du capitaine a flotté hors de l'épave : des doublons espagnols et une liste de nos dates d'appareillage. Je dois faire mon rapport au gouverneur général à Caracas.
 }
 
 POR_Line.5b
 {
-The Santa Clara went to the bottom, but her oilcloth mail bag floated among the wreckage. From the soaked letters I could read: gold for every Portuguese ship taken in the Caribbean, raids on the sugar fleets of Pernambuco and Bahia, and a mention of 'our friend in Caracas'. I must report to the Governor-General.
+Le Santa Clara a sombré, mais son sac de courrier en toile cirée a flotté parmi les débris. Dans les lettres détrempées, j'ai pu lire : de l'or pour chaque navire portugais capturé dans les Caraïbes, des raids contre les flottes sucrières de Pernambouc et de Bahia, et une mention de « notre ami à Caracas ». Je dois faire mon rapport au gouverneur général.
+}
+
+// Nova Nacao: despachos do Governador-Geral
+POR_Orders
+{
+Dépêches du gouverneur général
+}
+
+POR_Orders.hunt
+{
+Lourenço Viegas m'a transmis une dépêche : un pirate s'en prend à nos caboteurs dans les eaux de @<sPlace>. Le trésor paiera @<sMoney> une fois qu'il sera par le fond. Il n'y a pas de délai, et si je change d'avis, il me suffit de le dire à Lourenço.
+}
+
+POR_Orders.smug
+{
+Lourenço Viegas m'a transmis une dépêche : des contrebandiers privent la Couronne de ses droits dans les eaux de @<sPlace>. La douane paiera @<sMoney>, et leur cargaison est à moi. Il n'y a pas de délai, et si je change d'avis, il me suffit de le dire à Lourenço.
+}
+
+POR_Orders.fleet
+{
+Des corsaires espagnols attendent une partie de la flotte du Brésil dans les eaux de @<sPlace>. Si j'y arrive avant que la flotte n'atteigne le port, le trésor paiera @<sMoney> et la part de la Couronne sur la cargaison sera plus grande.
+}
+
+POR_Orders.done
+{
+La mission est accomplie. @<sMoney> ont été versés au trésor du siège du gouvernement.
+}
+
+POR_Orders.done_lost_escort
+{
+Les pirates ne sont plus, mais le navire du desembargador a sombré avec lui. La moitié de la récompense, @<sMoney>, a été versée au trésor.
+}
+
+POR_Orders.done_loss
+{
+Les corsaires ne sont plus, mais nous avons perdu des navires de la flotte. La moitié de la récompense, @<sMoney>, a été versée au trésor.
+}
+
+POR_Orders.flee
+{
+J'ai quitté ces eaux avant la fin du combat. L'ennemi est toujours là.
+}
+
+POR_Orders.cancel
+{
+J'ai demandé à Lourenço de confier cette dépêche à quelqu'un d'autre. Personne n'a posé de questions.
+}
+
+POR_Orders.fleet_gone
+{
+Le voyage de la flotte du Brésil s'est achevé avant que j'atteigne les corsaires. La dépêche n'a plus d'importance.
+}
+
+POR_Orders.priv
+{
+Lourenço Viegas m'a transmis une dépêche : @<sName>, un corsaire espagnol, chasse les navires portugais dans les eaux de @<sPlace>. Le trésor paiera @<sMoney> pour lui. Il n'y a pas de délai.
+}
+
+POR_Orders.escort
+{
+Le navire d'un desembargador passera par les eaux de @<sPlace>, et des pirates l'attendent. Je dois le retrouver là-bas et veiller à ce qu'il arrive sain et sauf. Le trésor paiera @<sMoney>. Il n'y a pas de délai.
+}
+
+POR_Orders.supply
+{
+La garnison de @<sPlace> a besoin de @<sQty> de @<sGood>. Je dois les apporter à Lourenço Viegas ; le trésor paiera @<sMoney>. Il n'y a pas de délai.
+}
+
+POR_Orders.supplied
+{
+J'ai livré les provisions à la garnison. @<sMoney> ont été versés au trésor.
 }
 #endreplace

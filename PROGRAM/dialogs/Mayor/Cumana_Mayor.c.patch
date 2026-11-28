@@ -1,0 +1,13 @@
+#find
+			if (pchar.questTemp.State == "Sp8SaveCumana_GoodWork")//квест №8 испанки.
+			{
+				dialog.text = StringFromKey("Cumana_Mayor_15", RandPhraseSimple(
+							StringFromKey("Cumana_Mayor_13", UpperFirst(GetAddress_Form(NPChar))),
+							StringFromKey("Cumana_Mayor_14")));
+				link.l1 = StringFromKey("Cumana_Mayor_18", RandPhraseSimple(
+							StringFromKey("Cumana_Mayor_16"),
+							StringFromKey("Cumana_Mayor_17")));
+				link.l1.go = "exit";
+			}
+#replacewith
+#endreplace

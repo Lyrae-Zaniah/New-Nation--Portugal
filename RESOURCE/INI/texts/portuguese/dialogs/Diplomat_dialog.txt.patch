@@ -13,7 +13,7 @@ Portugal ainda está em guerra com a Espanha, então não faltarão presas espan
 Diplomat_dialog_903 {
 Uma causa digna! Que seja Portugal.
 }
-// Nova Nacao: textos da linha de Portugal
+Diplomat_dialog_NovaNacao {Nova Nacao: Portugal}
 Diplomat_dialog_1001 {
 Do que deseja tratar?
 }
@@ -547,5 +547,137 @@ Nos portos espanhóis chamam os portugueses de rebeldes. Nos portos portugueses 
 }
 Diplomat_dialog_2121 {
 Com seu serviço a Portugal concluído, as nações do Caribe agora agem por conta própria. Você já pode tomar colônias para a coroa portuguesa.
+}
+Diplomat_dialog_2122 {
+Enfim notícias do Reino: em Elvas o nosso exército rompeu o cerco espanhol e mandou os terços deles correndo de volta para Badajoz. O padre tocou os sinos por uma hora.
+}
+Diplomat_dialog_2123 {
+Dizem que a Rainha Regente nasceu espanhola, uma Gusmão de Medina Sidónia, e mesmo assim enfrenta Madri com mais firmeza que qualquer homem da corte. 'Antes rainha por um dia que duquesa toda a vida', disse ela.
+}
+Diplomat_dialog_2124 {
+O padre Vieira anda pregando no Maranhão contra os colonos que escravizam os índios. Os colonos juram que vão botá-lo no primeiro navio de volta para Lisboa.
+}
+Diplomat_dialog_2125 {
+Metade da guarnição é de degredados, homens mandados de Lisboa por seus crimes. Os oficiais dizem que eles lutam bem, desde que ninguém lhes dê as costas no jogo de cartas.
+}
+Diplomat_dialog_2126 {
+A Companhia do Brasil cobra por cada caixa de açúcar que escolta. Os mercadores reclamam, mas desde que os holandeses tomaram os últimos navios que saíram sozinhos, ninguém deixa o porto sem o comboio.
+}
+Diplomat_dialog_2127 {
+A França e a Espanha assinaram a paz nos Pirineus, e o rei francês prometeu deixar de ajudar Portugal. Agora Madri pode mandar todos os regimentos que tem contra Lisboa.
+}
+Diplomat_dialog_2128 {
+Os holandeses estão negociando a paz com os portugueses. Dizem que já desistiram do Brasil, mas querem ser pagos por ele em ouro e em sal de Setúbal.
+}
+Diplomat_dialog_2129 {
+Dizem que um general alemão que serviu os franceses está indo para Lisboa com algumas centenas de veteranos para treinar o exército português. Chamam-no de Schomberg.
+}
+Diplomat_dialog_2130 {
+O pau-brasil é monopólio da coroa portuguesa, e os tintureiros de Amsterdã pagam uma fortuna por ele. Capitão que achar uma carga sem o selo do Rei pode pedir o preço que quiser, se souber ficar calado.
+}
+Diplomat_dialog_2131 {
+Os navios portugueses que passam por aqui trazem vinho da Madeira. Ele atravessa o oceano duas vezes no porão e sai melhor do que entrou. Em Port Royal pagam o dobro por ele.
+}
+Diplomat_dialog_2132 {
+Frota do Brasil
+}
+Diplomat_dialog_2133 {
+Dizem que a Frota do Brasil zarpou da Bahia com açúcar e tabaco, rumo a @<GetCityName>. Todo corsário do Caribe deve estar afiando as facas.
+}
+Diplomat_dialog_2134 {
+A Frota do Brasil lançou âncora em @<GetCityName>. Os armazéns estão cheios de açúcar, e as tavernas, de marinheiros.
+}
+Diplomat_dialog_2135 {
+A Frota do Brasil nunca chegou ao porto. Dizem que a capitânia foi ao fundo e os mercantes se espalharam feito galinhas.
+}
+Diplomat_dialog_2136 {
+A Frota do Brasil zarpou da Bahia, rumo a @<GetCityName>.
+}
+Diplomat_dialog_2137 {
+A Frota do Brasil chegou a @<GetCityName>. A parte da Coroa na carga, @<FindMoneyString>, foi para o tesouro.
+}
+Diplomat_dialog_2138 {
+Algum despacho para mim, Lourenço?
+}
+Diplomat_dialog_2139 {
+Nada que precise de Vossa Excelência, por ora. Lisboa escreve devagar, e as colônias andam quietas. Pergunte de novo daqui a umas semanas.
+}
+Diplomat_dialog_2140 {
+Um pirata anda tomando os nossos navios de cabotagem nas águas de @<sPlace>. Os capitães dizem que ele não arvora bandeira e não deixa ninguém vivo para reclamar. Se Vossa Excelência tiver tempo, o tesouro paga @<sMoney> por ele.
+}
+Diplomat_dialog_2141 {
+Contrabandistas andam descarregando açúcar e tabaco nas águas de @<sPlace> sem pagar um real à Coroa. A alfândega pede ajuda e paga @<sMoney>. O que houver nos porões deles fica para Vossa Excelência.
+}
+Diplomat_dialog_2142 {
+Más notícias dos nossos espiões: corsários espanhóis pretendem cair sobre parte da Frota do Brasil nas águas de @<sPlace>, antes que ela chegue ao porto. Se Vossa Excelência chegar lá primeiro, o tesouro paga @<sMoney>, e a parte da Coroa na carga será maior.
+}
+Diplomat_dialog_2143 {
+Eu cuido disso.
+}
+Diplomat_dialog_2144 {
+Agora não. Passe para outro.
+}
+Diplomat_dialog_2145 {
+Muito bem. A recompensa vai para o tesouro assim que a notícia chegar; Vossa Excelência não precisa voltar aqui por ela.
+}
+Diplomat_dialog_2146 {
+Como quiser. Os capitães da guarnição vão gostar do serviço.
+}
+Diplomat_dialog_2147 {
+Vossa Excelência já tem um despacho em mãos: as águas de @<sPlace>. Não há pressa, mas o assunto continua aberto.
+}
+Diplomat_dialog_2148 {
+Não esqueci.
+}
+Diplomat_dialog_2149 {
+Passe esse despacho para outro.
+}
+Diplomat_dialog_2150 {
+Feito. Ninguém vai fazer perguntas; o Governador-Geral tem coisas mais importantes a fazer.
+}
+Diplomat_dialog_2151 {
+Despacho cumprido: @<FindMoneyString> foram depositados no tesouro.
+}
+Diplomat_dialog_2152 {
+@<sName>, um corsário espanhol, jurou tomar um navio português para cada semana que passa no mar, e até agora cumpriu a palavra. Foi visto pela última vez nas águas de @<sPlace>. O tesouro paga @<sMoney> por ele.
+}
+Diplomat_dialog_2153 {
+Um desembargador da Relação navega a serviço da Coroa, e os piratas sabem disso. O navio dele vai passar pelas águas de @<sPlace>; encontre-o lá e garanta que chegue em segurança. O tesouro paga @<sMoney>.
+}
+Diplomat_dialog_2154 {
+A guarnição de @<sPlace> está com falta de @<sGood>: precisam de @<sQty>. Traga para mim e o tesouro paga @<sMoney>, bem acima do preço do mercado.
+}
+Diplomat_dialog_2155 {
+A guarnição de @<sPlace> ainda espera @<sQty> de @<sGood>. Não há pressa, mas o assunto continua aberto.
+}
+Diplomat_dialog_2156 {
+Trouxe os suprimentos da guarnição.
+}
+Diplomat_dialog_2157 {
+Cada barril contado e assinado. A guarnição vai ficar grata, mesmo que nunca diga. O dinheiro já está no tesouro.
+}
+Diplomat_dialog_2158 {
+Vossa Excelência, uma carta de Lisboa com o selo real. Pelos seus serviços à Coroa, Sua Majestade o fez cavaleiro da Ordem de Cristo. Aqui está o hábito. Poucos nas Índias têm o direito de usá-lo.
+}
+Diplomat_dialog_2159 {
+É uma honra servir a Coroa.
+}
+Diplomat_dialog_2160 {
+Vossa Excelência, o galeão Padre Eterno lançou âncora no porto. Foi construído no Rio de Janeiro, e dizem que não há navio maior em todos os mares. Lisboa o envia ao Governador-Geral. Ele espera nas docas; o capitão do porto o entrega quando Vossa Excelência quiser, sem cobrar nada.
+}
+Diplomat_dialog_2161 {
+Então não vamos deixá-lo esperando.
+}
+Diplomat_dialog_2162 {
+Vossa Excelência, Lisboa lhe enviou o galeão Padre Eterno, mas as docas daqui estão cheias de navios seus. Libere uma vaga com o capitão do porto e volte, e ele é seu.
+}
+Diplomat_dialog_2163 {
+Em agradecimento, o piloto da Frota do Brasil lhe deu o seu astrolábio.
+}
+Diplomat_dialog_2164 {
+Na cabine do corsário você encontrou uma esfera armilar, tomada de algum navio português.
+}
+Diplomat_dialog_2165 {
+Lisboa lhe enviou o traje de um fidalgo português: seda branca e ouro, digno do serviço da Coroa.
 }
 #endreplace

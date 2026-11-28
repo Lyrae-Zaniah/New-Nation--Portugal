@@ -125,4 +125,75 @@ POR_Line.5b
 {
 The Santa Clara went to the bottom, but her oilcloth mail bag floated among the wreckage. From the soaked letters I could read: gold for every Portuguese ship taken in the Caribbean, raids on the sugar fleets of Pernambuco and Bahia, and a mention of 'our friend in Caracas'. I must report to the Governor-General.
 }
+
+// Nova Nacao: despachos do Governador-Geral
+POR_Orders
+{
+Governor-General's Dispatches
+}
+
+POR_Orders.hunt
+{
+Lourenço Viegas passed me a dispatch: a pirate is taking our coasters in the waters of @<sPlace>. The treasury will pay @<sMoney> once she is at the bottom. There is no deadline, and if I change my mind I only need to tell Lourenço.
+}
+
+POR_Orders.smug
+{
+Lourenço Viegas passed me a dispatch: smugglers are cheating the Crown of its duties in the waters of @<sPlace>. The customs house will pay @<sMoney>, and their cargo is mine. There is no deadline, and if I change my mind I only need to tell Lourenço.
+}
+
+POR_Orders.fleet
+{
+Spanish privateers are waiting for part of the Brazil fleet in the waters of @<sPlace>. If I get there before the fleet reaches port, the treasury will pay @<sMoney> and the Crown's share of the cargo will be larger.
+}
+
+POR_Orders.done
+{
+The job is done. @<sMoney> was deposited in the treasury at the seat of government.
+}
+
+POR_Orders.done_lost_escort
+{
+The pirates are gone, but the desembargador's ship went down with him. Half the reward, @<sMoney>, was deposited in the treasury.
+}
+
+POR_Orders.done_loss
+{
+The privateers are gone, but we lost ships of the fleet. Half the reward, @<sMoney>, was deposited in the treasury.
+}
+
+POR_Orders.flee
+{
+I left those waters before the fight was over. The enemy is still there.
+}
+
+POR_Orders.cancel
+{
+I told Lourenço to give this dispatch to someone else. No one asked questions.
+}
+
+POR_Orders.fleet_gone
+{
+The Brazil fleet's voyage ended before I reached the privateers. The dispatch no longer matters.
+}
+
+POR_Orders.priv
+{
+Lourenço Viegas passed me a dispatch: @<sName>, a Spanish privateer, is hunting Portuguese ships in the waters of @<sPlace>. The treasury will pay @<sMoney> for him. There is no deadline.
+}
+
+POR_Orders.escort
+{
+A desembargador's ship will pass through the waters of @<sPlace>, and pirates are waiting for it. I must meet it there and see that it arrives safely. The treasury will pay @<sMoney>. There is no deadline.
+}
+
+POR_Orders.supply
+{
+The garrison of @<sPlace> needs @<sQty> of @<sGood>. I must bring them to Lourenço Viegas; the treasury will pay @<sMoney>. There is no deadline.
+}
+
+POR_Orders.supplied
+{
+I delivered the supplies to the garrison. @<sMoney> was deposited in the treasury.
+}
 #endreplace

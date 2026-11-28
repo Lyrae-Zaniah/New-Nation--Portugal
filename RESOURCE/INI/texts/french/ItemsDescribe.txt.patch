@@ -1,0 +1,37 @@
+#find
+Ne cherchez pas le navire en mer. Cherchez ceux qui l’ont quitté vivants. Minuit. Le vieux cimetière.
+}
+#replacewith
+Ne cherchez pas le navire en mer. Cherchez ceux qui l’ont quitté vivants. Minuit. Le vieux cimetière.
+}
+
+itmname_NovaNacao	{Nova Nacao: Portugal}
+itmname_por_habit	{Habit de l'ordre du Christ}
+itmdescr_por_habit
+{
+L'insigne d'un chevalier de l'ordre militaire de Notre-Seigneur Jésus-Christ, héritier des Templiers au Portugal. Le roi ne l'accorde qu'à ceux qui ont bien servi la Couronne, et tout capitaine portugais le reconnaît au premier coup d'œil.
+~
+Passif : +10 Leadership.
+}
+itmname_por_astrolabe	{Astrolabe nautique}
+itmdescr_por_astrolabe
+{
+Un lourd anneau de bronze que les pilotes portugais suspendent à un doigt pour mesurer la hauteur du soleil à midi. Avec lui et les tables de déclinaison, un bon pilote connaît sa latitude même sur un pont qui tangue.
+~
+Passif : +5 Navigation.
+}
+itmname_por_sphere	{Sphère armillaire}
+itmdescr_por_sphere
+{
+Les anneaux des cieux autour de la Terre : l'emblème du roi Manuel et de l'âge des Découvertes. Les capitaines portugais en gardent une dans leur cabine pour rappeler à tous qui a cartographié le monde en premier.
+~
+Passif : +5 Commerce, +5 Leadership.
+}
+itmname_suit_por	{Tenue de noble portugais}
+itmdescr_suit_por
+{
+Soie blanche et broderies d'or : la tenue d'un fidalgo au service de la Couronne portugaise. Lisbonne l'envoie à ceux qui acceptent de servir le roi aux Indes.
+~
+Portée : +15 Leadership.
+}
+#endreplace

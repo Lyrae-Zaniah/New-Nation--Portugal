@@ -1,0 +1,11 @@
+#find
+La ville de Cumaná est désormais sous la protection de l’Angleterre. Tous les impôts, droits de commerce et autres paiements doivent être versés à la nouvelle administration anglaise.
+#replacewith
+La ville de Cartagena est désormais sous la protection de l’Angleterre. Tous les impôts, droits de commerce et autres paiements doivent être versés à la nouvelle administration anglaise.
+#endreplace
+
+#find
+Nous avons appris qu'il y a 200 000 réaux à Cumana... Nous sommes ici pour cet argent.
+#replacewith
+Nous avons appris qu'il y a 200 000 réaux à Maracaibo... Nous sommes ici pour cet argent.
+#endreplace

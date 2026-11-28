@@ -1,0 +1,59 @@
+#find
+Es muy afortunado que hayas llegado justo a tiempo. Tengo una tarea muy importante para ti. Verás, el famoso bucanero Capitán Ansel ha logrado unir a corsarios ingleses y franceses para lanzar un ataque contra Cumaná.
+#replacewith
+Es muy afortunado que hayas llegado justo a tiempo. Tengo una tarea muy importante para ti. Verás, el famoso bucanero Capitán Ansel ha logrado unir a corsarios ingleses y franceses para lanzar un ataque contra Cartagena.
+#endreplace
+
+#find
+Algunos de los refugiados de Cumana ya han llegado aquí. No lograste salvar la ciudad ni a su gente.
+}
+spa_Governor_94_m {
+Corrí hacia Cumana con todas las velas desplegadas, sin detenerme ni un minuto. Pero aun así, no llegué a tiempo; simplemente no había manera.
+}
+spa_Governor_94_f {
+Iba a toda vela hacia Cumana, sin detenerme ni un minuto en ningún sitio. Aun así, no llegué a tiempo; simplemente era imposible.
+}
+spa_Governor_95 {
+Algunos de los refugiados de Cumana ya han llegado aquí. No lograste salvar la ciudad ni a su gente.
+#replacewith
+Algunos de los refugiados de Cartagena ya han llegado aquí. No lograste salvar la ciudad ni a su gente.
+}
+spa_Governor_94_m {
+Corrí hacia Cartagena con todas las velas desplegadas, sin detenerme ni un minuto. Pero aun así, no llegué a tiempo; simplemente no había manera.
+}
+spa_Governor_94_f {
+Iba a toda vela hacia Cartagena, sin detenerme ni un minuto en ningún sitio. Aun así, no llegué a tiempo; simplemente era imposible.
+}
+spa_Governor_95 {
+Algunos de los refugiados de Cartagena ya han llegado aquí. No lograste salvar la ciudad ni a su gente.
+#endreplace
+
+#find
+Ya me han informado que Cumana ha sido salvada. ¡Excelente!
+#replacewith
+Ya me han informado que Cartagena ha sido salvada. ¡Excelente!
+#endreplace
+
+#find
+Sin embargo, no nos corresponde caer en la desesperación. Estamos al filo mismo de la espada, castigando a nuestros enemigos en nombre de España y del Señor Todopoderoso. Y ya que nos desafían una vez más, debemos responder con honor.\nUna y otra vez, bandidos y criminales de toda clase—los ladrones—han tomado nuestras ciudades, torturado y asesinado a nuestros colonos.\nEsta vez, debemos asegurar la defensa firme de Cumaná, y esa es tu tarea. Dirígete a Cumaná de inmediato y rechaza el ataque de los ladrones bajo el mando del capitán Ansel.
+#replacewith
+Sin embargo, no nos corresponde caer en la desesperación. Estamos al filo mismo de la espada, castigando a nuestros enemigos en nombre de España y del Señor Todopoderoso. Y ya que nos desafían una vez más, debemos responder con honor.\nUna y otra vez, bandidos y criminales de toda clase—los ladrones—han tomado nuestras ciudades, torturado y asesinado a nuestros colonos.\nEsta vez, debemos asegurar la defensa firme de Cartagena, y esa es tu tarea. Dirígete a Cartagena de inmediato y rechaza el ataque de los ladrones bajo el mando del capitán Ansel.
+#endreplace
+
+#find
+Dicen que el capitán @<GetFullName> no logró salvar a la gente de Cumana. Un destino triste...
+}
+spa_Governor_270_f {
+Dicen que el capitán @<GetFullName> no logró salvar a la gente de Cumaná. Un destino triste...
+#replacewith
+Dicen que el capitán @<GetFullName> no logró salvar a la gente de Cartagena. Un destino triste...
+}
+spa_Governor_270_f {
+Dicen que el capitán @<GetFullName> no logró salvar a la gente de Cartagena. Un destino triste...
+#endreplace
+
+#find
+Capitán, dicen que fue usted quien salvó Cumana. Permítame expresarle mi admiración, @<GetAddress_Form>...
+#replacewith
+Capitán, dicen que fue usted quien salvó Cartagena. Permítame expresarle mi admiración, @<GetAddress_Form>...
+#endreplace

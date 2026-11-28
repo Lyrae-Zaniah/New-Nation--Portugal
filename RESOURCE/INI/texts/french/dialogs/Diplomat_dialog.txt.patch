@@ -13,7 +13,7 @@ Le Portugal est toujours en guerre contre l’Espagne : les prises espagnoles ne
 Diplomat_dialog_903 {
 Une noble cause ! Va pour le Portugal.
 }
-// Nova Nacao: textos da linha de Portugal
+Diplomat_dialog_NovaNacao {Nova Nacao: Portugal}
 Diplomat_dialog_1001 {
 De quoi souhaitez-vous parler ?
 }
@@ -27,525 +27,657 @@ Diplomat_dialog_1004 {
 Comme il vous plaira, Votre Excellence.
 }
 Diplomat_dialog_1005 {
-You have your orders, corsair. I don't recall asking for a visit.
+Vous avez vos ordres, corsaire. Je ne me souviens pas de vous avoir invité.
 }
 Diplomat_dialog_1006 {
-Of course, Your Excellency.
+Bien sûr, Votre Excellence.
 }
 Diplomat_dialog_1007 {
-The pirates are scattered, and Caracas sleeps soundly. Go and enjoy your rank, Admiral. When the Crown needs you, I will know where to find you. I always do.
+Les pirates sont dispersés et Caracas dort tranquille. Allez profiter de votre rang, amiral. Quand la Couronne aura besoin de vous, je saurai où vous trouver. Je le sais toujours.
 }
 Diplomat_dialog_1008 {
-A corsair with a Portuguese letter of marque. How unusual. Most of your kind sell their flag to whoever pays more... No matter. I don't need your loyalty, only your guns. Do you know what is happening between Cumaná and Trinidad?
+Un corsaire avec une lettre de marque portugaise. Comme c'est rare. La plupart de vos semblables vendent leur pavillon au plus offrant... Peu importe. Je n'ai pas besoin de votre loyauté, seulement de vos canons. Savez-vous ce qui se passe entre Cumaná et la Trinité ?
 }
 Diplomat_dialog_1009 {
-I have heard of merchantmen going missing.
+J'ai entendu parler de navires marchands disparus.
 }
 Diplomat_dialog_1010 {
-Seven ships in four months. Seven! Sugar, tobacco, cloth from Lisbon. The pirates always seem to know when and where to strike, as if they had a pilot's chart of our routes.
+Sept navires en quatre mois. Sept ! Du sucre, du tabac, du drap de Lisbonne. Les pirates semblent toujours savoir où et quand frapper, comme s'ils avaient la carte de nos routes.
 }
 Diplomat_dialog_1011 {
-Do you know who they are?
+Savez-vous qui ils sont ?
 }
 Diplomat_dialog_1012 {
-Rabble. Their captain is said to call his brigantine the Corvo Negro and to haunt the waters around Trinidad. That is all you need to know.
+De la canaille. On dit que leur capitaine a baptisé son brigantin le Corvo Negro et qu'il rôde dans les eaux de la Trinité. C'est tout ce que vous avez besoin de savoir.
 }
 Diplomat_dialog_1013 {
-If they know our routes, someone is talking. Shouldn't we find out who?
+S'ils connaissent nos routes, quelqu'un parle. Ne devrions-nous pas découvrir qui ?
 }
 Diplomat_dialog_1014 {
-Thinking is my task, corsair; yours is to sink. Go to Trinidad, send them to the bottom, and report to me, and to no one else. Is that clear?
+Penser est ma tâche, corsaire ; la vôtre est de couler. Allez à la Trinité, envoyez-les par le fond, et rendez compte à moi, et à personne d'autre. Est-ce clair ?
 }
 Diplomat_dialog_1015 {
-Perfectly clear.
+Parfaitement clair.
 }
 Diplomat_dialog_1016 {
-You're back. And alive, which is more than I wagered. Well?
+Vous voilà de retour. Et vivant, ce qui est plus que je n'avais parié. Alors ?
 }
 Diplomat_dialog_1017 {
-The Corvo Negro is gone. Her captain was Portuguese, a man from Recife. He was carrying Spanish doubloons and a list with the dates our ships leave Cumaná.
+Le Corvo Negro n'est plus. Son capitaine était portugais, un homme de Recife. Il transportait des doublons espagnols et une liste des dates de départ de nos navires de Cumaná.
 }
 Diplomat_dialog_1018 {
-A list... Give it to me. The Spanish gold doesn't surprise me; every scoundrel on these seas is paid in pieces of eight. And sailing dates can be bought in any tavern from a drunken harbour clerk.
+Une liste... Donnez-la-moi. L'or espagnol ne me surprend pas ; toutes les crapules de ces mers sont payées en pièces de huit. Et les dates d'appareillage s'achètent dans n'importe quelle taverne, auprès d'un commis du port ivre.
 }
 Diplomat_dialog_1019 {
-(hand over the list) Here.
+(remettre la liste) La voici.
 }
 Diplomat_dialog_1020 {
-Good. You did well, better than I expected. By the authority vested in me, I raise you to Captain. Take these 15,000 piastres. And corsair... keep these things to yourself. Rumours frighten merchants more than pirates do.
+Bien. Vous avez fait du bon travail, mieux que je ne l'espérais. Par l'autorité qui m'est conférée, je vous élève au rang de capitaine. Prenez ces 15 000 piastres. Et, corsaire... gardez ces choses pour vous. Les rumeurs effraient les marchands plus que les pirates.
 }
 Diplomat_dialog_1021 {
-And what now, Your Excellency?
+Et maintenant, Votre Excellence ?
 }
 Diplomat_dialog_1022 {
-Now we follow the gold. A merchant of ours in Willemstad, Tomé Ferraz, trades with everyone, Dutch, Spaniards, smugglers. If anyone knows who feeds these pirates, it is him. He owes me nothing, so don't expect him to be friendly.
+Maintenant, nous suivons l'or. Un de nos marchands à Willemstad, Tomé Ferraz, commerce avec tout le monde : Hollandais, Espagnols, contrebandiers. Si quelqu'un sait qui nourrit ces pirates, c'est lui. Il ne me doit rien, alors ne vous attendez pas à ce qu'il soit aimable.
 }
 Diplomat_dialog_1023 {
-I'll find him in the tavern.
+Je le trouverai à la taverne.
 }
 Diplomat_dialog_1024 {
-Ferraz talked, then? He usually only talks about prices.
+Ferraz a donc parlé ? D'habitude, il ne parle que de prix.
 }
 Diplomat_dialog_1025 {
-He pointed me to a Spanish courier off Aruba. I took her. Her letters promise gold for every Portuguese ship taken here, and for raids on the sugar fleets of Pernambuco and Bahia. And they mention 'our friend in Caracas'.
+Il m'a mis sur la piste d'un courrier espagnol au large d'Aruba. Je l'ai pris. Ses lettres promettent de l'or pour chaque navire portugais capturé ici, et pour des raids contre les flottes sucrières de Pernambouc et de Bahia. Et elles mentionnent « notre ami à Caracas ».
 }
 Diplomat_dialog_1026 {
-Spain has spies in every port of the New World, and Caracas is a port. Nothing more. Those letters are evidence for Lisbon, a matter for diplomats, not corsairs. Hand them over; I'll send them on the next ship.
+L'Espagne a des espions dans chaque port du Nouveau Monde, et Caracas est un port. Rien de plus. Ces lettres sont des preuves pour Lisbonne, une affaire de diplomates, pas de corsaires. Remettez-les-moi ; je les enverrai par le prochain navire.
 }
 Diplomat_dialog_1027 {
-(hand over the letters) As you wish.
+(remettre les lettres) Comme vous voudrez.
 }
 Diplomat_dialog_1028 {
-The courier threw most of them overboard. What's left is barely legible.
+Le courrier en a jeté la plupart par-dessus bord. Ce qui reste est à peine lisible.
 }
 Diplomat_dialog_1029 {
-Sensible. Here are 20,000 piastres. You are learning how things are done here.
+Sage décision. Voici 20 000 piastres. Vous apprenez comment les choses se passent ici.
 }
 Diplomat_dialog_1030 {
-...Unfortunate. Then burn whatever is left; half-legible papers only start rumours. Here are 20,000 piastres.
+...Regrettable. Alors brûlez ce qui reste ; des papiers à moitié lisibles ne font que lancer des rumeurs. Voici 20 000 piastres.
 }
 Diplomat_dialog_1031 {
-Understood.
+Compris.
 }
 Diplomat_dialog_1032 {
-No rest for you yet. The fluyt Desterro is bringing sugar from Pernambuco to Cumaná, and I am told the pirates mean to take her right under our walls. She must arrive. Her cargo... is important to the colony.
+Pas encore de repos pour vous. La flûte Desterro apporte du sucre de Pernambouc à Cumaná, et l'on me dit que les pirates comptent la prendre juste sous nos murs. Elle doit arriver. Sa cargaison... est importante pour la colonie.
 }
 Diplomat_dialog_1033 {
-How do you know they will attack her?
+Comment savez-vous qu'ils vont l'attaquer ?
 }
 Diplomat_dialog_1034 {
-I know many things, Capitão. That is why I govern and you sail. Go to Cumaná.
+Je sais beaucoup de choses, Capitão. C'est pour cela que je gouverne et que vous naviguez. Allez à Cumaná.
 }
 Diplomat_dialog_1035 {
-On my way.
+J'y vais.
 }
 Diplomat_dialog_1036 {
-The Desterro?
+Le Desterro ?
 }
 Diplomat_dialog_1037 {
-Safe in port, the pirates scattered. Her captain told me the same band burned mills near Recife, and that their route was known only to your office.
+À l'abri au port, et les pirates dispersés. Son capitaine m'a dit que la même bande avait brûlé des moulins près de Recife, et que sa route n'était connue que de vos bureaux.
 }
 Diplomat_dialog_1038 {
-Captains always blame the governor when they get frightened. My office, the harbour master, the insurers in Lisbon... half the world knew that route. You did your job; that is what matters. From today you are Capitão-Mor. Here are 25,000 piastres.
+Les capitaines accusent toujours le gouverneur quand ils ont peur. Mes bureaux, le capitaine du port, les assureurs de Lisbonne... la moitié du monde connaissait cette route. Vous avez fait votre travail ; c'est ce qui compte. À partir d'aujourd'hui, vous êtes Capitão-Mor. Voici 25 000 piastres.
 }
 Diplomat_dialog_1039 {
-The pirates are destroyed, but the Desterro went down with them.
+Les pirates sont détruits, mais le Desterro a sombré avec eux.
 }
 Diplomat_dialog_1040 {
-A pity about the sugar. Still, the pirates paid, and I need officers who don't run. You are Capitão-Mor all the same. Take 10,000 piastres.
+Dommage pour le sucre. Mais les pirates ont payé, et j'ai besoin d'officiers qui ne fuient pas. Vous êtes Capitão-Mor tout de même. Prenez 10 000 piastres.
 }
 Diplomat_dialog_1041 {
-Now the head of the snake. Gaspar Roiz, called Iron Hand, keeps his squadron off the Cayman Islands. He is cleverer than the others, and he has grown... greedy. Destroy him, and these waters will be quiet again.
+Maintenant, la tête du serpent. Gaspar Roiz, dit Main de Fer, garde son escadre au large des îles Caïmans. Il est plus malin que les autres, et il est devenu... avide. Détruisez-le, et ces eaux redeviendront calmes.
 }
 Diplomat_dialog_1042 {
-Greedy? You speak as if you knew him.
+Avide ? Vous en parlez comme si vous le connaissiez.
 }
 Diplomat_dialog_1043 {
-I know what every governor knows: a pirate who takes too much ends up wanting everything. Go. And if you find anything on board, papers, letters, anything, bring it straight to me.
+Je sais ce que tout gouverneur sait : un pirate qui prend trop finit par tout vouloir. Allez. Et si vous trouvez quoi que ce soit à bord, papiers, lettres, n'importe quoi, apportez-le-moi directement.
 }
 Diplomat_dialog_1044 {
-Understood.
+Compris.
 }
 Diplomat_dialog_1045 {
-Is Iron Hand dead?
+Main de Fer est-il mort ?
 }
 Diplomat_dialog_1046 {
-His squadron is gone.
+Son escadre n'existe plus.
 }
 Diplomat_dialog_1047 {
-And on board? I told you to bring me anything you found.
+Et à bord ? Je vous avais dit de m'apporter tout ce que vous trouveriez.
 }
 Diplomat_dialog_1048 {
-Rum, powder and a few rotten charts. Nothing of interest.
+Du rhum, de la poudre et quelques cartes pourries. Rien d'intéressant.
 }
 Diplomat_dialog_1049 {
-A ledger. Cargoes and buyers.
+Un registre. Des cargaisons et des acheteurs.
 }
 Diplomat_dialog_1050 {
-A pirate's accounts. Fascinating. Give it to me; it will help the magistrates in Lisbon. And forget whatever you read in it, Capitão-Mor. Memory is a dangerous thing in the tropics.
+Les comptes d'un pirate. Fascinant. Donnez-le-moi ; il aidera les magistrats de Lisbonne. Et oubliez ce que vous y avez lu, Capitão-Mor. La mémoire est une chose dangereuse sous les tropiques.
 }
 Diplomat_dialog_1051 {
-(hand over the ledger) Of course.
+(remettre le registre) Bien sûr.
 }
 Diplomat_dialog_1052 {
-For this victory, I name you Admiral. Here are 40,000 piastres. You have been a most useful instrument, Admiral. I won't forget it.
+Pour cette victoire, je vous nomme amiral. Voici 40 000 piastres. Vous avez été un instrument des plus utiles, amiral. Je ne l'oublierai pas.
 }
 Diplomat_dialog_1053 {
-Neither will I, Your Excellency.
+Moi non plus, Votre Excellence.
 }
 Diplomat_dialog_1054 {
-You serve another crown. Portugal does not share its corsairs.
+Vous servez une autre couronne. Le Portugal ne partage pas ses corsaires.
 }
 Diplomat_dialog_1055 {
-The Corvo Negro is at the bottom. We pulled one of her men out of the water, and he swore the captain was Portuguese, a man from Recife. The captain's chest floated free of the wreck, with Spanish doubloons and a list of the dates our ships leave Cumaná.
+Le Corvo Negro est par le fond. Nous avons repêché un de ses hommes, et il a juré que le capitaine était portugais, un homme de Recife. Le coffre du capitaine a flotté hors de l'épave, avec des doublons espagnols et une liste des dates de départ de nos navires de Cumaná.
 }
 Diplomat_dialog_1056 {
-He pointed me to a Spanish courier off Aruba. I sent her to the bottom, but her mail bag floated. What the sea spared of the letters promises gold for every Portuguese ship taken here, and for raids on the sugar fleets of Pernambuco and Bahia. And they mention 'our friend in Caracas'.
+Il m'a mis sur la piste d'un courrier espagnol au large d'Aruba. Je l'ai envoyé par le fond, mais son sac de courrier a flotté. Ce que la mer a épargné des lettres promet de l'or pour chaque navire portugais capturé ici, et pour des raids contre les flottes sucrières de Pernambouc et de Bahia. Et elles mentionnent « notre ami à Caracas ».
 }
 Diplomat_dialog_1057 {
-The sea got to most of them. What's left is barely legible.
+La mer a abîmé la plupart d'entre elles. Ce qui reste est à peine lisible.
 }
 Diplomat_dialog_2001 {
-I have nothing to say to you.
+Je n'ai rien à vous dire.
 }
 Diplomat_dialog_2002 {
-Farewell.
+Adieu.
 }
 Diplomat_dialog_2003 {
-Promoted: @<GetAddress_FormTitle>
+Promotion : @<GetAddress_FormTitle>
 }
 Diplomat_dialog_2004 {
-Then we end it here.
+Alors finissons-en ici.
 }
 Diplomat_dialog_2005 {
-So the governor sends a privateer under our own flag. Lower your sword a moment, captain. I'd like to know the name of the man who's going to kill me.
+Ainsi le gouverneur envoie un corsaire sous notre propre pavillon. Baissez votre épée un instant, capitaine. J'aimerais connaître le nom de l'homme qui va me tuer.
 }
 Diplomat_dialog_2006 {
-You're Portuguese. Why are you hunting your own people?
+Vous êtes portugais. Pourquoi chassez-vous les vôtres ?
 }
 Diplomat_dialog_2007 {
-My own people? I was born in Recife. When the Dutch took it, Lisbon sent prayers and no ships. Twelve years we fought on our own. My own people left us to rot.
+Les miens ? Je suis né à Recife. Quand les Hollandais l'ont prise, Lisbonne a envoyé des prières et pas un navire. Douze ans, nous nous sommes battus seuls. Les miens nous ont laissés pourrir.
 }
 Diplomat_dialog_2008 {
-So now you sell yourself to Spain.
+Et maintenant vous vous vendez à l'Espagne.
 }
 Diplomat_dialog_2009 {
-I sell myself to whoever pays. The gold comes in Spanish coin, yes. But the gold isn't the strange part, captain.
+Je me vends à qui paie. L'or arrive en monnaie espagnole, oui. Mais ce n'est pas l'or qui est étrange, capitaine.
 }
 Diplomat_dialog_2010 {
-Then what is?
+Alors quoi ?
 }
 Diplomat_dialog_2011 {
-We always know the day your ships leave Cumaná. Always. Spaniards don't know that kind of thing. Think about it, if you live long enough. I've said too much already.
+Nous savons toujours le jour où vos navires quittent Cumaná. Toujours. Les Espagnols ne savent pas ce genre de choses. Réfléchissez-y, si vous vivez assez longtemps. J'en ai déjà trop dit.
 }
 Diplomat_dialog_2012 {
-Surrender, and you'll stand trial.
+Rendez-vous, et vous serez jugé.
 }
 Diplomat_dialog_2013 {
-A trial in Caracas? No, thank you. I'd rather die with a blade in my hand.
+Un procès à Caracas ? Non merci. Je préfère mourir l'épée à la main.
 }
 Diplomat_dialog_2014 {
-Tomé Ferraz? Never heard of him. If you're looking for wine, ask the innkeeper.
+Tomé Ferraz ? Jamais entendu parler. Si vous cherchez du vin, demandez à l'aubergiste.
 }
 Diplomat_dialog_2015 {
-The Governor-General sent me.
+C'est le gouverneur général qui m'envoie.
 }
 Diplomat_dialog_2016 {
-Then the Governor-General may come and fetch me himself. Barreto never did anything for me but tax my cargo. Good day.
+Alors le gouverneur général n'a qu'à venir me chercher lui-même. Barreto n'a jamais rien fait pour moi, sauf taxer ma cargaison. Bonne journée.
 }
 Diplomat_dialog_2017 {
-I sank the Corvo Negro. Bento Malheiro is dead.
+J'ai coulé le Corvo Negro. Bento Malheiro est mort.
 }
 Diplomat_dialog_2018 {
-...Malheiro. I knew him in Recife, before. He was a good man once. Sit down. Not too close.
+...Malheiro. Je l'ai connu à Recife, autrefois. C'était un homme bien, jadis. Asseyez-vous. Pas trop près.
 }
 Diplomat_dialog_2019 {
-Someone pays these pirates in Spanish gold. Who carries it?
+Quelqu'un paie ces pirates en or espagnol. Qui le transporte ?
 }
 Diplomat_dialog_2020 {
-Information is my trade, and a boy on the docks risked his neck to get it. Three thousand piastres for him. I'll take nothing for myself, in Malheiro's memory.
+L'information, c'est mon métier, et un gamin des quais a risqué sa peau pour l'obtenir. Trois mille piastres pour lui. Je ne prendrai rien pour moi, en mémoire de Malheiro.
 }
 Diplomat_dialog_2021 {
-(pay 3,000 piastres) Here.
+(payer 3 000 piastres) Tenez.
 }
 Diplomat_dialog_2022 {
-I don't have that much on me.
+Je n'ai pas autant sur moi.
 }
 Diplomat_dialog_2023 {
-Then come back when you do. The boy won't wait forever, and neither will I.
+Alors revenez quand vous l'aurez. Le gamin n'attendra pas éternellement, et moi non plus.
 }
 Diplomat_dialog_2024 {
-A courier, the Santa Clara, sails from Havana every month and anchors off Aruba to meet the pirates' paymaster. She is due any day now. Take her, and you will have letters, not rumours.
+Un courrier, le Santa Clara, part de La Havane chaque mois et mouille au large d'Aruba pour retrouver le trésorier des pirates. Il doit arriver d'un jour à l'autre. Prenez-le, et vous aurez des lettres, pas des rumeurs.
 }
 Diplomat_dialog_2025 {
-Thank you, Tomé.
+Merci, Tomé.
 }
 Diplomat_dialog_2026 {
-Don't thank me. One more thing: when you have those letters, think hard before you hand them to anyone. Some men in this colony have done very well from these wars.
+Ne me remerciez pas. Encore une chose : quand vous aurez ces lettres, réfléchissez bien avant de les remettre à qui que ce soit. Certains hommes de cette colonie se sont très bien enrichis grâce à ces guerres.
 }
 Diplomat_dialog_2027 {
-Who do you mean?
+De qui parlez-vous ?
 }
 Diplomat_dialog_2028 {
-I mean nothing. I'm a merchant, and merchants who mean things don't live long. Go, the Santa Clara won't wait.
+Je ne parle de personne. Je suis marchand, et les marchands qui parlent de quelqu'un ne vivent pas longtemps. Allez, le Santa Clara n'attendra pas.
 }
 Diplomat_dialog_2029 {
-We have nothing more to discuss, captain.
+Nous n'avons plus rien à nous dire, capitaine.
 }
 Diplomat_dialog_2030 {
-Enough, enough! The Santa Clara strikes her colours. I am a courier, señor, not a soldier.
+Assez, assez ! Le Santa Clara amène ses couleurs. Je suis un courrier, señor, pas un soldat.
 }
 Diplomat_dialog_2031 {
-Then you won't mind showing me the letters you carry.
+Alors vous ne verrez pas d'inconvénient à me montrer les lettres que vous transportez.
 }
 Diplomat_dialog_2032 {
-Letters? They went overboard the moment I saw your flag. That is what couriers are for.
+Des lettres ? Elles sont passées par-dessus bord dès que j'ai vu votre pavillon. C'est à cela que servent les courriers.
 }
 Diplomat_dialog_2033 {
-Then I'll search your cabin. Every board of it.
+Alors je fouillerai votre cabine. Planche par planche.
 }
 Diplomat_dialog_2034 {
-...Search, then. You'll find a few half-burnt pages in the stove. I wasn't quick enough. And you'll understand nothing: the important names were never written down.
+...Fouillez donc. Vous trouverez quelques pages à moitié brûlées dans le poêle. Je n'ai pas été assez rapide. Et vous n'y comprendrez rien : les noms importants n'ont jamais été écrits.
 }
 Diplomat_dialog_2035 {
-We'll see about that.
+Nous verrons bien.
 }
 Diplomat_dialog_2036 {
-You're the captain who pulled us out of that mess? Amaro Teles, master of the Desterro. Sit, sit. Wine for the captain!
+C'est vous, le capitaine qui nous a sortis de ce pétrin ? Amaro Teles, maître du Desterro. Asseyez-vous, asseyez-vous. Du vin pour le capitaine !
 }
 Diplomat_dialog_2037 {
-Those pirates were waiting for you. How did they know?
+Ces pirates vous attendaient. Comment le savaient-ils ?
 }
 Diplomat_dialog_2038 {
-That's what I keep asking myself. The same band burned three mills near Recife last spring, and they always knew where to go. This voyage I changed course at Barbados on purpose. Only the Governor-General's office had my new route. Nobody else.
+C'est ce que je n'arrête pas de me demander. La même bande a brûlé trois moulins près de Recife au printemps dernier, et ils savaient toujours où aller. Pour ce voyage, j'ai changé de cap à la Barbade exprès. Seuls les bureaux du gouverneur général connaissaient ma nouvelle route. Personne d'autre.
 }
 Diplomat_dialog_2039 {
-Be careful who you say that to.
+Faites attention à qui vous dites cela.
 }
 Diplomat_dialog_2040 {
-I know, I know. I'm only a sugar captain. Forget it; it's the wine talking. But thank you, captain. My crew owes you their lives.
+Je sais, je sais. Je ne suis qu'un capitaine de sucre. Oubliez ça, c'est le vin qui parle. Mais merci, capitaine. Mon équipage vous doit la vie.
 }
 Diplomat_dialog_2041 {
-To your health, captain!
+À votre santé, capitaine !
 }
 Diplomat_dialog_2042 {
-Stop. Your men can wait a moment, and so can mine. You've won, Admiral, or whatever Barreto calls you these days. Let's talk like businessmen.
+Arrêtez. Vos hommes peuvent attendre un instant, les miens aussi. Vous avez gagné, amiral, ou quel que soit le titre que Barreto vous donne ces temps-ci. Parlons comme des hommes d'affaires.
 }
 Diplomat_dialog_2043 {
-You know the Governor-General's name very well for a pirate.
+Pour un pirate, vous connaissez très bien le nom du gouverneur général.
 }
 Diplomat_dialog_2044 {
-I know a great many names. Tell me: why do you think he sent you after me, and not after the Spaniards who pay us? Because I asked for a bigger share. That's all. You're his broom, sweeping away whoever gets in his way.
+Je connais beaucoup de noms. Dites-moi : pourquoi croyez-vous qu'il vous a envoyé à mes trousses, et pas à celles des Espagnols qui nous paient ? Parce que j'ai demandé une plus grosse part. C'est tout. Vous êtes son balai, qui écarte tous ceux qui le gênent.
 }
 Diplomat_dialog_2045 {
-Words are cheap for a man about to hang.
+Les mots ne coûtent pas cher à un homme qui va être pendu.
 }
 Diplomat_dialog_2046 {
-Then here's something that isn't. In my strongbox there's a ledger. Every cargo, every buyer. Read it, and you'll know who you really work for. My life for the ledger. Fair?
+Alors voici quelque chose qui a de la valeur. Dans mon coffre, il y a un registre. Chaque cargaison, chaque acheteur. Lisez-le, et vous saurez pour qui vous travaillez vraiment. Ma vie contre le registre. Marché conclu ?
 }
 Diplomat_dialog_2047 {
-Fair. Surrender, and you'll live to see a court.
+Marché conclu. Rendez-vous, et vous vivrez assez pour voir un tribunal.
 }
 Diplomat_dialog_2048 {
-I'll take the ledger off your corpse.
+Je prendrai le registre sur votre cadavre.
 }
 Diplomat_dialog_2049 {
-A sensible man. Rare in these waters. My sword is yours.
+Un homme raisonnable. C'est rare dans ces eaux. Mon épée est à vous.
 }
 Diplomat_dialog_2050 {
-Barreto chose his dog well. En garde, then!
+Barreto a bien choisi son chien. En garde, alors !
 }
 Diplomat_dialog_2051 {
-Take him below.
+Emmenez-le en cale.
 }
 Diplomat_dialog_2052 {
-Godinho, yes, merchant. Wholesale. If you want to buy, come to the warehouse tomorrow. I don't do business in taverns.
+Godinho, oui, marchand. En gros. Si vous voulez acheter, venez à l'entrepôt demain. Je ne fais pas d'affaires dans les tavernes.
 }
 Diplomat_dialog_2053 {
-I've read Gaspar Roiz's ledger. Your name appears on every page.
+J'ai lu le registre de Gaspar Roiz. Votre nom est sur chaque page.
 }
 Diplomat_dialog_2054 {
-I want to talk about sugar. Stolen sugar.
+Je veux parler de sucre. De sucre volé.
 }
 Diplomat_dialog_2055 {
-I don't know what you're talking about, and I'd thank you to lower your voice. Good evening.
+Je ne sais pas de quoi vous parlez, et je vous serais reconnaissant de baisser la voix. Bonsoir.
 }
 Diplomat_dialog_2056 {
-Then perhaps I'll ask the Governor-General what you buy, and from whom.
+Alors je demanderai peut-être au gouverneur général ce que vous achetez, et à qui.
 }
 Diplomat_dialog_2057 {
-No! Not him, for God's sake... Listen. I only bought what the Palace told me to buy, at the price they set. Everything went to the governor's warehouses, under his own seal. I'm a small man. Small men don't say no to Barreto.
+Non ! Pas lui, pour l'amour de Dieu... Écoutez. Je n'achetais que ce que le Palais me disait d'acheter, au prix qu'il fixait. Tout partait dans les entrepôts du gouverneur, sous son propre sceau. Je ne suis qu'un petit homme. Les petits hommes ne disent pas non à Barreto.
 }
 Diplomat_dialog_2058 {
-I need proof, not your word.
+J'ai besoin de preuves, pas de votre parole.
 }
 Diplomat_dialog_2059 {
-His secretary, Lourenço Viegas, copied every contract. A careful man. He fled to Cumaná when Iron Hand's squadron went down; he knows what that means. Find him in the tavern there. And you never saw me.
+Son secrétaire, Lourenço Viegas, a copié chaque contrat. Un homme méticuleux. Il s'est enfui à Cumaná quand l'escadre de Main de Fer a sombré ; il sait ce que cela signifie. Vous le trouverez à la taverne là-bas. Et vous ne m'avez jamais vu.
 }
 Diplomat_dialog_2060 {
-I've told you everything! Leave me alone!
+Je vous ai tout dit ! Laissez-moi tranquille !
 }
 Diplomat_dialog_2061 {
-Who sent you? ...No. Don't answer. If you were his man, I'd already be dead in an alley.
+Qui vous envoie ? ...Non. Ne répondez pas. Si vous étiez son homme, je serais déjà mort dans une ruelle.
 }
 Diplomat_dialog_2062 {
-Godinho told me you kept copies of the contracts.
+Godinho m'a dit que vous gardiez des copies des contrats.
 }
 Diplomat_dialog_2063 {
-Godinho talks too much, but this once it may save us both. Tell me first: why are you doing this? He made you rich, gave you rank.
+Godinho parle trop, mais pour une fois, cela pourrait nous sauver tous les deux. Dites-moi d'abord : pourquoi faites-vous cela ? Il vous a enrichi, il vous a donné un rang.
 }
 Diplomat_dialog_2064 {
-I swore to serve the Crown, not Barreto.
+J'ai juré de servir la Couronne, pas Barreto.
 }
 Diplomat_dialog_2065 {
-Because I don't like being used.
+Parce que je n'aime pas qu'on se serve de moi.
 }
 Diplomat_dialog_2066 {
-Then listen. Four years ago His Excellency made an agreement with a Spanish agent in Havana. Spain pays the pirates to ruin our trade, here and in Brazil. The pirates hand over the cargoes. His Excellency sells them through Godinho, and the profit is split. The colonies bleed, Lisbon hears of 'pirates', and he grows rich.
+Alors écoutez. Il y a quatre ans, Son Excellence a passé un accord avec un agent espagnol à La Havane. L'Espagne paie les pirates pour ruiner notre commerce, ici et au Brésil. Les pirates remettent les cargaisons. Son Excellence les vend par l'intermédiaire de Godinho, et le profit est partagé. Les colonies saignent, Lisbonne entend parler de « pirates », et lui s'enrichit.
 }
 Diplomat_dialog_2067 {
-And me?
+Et moi ?
 }
 Diplomat_dialog_2068 {
-You? When Iron Hand demanded half, the governor needed someone to get rid of him without dirtying his own hands. A corsair with ambition, eager for rank. Forgive me, Admiral, but you were perfect.
+Vous ? Quand Main de Fer a exigé la moitié, le gouverneur avait besoin de quelqu'un pour se débarrasser de lui sans se salir les mains. Un corsaire ambitieux, avide de rang. Pardonnez-moi, amiral, mais vous étiez parfait.
 }
 Diplomat_dialog_2069 {
-Then give me the proof.
+Alors donnez-moi les preuves.
 }
 Diplomat_dialog_2070 {
-Here are the copies, with his seal. Only the Crown can judge a Governor-General. A Desembargador sent by El-Rei, Dom Álvaro de Sousa Coutinho, is aboard a ship due off Cumaná any hour now. Barreto knows it too, and he will not let that ship reach port. Put to sea, see it safely in, and then give him these at the residence.
+Voici les copies, avec son sceau. Seule la Couronne peut juger un gouverneur général. Un desembargador envoyé par El-Rei, Dom Álvaro de Sousa Coutinho, se trouve à bord d'un navire attendu au large de Cumaná d'une heure à l'autre. Barreto le sait aussi, et il ne laissera pas ce navire atteindre le port. Prenez la mer, veillez à ce qu'il arrive sain et sauf, puis remettez-lui ces papiers à la résidence.
 }
 Diplomat_dialog_2071 {
-Stay hidden, Lourenço.
+Restez caché, Lourenço.
 }
 Diplomat_dialog_2072 {
-Go, Admiral, and may God protect you.
+Allez, amiral, et que Dieu vous protège.
 }
 Diplomat_dialog_2073 {
-Dom Álvaro de Sousa Coutinho, Desembargador of the Casa da Suplicação, here by order of His Majesty Dom Afonso VI. They tell me you insisted on seeing me. Be brief.
+Dom Álvaro de Sousa Coutinho, desembargador de la Casa da Suplicação, ici sur ordre de Sa Majesté Dom Afonso VI. On me dit que vous avez insisté pour me voir. Soyez bref.
 }
 Diplomat_dialog_2074 {
-I have proof that Governor-General Barreto de Meneses is working with Spain to plunder his own colonies.
+J'ai la preuve que le gouverneur général Barreto de Meneses travaille avec l'Espagne pour piller ses propres colonies.
 }
 Diplomat_dialog_2075 {
-A serious accusation. Do you know how many governors are denounced every year? Usually by the men they owe money to. Why should I believe a corsair whose rank the accused himself gave him?
+Une accusation grave. Savez-vous combien de gouverneurs sont dénoncés chaque année ? D'ordinaire par ceux à qui ils doivent de l'argent. Pourquoi croirais-je un corsaire dont l'accusé lui-même a fait la carrière ?
 }
 Diplomat_dialog_2076 {
-Don't believe me. Read the contracts: his seal, Spanish signatures, cargoes from our ships. His secretary copied them himself.
+Ne me croyez pas. Lisez les contrats : son sceau, des signatures espagnoles, des cargaisons de nos navires. Son secrétaire les a copiés lui-même.
 }
 Diplomat_dialog_2077 {
-...His seal. And the dates match the losses Lisbon has been recording for years. God help us. You have done the Crown a service that few would have dared. By the powers El-Rei has granted me, I name you General of His Majesty's fleet in these waters.
+...Son sceau. Et les dates correspondent aux pertes que Lisbonne enregistre depuis des années. Que Dieu nous vienne en aide. Vous avez rendu à la Couronne un service que peu auraient osé rendre. Par les pouvoirs que m'a accordés El-Rei, je vous nomme général de la flotte de Sa Majesté dans ces eaux.
 }
 Diplomat_dialog_2078 {
-And these Spanish letters you kept... they remove any doubt about the agreement with Havana. You were prudent not to hand them over.
+Et ces lettres espagnoles que vous avez gardées... elles lèvent tout doute sur l'accord avec La Havane. Vous avez été prudent de ne pas les remettre.
 }
 Diplomat_dialog_2079 {
-What of Barreto?
+Et Barreto ?
 }
 Diplomat_dialog_2080 {
-A rider came in from Caracas an hour ago. Barreto left the residence last night and boarded his galleon, the São Miguel, with his treasure. He knew. He must not reach Spanish waters. Bring him back, alive if you can. He owes answers to more people than me.
+Un cavalier est arrivé de Caracas il y a une heure. Barreto a quitté la résidence hier soir et a embarqué sur son galion, le São Miguel, avec son trésor. Il savait. Il ne doit pas atteindre les eaux espagnoles. Ramenez-le, vivant si vous le pouvez. Il doit des réponses à bien plus de gens que moi.
 }
 Diplomat_dialog_2081 {
-He won't escape.
+Il ne s'échappera pas.
 }
 Diplomat_dialog_2082 {
-The traitor is still at large, General. Every hour counts.
+Le traître est toujours en liberté, général. Chaque heure compte.
 }
 Diplomat_dialog_2083 {
-You're back. Tell me it is over.
+Vous voilà de retour. Dites-moi que c'est terminé.
 }
 Diplomat_dialog_2084 {
-He's in my hold, in irons. He surrendered his sword.
+Il est dans ma cale, aux fers. Il a rendu son épée.
 }
 Diplomat_dialog_2085 {
-He chose to go down with the São Miguel.
+Il a choisi de sombrer avec le São Miguel.
 }
 Diplomat_dialog_2086 {
-Then justice is done, one way or another. Now listen carefully, because this is not a reward, it is a burden. These colonies need someone who has proven his loyalty with deeds. By order of His Majesty, I name you Governor-General of the Portuguese colonies of the Caribbean.
+Alors justice est faite, d'une manière ou d'une autre. Maintenant, écoutez bien, car ce n'est pas une récompense, c'est un fardeau. Ces colonies ont besoin de quelqu'un qui a prouvé sa loyauté par ses actes. Sur ordre de Sa Majesté, je vous nomme gouverneur général des colonies portugaises des Caraïbes.
 }
 Diplomat_dialog_2087 {
-I accept, Your Excellency.
+J'accepte, Votre Excellence.
 }
 Diplomat_dialog_2088 {
-As Governor-General, a tenth of the profits of every Portuguese colony is yours by right, paid each month into the treasury at Caracas. Lourenço Viegas will keep your accounts; he has proven he can be trusted. Take also 100,000 piastres from Barreto's treasure. And remember: Lisbon is far away, but it was watching him too.
+En tant que gouverneur général, le dixième des profits de chaque colonie portugaise vous revient de droit, versé chaque mois au trésor de Caracas. Lourenço Viegas tiendra vos comptes ; il a prouvé qu'on pouvait lui faire confiance. Prenez aussi 100 000 piastres du trésor de Barreto. Et souvenez-vous : Lisbonne est loin, mais elle le surveillait lui aussi.
 }
 Diplomat_dialog_2089 {
-I won't forget it.
+Je ne l'oublierai pas.
 }
 Diplomat_dialog_2090 {
-Go with God, Governador.
+Allez avec Dieu, Governador.
 }
 Diplomat_dialog_2091 {
-Ah. Of course it's you. I should have had you killed off Trinidad, when it would have cost me nothing.
+Ah. Bien sûr, c'est vous. J'aurais dû vous faire tuer au large de la Trinité, quand cela ne m'aurait rien coûté.
 }
 Diplomat_dialog_2092 {
-Francisco Barreto de Meneses, in the name of El-Rei, you are under arrest for treason.
+Francisco Barreto de Meneses, au nom d'El-Rei, vous êtes en état d'arrestation pour trahison.
 }
 Diplomat_dialog_2093 {
-Treason. Such a big word. For twenty years Lisbon sent us bishops and tax collectors, never ships. Who kept these colonies alive? Me. I simply took my share.
+Trahison. Quel grand mot. Pendant vingt ans, Lisbonne nous a envoyé des évêques et des percepteurs, jamais de navires. Qui a maintenu ces colonies en vie ? Moi. J'ai simplement pris ma part.
 }
 Diplomat_dialog_2094 {
-And me? Was I just a tool from the start?
+Et moi ? N'étais-je qu'un outil depuis le début ?
 }
 Diplomat_dialog_2095 {
-From the first day. A good tool, I'll grant you. Malheiro was getting careless, Iron Hand was getting greedy, and you cleared them away and thanked me for the rank. Don't take it personally. Everyone here is someone's tool. Coutinho too, you'll see.
+Depuis le premier jour. Un bon outil, je vous l'accorde. Malheiro devenait négligent, Main de Fer devenait avide, et vous les avez balayés en me remerciant pour le rang. Ne le prenez pas personnellement. Ici, tout le monde est l'outil de quelqu'un. Coutinho aussi, vous verrez.
 }
 Diplomat_dialog_2096 {
-Your share was paid in Portuguese blood. Your sword.
+Votre part a été payée en sang portugais. Votre épée.
 }
 Diplomat_dialog_2097 {
-...Take it. Let Lisbon judge me. Lisbon has always been slow.
+...Prenez-la. Que Lisbonne me juge. Lisbonne a toujours été lente.
 }
 Diplomat_dialog_2098 {
-Your Excellency. The treasury holds @<FindMoneyString> from the colonies' tithe.
+Votre Excellence. Le trésor contient @<FindMoneyString> de la dîme des colonies.
 }
 Diplomat_dialog_2099 {
-Your Excellency. The treasury is empty for now; the colonies pay at the start of each month.
+Votre Excellence. Le trésor est vide pour l'instant ; les colonies paient au début de chaque mois.
 }
 Diplomat_dialog_2100 {
-I'll take it.
+Je le prends.
 }
 Diplomat_dialog_2101 {
-Here you are, every coin accounted for. Unlike some of your predecessors, I write everything down.
+Voici, chaque pièce est comptée. Contrairement à certains de vos prédécesseurs, je note tout.
 }
 Diplomat_dialog_2102 {
-The colonies' tithe has arrived at the treasury in @<GetCityName>: @<FindMoneyString>.
+La dîme des colonies est arrivée au trésor de @<GetCityName> : @<FindMoneyString>.
 }
 Diplomat_dialog_2103 {
-Your Excellency, Governor-General! The colony is at your orders. What brings you here?
+Votre Excellence, gouverneur général ! La colonie est à vos ordres. Qu'est-ce qui vous amène ?
 }
 Diplomat_dialog_2104 {
-I want to move the seat of government.
+Je veux déplacer le siège du gouvernement.
 }
 Diplomat_dialog_2105 {
-As Your Excellency wishes. The treasury and the archives go wherever the Governor-General resides. Where shall we move?
+Comme le souhaite Votre Excellence. Le trésor et les archives suivent le gouverneur général partout où il réside. Où allons-nous ?
 }
 Diplomat_dialog_2106 {
-There is no other Portuguese colony with a residence fit for the government, Your Excellency.
+Il n'existe aucune autre colonie portugaise dotée d'une résidence digne du gouvernement, Votre Excellence.
 }
 Diplomat_dialog_2107 {
-Never mind, we stay here.
+Laissez, nous restons ici.
 }
 Diplomat_dialog_2108 {
-Very well. I'll have the chests and the archives loaded tonight. You will find me in the residence of @<GetCityName>.
+Très bien. Je ferai charger les coffres et les archives cette nuit. Vous me trouverez dans la résidence de @<GetCityName>.
 }
 Diplomat_dialog_2109 {
-The seat of government has fallen to the enemy! Lourenço Viegas fled with the treasury to @<GetCityName>.
+Le siège du gouvernement est tombé aux mains de l'ennemi ! Lourenço Viegas s'est enfui avec le trésor à @<GetCityName>.
 }
 Diplomat_dialog_2110 {
-The Governor-General? Your Excellency jests: he is standing right in front of me.
+Le gouverneur général ? Votre Excellence plaisante : il se tient juste devant moi.
 }
 Diplomat_dialog_2111 {
-They say the sugar fleet from Bahia lost two more ships to Spanish privateers this season. Lisbon promises escorts, as always.
+On dit que la flotte sucrière de Bahia a encore perdu deux navires face aux corsaires espagnols cette saison. Lisbonne promet des escortes, comme toujours.
 }
 Diplomat_dialog_2112 {
-A ship from Pernambuco brought news: the Dutch are gone from Recife for good, but the planters say the mills will take years to recover.
+Un navire de Pernambouc a apporté des nouvelles : les Hollandais ont quitté Recife pour de bon, mais les planteurs disent qu'il faudra des années pour relever les moulins.
 }
 Diplomat_dialog_2113 {
-The garrison hasn't been paid in three months. The officers say the money is stuck somewhere between Lisbon and Bahia.
+La garnison n'a pas été payée depuis trois mois. Les officiers disent que l'argent est coincé quelque part entre Lisbonne et Bahia.
 }
 Diplomat_dialog_2114 {
-Spanish privateers out of Cartagena have been seen off our coast. The merchants want to sail in convoy, but nobody wants to pay for the escort.
+Des corsaires espagnols venus de Carthagène ont été aperçus au large de nos côtes. Les marchands veulent naviguer en convoi, mais personne ne veut payer l'escorte.
 }
 Diplomat_dialog_2115 {
-A Jesuit from Brazil preached in the church last Sunday. He said the Indians of the sertão are better Christians than half the sailors in this port.
+Un jésuite du Brésil a prêché à l'église dimanche dernier. Il a dit que les Indiens du sertão sont de meilleurs chrétiens que la moitié des marins de ce port.
 }
 Diplomat_dialog_2116 {
-The Portuguese in Cumaná and Caracas pay well for Spanish prizes. Lisbon is still at war with Madrid, and their governors aren't fussy about who brings the ships in.
+Les Portugais de Cumaná et de Caracas paient bien les prises espagnoles. Lisbonne est toujours en guerre contre Madrid, et leurs gouverneurs ne regardent pas de trop près qui leur amène les navires.
 }
 Diplomat_dialog_2117 {
-They say Portuguese caravels slip between the islands with Brazilian sugar and tobacco, and that their pilots know every reef from here to Bahia.
+On dit que des caravelles portugaises se faufilent entre les îles avec du sucre et du tabac du Brésil, et que leurs pilotes connaissent chaque récif d'ici à Bahia.
 }
 Diplomat_dialog_2118 {
-A Portuguese captain drank here last week and swore that Lisbon and Madrid will make peace within a few years. Nobody believed him.
+Un capitaine portugais a bu ici la semaine dernière et a juré que Lisbonne et Madrid feraient la paix d'ici quelques années. Personne ne l'a cru.
 }
 Diplomat_dialog_2119 {
-They say the English king means to marry a Portuguese princess. If that's true, Portuguese ships will soon have English guns behind them.
+On dit que le roi d'Angleterre compte épouser une princesse portugaise. Si c'est vrai, les navires portugais auront bientôt des canons anglais derrière eux.
 }
 Diplomat_dialog_2120 {
-In Spanish ports they call the Portuguese rebels. In Portuguese ports they call the Spaniards thieves. If you ask me, both are right.
+Dans les ports espagnols, on traite les Portugais de rebelles. Dans les ports portugais, on traite les Espagnols de voleurs. Si vous voulez mon avis, les deux ont raison.
 }
 Diplomat_dialog_2121 {
-With your service to Portugal complete, the nations of the Caribbean now act on their own. You may now take colonies for the Portuguese crown.
+Votre service envers le Portugal étant accompli, les nations des Caraïbes agissent désormais d'elles-mêmes. Vous pouvez maintenant prendre des colonies pour la couronne portugaise.
+}
+Diplomat_dialog_2122 {
+Enfin des nouvelles du Royaume : à Elvas, notre armée a brisé le siège espagnol et renvoyé leurs tercios en courant jusqu'à Badajoz. Le curé a sonné les cloches pendant une heure.
+}
+Diplomat_dialog_2123 {
+On dit que la reine régente est née espagnole, une Guzmán de Medina Sidonia, et pourtant elle combat Madrid plus durement que n'importe quel homme de la cour. « Mieux vaut être reine un jour que duchesse toute sa vie », a-t-elle dit.
+}
+Diplomat_dialog_2124 {
+Le padre Vieira prêche au Maranhão contre les colons qui réduisent les Indiens en esclavage. Les colons jurent qu'ils le mettront sur le premier navire pour Lisbonne.
+}
+Diplomat_dialog_2125 {
+La moitié de la garnison sont des degredados, des hommes exilés de Lisbonne pour leurs crimes. Les officiers disent qu'ils se battent assez bien, tant qu'on ne leur tourne jamais le dos aux cartes.
+}
+Diplomat_dialog_2126 {
+La Compagnie du Brésil fait payer chaque caisse de sucre qu'elle escorte. Les marchands grognent, mais depuis que les Hollandais ont pris les derniers navires partis seuls, plus personne ne quitte le port sans le convoi.
+}
+Diplomat_dialog_2127 {
+La France et l'Espagne ont signé la paix dans les Pyrénées, et le roi de France a promis de ne plus aider le Portugal. Madrid peut maintenant envoyer tous ses régiments contre Lisbonne.
+}
+Diplomat_dialog_2128 {
+Les Hollandais parlent de paix avec les Portugais. Ils ont renoncé au Brésil, disent-ils, mais ils veulent être payés en or et en sel de Setúbal.
+}
+Diplomat_dialog_2129 {
+On dit qu'un général allemand qui a servi la France fait voile vers Lisbonne avec quelques centaines de vétérans pour former l'armée portugaise. Schomberg, qu'on l'appelle.
+}
+Diplomat_dialog_2130 {
+Le bois de brésil est un monopole de la couronne portugaise, et les teinturiers d'Amsterdam le paient une fortune. Tout capitaine qui en trouve une cargaison sans le sceau du roi peut fixer son prix, s'il sait tenir sa langue.
+}
+Diplomat_dialog_2131 {
+Les navires portugais qui font escale ici transportent du vin de Madère. Il traverse l'océan deux fois en cale et en ressort meilleur qu'il n'y est entré. À Port Royal, on le paie le double.
+}
+Diplomat_dialog_2132 {
+Flotte du Brésil
+}
+Diplomat_dialog_2133 {
+On dit que la flotte du Brésil a quitté Bahia avec du sucre et du tabac, à destination de @<GetCityName>. Tous les corsaires des Caraïbes doivent être en train d'aiguiser leurs couteaux.
+}
+Diplomat_dialog_2134 {
+La flotte du Brésil a jeté l'ancre à @<GetCityName>. Les entrepôts sont pleins de sucre et les tavernes pleines de marins.
+}
+Diplomat_dialog_2135 {
+La flotte du Brésil n'est jamais arrivée au port. On dit que son navire amiral a été envoyé par le fond et que les marchands se sont dispersés comme des poules.
+}
+Diplomat_dialog_2136 {
+La flotte du Brésil a quitté Bahia, à destination de @<GetCityName>.
+}
+Diplomat_dialog_2137 {
+La flotte du Brésil a atteint @<GetCityName>. La part de la cargaison revenant à la Couronne, @<FindMoneyString>, a été versée au trésor.
+}
+Diplomat_dialog_2138 {
+Des dépêches pour moi, Lourenço ?
+}
+Diplomat_dialog_2139 {
+Rien qui réclame Votre Excellence, pour l'instant. Lisbonne écrit lentement, et les colonies sont calmes. Redemandez-moi dans quelques semaines.
+}
+Diplomat_dialog_2140 {
+Un pirate s'en prend à nos caboteurs dans les eaux de @<sPlace>. Les capitaines disent qu'il ne porte aucun pavillon et ne laisse personne en vie pour se plaindre. Si Votre Excellence en a le temps, le trésor paiera @<sMoney> pour lui.
+}
+Diplomat_dialog_2141 {
+Des contrebandiers débarquent du sucre et du tabac dans les eaux de @<sPlace> sans payer un réal à la Couronne. La douane demande de l'aide et paiera @<sMoney>. Ce qu'il y a dans leurs cales revient à Votre Excellence.
+}
+Diplomat_dialog_2142 {
+Mauvaises nouvelles de nos espions : des corsaires espagnols comptent fondre sur une partie de la flotte du Brésil dans les eaux de @<sPlace>, avant qu'elle n'atteigne le port. Si Votre Excellence peut y être la première, le trésor paiera @<sMoney>, et la part de la Couronne sur la cargaison sera plus grande.
+}
+Diplomat_dialog_2143 {
+Je m'en occupe.
+}
+Diplomat_dialog_2144 {
+Pas maintenant. Confiez-la à quelqu'un d'autre.
+}
+Diplomat_dialog_2145 {
+Très bien. La récompense sera versée au trésor dès que la nouvelle arrivera ; Votre Excellence n'a pas besoin de revenir ici pour la toucher.
+}
+Diplomat_dialog_2146 {
+Comme vous voudrez. Les capitaines de la garnison seront contents d'avoir du travail.
+}
+Diplomat_dialog_2147 {
+Votre Excellence a déjà une dépêche en main : les eaux de @<sPlace>. Rien ne presse, mais l'affaire est toujours en cours.
+}
+Diplomat_dialog_2148 {
+Je n'ai pas oublié.
+}
+Diplomat_dialog_2149 {
+Confiez cette dépêche à quelqu'un d'autre.
+}
+Diplomat_dialog_2150 {
+C'est fait. Personne ne posera de questions ; le gouverneur général a des choses plus importantes à faire.
+}
+Diplomat_dialog_2151 {
+Dépêche accomplie : @<FindMoneyString> ont été versés au trésor.
+}
+Diplomat_dialog_2152 {
+@<sName>, un corsaire espagnol, a juré de prendre un navire portugais pour chaque semaine passée en mer, et jusqu'ici il a tenu parole. Il a été vu pour la dernière fois dans les eaux de @<sPlace>. Le trésor paiera @<sMoney> pour lui.
+}
+Diplomat_dialog_2153 {
+Un desembargador de la Relação voyage pour les affaires de la Couronne, et les pirates le savent. Son navire passera par les eaux de @<sPlace> ; retrouvez-le là-bas et veillez à ce qu'il arrive sain et sauf. Le trésor paiera @<sMoney>.
+}
+Diplomat_dialog_2154 {
+La garnison de @<sPlace> manque de @<sGood> : il lui faut @<sQty>. Apportez-le-moi et le trésor paiera @<sMoney>, bien au-dessus du prix du marché.
+}
+Diplomat_dialog_2155 {
+La garnison de @<sPlace> attend toujours @<sQty> de @<sGood>. Rien ne presse, mais l'affaire est toujours en cours.
+}
+Diplomat_dialog_2156 {
+J'ai apporté les provisions pour la garnison.
+}
+Diplomat_dialog_2157 {
+Chaque tonneau compté et signé. La garnison vous sera reconnaissante, même si elle ne le dira jamais. L'argent est déjà au trésor.
+}
+Diplomat_dialog_2158 {
+Votre Excellence, une lettre de Lisbonne sous le sceau royal. Pour vos services envers la Couronne, Sa Majesté vous a fait chevalier de l'ordre du Christ. Voici l'habit. Rares sont ceux, aux Indes, qui ont le droit de le porter.
+}
+Diplomat_dialog_2159 {
+C'est un honneur de servir la Couronne.
+}
+Diplomat_dialog_2160 {
+Votre Excellence, le galion Padre Eterno a jeté l'ancre dans le port. Il a été construit à Rio de Janeiro, et l'on dit qu'il n'existe pas de plus grand navire sur toutes les mers. Lisbonne l'envoie au gouverneur général. Il vous attend aux docks ; le capitaine du port vous le remettra quand vous le voudrez, sans frais.
+}
+Diplomat_dialog_2161 {
+Alors ne le faisons pas attendre.
+}
+Diplomat_dialog_2162 {
+Votre Excellence, Lisbonne vous a envoyé le galion Padre Eterno, mais les docks d'ici sont pleins de vos navires. Libérez une place auprès du capitaine du port et revenez : il sera à vous.
+}
+Diplomat_dialog_2163 {
+En remerciement, le pilote de la flotte du Brésil vous a offert son astrolabe.
+}
+Diplomat_dialog_2164 {
+Dans la cabine du corsaire, vous avez trouvé une sphère armillaire, prise sur quelque navire portugais.
+}
+Diplomat_dialog_2165 {
+Lisbonne vous a envoyé la tenue d'un noble portugais : soie blanche et or, digne du service de la Couronne.
 }
 #endreplace

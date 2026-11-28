@@ -38,6 +38,6 @@
 	        case FRANCE:	ret = "fra_" + (1 + rand(5));	break;
 #replacewith
 	        case FRANCE:	ret = "fra_" + (1 + rand(5));	break;
-	        // Nova Nacao: Portugal copia o caso SPAIN
-	        case PORTUGAL:		ret = "spa_" + (1 + rand(4));	break;
+	        // Nova Nacao: brasoes portugueses (por_1..por_5)
+	        case PORTUGAL:		ret = "por_" + (1 + rand(4));	break;
 #endreplace

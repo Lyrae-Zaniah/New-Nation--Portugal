@@ -13,7 +13,7 @@ Diplomat_dialog_902 {
 Diplomat_dialog_903 {
 值得效力的事业！ 那就为葡萄牙效力吧。
 }
-// Nova Nacao: textos da linha de Portugal
+Diplomat_dialog_NovaNacao {Nova Nacao: Portugal}
 Diplomat_dialog_1001 {
 你想谈些什么？
 }
@@ -27,525 +27,657 @@ Diplomat_dialog_1004 {
 遵命，阁下。
 }
 Diplomat_dialog_1005 {
-You have your orders, corsair. I don't recall asking for a visit.
+你已经接到命令了， 私掠船长。 我不记得请你来拜访。
 }
 Diplomat_dialog_1006 {
-Of course, Your Excellency.
+当然， 总督阁下。
 }
 Diplomat_dialog_1007 {
-The pirates are scattered, and Caracas sleeps soundly. Go and enjoy your rank, Admiral. When the Crown needs you, I will know where to find you. I always do.
+海盗已经四散， 加拉加斯安然入睡。 去享受你的军衔吧， 海军上将。 等王室需要你的时候， 我自会知道去哪里找你。 我一向如此。
 }
 Diplomat_dialog_1008 {
-A corsair with a Portuguese letter of marque. How unusual. Most of your kind sell their flag to whoever pays more... No matter. I don't need your loyalty, only your guns. Do you know what is happening between Cumaná and Trinidad?
+一个持有葡萄牙私掠许可证的私掠船长。 真是少见。 你们这类人大多把旗帜卖给出价最高的人…… 无所谓。 我不需要你的忠诚， 只需要你的大炮。 你知道库马纳和特立尼达之间出了什么事吗？
 }
 Diplomat_dialog_1009 {
-I have heard of merchantmen going missing.
+我听说有商船失踪了。
 }
 Diplomat_dialog_1010 {
-Seven ships in four months. Seven! Sugar, tobacco, cloth from Lisbon. The pirates always seem to know when and where to strike, as if they had a pilot's chart of our routes.
+四个月七艘船。 七艘！ 糖、 烟草、 里斯本的布匹。 海盗似乎总知道何时何地下手， 就像手里有一份我们航线的领航图。
 }
 Diplomat_dialog_1011 {
-Do you know who they are?
+你知道他们是谁吗？
 }
 Diplomat_dialog_1012 {
-Rabble. Their captain is said to call his brigantine the Corvo Negro and to haunt the waters around Trinidad. That is all you need to know.
+一群乌合之众。 据说他们的船长把自己的双桅帆船叫作“黑鸦”号， 常在特立尼达一带的海域出没。 你只需要知道这些。
 }
 Diplomat_dialog_1013 {
-If they know our routes, someone is talking. Shouldn't we find out who?
+如果他们知道我们的航线， 那就是有人走漏了消息。 难道不该查清是谁吗？
 }
 Diplomat_dialog_1014 {
-Thinking is my task, corsair; yours is to sink. Go to Trinidad, send them to the bottom, and report to me, and to no one else. Is that clear?
+思考是我的事， 私掠船长； 你的事是击沉。 去特立尼达， 把他们送进海底， 然后向我汇报， 别向任何其他人汇报。 明白了吗？
 }
 Diplomat_dialog_1015 {
-Perfectly clear.
+完全明白。
 }
 Diplomat_dialog_1016 {
-You're back. And alive, which is more than I wagered. Well?
+你回来了。 还活着， 这可比我押的注要好。 怎么样？
 }
 Diplomat_dialog_1017 {
-The Corvo Negro is gone. Her captain was Portuguese, a man from Recife. He was carrying Spanish doubloons and a list with the dates our ships leave Cumaná.
+“黑鸦”号已经完了。 她的船长是葡萄牙人， 累西腓人。 他身上带着西班牙金币， 还有一份我们的船只从库马纳出航日期的清单。
 }
 Diplomat_dialog_1018 {
-A list... Give it to me. The Spanish gold doesn't surprise me; every scoundrel on these seas is paid in pieces of eight. And sailing dates can be bought in any tavern from a drunken harbour clerk.
+清单…… 给我。 西班牙金子我并不意外； 这片海上的每个无赖拿的都是八里亚尔银币。 至于出航日期， 在任何一家酒馆都能从喝醉的港口书记员那里买到。
 }
 Diplomat_dialog_1019 {
-(hand over the list) Here.
+（交出清单） 给你。
 }
 Diplomat_dialog_1020 {
-Good. You did well, better than I expected. By the authority vested in me, I raise you to Captain. Take these 15,000 piastres. And corsair... keep these things to yourself. Rumours frighten merchants more than pirates do.
+很好。 你干得不错， 比我预期的还好。 凭我被赋予的权力， 我晋升你为舰长。 拿着这15000比索。 还有， 私掠船长…… 这些事别对外声张。 谣言比海盗更让商人害怕。
 }
 Diplomat_dialog_1021 {
-And what now, Your Excellency?
+那么现在呢， 总督阁下？
 }
 Diplomat_dialog_1022 {
-Now we follow the gold. A merchant of ours in Willemstad, Tomé Ferraz, trades with everyone, Dutch, Spaniards, smugglers. If anyone knows who feeds these pirates, it is him. He owes me nothing, so don't expect him to be friendly.
+现在我们去追查金子的来路。 我们在威廉斯塔德有个商人， 托梅·费拉斯， 跟谁都做生意： 荷兰人、 西班牙人、 走私贩。 如果有人知道是谁在供养这些海盗， 那就是他。 他不欠我什么， 所以别指望他会客气。
 }
 Diplomat_dialog_1023 {
-I'll find him in the tavern.
+我去酒馆找他。
 }
 Diplomat_dialog_1024 {
-Ferraz talked, then? He usually only talks about prices.
+费拉斯开口了？ 他平时只谈价钱。
 }
 Diplomat_dialog_1025 {
-He pointed me to a Spanish courier off Aruba. I took her. Her letters promise gold for every Portuguese ship taken here, and for raids on the sugar fleets of Pernambuco and Bahia. And they mention 'our friend in Caracas'.
+他把我引到阿鲁巴附近的一艘西班牙邮船。 我把它拿下了。 信里承诺， 在这里每劫一艘葡萄牙船、 每袭击一次伯南布哥和巴伊亚的运糖船队都有金子可拿。 信里还提到了“我们在加拉加斯的朋友”。
 }
 Diplomat_dialog_1026 {
-Spain has spies in every port of the New World, and Caracas is a port. Nothing more. Those letters are evidence for Lisbon, a matter for diplomats, not corsairs. Hand them over; I'll send them on the next ship.
+西班牙在新大陆的每个港口都有间谍， 加拉加斯也是个港口。 仅此而已。 这些信是交给里斯本的证据， 是外交官的事， 不是私掠船长的事。 交给我吧； 我会让下一班船送走。
 }
 Diplomat_dialog_1027 {
-(hand over the letters) As you wish.
+（交出信件） 如你所愿。
 }
 Diplomat_dialog_1028 {
-The courier threw most of them overboard. What's left is barely legible.
+邮船把大部分信都扔进了海里。 剩下的几乎没法辨认。
 }
 Diplomat_dialog_1029 {
-Sensible. Here are 20,000 piastres. You are learning how things are done here.
+明智。 这是20000比索。 你正在学会这里的办事方式。
 }
 Diplomat_dialog_1030 {
-...Unfortunate. Then burn whatever is left; half-legible papers only start rumours. Here are 20,000 piastres.
+……真遗憾。 那就把剩下的烧掉吧； 半能看懂的文件只会引起谣言。 这是20000比索。
 }
 Diplomat_dialog_1031 {
-Understood.
+明白。
 }
 Diplomat_dialog_1032 {
-No rest for you yet. The fluyt Desterro is bringing sugar from Pernambuco to Cumaná, and I am told the pirates mean to take her right under our walls. She must arrive. Her cargo... is important to the colony.
+你还不能休息。 福禄特船“德斯特罗”号正从伯南布哥运糖到库马纳， 我听说海盗打算就在我们的城墙底下劫走她。 她必须抵达。 她的货物…… 对殖民地很重要。
 }
 Diplomat_dialog_1033 {
-How do you know they will attack her?
+你怎么知道他们会袭击她？
 }
 Diplomat_dialog_1034 {
-I know many things, Capitão. That is why I govern and you sail. Go to Cumaná.
+我知道很多事， 舰长。 所以统治的是我， 航海的是你。 去库马纳吧。
 }
 Diplomat_dialog_1035 {
-On my way.
+这就出发。
 }
 Diplomat_dialog_1036 {
-The Desterro?
+“德斯特罗”号呢？
 }
 Diplomat_dialog_1037 {
-Safe in port, the pirates scattered. Her captain told me the same band burned mills near Recife, and that their route was known only to your office.
+已经安全进港， 海盗被击溃了。 她的船长告诉我， 同一伙人曾在累西腓附近烧毁糖坊， 而他的航线只有你的官署知道。
 }
 Diplomat_dialog_1038 {
-Captains always blame the governor when they get frightened. My office, the harbour master, the insurers in Lisbon... half the world knew that route. You did your job; that is what matters. From today you are Capitão-Mor. Here are 25,000 piastres.
+船长们一害怕就总怪总督。 我的官署、 港务长、 里斯本的保险商…… 半个世界都知道那条航线。 你完成了任务； 这才是要紧的。 从今天起你就是总舰长。 这是25000比索。
 }
 Diplomat_dialog_1039 {
-The pirates are destroyed, but the Desterro went down with them.
+海盗被消灭了， 但“德斯特罗”号也和他们一起沉了。
 }
 Diplomat_dialog_1040 {
-A pity about the sugar. Still, the pirates paid, and I need officers who don't run. You are Capitão-Mor all the same. Take 10,000 piastres.
+可惜了那些糖。 不过海盗付出了代价， 而我需要不会逃跑的军官。 你照样是总舰长。 拿着10000比索。
 }
 Diplomat_dialog_1041 {
-Now the head of the snake. Gaspar Roiz, called Iron Hand, keeps his squadron off the Cayman Islands. He is cleverer than the others, and he has grown... greedy. Destroy him, and these waters will be quiet again.
+现在是蛇头了。 加斯帕尔·罗伊斯， 绰号“铁手”， 把他的舰队停在开曼群岛附近。 他比其他人更狡猾， 而且他变得…… 贪婪了。 消灭他， 这片海域就会重新太平。
 }
 Diplomat_dialog_1042 {
-Greedy? You speak as if you knew him.
+贪婪？ 你说得好像你认识他。
 }
 Diplomat_dialog_1043 {
-I know what every governor knows: a pirate who takes too much ends up wanting everything. Go. And if you find anything on board, papers, letters, anything, bring it straight to me.
+我知道每个总督都知道的事： 一个拿得太多的海盗最后会什么都想要。 去吧。 如果你在船上找到任何东西， 文件、 信件， 任何东西， 直接拿来给我。
 }
 Diplomat_dialog_1044 {
-Understood.
+明白。
 }
 Diplomat_dialog_1045 {
-Is Iron Hand dead?
+“铁手”死了吗？
 }
 Diplomat_dialog_1046 {
-His squadron is gone.
+他的舰队已经不复存在。
 }
 Diplomat_dialog_1047 {
-And on board? I told you to bring me anything you found.
+船上呢？ 我说过， 你找到的任何东西都要拿来给我。
 }
 Diplomat_dialog_1048 {
-Rum, powder and a few rotten charts. Nothing of interest.
+朗姆酒、 火药和几张烂海图。 没什么值得一提的。
 }
 Diplomat_dialog_1049 {
-A ledger. Cargoes and buyers.
+一本账簿。 货物和买家。
 }
 Diplomat_dialog_1050 {
-A pirate's accounts. Fascinating. Give it to me; it will help the magistrates in Lisbon. And forget whatever you read in it, Capitão-Mor. Memory is a dangerous thing in the tropics.
+一个海盗的账目。 有意思。 给我吧； 它能帮到里斯本的法官们。 还有， 把你在里面读到的都忘了， 总舰长。 在热带， 记性是件危险的东西。
 }
 Diplomat_dialog_1051 {
-(hand over the ledger) Of course.
+（交出账簿） 当然。
 }
 Diplomat_dialog_1052 {
-For this victory, I name you Admiral. Here are 40,000 piastres. You have been a most useful instrument, Admiral. I won't forget it.
+为了这场胜利， 我任命你为海军上将。 这是40000比索。 你一直是件非常有用的工具， 海军上将。 我不会忘记的。
 }
 Diplomat_dialog_1053 {
-Neither will I, Your Excellency.
+我也不会忘记， 总督阁下。
 }
 Diplomat_dialog_1054 {
-You serve another crown. Portugal does not share its corsairs.
+你在为另一个王室效力。 葡萄牙不和别人分享自己的私掠船长。
 }
 Diplomat_dialog_1055 {
-The Corvo Negro is at the bottom. We pulled one of her men out of the water, and he swore the captain was Portuguese, a man from Recife. The captain's chest floated free of the wreck, with Spanish doubloons and a list of the dates our ships leave Cumaná.
+“黑鸦”号已经沉入海底。 我们从水里捞起她的一名船员， 他发誓船长是葡萄牙人， 累西腓人。 船长的箱子从残骸里漂了出来， 里面有西班牙金币， 还有一份我们的船只从库马纳出航日期的清单。
 }
 Diplomat_dialog_1056 {
-He pointed me to a Spanish courier off Aruba. I sent her to the bottom, but her mail bag floated. What the sea spared of the letters promises gold for every Portuguese ship taken here, and for raids on the sugar fleets of Pernambuco and Bahia. And they mention 'our friend in Caracas'.
+他把我引到阿鲁巴附近的一艘西班牙邮船。 我把它击沉了， 但它的邮袋浮了上来。 大海没毁掉的信里承诺， 在这里每劫一艘葡萄牙船、 每袭击一次伯南布哥和巴伊亚的运糖船队都有金子可拿。 信里还提到了“我们在加拉加斯的朋友”。
 }
 Diplomat_dialog_1057 {
-The sea got to most of them. What's left is barely legible.
+大部分信都被海水泡坏了。 剩下的几乎没法辨认。
 }
 Diplomat_dialog_2001 {
-I have nothing to say to you.
+我没什么要跟你说的。
 }
 Diplomat_dialog_2002 {
-Farewell.
+再见。
 }
 Diplomat_dialog_2003 {
-Promoted: @<GetAddress_FormTitle>
+晋升： @<GetAddress_FormTitle>
 }
 Diplomat_dialog_2004 {
-Then we end it here.
+那就在这里了结吧。
 }
 Diplomat_dialog_2005 {
-So the governor sends a privateer under our own flag. Lower your sword a moment, captain. I'd like to know the name of the man who's going to kill me.
+原来总督派了一个挂着我们自己旗帜的私掠船长来。 先把剑放下一会儿， 船长。 我想知道要杀我的人叫什么名字。
 }
 Diplomat_dialog_2006 {
-You're Portuguese. Why are you hunting your own people?
+你是葡萄牙人。 为什么要猎杀自己人？
 }
 Diplomat_dialog_2007 {
-My own people? I was born in Recife. When the Dutch took it, Lisbon sent prayers and no ships. Twelve years we fought on our own. My own people left us to rot.
+自己人？ 我生在累西腓。 荷兰人占领那里的时候， 里斯本只送来祈祷， 一艘船也没有。 我们孤军奋战了十二年。 是“自己人”把我们丢在那里等死。
 }
 Diplomat_dialog_2008 {
-So now you sell yourself to Spain.
+所以现在你把自己卖给了西班牙。
 }
 Diplomat_dialog_2009 {
-I sell myself to whoever pays. The gold comes in Spanish coin, yes. But the gold isn't the strange part, captain.
+谁付钱我就卖给谁。 金子是西班牙钱币， 没错。 但奇怪的不是金子， 船长。
 }
 Diplomat_dialog_2010 {
-Then what is?
+那是什么？
 }
 Diplomat_dialog_2011 {
-We always know the day your ships leave Cumaná. Always. Spaniards don't know that kind of thing. Think about it, if you live long enough. I've said too much already.
+我们总是知道你们的船哪天离开库马纳。 总是。 西班牙人可不知道这种事。 好好想想吧， 如果你能活得够久的话。 我已经说得太多了。
 }
 Diplomat_dialog_2012 {
-Surrender, and you'll stand trial.
+投降吧， 你会受到审判。
 }
 Diplomat_dialog_2013 {
-A trial in Caracas? No, thank you. I'd rather die with a blade in my hand.
+在加拉加斯受审？ 不， 谢了。 我宁愿手握刀剑而死。
 }
 Diplomat_dialog_2014 {
-Tomé Ferraz? Never heard of him. If you're looking for wine, ask the innkeeper.
+托梅·费拉斯？ 从没听说过。 要喝酒的话， 去问酒馆老板。
 }
 Diplomat_dialog_2015 {
-The Governor-General sent me.
+是总督派我来的。
 }
 Diplomat_dialog_2016 {
-Then the Governor-General may come and fetch me himself. Barreto never did anything for me but tax my cargo. Good day.
+那就让总督亲自来找我吧。 巴雷托除了给我的货物征税， 从没为我做过任何事。 再会。
 }
 Diplomat_dialog_2017 {
-I sank the Corvo Negro. Bento Malheiro is dead.
+我击沉了“黑鸦”号。 本托·马列罗死了。
 }
 Diplomat_dialog_2018 {
-...Malheiro. I knew him in Recife, before. He was a good man once. Sit down. Not too close.
+……马列罗。 我以前在累西腓认识他。 他曾经是个好人。 坐吧。 别靠太近。
 }
 Diplomat_dialog_2019 {
-Someone pays these pirates in Spanish gold. Who carries it?
+有人用西班牙金子收买这些海盗。 谁在运送这些金子？
 }
 Diplomat_dialog_2020 {
-Information is my trade, and a boy on the docks risked his neck to get it. Three thousand piastres for him. I'll take nothing for myself, in Malheiro's memory.
+消息是我的买卖， 有个码头上的小伙子冒着掉脑袋的风险才弄到这个消息。 给他三千比索。 看在马列罗的份上， 我自己一分不要。
 }
 Diplomat_dialog_2021 {
-(pay 3,000 piastres) Here.
+（支付3000比索） 给你。
 }
 Diplomat_dialog_2022 {
-I don't have that much on me.
+我身上没带那么多。
 }
 Diplomat_dialog_2023 {
-Then come back when you do. The boy won't wait forever, and neither will I.
+那就等你有了再来。 那小伙子不会一直等下去， 我也不会。
 }
 Diplomat_dialog_2024 {
-A courier, the Santa Clara, sails from Havana every month and anchors off Aruba to meet the pirates' paymaster. She is due any day now. Take her, and you will have letters, not rumours.
+有一艘邮船， “圣克拉拉”号， 每个月从哈瓦那出发， 停泊在阿鲁巴附近， 和海盗的出纳碰头。 她这几天随时会到。 拿下她， 你得到的就是信件， 而不是传闻。
 }
 Diplomat_dialog_2025 {
-Thank you, Tomé.
+谢谢你， 托梅。
 }
 Diplomat_dialog_2026 {
-Don't thank me. One more thing: when you have those letters, think hard before you hand them to anyone. Some men in this colony have done very well from these wars.
+别谢我。 还有一件事： 等你拿到那些信， 交给任何人之前都要好好想想。 这个殖民地有些人靠这些战争发了大财。
 }
 Diplomat_dialog_2027 {
-Who do you mean?
+你指的是谁？
 }
 Diplomat_dialog_2028 {
-I mean nothing. I'm a merchant, and merchants who mean things don't live long. Go, the Santa Clara won't wait.
+我谁也没指。 我是个商人， 指名道姓的商人活不长。 去吧， “圣克拉拉”号可不会等你。
 }
 Diplomat_dialog_2029 {
-We have nothing more to discuss, captain.
+我们没什么可谈的了， 船长。
 }
 Diplomat_dialog_2030 {
-Enough, enough! The Santa Clara strikes her colours. I am a courier, señor, not a soldier.
+够了， 够了！ “圣克拉拉”号降旗投降。 我只是个信使， 先生， 不是士兵。
 }
 Diplomat_dialog_2031 {
-Then you won't mind showing me the letters you carry.
+那你一定不介意让我看看你带的信。
 }
 Diplomat_dialog_2032 {
-Letters? They went overboard the moment I saw your flag. That is what couriers are for.
+信？ 我一看到你的旗帜就把它们扔下海了。 信使就是干这个的。
 }
 Diplomat_dialog_2033 {
-Then I'll search your cabin. Every board of it.
+那我就搜你的船舱。 一块木板一块木板地搜。
 }
 Diplomat_dialog_2034 {
-...Search, then. You'll find a few half-burnt pages in the stove. I wasn't quick enough. And you'll understand nothing: the important names were never written down.
+……那就搜吧。 你会在炉子里找到几页烧了一半的纸。 我动作不够快。 而且你什么也看不懂： 重要的名字从来没写下来过。
 }
 Diplomat_dialog_2035 {
-We'll see about that.
+走着瞧。
 }
 Diplomat_dialog_2036 {
-You're the captain who pulled us out of that mess? Amaro Teles, master of the Desterro. Sit, sit. Wine for the captain!
+你就是把我们从那场麻烦里救出来的船长？ 阿马罗·特莱斯， “德斯特罗”号的船长。 坐， 快坐。 给船长上酒！
 }
 Diplomat_dialog_2037 {
-Those pirates were waiting for you. How did they know?
+那些海盗是在等你们。 他们怎么知道的？
 }
 Diplomat_dialog_2038 {
-That's what I keep asking myself. The same band burned three mills near Recife last spring, and they always knew where to go. This voyage I changed course at Barbados on purpose. Only the Governor-General's office had my new route. Nobody else.
+这正是我一直在问自己的。 去年春天， 同一伙人在累西腓附近烧了三座糖坊， 他们总知道该去哪儿。 这次出航， 我在巴巴多斯故意改了航向。 只有总督官署知道我的新航线。 再没有别人。
 }
 Diplomat_dialog_2039 {
-Be careful who you say that to.
+你说这话的时候要小心对谁说。
 }
 Diplomat_dialog_2040 {
-I know, I know. I'm only a sugar captain. Forget it; it's the wine talking. But thank you, captain. My crew owes you their lives.
+我知道， 我知道。 我只是个运糖的船长。 忘了吧， 是酒在说话。 不过谢谢你， 船长。 我的船员欠你一条命。
 }
 Diplomat_dialog_2041 {
-To your health, captain!
+祝你健康， 船长！
 }
 Diplomat_dialog_2042 {
-Stop. Your men can wait a moment, and so can mine. You've won, Admiral, or whatever Barreto calls you these days. Let's talk like businessmen.
+住手。 你的人可以等一会儿， 我的人也可以。 你赢了， 海军上将， 或者不管巴雷托现在怎么称呼你。 我们像生意人一样谈谈吧。
 }
 Diplomat_dialog_2043 {
-You know the Governor-General's name very well for a pirate.
+作为一个海盗， 你对总督的名字可真熟悉。
 }
 Diplomat_dialog_2044 {
-I know a great many names. Tell me: why do you think he sent you after me, and not after the Spaniards who pay us? Because I asked for a bigger share. That's all. You're his broom, sweeping away whoever gets in his way.
+我知道很多名字。 告诉我： 你觉得他为什么派你来追我， 而不是去追付钱给我们的西班牙人？ 因为我要了更大的一份。 就是这样。 你是他的扫帚， 把挡路的人统统扫掉。
 }
 Diplomat_dialog_2045 {
-Words are cheap for a man about to hang.
+对一个快要上绞架的人来说， 话不值钱。
 }
 Diplomat_dialog_2046 {
-Then here's something that isn't. In my strongbox there's a ledger. Every cargo, every buyer. Read it, and you'll know who you really work for. My life for the ledger. Fair?
+那就给你点值钱的。 我的保险箱里有一本账簿。 每一批货， 每一个买家。 读了它， 你就会知道自己到底在为谁卖命。 用我的命换这本账簿。 公平吗？
 }
 Diplomat_dialog_2047 {
-Fair. Surrender, and you'll live to see a court.
+公平。 投降吧， 你能活着见到法庭。
 }
 Diplomat_dialog_2048 {
-I'll take the ledger off your corpse.
+我会从你的尸体上拿走账簿。
 }
 Diplomat_dialog_2049 {
-A sensible man. Rare in these waters. My sword is yours.
+明智的人。 在这片海域可不多见。 我的剑归你了。
 }
 Diplomat_dialog_2050 {
-Barreto chose his dog well. En garde, then!
+巴雷托这条狗选得不错。 那就来吧！
 }
 Diplomat_dialog_2051 {
-Take him below.
+把他押到底舱去。
 }
 Diplomat_dialog_2052 {
-Godinho, yes, merchant. Wholesale. If you want to buy, come to the warehouse tomorrow. I don't do business in taverns.
+戈迪尼奥， 对， 商人。 做批发的。 想买东西的话， 明天到仓库来。 我不在酒馆里谈生意。
 }
 Diplomat_dialog_2053 {
-I've read Gaspar Roiz's ledger. Your name appears on every page.
+我读过加斯帕尔·罗伊斯的账簿。 每一页上都有你的名字。
 }
 Diplomat_dialog_2054 {
-I want to talk about sugar. Stolen sugar.
+我想谈谈糖。 被偷的糖。
 }
 Diplomat_dialog_2055 {
-I don't know what you're talking about, and I'd thank you to lower your voice. Good evening.
+我不知道你在说什么， 麻烦你小声点。 晚安。
 }
 Diplomat_dialog_2056 {
-Then perhaps I'll ask the Governor-General what you buy, and from whom.
+那也许我该去问问总督， 你都买了些什么， 又是从谁手里买的。
 }
 Diplomat_dialog_2057 {
-No! Not him, for God's sake... Listen. I only bought what the Palace told me to buy, at the price they set. Everything went to the governor's warehouses, under his own seal. I'm a small man. Small men don't say no to Barreto.
+不！ 别找他， 看在上帝的份上…… 听着。 我只买宫里让我买的东西， 价钱也是他们定的。 所有东西都进了总督的仓库， 盖着他自己的印章。 我只是个小人物。 小人物不敢对巴雷托说不。
 }
 Diplomat_dialog_2058 {
-I need proof, not your word.
+我需要证据， 不是你的一句话。
 }
 Diplomat_dialog_2059 {
-His secretary, Lourenço Viegas, copied every contract. A careful man. He fled to Cumaná when Iron Hand's squadron went down; he knows what that means. Find him in the tavern there. And you never saw me.
+他的秘书洛伦索·维埃加斯抄录了每一份契约。 一个细心的人。 “铁手”的舰队沉没后， 他就逃到了库马纳； 他明白那意味着什么。 去那里的酒馆找他。 还有， 你从没见过我。
 }
 Diplomat_dialog_2060 {
-I've told you everything! Leave me alone!
+我什么都告诉你了！ 别再缠着我了！
 }
 Diplomat_dialog_2061 {
-Who sent you? ...No. Don't answer. If you were his man, I'd already be dead in an alley.
+谁派你来的？ ……不。 别回答。 如果你是他的人， 我早就死在哪条小巷里了。
 }
 Diplomat_dialog_2062 {
-Godinho told me you kept copies of the contracts.
+戈迪尼奥告诉我， 你留着那些契约的副本。
 }
 Diplomat_dialog_2063 {
-Godinho talks too much, but this once it may save us both. Tell me first: why are you doing this? He made you rich, gave you rank.
+戈迪尼奥话太多， 但这一次也许能救我们俩。 先告诉我： 你为什么要这么做？ 他让你发了财， 给了你军衔。
 }
 Diplomat_dialog_2064 {
-I swore to serve the Crown, not Barreto.
+我发誓效忠的是王室， 不是巴雷托。
 }
 Diplomat_dialog_2065 {
-Because I don't like being used.
+因为我不喜欢被人利用。
 }
 Diplomat_dialog_2066 {
-Then listen. Four years ago His Excellency made an agreement with a Spanish agent in Havana. Spain pays the pirates to ruin our trade, here and in Brazil. The pirates hand over the cargoes. His Excellency sells them through Godinho, and the profit is split. The colonies bleed, Lisbon hears of 'pirates', and he grows rich.
+那就听着。 四年前， 总督阁下和哈瓦那的一个西班牙特工达成了协议。 西班牙出钱让海盗破坏我们的贸易， 在这里， 也在巴西。 海盗把货物交出来。 总督阁下通过戈迪尼奥把货卖掉， 利润大家分。 殖民地在流血， 里斯本只听说是“海盗”， 而他自己发了财。
 }
 Diplomat_dialog_2067 {
-And me?
+那我呢？
 }
 Diplomat_dialog_2068 {
-You? When Iron Hand demanded half, the governor needed someone to get rid of him without dirtying his own hands. A corsair with ambition, eager for rank. Forgive me, Admiral, but you were perfect.
+你？ “铁手”要求分一半的时候， 总督需要有人替他除掉这个人， 又不脏了自己的手。 一个有野心、 渴望军衔的私掠船长。 原谅我， 海军上将， 你再合适不过了。
 }
 Diplomat_dialog_2069 {
-Then give me the proof.
+那就把证据给我。
 }
 Diplomat_dialog_2070 {
-Here are the copies, with his seal. Only the Crown can judge a Governor-General. A Desembargador sent by El-Rei, Dom Álvaro de Sousa Coutinho, is aboard a ship due off Cumaná any hour now. Barreto knows it too, and he will not let that ship reach port. Put to sea, see it safely in, and then give him these at the residence.
+这是副本， 盖着他的印章。 只有王室才能审判总督。 国王派来的大法官， 多姆·阿尔瓦罗·德·索萨·库蒂尼奥， 正乘船前来， 随时会抵达库马纳外海。 巴雷托也知道， 他不会让那艘船进港。 出海去， 确保它平安抵达， 然后在官邸把这些交给他。
 }
 Diplomat_dialog_2071 {
-Stay hidden, Lourenço.
+躲好， 洛伦索。
 }
 Diplomat_dialog_2072 {
-Go, Admiral, and may God protect you.
+去吧， 海军上将， 愿上帝保佑你。
 }
 Diplomat_dialog_2073 {
-Dom Álvaro de Sousa Coutinho, Desembargador of the Casa da Suplicação, here by order of His Majesty Dom Afonso VI. They tell me you insisted on seeing me. Be brief.
+多姆·阿尔瓦罗·德·索萨·库蒂尼奥， 最高上诉法院大法官， 奉国王陛下多姆·阿方索六世之命来此。 听说你坚持要见我。 长话短说。
 }
 Diplomat_dialog_2074 {
-I have proof that Governor-General Barreto de Meneses is working with Spain to plunder his own colonies.
+我有证据证明总督巴雷托·德·梅内塞斯与西班牙勾结， 掠夺他自己的殖民地。
 }
 Diplomat_dialog_2075 {
-A serious accusation. Do you know how many governors are denounced every year? Usually by the men they owe money to. Why should I believe a corsair whose rank the accused himself gave him?
+这是严重的指控。 你知道每年有多少总督被人告发吗？ 通常是被那些他们欠了钱的人。 我凭什么相信一个军衔都是被告亲手授予的私掠船长？
 }
 Diplomat_dialog_2076 {
-Don't believe me. Read the contracts: his seal, Spanish signatures, cargoes from our ships. His secretary copied them himself.
+不必相信我。 看看这些契约： 他的印章、 西班牙人的签名、 来自我们船只的货物。 是他的秘书亲手抄录的。
 }
 Diplomat_dialog_2077 {
-...His seal. And the dates match the losses Lisbon has been recording for years. God help us. You have done the Crown a service that few would have dared. By the powers El-Rei has granted me, I name you General of His Majesty's fleet in these waters.
+……他的印章。 日期也和里斯本多年来记录的损失对得上。 愿上帝保佑我们。 你为王室立下了少有人敢立的功劳。 凭国王授予我的权力， 我任命你为陛下在这片海域的舰队统帅。
 }
 Diplomat_dialog_2078 {
-And these Spanish letters you kept... they remove any doubt about the agreement with Havana. You were prudent not to hand them over.
+还有你保留下来的那些西班牙信件…… 它们消除了对哈瓦那那份协议的一切疑问。 你没把它们交出去， 是明智之举。
 }
 Diplomat_dialog_2079 {
-What of Barreto?
+巴雷托呢？
 }
 Diplomat_dialog_2080 {
-A rider came in from Caracas an hour ago. Barreto left the residence last night and boarded his galleon, the São Miguel, with his treasure. He knew. He must not reach Spanish waters. Bring him back, alive if you can. He owes answers to more people than me.
+一小时前有个骑手从加拉加斯赶来。 巴雷托昨晚离开了官邸， 带着他的财宝登上了他的盖伦船“圣米格尔”号。 他早就知道了。 绝不能让他到达西班牙水域。 把他带回来， 能活捉就活捉。 他欠的不只是我一个人的交代。
 }
 Diplomat_dialog_2081 {
-He won't escape.
+他跑不了。
 }
 Diplomat_dialog_2082 {
-The traitor is still at large, General. Every hour counts.
+叛徒仍然逍遥法外， 统帅。 每一个小时都很关键。
 }
 Diplomat_dialog_2083 {
-You're back. Tell me it is over.
+你回来了。 告诉我， 一切都结束了。
 }
 Diplomat_dialog_2084 {
-He's in my hold, in irons. He surrendered his sword.
+他在我的货舱里， 戴着镣铐。 他交出了自己的剑。
 }
 Diplomat_dialog_2085 {
-He chose to go down with the São Miguel.
+他选择和“圣米格尔”号一起沉没。
 }
 Diplomat_dialog_2086 {
-Then justice is done, one way or another. Now listen carefully, because this is not a reward, it is a burden. These colonies need someone who has proven his loyalty with deeds. By order of His Majesty, I name you Governor-General of the Portuguese colonies of the Caribbean.
+那么正义已经得到伸张， 不管以哪种方式。 现在仔细听好， 因为这不是奖赏， 而是重担。 这些殖民地需要一个用行动证明了自己忠诚的人。 奉陛下之命， 我任命你为葡萄牙加勒比殖民地总督。
 }
 Diplomat_dialog_2087 {
-I accept, Your Excellency.
+我接受， 阁下。
 }
 Diplomat_dialog_2088 {
-As Governor-General, a tenth of the profits of every Portuguese colony is yours by right, paid each month into the treasury at Caracas. Lourenço Viegas will keep your accounts; he has proven he can be trusted. Take also 100,000 piastres from Barreto's treasure. And remember: Lisbon is far away, but it was watching him too.
+作为总督， 每个葡萄牙殖民地利润的十分之一依法归你所有， 每月存入加拉加斯的国库。 洛伦索·维埃加斯会替你管账； 他已经证明了自己值得信任。 另外， 从巴雷托的财宝中拿走100000比索。 记住： 里斯本虽远， 但它也一直在盯着他。
 }
 Diplomat_dialog_2089 {
-I won't forget it.
+我不会忘记的。
 }
 Diplomat_dialog_2090 {
-Go with God, Governador.
+愿上帝与你同在， 总督。
 }
 Diplomat_dialog_2091 {
-Ah. Of course it's you. I should have had you killed off Trinidad, when it would have cost me nothing.
+啊。 果然是你。 我早该在特立尼达外海就让人干掉你， 那时候不费我一分钱。
 }
 Diplomat_dialog_2092 {
-Francisco Barreto de Meneses, in the name of El-Rei, you are under arrest for treason.
+弗朗西斯科·巴雷托·德·梅内塞斯， 我以国王的名义， 以叛国罪逮捕你。
 }
 Diplomat_dialog_2093 {
-Treason. Such a big word. For twenty years Lisbon sent us bishops and tax collectors, never ships. Who kept these colonies alive? Me. I simply took my share.
+叛国。 好大的字眼。 二十年来， 里斯本给我们送来的只有主教和税吏， 从来没有船。 是谁让这些殖民地活下来的？ 是我。 我只是拿了我应得的那一份。
 }
 Diplomat_dialog_2094 {
-And me? Was I just a tool from the start?
+那我呢？ 我从一开始就只是件工具？
 }
 Diplomat_dialog_2095 {
-From the first day. A good tool, I'll grant you. Malheiro was getting careless, Iron Hand was getting greedy, and you cleared them away and thanked me for the rank. Don't take it personally. Everyone here is someone's tool. Coutinho too, you'll see.
+从第一天起。 一件好工具， 这我承认。 马列罗变得粗心， “铁手”变得贪婪， 你把他们清理干净， 还为军衔向我道谢。 别往心里去。 在这里， 每个人都是别人的工具。 库蒂尼奥也一样， 你会看到的。
 }
 Diplomat_dialog_2096 {
-Your share was paid in Portuguese blood. Your sword.
+你那一份是用葡萄牙人的血换来的。 交出你的剑。
 }
 Diplomat_dialog_2097 {
-...Take it. Let Lisbon judge me. Lisbon has always been slow.
+……拿去吧。 让里斯本来审判我。 里斯本向来行动迟缓。
 }
 Diplomat_dialog_2098 {
-Your Excellency. The treasury holds @<FindMoneyString> from the colonies' tithe.
+总督阁下。 国库里存有来自殖民地什一税的@<FindMoneyString>。
 }
 Diplomat_dialog_2099 {
-Your Excellency. The treasury is empty for now; the colonies pay at the start of each month.
+总督阁下。 国库目前是空的； 殖民地会在每月初缴款。
 }
 Diplomat_dialog_2100 {
-I'll take it.
+我拿走了。
 }
 Diplomat_dialog_2101 {
-Here you are, every coin accounted for. Unlike some of your predecessors, I write everything down.
+请收下， 每一枚钱币都记了账。 和您的某些前任不同， 我什么都记下来。
 }
 Diplomat_dialog_2102 {
-The colonies' tithe has arrived at the treasury in @<GetCityName>: @<FindMoneyString>.
+殖民地的什一税已送达@<GetCityName>的国库： @<FindMoneyString>。
 }
 Diplomat_dialog_2103 {
-Your Excellency, Governor-General! The colony is at your orders. What brings you here?
+总督阁下！ 殖民地听候您的吩咐。 是什么风把您吹来了？
 }
 Diplomat_dialog_2104 {
-I want to move the seat of government.
+我想迁移政府驻地。
 }
 Diplomat_dialog_2105 {
-As Your Excellency wishes. The treasury and the archives go wherever the Governor-General resides. Where shall we move?
+遵命， 阁下。 总督住在哪里， 国库和档案就跟到哪里。 我们搬到哪里去？
 }
 Diplomat_dialog_2106 {
-There is no other Portuguese colony with a residence fit for the government, Your Excellency.
+没有其他葡萄牙殖民地拥有配得上政府的官邸， 阁下。
 }
 Diplomat_dialog_2107 {
-Never mind, we stay here.
+算了， 我们留在这里。
 }
 Diplomat_dialog_2108 {
-Very well. I'll have the chests and the archives loaded tonight. You will find me in the residence of @<GetCityName>.
+好的。 我今晚就让人把箱子和档案装车。 您可以在@<GetCityName>的官邸找到我。
 }
 Diplomat_dialog_2109 {
-The seat of government has fallen to the enemy! Lourenço Viegas fled with the treasury to @<GetCityName>.
+政府驻地落入敌手！ 洛伦索·维埃加斯带着国库逃到了@<GetCityName>。
 }
 Diplomat_dialog_2110 {
-The Governor-General? Your Excellency jests: he is standing right in front of me.
+总督？ 阁下在开玩笑吧： 他就站在我面前。
 }
 Diplomat_dialog_2111 {
-They say the sugar fleet from Bahia lost two more ships to Spanish privateers this season. Lisbon promises escorts, as always.
+听说巴伊亚的运糖船队这一季又有两艘船被西班牙私掠船劫走了。 里斯本照例承诺派护航。
 }
 Diplomat_dialog_2112 {
-A ship from Pernambuco brought news: the Dutch are gone from Recife for good, but the planters say the mills will take years to recover.
+一艘从伯南布哥来的船带来了消息： 荷兰人已经彻底离开了累西腓， 但种植园主说糖坊要好几年才能恢复。
 }
 Diplomat_dialog_2113 {
-The garrison hasn't been paid in three months. The officers say the money is stuck somewhere between Lisbon and Bahia.
+守军已经三个月没领到军饷了。 军官们说钱卡在里斯本和巴伊亚之间的某个地方。
 }
 Diplomat_dialog_2114 {
-Spanish privateers out of Cartagena have been seen off our coast. The merchants want to sail in convoy, but nobody wants to pay for the escort.
+有人在我们海岸外看到了卡塔赫纳的西班牙私掠船。 商人们想结队航行， 可谁都不愿意出护航的钱。
 }
 Diplomat_dialog_2115 {
-A Jesuit from Brazil preached in the church last Sunday. He said the Indians of the sertão are better Christians than half the sailors in this port.
+上个星期天， 一位从巴西来的耶稣会士在教堂里布道。 他说腹地的印第安人比这个港口一半的水手都更像基督徒。
 }
 Diplomat_dialog_2116 {
-The Portuguese in Cumaná and Caracas pay well for Spanish prizes. Lisbon is still at war with Madrid, and their governors aren't fussy about who brings the ships in.
+库马纳和加拉加斯的葡萄牙人对西班牙战利品出价很高。 里斯本仍在和马德里打仗， 他们的总督可不挑剔是谁把船带来的。
 }
 Diplomat_dialog_2117 {
-They say Portuguese caravels slip between the islands with Brazilian sugar and tobacco, and that their pilots know every reef from here to Bahia.
+听说葡萄牙轻帆船载着巴西的糖和烟草在岛屿之间穿梭， 他们的领航员熟悉从这里到巴伊亚的每一块礁石。
 }
 Diplomat_dialog_2118 {
-A Portuguese captain drank here last week and swore that Lisbon and Madrid will make peace within a few years. Nobody believed him.
+上周有个葡萄牙船长在这里喝酒， 发誓说里斯本和马德里几年之内就会讲和。 没人信他。
 }
 Diplomat_dialog_2119 {
-They say the English king means to marry a Portuguese princess. If that's true, Portuguese ships will soon have English guns behind them.
+听说英国国王打算娶一位葡萄牙公主。 如果是真的， 葡萄牙船很快就会有英国大炮撑腰了。
 }
 Diplomat_dialog_2120 {
-In Spanish ports they call the Portuguese rebels. In Portuguese ports they call the Spaniards thieves. If you ask me, both are right.
+在西班牙港口， 人们管葡萄牙人叫叛贼。 在葡萄牙港口， 人们管西班牙人叫小偷。 要我说， 两边都没说错。
 }
 Diplomat_dialog_2121 {
-With your service to Portugal complete, the nations of the Caribbean now act on their own. You may now take colonies for the Portuguese crown.
+你为葡萄牙的效力已经完成， 加勒比各国现在将各自行动。 你现在可以为葡萄牙王室夺取殖民地了。
+}
+Diplomat_dialog_2122 {
+终于有王国的消息了： 在埃尔瓦斯， 我们的军队打破了西班牙人的围城， 把他们的步兵方阵一路赶回了巴达霍斯。 神父敲了整整一个小时的钟。
+}
+Diplomat_dialog_2123 {
+听说摄政王太后生来是个西班牙人， 出身麦地那-西多尼亚的古斯曼家族， 可她跟马德里斗得比宫廷里任何男人都狠。 她说过： “宁做一日王后， 不做一世公爵夫人。 ”
+}
+Diplomat_dialog_2124 {
+维埃拉神父在马拉尼昂布道， 痛斥奴役印第安人的殖民者。 殖民者们发誓要把他塞上第一艘回里斯本的船。
+}
+Diplomat_dialog_2125 {
+守军里有一半是流放犯， 因罪被逐出里斯本的人。 军官们说他们打仗还算可以， 只要打牌的时候永远别把后背对着他们。
+}
+Diplomat_dialog_2126 {
+巴西公司护送每一箱糖都要收钱。 商人们怨声载道， 可自从荷兰人劫走了最后几艘单独航行的船， 再没人敢不跟船队就出港了。
+}
+Diplomat_dialog_2127 {
+法国和西班牙在比利牛斯山签了和约， 法国国王答应不再帮助葡萄牙。 现在马德里可以把所有的团都派去打里斯本了。
+}
+Diplomat_dialog_2128 {
+荷兰人正在和葡萄牙人谈和。 他们说已经放弃了巴西， 但要求用黄金和塞图巴尔的盐来补偿。
+}
+Diplomat_dialog_2129 {
+听说有位曾为法国效力的德国将军， 正带着几百名老兵驶往里斯本， 去训练葡萄牙军队。 人们叫他朔姆贝格。
+}
+Diplomat_dialog_2130 {
+巴西木是葡萄牙王室的专营品， 阿姆斯特丹的染匠为它一掷千金。 哪个船长要是找到一批没有国王印章的巴西木， 只要管得住嘴， 价钱随他开。
+}
+Diplomat_dialog_2131 {
+在这里靠岸的葡萄牙船都运着马德拉酒。 它在货舱里横渡两次大洋， 出来的时候比装进去时更好。 在皇家港， 人们愿意出双倍价钱。
+}
+Diplomat_dialog_2132 {
+巴西船队
+}
+Diplomat_dialog_2133 {
+听说巴西船队已满载糖和烟草从巴伊亚起航， 驶往@<GetCityName>。 加勒比所有的私掠船长都在磨刀了。
+}
+Diplomat_dialog_2134 {
+巴西船队在@<GetCityName>下锚了。 仓库里堆满了糖， 酒馆里挤满了水手。
+}
+Diplomat_dialog_2135 {
+巴西船队始终没能进港。 听说旗舰被击沉了， 商船像受惊的鸡一样四散奔逃。
+}
+Diplomat_dialog_2136 {
+巴西船队已从巴伊亚起航， 驶往@<GetCityName>。
+}
+Diplomat_dialog_2137 {
+巴西船队已抵达@<GetCityName>。 王室应得的货物份额@<FindMoneyString>已存入国库。
+}
+Diplomat_dialog_2138 {
+有给我的公文吗， 洛伦索？
+}
+Diplomat_dialog_2139 {
+目前没有需要阁下亲自处理的事。 里斯本写信很慢， 殖民地也很平静。 过几周再来问我吧。
+}
+Diplomat_dialog_2140 {
+有个海盗在@<sPlace>海域劫掠我们的沿岸船只。 船长们说它不挂旗帜， 也不留活口去告状。 如果阁下有空， 国库将为此支付@<sMoney>。
+}
+Diplomat_dialog_2141 {
+走私贩在@<sPlace>海域卸下糖和烟草， 一个里亚尔都不交给王室。 海关请求帮助， 并将支付@<sMoney>。 他们货舱里的东西都归阁下所有。
+}
+Diplomat_dialog_2142 {
+我们的密探带来了坏消息： 西班牙私掠船打算在@<sPlace>海域袭击部分巴西船队， 抢在它进港之前。 如果阁下能先赶到， 国库将支付@<sMoney>， 王室分得的货物份额也会更大。
+}
+Diplomat_dialog_2143 {
+交给我吧。
+}
+Diplomat_dialog_2144 {
+现在不行。 交给别人吧。
+}
+Diplomat_dialog_2145 {
+很好。 消息一到， 赏金就会存入国库； 阁下不必为此回来。
+}
+Diplomat_dialog_2146 {
+如您所愿。 守军的船长们会乐意接这活儿的。
+}
+Diplomat_dialog_2147 {
+阁下手上已经有一份公文了： @<sPlace>海域。 不着急， 但这件事还没了结。
+}
+Diplomat_dialog_2148 {
+我没忘。
+}
+Diplomat_dialog_2149 {
+把这份公文交给别人吧。
+}
+Diplomat_dialog_2150 {
+办妥了。 没人会多问； 总督有更重要的事要做。
+}
+Diplomat_dialog_2151 {
+公文任务完成： @<FindMoneyString>已存入国库。
+}
+Diplomat_dialog_2152 {
+西班牙私掠船长@<sName>发誓， 他在海上每待一周就要劫一艘葡萄牙船， 到目前为止他都说到做到。 最后一次有人看到他是在@<sPlace>海域。 国库将为他支付@<sMoney>。
+}
+Diplomat_dialog_2153 {
+一位上诉法院的大法官正为王室公务出航， 海盗们也知道这件事。 他的船将经过@<sPlace>海域； 去那里和他会合， 确保他平安抵达。 国库将支付@<sMoney>。
+}
+Diplomat_dialog_2154 {
+@<sPlace>的守军缺少@<sGood>： 他们需要@<sQty>。 把货带给我， 国库将支付@<sMoney>， 远高于市价。
+}
+Diplomat_dialog_2155 {
+@<sPlace>的守军仍在等待@<sQty>的@<sGood>。 不着急， 但这件事还没了结。
+}
+Diplomat_dialog_2156 {
+我把守军的补给带来了。
+}
+Diplomat_dialog_2157 {
+每一桶都点清签收了。 守军会心存感激， 虽然他们嘴上永远不会说。 钱已经在国库里了。
+}
+Diplomat_dialog_2158 {
+阁下， 一封盖着王室印章的里斯本来信。 为表彰您对王室的贡献， 国王陛下封您为基督骑士团骑士。 这是骑士团的礼服。 在西印度， 有资格穿上它的人寥寥无几。
+}
+Diplomat_dialog_2159 {
+能为王室效力是我的荣幸。
+}
+Diplomat_dialog_2160 {
+阁下， 盖伦船“永恒圣父”号已在港内下锚。 她是在里约热内卢建造的， 据说所有海洋上都找不到比她更大的船。 里斯本把她送给总督。 她正在船坞等您； 港务长随时可以免费把她交给您。
+}
+Diplomat_dialog_2161 {
+那就别让她久等了。
+}
+Diplomat_dialog_2162 {
+阁下， 里斯本给您送来了盖伦船“永恒圣父”号， 但这里的船坞已经停满了您的船。 请到港务长那里腾出一个泊位再回来， 她就是您的了。
+}
+Diplomat_dialog_2163 {
+为表谢意， 巴西船队的领航员把他的星盘送给了你。
+}
+Diplomat_dialog_2164 {
+你在私掠船长的船舱里找到了一具浑天仪， 是从某艘葡萄牙船上抢来的。
+}
+Diplomat_dialog_2165 {
+里斯本给你送来了一套葡萄牙贵族服饰： 白色丝绸配金饰， 配得上为王室效力。
 }
 #endreplace

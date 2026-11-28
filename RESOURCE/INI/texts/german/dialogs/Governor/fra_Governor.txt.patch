@@ -1,0 +1,41 @@
+#find
+Ja, alles in Ordnung, Monsieur. Außerdem ist es uns gelungen, Cumaná einzunehmen und eine beachtliche Beute zu machen.
+#replacewith
+Ja, alles in Ordnung, Monsieur. Außerdem ist es uns gelungen, Maracaibo einzunehmen und eine beachtliche Beute zu machen.
+#endreplace
+
+#find
+Monsieur Gouverneur, Olonais und ich hatten vereinbart, Cumaná einzunehmen... Wir haben es geschafft, aber dann gab es Streit... Kurz gesagt, Olonais ist tot, Sir...
+#replacewith
+Monsieur Gouverneur, Olonais und ich hatten vereinbart, Maracaibo einzunehmen... Wir haben es geschafft, aber dann gab es Streit... Kurz gesagt, Olonais ist tot, Sir...
+#endreplace
+
+#find
+Oh, das ist großartig. Tatsächlich war es genau mein Ziel, Cumana einzunehmen. Also, ausgezeichnete Arbeit, mein Freund. Ich bin sehr zufrieden mit deiner Schnelligkeit.
+}
+fra_Governor_217_f {
+Oh, das ist großartig. Tatsächlich war die Eroberung von Cumana genau das, was ich wollte. Also, ausgezeichnete Arbeit, Mademoiselle. Ich bin sehr zufrieden mit Ihrer Effizienz.
+#replacewith
+Oh, das ist großartig. Tatsächlich war es genau mein Ziel, Maracaibo einzunehmen. Also, ausgezeichnete Arbeit, mein Freund. Ich bin sehr zufrieden mit deiner Schnelligkeit.
+}
+fra_Governor_217_f {
+Oh, das ist großartig. Tatsächlich war die Eroberung von Maracaibo genau das, was ich wollte. Also, ausgezeichnete Arbeit, Mademoiselle. Ich bin sehr zufrieden mit Ihrer Effizienz.
+#endreplace
+
+#find
+Man munkelt, du hast zusammen mit François l’Olonnais Cumana geplündert. Scheint, als hätten die spanischen Dons sich ordentlich in die Hosen gemacht!
+#replacewith
+Man munkelt, du hast zusammen mit François l’Olonnais Maracaibo geplündert. Scheint, als hätten die spanischen Dons sich ordentlich in die Hosen gemacht!
+#endreplace
+
+#find
+Er hat mich zu einem Überfall auf Cumana eingeladen. Leider musste ich ablehnen. Trotzdem glaube ich, dass er auch ohne mich gut zurechtkommt, da sein Geschwader drei Schiffe hat.
+}
+fra_Governor_223_f {
+Er hat mich zu einer Expedition nach Cumaná eingeladen. Leider musste ich ablehnen. Trotzdem denke ich, dass er auch ohne mich gut zurechtkommt, da sein Geschwader drei Schiffe hat.
+#replacewith
+Er hat mich zu einem Überfall auf Maracaibo eingeladen. Leider musste ich ablehnen. Trotzdem glaube ich, dass er auch ohne mich gut zurechtkommt, da sein Geschwader drei Schiffe hat.
+}
+fra_Governor_223_f {
+Er hat mich zu einer Expedition nach Maracaibo eingeladen. Leider musste ich ablehnen. Trotzdem denke ich, dass er auch ohne mich gut zurechtkommt, da sein Geschwader drei Schiffe hat.
+#endreplace

@@ -1,0 +1,41 @@
+#find
+Sí, todo está bien, monsieur. Además, logramos tomar Cumaná y conseguimos un buen botín.
+#replacewith
+Sí, todo está bien, monsieur. Además, logramos tomar Maracaibo y conseguimos un buen botín.
+#endreplace
+
+#find
+Señor Gobernador General, Olonais y yo acordamos tomar Cumaná... La tomamos, pero luego hubo una disputa... En resumen, Olonais está muerto, señor...
+#replacewith
+Señor Gobernador General, Olonais y yo acordamos tomar Maracaibo... La tomamos, pero luego hubo una disputa... En resumen, Olonais está muerto, señor...
+#endreplace
+
+#find
+Oh, eso es maravilloso. De hecho, capturar Cumana era precisamente lo que buscaba. Bien, excelente trabajo, amigo mío. Estoy muy satisfecho con tu rapidez.
+}
+fra_Governor_217_f {
+Oh, eso es maravilloso. De hecho, capturar Cumana era precisamente lo que buscaba. Entonces, excelente trabajo, señorita. Estoy muy satisfecho con su eficiencia.
+#replacewith
+Oh, eso es maravilloso. De hecho, capturar Maracaibo era precisamente lo que buscaba. Bien, excelente trabajo, amigo mío. Estoy muy satisfecho con tu rapidez.
+}
+fra_Governor_217_f {
+Oh, eso es maravilloso. De hecho, capturar Maracaibo era precisamente lo que buscaba. Entonces, excelente trabajo, señorita. Estoy muy satisfecho con su eficiencia.
+#endreplace
+
+#find
+Se rumorea que saqueaste Cumana junto a François l’Olonnais. ¡Parece que los señores españoles realmente se asustaron!
+#replacewith
+Se rumorea que saqueaste Maracaibo junto a François l’Olonnais. ¡Parece que los señores españoles realmente se asustaron!
+#endreplace
+
+#find
+Me invitó a una incursión en Cumana. Lamentablemente, tuve que rechazar. Aun así, creo que se las arreglará bien sin mí, ya que su escuadrón tiene tres barcos.
+}
+fra_Governor_223_f {
+Me invitó a una expedición a Cumaná. Lamentablemente, tuve que rechazar. Aun así, creo que se las arreglará bien sin mí, ya que su escuadrón tiene tres barcos.
+#replacewith
+Me invitó a una incursión en Maracaibo. Lamentablemente, tuve que rechazar. Aun así, creo que se las arreglará bien sin mí, ya que su escuadrón tiene tres barcos.
+}
+fra_Governor_223_f {
+Me invitó a una expedición a Maracaibo. Lamentablemente, tuve que rechazar. Aun así, creo que se las arreglará bien sin mí, ya que su escuadrón tiene tres barcos.
+#endreplace

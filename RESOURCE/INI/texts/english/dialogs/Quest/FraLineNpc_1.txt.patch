@@ -1,0 +1,53 @@
+#find
+I can hand you a pouch of gold. Or I can offer you a part in an interesting venture. In this letter, the governor-general reports that there’s gold worth at least two hundred thousand reales in the Cumaná fort right now. My flotilla has three ships, their captains are my partners. Join us—and we’ll split the loot four ways, as the brotherhood’s code demands. Well, what do you say?
+#replacewith
+I can hand you a pouch of gold. Or I can offer you a part in an interesting venture. In this letter, the governor-general reports that there’s gold worth at least two hundred thousand reales in the Maracaibo fort right now. My flotilla has three ships, their captains are my partners. Join us—and we’ll split the loot four ways, as the brotherhood’s code demands. Well, what do you say?
+#endreplace
+
+#find
+Well then, you're ready to take your place in our squadron. Welcome aboard—now onward to Cumaná!
+}
+FraLineNpc_1_118_f {
+Well then, you’re ready to take your place in our squadron. Welcome aboard—now onward to Cumaná!
+#replacewith
+Well then, you're ready to take your place in our squadron. Welcome aboard—now onward to Maracaibo!
+}
+FraLineNpc_1_118_f {
+Well then, you’re ready to take your place in our squadron. Welcome aboard—now onward to Maracaibo!
+#endreplace
+
+#find
+The plan is simple enough. We go there and take Cumaná by storm. Then we find the gold, split it, and each of us goes our own way.
+#replacewith
+The plan is simple enough. We go there and take Maracaibo by storm. Then we find the gold, split it, and each of us goes our own way.
+#endreplace
+
+#find
+Then onward to Cumaná, and as fast as we can!
+#replacewith
+Then onward to Maracaibo, and as fast as we can!
+#endreplace
+
+#find
+Congratulations on your successful escape, but there will be no expedition to Cumana.
+#replacewith
+Congratulations on your successful escape, but there will be no expedition to Maracaibo.
+#endreplace
+
+#find
+It’s quite simple, mon cher. There’s no more gold in Cumana—it’s all been taken away. So in our case, the time we lost cost us 200,000 reales. That’s how it is...
+}
+FraLineNpc_1_133_f {
+It’s simple, darling. There’s no more gold in Cumana—it’s all been taken away. So in our case, lost time cost us two hundred thousand reales. That’s how it is...
+#replacewith
+It’s quite simple, mon cher. There’s no more gold in Maracaibo—it’s all been taken away. So in our case, the time we lost cost us 200,000 reales. That’s how it is...
+}
+FraLineNpc_1_133_f {
+It’s simple, darling. There’s no more gold in Maracaibo—it’s all been taken away. So in our case, lost time cost us two hundred thousand reales. That’s how it is...
+#endreplace
+
+#find
+Captain, we can’t waste any time—we need to seize Cumana at once, before the gold vanishes.
+#replacewith
+Captain, we can’t waste any time—we need to seize Maracaibo at once, before the gold vanishes.
+#endreplace

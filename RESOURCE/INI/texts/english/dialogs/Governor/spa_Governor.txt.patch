@@ -1,0 +1,59 @@
+#find
+It’s very fortunate that you arrived just in time. I have a very important task for you. The thing is, the notorious buccaneer Captain Ansel has managed to unite English and French privateers to launch an attack on Cumaná.
+#replacewith
+It’s very fortunate that you arrived just in time. I have a very important task for you. The thing is, the notorious buccaneer Captain Ansel has managed to unite English and French privateers to launch an attack on Cartagena.
+#endreplace
+
+#find
+Some of the refugees from Cumana have already arrived here. You failed to save the city and its people.
+}
+spa_Governor_94_m {
+I raced to Cumana with every sail set, not stopping for even a minute. But still, I didn’t make it in time—there was simply no way.
+}
+spa_Governor_94_f {
+I was racing to Cumana under full sail, not stopping anywhere for even a minute. But still, I didn’t make it in time—there was simply no way.
+}
+spa_Governor_95 {
+Some of the refugees from Cumana have already arrived here. You failed to save the city and its people.
+#replacewith
+Some of the refugees from Cartagena have already arrived here. You failed to save the city and its people.
+}
+spa_Governor_94_m {
+I raced to Cartagena with every sail set, not stopping for even a minute. But still, I didn’t make it in time—there was simply no way.
+}
+spa_Governor_94_f {
+I was racing to Cartagena under full sail, not stopping anywhere for even a minute. But still, I didn’t make it in time—there was simply no way.
+}
+spa_Governor_95 {
+Some of the refugees from Cartagena have already arrived here. You failed to save the city and its people.
+#endreplace
+
+#find
+I've already been informed that Cumana has been saved. Splendid!
+#replacewith
+I've already been informed that Cartagena has been saved. Splendid!
+#endreplace
+
+#find
+However, it does not befit us to fall into despair. We stand at the very edge of the blade, punishing our enemies in the name of Spain and the Almighty Lord! And since we are challenged once again, we must answer with honor.\nTime and again, rogues and criminals of every stripe—the ladrones—have seized our towns, tortured and killed our colonists.\nThis time, we must ensure the steadfast defense of Cumaná, and that is your task. Proceed to Cumaná at once and repel the attack of the ladrones under Captain Ansel’s command.
+#replacewith
+However, it does not befit us to fall into despair. We stand at the very edge of the blade, punishing our enemies in the name of Spain and the Almighty Lord! And since we are challenged once again, we must answer with honor.\nTime and again, rogues and criminals of every stripe—the ladrones—have seized our towns, tortured and killed our colonists.\nThis time, we must ensure the steadfast defense of Cartagena, and that is your task. Proceed to Cartagena at once and repel the attack of the ladrones under Captain Ansel’s command.
+#endreplace
+
+#find
+They say Captain @<GetFullName> failed to save the people of Cumana! A sad fate...
+}
+spa_Governor_270_f {
+They say Captain @<GetFullName> failed to save the people of Cumaná! A sad fate...
+#replacewith
+They say Captain @<GetFullName> failed to save the people of Cartagena! A sad fate...
+}
+spa_Governor_270_f {
+They say Captain @<GetFullName> failed to save the people of Cartagena! A sad fate...
+#endreplace
+
+#find
+Captain, they say it was you who saved Cumana! Allow me to express my admiration, @<GetAddress_Form>...
+#replacewith
+Captain, they say it was you who saved Cartagena! Allow me to express my admiration, @<GetAddress_Form>...
+#endreplace

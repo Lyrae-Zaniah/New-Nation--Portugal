@@ -1,0 +1,29 @@
+#find
+Você ainda não tomou nem Cumana nem Caracas. Toda a costa do Main ainda está sob controle espanhol...
+#replacewith
+Você ainda não tomou nem Cartagena nem Maracaibo. Toda a costa do Main ainda está sob controle espanhol...
+#endreplace
+
+#find
+Você conquistou Caracas! Isso é excelente, @<GetFullName>. Mas Cumaná ainda não foi tomada. Depressa!
+#replacewith
+Você conquistou Maracaibo! Isso é excelente, @<GetFullName>. Mas Cartagena ainda não foi tomada. Depressa!
+#endreplace
+
+#find
+Cumana agora pertence à Inglaterra, e isso é graças a você! Excelente trabalho, @<GetFullName>! Mas também espero que você conquiste Caracas — ela também precisa ser capturada!
+#replacewith
+Cartagena agora pertence à Inglaterra, e isso é graças a você! Excelente trabalho, @<GetFullName>! Mas também espero que você conquiste Maracaibo — ela também precisa ser capturada!
+#endreplace
+
+#find
+Cumana e Caracas foram capturadas! Agora este trecho do continente pertence à Inglaterra!
+#replacewith
+Cartagena e Maracaibo foram capturadas! Agora este trecho do continente pertence à Inglaterra!
+#endreplace
+
+#find
+Nossa resposta ao ataque espanhol a Port Royal será nosso próprio ataque às cidades espanholas.\nPerto de Trinidad, no continente, há duas cidades espanholas: Cumaná e Caracas. Conquiste essas cidades e faça com que seus habitantes jurem lealdade a Sua Majestade Charles II Stuart.\nAjude a nomear uma nova administração para restaurar a boa governança e garantir a rápida arrecadação de impostos e taxas.
+#replacewith
+Nossa resposta ao ataque espanhol a Port Royal será nosso próprio ataque às cidades espanholas.\nNo continente, há duas cidades espanholas: Cartagena e Maracaibo. Conquiste essas cidades e faça com que seus habitantes jurem lealdade a Sua Majestade Charles II Stuart.\nAjude a nomear uma nova administração para restaurar a boa governança e garantir a rápida arrecadação de impostos e taxas.
+#endreplace

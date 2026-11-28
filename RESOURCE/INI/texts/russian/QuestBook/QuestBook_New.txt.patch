@@ -11,121 +11,192 @@
 // Nova Nacao: linha de missoes de Portugal
 POR_Line
 {
-For the Glory of the Crown
+Во славу Короны
 }
 
 POR_Line.1
 {
-The Governor-General of the Portuguese colonies, Francisco Barreto de Meneses, received me coldly but gave me a commission: pirates are taking our merchantmen between Cumaná and Trinidad, always knowing when they sail. I must find the Corvo Negro in the waters of Trinidad and sink her, and report only to him.
+Генерал-губернатор португальских колоний Франсишку Баррету ди Менезиш принял меня холодно, но дал поручение: пираты захватывают наши торговые суда между Куманой и Тринидадом и всегда знают, когда те выходят в море. Я должен найти «Корву Негру» в водах Тринидада, потопить её и доложить только ему.
 }
 
 POR_Line.f
 {
-I left the area before the fight was over. The enemy is still there; I must go back and finish the job.
+Я покинул район до конца боя. Враг всё ещё там; надо вернуться и закончить дело.
 }
 
 POR_Line.2
 {
-The Corvo Negro is no more. Her captain, Bento Malheiro, was Portuguese, from Recife. Before he died he said something strange: the pirates always know the day our ships leave Cumaná, 'and Spaniards don't know that kind of thing'. Among his things: Spanish doubloons and a list of our sailing dates. I must report to the Governor-General in Caracas.
+«Корву Негру» больше нет. Её капитан, Бенту Мальейру, был португальцем из Ресифи. Перед смертью он сказал странную вещь: пираты всегда знают, в какой день наши корабли выходят из Куманы, «а испанцы таких вещей не знают». Среди его вещей: испанские дублоны и список наших дат отплытия. Я должен доложить генерал-губернатору в Каракасе.
 }
 
 POR_Line.3
 {
-Promoted to Captain. The governor kept the list and told me to keep quiet. Now I must find Tomé Ferraz, a Portuguese merchant in the tavern of Willemstad, on Curaçao. He is said to be unfriendly.
+Произведён в капитаны. Губернатор оставил список у себя и велел мне молчать. Теперь мне нужно найти Томе Ферраса, португальского купца, в таверне Виллемстада на Кюрасао. Говорят, он неприветлив.
 }
 
 POR_Line.4
 {
-Tomé Ferraz only opened up when I told him about Malheiro. A Spanish courier, the Santa Clara, brings the pirates' pay from Havana and anchors off Aruba. I must intercept her. Tomé warned me to think hard before handing the letters to anyone.
+Томе Феррас разговорился, только когда я рассказал ему о Мальейру. Испанское курьерское судно «Санта-Клара» привозит жалованье пиратам из Гаваны и становится на якорь у Арубы. Я должен перехватить его. Томе предупредил меня хорошенько подумать, прежде чем отдавать кому-либо письма.
 }
 
 POR_Line.5
 {
-The Santa Clara has been taken. From the half-burnt letters I could read: gold for every Portuguese ship taken in the Caribbean, raids on the sugar fleets of Pernambuco and Bahia, and a mention of 'our friend in Caracas'. I must report to the Governor-General.
+«Санта-Клара» захвачена. Из обгоревших писем мне удалось разобрать: золото за каждый португальский корабль, захваченный в Карибском море, набеги на сахарные флоты Пернамбуку и Баии и упоминание «нашего друга в Каракасе». Я должен доложить генерал-губернатору.
 }
 
 POR_Line.6
 {
-The governor dismissed 'our friend in Caracas' as just another spy. Now I must protect the fluyt Desterro, bringing sugar from Pernambuco, when she arrives at Cumaná. How does he know the pirates will strike there?
+Губернатор отмахнулся от «нашего друга в Каракасе» как от очередного шпиона. Теперь я должен защитить флейт «Дештерру», везущий сахар из Пернамбуку, когда он прибудет в Куману. Откуда он знает, что пираты ударят именно там?
 }
 
 POR_Line.7a
 {
-The pirates off Cumaná have been beaten and the Desterro is safe. Her captain, Amaro Teles, wants to buy me a drink in the tavern of Cumaná.
+Пираты у Куманы разбиты, «Дештерру» в безопасности. Его капитан, Амару Телеш, хочет угостить меня в таверне Куманы.
 }
 
 POR_Line.7
 {
-Amaro Teles changed course on purpose this voyage. Only the Governor-General's office knew his new route, and the pirates were waiting for him anyway. I must report to the governor... carefully.
+Амару Телеш в этот рейс нарочно сменил курс. Его новый маршрут знала только канцелярия генерал-губернатора, и всё же пираты его ждали. Я должен доложить губернатору... осторожно.
 }
 
 POR_Line.7b
 {
-The pirates off Cumaná have been beaten, but the Desterro went down. I must report to the Governor-General.
+Пираты у Куманы разбиты, но «Дештерру» пошёл ко дну. Я должен доложить генерал-губернатору.
 }
 
 POR_Line.8
 {
-Promoted to Capitão-Mor. The governor wants me to destroy the squadron of Gaspar Roiz, 'Iron Hand', off the Cayman Islands. He says Roiz 'has grown greedy', and he wants any papers found on board brought straight to him.
+Произведён в капитан-моры. Губернатор хочет, чтобы я уничтожил эскадру Гаспара Роиша, «Железной Руки», у Каймановых островов. Он говорит, что Роиш «стал жадным», и хочет, чтобы все бумаги, найденные на борту, доставили прямо ему.
 }
 
 POR_Line.9
 {
-Iron Hand's squadron is destroyed. Roiz said the governor sent me after him only because he had asked for a bigger share. In his strongbox I found a ledger: cargoes taken from Portuguese ships, all sold to a merchant in Caracas, Simão Godinho, 'by order of the Palace'. I must decide what to tell the governor.
+Эскадра Железной Руки уничтожена. Роиш сказал, что губернатор послал меня за ним лишь потому, что тот потребовал большую долю. В его сундуке я нашёл учётную книгу: грузы, снятые с португальских кораблей, всё продано купцу из Каракаса, Симану Годинью, «по приказу Дворца». Мне нужно решить, что сказать губернатору.
 }
 
 POR_Line.9b
 {
-Iron Hand's squadron is at the bottom of the sea, and Gaspar Roiz with it. Among the floating wreckage my men fished out a sealed strongbox. Inside was a ledger: cargoes taken from Portuguese ships, all sold to a merchant in Caracas, Simão Godinho, 'by order of the Palace'. I must decide what to tell the governor.
+Эскадра Железной Руки на дне морском, и Гаспар Роиш вместе с ней. Среди плавающих обломков мои люди выловили запечатанный сундук. Внутри лежала учётная книга: грузы, снятые с португальских кораблей, всё продано купцу из Каракаса, Симану Годинью, «по приказу Дворца». Мне нужно решить, что сказать губернатору.
 }
 
 POR_Line.10
 {
-Promoted to Admiral. The governor called me 'a most useful instrument'. I have Simão Godinho's name; I must find him in the tavern of Caracas.
+Произведён в адмиралы. Губернатор назвал меня «весьма полезным инструментом». У меня есть имя — Симан Годинью; я должен найти его в таверне Каракаса.
 }
 
 POR_Line.11
 {
-Godinho broke when I mentioned the governor: the stolen goods went to the governor's warehouses, under his own seal. His secretary, Lourenço Viegas, copied every contract and fled to Cumaná. I must find him in the tavern there.
+Годинью сломался, когда я упомянул губернатора: краденые товары шли на склады губернатора, под его собственной печатью. Его секретарь, Лоуренсу Виегаш, переписал каждый контракт и сбежал в Куману. Я должен найти его там в таверне.
 }
 
 POR_Line.12
 {
-The truth at last. Barreto made a pact with a Spanish agent in Havana: Spain pays the pirates, the pirates hand over the cargoes, and the governor sells them and shares the profit. And I was the broom he used to sweep away the pirates who demanded too much. Lourenço gave me the copies of the contracts. The Crown's Desembargador, Dom Álvaro de Sousa Coutinho, is arriving by ship, and Barreto will try to stop him. I must put to sea off Cumaná and protect his ship, then deliver the copies to him in the residence of Cumaná.
+Наконец правда. Баррету заключил сделку с испанским агентом в Гаване: Испания платит пиратам, пираты сдают грузы, а губернатор продаёт их и делит прибыль. А я был метлой, которой он выметал пиратов, требовавших слишком много. Лоуренсу отдал мне копии контрактов. Дезембаргадор Короны, дон Алвару де Соуза Коутинью, прибывает морем, и Баррету попытается его остановить. Я должен выйти в море у Куманы и защитить его корабль, а затем передать ему копии в резиденции Куманы.
 }
 
 POR_Line.13
 {
-Killers under the Spanish flag were waiting off Cumaná for the Desembargador's ship. They are gone, and Dom Álvaro has landed. He is waiting for me in the residence of Cumaná.
+Убийцы под испанским флагом поджидали корабль дезембаргадора у Куманы. С ними покончено, и дон Алвару сошёл на берег. Он ждёт меня в резиденции Куманы.
 }
 
 POR_Line.14
 {
-Dom Álvaro read the contracts and named me General. But Barreto de Meneses has fled Caracas aboard his galleon, the São Miguel. I must intercept him in the waters of Caracas, alive if possible.
+Дон Алвару прочёл контракты и назначил меня генералом. Но Баррету ди Менезиш бежал из Каракаса на своём галеоне «Сан-Мигел». Я должен перехватить его в водах Каракаса, живым, если возможно.
 }
 
 POR_Line.15
 {
-Barreto de Meneses surrendered. He admitted he used me from the first day. I must take him to Dom Álvaro in the residence of Cumaná.
+Баррету ди Менезиш сдался. Он признал, что использовал меня с первого дня. Я должен доставить его к дону Алвару в резиденцию Куманы.
 }
 
 POR_Line.15b
 {
-The São Miguel went down, and Barreto de Meneses with her. I must take the news to Dom Álvaro in the residence of Cumaná.
+«Сан-Мигел» пошёл ко дну, а с ним и Баррету ди Менезиш. Я должен сообщить эту новость дону Алвару в резиденции Куманы.
 }
 
 POR_Line.16
 {
-The pirate network is broken and the traitor has been brought to justice. By order of His Majesty Dom Afonso VI, I am now the Governor-General of the Portuguese colonies of the Caribbean. Every month a tenth of each Portuguese colony's profit goes to the treasury in Caracas, where Lourenço Viegas keeps my accounts.
+Пиратская сеть уничтожена, а предатель предан правосудию. По приказу Его Величества дона Афонсу VI я теперь генерал-губернатор португальских колоний Карибского моря. Каждый месяц десятая часть прибыли каждой португальской колонии поступает в казну в Каракасе, где Лоуренсу Виегаш ведёт мои счета.
 }
 
 POR_Line.2b
 {
-The Corvo Negro went down with her captain. My men pulled a half-drowned pirate out of the water: the captain was Bento Malheiro, a Portuguese from Recife, and he 'always knew the day our ships leave Cumaná'. The captain's chest floated free of the wreck: Spanish doubloons and a list of our sailing dates. I must report to the Governor-General in Caracas.
+«Корву Негру» пошла ко дну вместе с капитаном. Мои люди вытащили из воды полуутонувшего пирата: капитаном был Бенту Мальейру, португалец из Ресифи, и он «всегда знал день, когда наши корабли выходят из Куманы». Сундук капитана всплыл из обломков: испанские дублоны и список наших дат отплытия. Я должен доложить генерал-губернатору в Каракасе.
 }
 
 POR_Line.5b
 {
-The Santa Clara went to the bottom, but her oilcloth mail bag floated among the wreckage. From the soaked letters I could read: gold for every Portuguese ship taken in the Caribbean, raids on the sugar fleets of Pernambuco and Bahia, and a mention of 'our friend in Caracas'. I must report to the Governor-General.
+«Санта-Клара» пошла ко дну, но её почтовый мешок из промасленной ткани всплыл среди обломков. Из промокших писем мне удалось разобрать: золото за каждый португальский корабль, захваченный в Карибском море, набеги на сахарные флоты Пернамбуку и Баии и упоминание «нашего друга в Каракасе». Я должен доложить генерал-губернатору.
+}
+
+// Nova Nacao: despachos do Governador-Geral
+POR_Orders
+{
+Депеши генерал-губернатора
+}
+
+POR_Orders.hunt
+{
+Лоуренсу Виегаш передал мне депешу: пират захватывает наши каботажные суда в водах @<sPlace>. Казна заплатит @<sMoney>, как только он окажется на дне. Срока нет, а если я передумаю, достаточно сказать Лоуренсу.
+}
+
+POR_Orders.smug
+{
+Лоуренсу Виегаш передал мне депешу: контрабандисты обкрадывают Корону на пошлинах в водах @<sPlace>. Таможня заплатит @<sMoney>, а их груз достанется мне. Срока нет, а если я передумаю, достаточно сказать Лоуренсу.
+}
+
+POR_Orders.fleet
+{
+Испанские каперы поджидают часть бразильского флота в водах @<sPlace>. Если я успею туда до того, как флот дойдёт до порта, казна заплатит @<sMoney>, а доля Короны с груза будет больше.
+}
+
+POR_Orders.done
+{
+Дело сделано. В казну в резиденции правительства поступило @<sMoney>.
+}
+
+POR_Orders.done_lost_escort
+{
+С пиратами покончено, но корабль дезембаргадора пошёл ко дну вместе с ним. Половина награды, @<sMoney>, поступила в казну.
+}
+
+POR_Orders.done_loss
+{
+С каперами покончено, но мы потеряли корабли флота. Половина награды, @<sMoney>, поступила в казну.
+}
+
+POR_Orders.flee
+{
+Я покинул эти воды до конца боя. Враг всё ещё там.
+}
+
+POR_Orders.cancel
+{
+Я велел Лоуренсу поручить эту депешу кому-нибудь другому. Никто не задавал вопросов.
+}
+
+POR_Orders.fleet_gone
+{
+Плавание бразильского флота закончилось раньше, чем я добрался до каперов. Депеша больше не имеет значения.
+}
+
+POR_Orders.priv
+{
+Лоуренсу Виегаш передал мне депешу: @<sName>, испанский капер, охотится на португальские корабли в водах @<sPlace>. Казна заплатит за него @<sMoney>. Срока нет.
+}
+
+POR_Orders.escort
+{
+Корабль дезембаргадора пройдёт водами @<sPlace>, и его поджидают пираты. Я должен встретить его там и проследить, чтобы он благополучно прибыл. Казна заплатит @<sMoney>. Срока нет.
+}
+
+POR_Orders.supply
+{
+Гарнизону @<sPlace> нужен товар «@<sGood>»: @<sQty>. Я должен доставить его Лоуренсу Виегашу; казна заплатит @<sMoney>. Срока нет.
+}
+
+POR_Orders.supplied
+{
+Я доставил припасы гарнизону. В казну поступило @<sMoney>.
 }
 #endreplace

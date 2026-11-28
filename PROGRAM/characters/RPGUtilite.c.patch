@@ -1,4 +1,35 @@
 #find
+				iValue = 20;
+			}
+		break;
+	}
+#replacewith
+				iValue = 20;
+			}
+		break;
+
+		case "suit_por": // Nova Nacao: Traje de Nobre Portugues
+			if (sSkillName == SKILL_LEADERSHIP)
+			{
+				iValue = 15;
+			}
+		break;
+	}
+#endreplace
+
+#find
+		skillN = skillN + SetCharacterSkillByItem(_refCharacter, skillName, SKILL_FORTUNE, "indian22", -10);
+#replacewith
+		skillN = skillN + SetCharacterSkillByItem(_refCharacter, skillName, SKILL_FORTUNE, "indian22", -10);
+
+		// Nova Nacao 1.1.0: itens portugueses
+		skillN = skillN + SetCharacterSkillByItem(_refCharacter, skillName, SKILL_LEADERSHIP, "por_habit", 10);
+		skillN = skillN + SetCharacterSkillByItem(_refCharacter, skillName, SKILL_SAILING, "por_astrolabe", 5);
+		skillN = skillN + SetCharacterSkillByItem(_refCharacter, skillName, SKILL_COMMERCE, "por_sphere", 5);
+		skillN = skillN + SetCharacterSkillByItem(_refCharacter, skillName, SKILL_LEADERSHIP, "por_sphere", 5);
+#endreplace
+
+#find
 			case "holhunter":  iNation = HOLLAND; break;
 #replacewith
 			case "holhunter":  iNation = HOLLAND; break;

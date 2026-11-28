@@ -1,0 +1,11 @@
+#find
+Die Stadt Cumaná steht nun unter dem Schutz Englands. Alle Steuern, Handelsabgaben und sonstigen Zahlungen sind an die neue englische Verwaltung zu entrichten.
+#replacewith
+Die Stadt Cartagena steht nun unter dem Schutz Englands. Alle Steuern, Handelsabgaben und sonstigen Zahlungen sind an die neue englische Verwaltung zu entrichten.
+#endreplace
+
+#find
+Wir haben erfahren, dass in Cumana 200.000 Reales sind... Wegen dieses Geldes sind wir hier.
+#replacewith
+Wir haben erfahren, dass in Maracaibo 200.000 Reales sind... Wegen dieses Geldes sind wir hier.
+#endreplace

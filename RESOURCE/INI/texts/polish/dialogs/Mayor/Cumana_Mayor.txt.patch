@@ -1,0 +1,11 @@
+#find
+Obecnie miasto Cumaná znajduje się pod protektoratem Anglii. Wszelkie podatki, opłaty handlowe i inne należności mieszkańcy powinni uiszczać nowej angielskiej administracji.
+#replacewith
+Obecnie miasto Cartagena znajduje się pod protektoratem Anglii. Wszelkie podatki, opłaty handlowe i inne należności mieszkańcy powinni uiszczać nowej angielskiej administracji.
+#endreplace
+
+#find
+Dotarły do nas wieści, że w Kumane znajduje się dwieście tysięcy reali... Przyszliśmy tu po te pieniądze.
+#replacewith
+Dotarły do nas wieści, że w Maracaibo znajduje się dwieście tysięcy reali... Przyszliśmy tu po te pieniądze.
+#endreplace

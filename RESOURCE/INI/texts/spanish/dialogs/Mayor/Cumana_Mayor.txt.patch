@@ -1,0 +1,11 @@
+#find
+La ciudad de Cumaná está ahora bajo la protección de Inglaterra. Todos los impuestos, aranceles comerciales y demás pagos deben realizarse a la nueva administración inglesa.
+#replacewith
+La ciudad de Cartagena está ahora bajo la protección de Inglaterra. Todos los impuestos, aranceles comerciales y demás pagos deben realizarse a la nueva administración inglesa.
+#endreplace
+
+#find
+Hemos sabido que hay 200,000 reales en Cumana... Estamos aquí por ese dinero.
+#replacewith
+Hemos sabido que hay 200,000 reales en Maracaibo... Estamos aquí por ese dinero.
+#endreplace

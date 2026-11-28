@@ -1,0 +1,75 @@
+#find
+				link.l1.go = "Step_F6_14";
+				LAi_LocationDisableOfficersGen("Cumana_town", false); //офицеров пускать
+#replacewith
+				link.l1.go = "Step_F6_14";
+				LAi_LocationDisableOfficersGen("Maracaibo_town", false); //офицеров пускать
+#endreplace
+
+#find
+				link.l1.go = "Step_F6_10";
+				LAi_LocationDisableOfficersGen("Cumana_town", false); //офицеров пускать
+#replacewith
+				link.l1.go = "Step_F6_10";
+				LAi_LocationDisableOfficersGen("Maracaibo_town", false); //офицеров пускать
+#endreplace
+
+#find
+			// ==> капитулянтская нода губернатору Куманы
+			characters[GetCharacterIndex("Cumana_Mayor")].dialog.captureNode = "FraLine6Quest_Attack";
+#replacewith
+			// ==> капитулянтская нода губернатору Маракайбо (Nova Nacao: Cumana agora e portuguesa)
+			characters[GetCharacterIndex("Maracaibo_Mayor")].dialog.captureNode = "FraLine6Quest_Attack";
+#endreplace
+
+#find
+			AddLandQuestmark_Main_WithCondition(CharacterFromID("Cumana_Mayor"), "Fra_Line", "StateLines_CaptureCity_QuestMarkCondition");
+#replacewith
+			AddLandQuestmark_Main_WithCondition(CharacterFromID("Maracaibo_Mayor"), "Fra_Line", "StateLines_CaptureCity_QuestMarkCondition");
+#endreplace
+
+#find
+			LAi_LocationFightDisable(&Locations[FindLocation("Cumana_town")], true);
+#replacewith
+			LAi_LocationFightDisable(&Locations[FindLocation("Maracaibo_town")], true);
+#endreplace
+
+#find
+			AddQuestRecord("Fra_Line_6_Olone", "6");
+			LAi_LocationFightDisable(&Locations[FindLocation("Cumana_town")], false);
+#replacewith
+			AddQuestRecord("Fra_Line_6_Olone", "6");
+			LAi_LocationFightDisable(&Locations[FindLocation("Maracaibo_town")], false);
+#endreplace
+
+#find
+					sld = &characters[iTemp];
+					LAi_SetWarriorType(sld);
+					ChangeCharacterAddress(sld, "Cumana_town", LAi_FindRandomLocator("goto"));
+					LAi_group_MoveCharacter(sld, "EnemyFight");
+#replacewith
+					sld = &characters[iTemp];
+					LAi_SetWarriorType(sld);
+					ChangeCharacterAddress(sld, "Maracaibo_town", LAi_FindRandomLocator("goto"));
+					LAi_group_MoveCharacter(sld, "EnemyFight");
+#endreplace
+
+#find
+			AddQuestUserData("Fra_Line_6_Olone", "sSex", GetSexPhrase("", "а"));
+			LAi_LocationFightDisable(&Locations[FindLocation("Cumana_town")], false);
+#replacewith
+			AddQuestUserData("Fra_Line_6_Olone", "sSex", GetSexPhrase("", "а"));
+			LAi_LocationFightDisable(&Locations[FindLocation("Maracaibo_town")], false);
+#endreplace
+
+#find
+					DeleteAttribute(sld, "RebirthPhantom");
+					LAi_SetWarriorType(sld);
+					ChangeCharacterAddress(sld, "Cumana_town", LAi_FindRandomLocator("goto"));
+					LAi_group_MoveCharacter(sld, "EnemyFight");
+#replacewith
+					DeleteAttribute(sld, "RebirthPhantom");
+					LAi_SetWarriorType(sld);
+					ChangeCharacterAddress(sld, "Maracaibo_town", LAi_FindRandomLocator("goto"));
+					LAi_group_MoveCharacter(sld, "EnemyFight");
+#endreplace

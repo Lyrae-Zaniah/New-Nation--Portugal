@@ -1,0 +1,59 @@
+#find
+É muita sorte que você tenha chegado bem na hora. Tenho uma tarefa muito importante para você. A questão é que o notório bucaneiro Capitão Ansel conseguiu unir corsários ingleses e franceses para lançar um ataque contra Cumaná.
+#replacewith
+É muita sorte que você tenha chegado bem na hora. Tenho uma tarefa muito importante para você. A questão é que o notório bucaneiro Capitão Ansel conseguiu unir corsários ingleses e franceses para lançar um ataque contra Cartagena.
+#endreplace
+
+#find
+Alguns dos refugiados de Cumana já chegaram aqui. Você não conseguiu salvar a cidade nem seu povo.
+}
+spa_Governor_94_m {
+Corri para Cumana com todas as velas içadas, sem parar nem por um minuto. Mas mesmo assim, não cheguei a tempo — simplesmente não havia como.
+}
+spa_Governor_94_f {
+Eu estava correndo para Cumana com todas as velas içadas, sem parar em lugar nenhum, nem por um minuto. Mas mesmo assim, não cheguei a tempo — simplesmente não havia como.
+}
+spa_Governor_95 {
+Alguns dos refugiados de Cumana já chegaram aqui. Você não conseguiu salvar a cidade nem seu povo.
+#replacewith
+Alguns dos refugiados de Cartagena já chegaram aqui. Você não conseguiu salvar a cidade nem seu povo.
+}
+spa_Governor_94_m {
+Corri para Cartagena com todas as velas içadas, sem parar nem por um minuto. Mas mesmo assim, não cheguei a tempo — simplesmente não havia como.
+}
+spa_Governor_94_f {
+Eu estava correndo para Cartagena com todas as velas içadas, sem parar em lugar nenhum, nem por um minuto. Mas mesmo assim, não cheguei a tempo — simplesmente não havia como.
+}
+spa_Governor_95 {
+Alguns dos refugiados de Cartagena já chegaram aqui. Você não conseguiu salvar a cidade nem seu povo.
+#endreplace
+
+#find
+Já fui informado que Cumana foi salva. Excelente!
+#replacewith
+Já fui informado que Cartagena foi salva. Excelente!
+#endreplace
+
+#find
+No entanto, não nos cabe cair em desespero. Estamos no fio da navalha, punindo nossos inimigos em nome da Espanha e do Senhor Todo-Poderoso! E já que fomos desafiados mais uma vez, devemos responder com honra.\nRepetidas vezes, bandidos e criminosos de todo tipo — os ladrones — tomaram nossas cidades, torturaram e mataram nossos colonos.\nDesta vez, precisamos garantir a defesa firme de Cumaná, e essa é a sua missão. Siga imediatamente para Cumaná e repele o ataque dos ladrones sob o comando do capitão Ansel.
+#replacewith
+No entanto, não nos cabe cair em desespero. Estamos no fio da navalha, punindo nossos inimigos em nome da Espanha e do Senhor Todo-Poderoso! E já que fomos desafiados mais uma vez, devemos responder com honra.\nRepetidas vezes, bandidos e criminosos de todo tipo — os ladrones — tomaram nossas cidades, torturaram e mataram nossos colonos.\nDesta vez, precisamos garantir a defesa firme de Cartagena, e essa é a sua missão. Siga imediatamente para Cartagena e repele o ataque dos ladrones sob o comando do capitão Ansel.
+#endreplace
+
+#find
+Dizem que o capitão @<GetFullName> não conseguiu salvar o povo de Cumana! Que destino triste...
+}
+spa_Governor_270_f {
+Dizem que o capitão @<GetFullName> não conseguiu salvar o povo de Cumaná! Que destino triste...
+#replacewith
+Dizem que o capitão @<GetFullName> não conseguiu salvar o povo de Cartagena! Que destino triste...
+}
+spa_Governor_270_f {
+Dizem que o capitão @<GetFullName> não conseguiu salvar o povo de Cartagena! Que destino triste...
+#endreplace
+
+#find
+Capitão, dizem que foi você quem salvou Cumana! Permita-me expressar minha admiração, @<GetAddress_Form>...
+#replacewith
+Capitão, dizem que foi você quem salvou Cartagena! Permita-me expressar minha admiração, @<GetAddress_Form>...
+#endreplace

@@ -11,3 +11,10 @@ string = spahunter, "西班牙"
 string = spahunter, "西班牙"
 string = porhunter, "葡萄牙"
 #endreplace
+
+#find
+string = SC_HullDesc3, "荷兰皇家海军"
+#replacewith
+string = SC_HullDesc3, "荷兰皇家海军"
+string = SC_HullDesc4, "葡萄牙皇家海军"
+#endreplace

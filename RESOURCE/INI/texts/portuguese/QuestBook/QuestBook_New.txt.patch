@@ -125,4 +125,75 @@ POR_Line.5b
 {
 A Santa Clara foi a pique, mas a mala de oleado do correio boiou entre os destroços. Das cartas encharcadas consegui ler: ouro por cada navio português tomado no Caribe, ataques às frotas de açúcar de Pernambuco e da Bahia, e uma menção a 'nosso amigo em Caracas'. Devo informar o Governador-Geral.
 }
+
+// Nova Nacao: despachos do Governador-Geral
+POR_Orders
+{
+Despachos do Governador-Geral
+}
+
+POR_Orders.hunt
+{
+Lourenço Viegas me passou um despacho: um pirata anda tomando nossos navios de cabotagem nas águas de @<sPlace>. O tesouro paga @<sMoney> quando ele estiver no fundo. Não há prazo, e se eu mudar de ideia basta avisar o Lourenço.
+}
+
+POR_Orders.smug
+{
+Lourenço Viegas me passou um despacho: contrabandistas estão roubando os direitos da Coroa nas águas de @<sPlace>. A alfândega paga @<sMoney>, e a carga deles fica comigo. Não há prazo, e se eu mudar de ideia basta avisar o Lourenço.
+}
+
+POR_Orders.fleet
+{
+Corsários espanhóis esperam parte da Frota do Brasil nas águas de @<sPlace>. Se eu chegar lá antes de a frota entrar no porto, o tesouro paga @<sMoney> e a parte da Coroa na carga será maior.
+}
+
+POR_Orders.done
+{
+O serviço está feito. @<sMoney> foram depositados no tesouro da sede do governo.
+}
+
+POR_Orders.done_lost_escort
+{
+Os piratas foram embora, mas o navio do desembargador afundou com ele. Metade da recompensa, @<sMoney>, foi depositada no tesouro.
+}
+
+POR_Orders.done_loss
+{
+Os corsários foram embora, mas perdemos navios da frota. Metade da recompensa, @<sMoney>, foi depositada no tesouro.
+}
+
+POR_Orders.flee
+{
+Deixei aquelas águas antes do fim do combate. O inimigo continua lá.
+}
+
+POR_Orders.cancel
+{
+Pedi ao Lourenço que passasse este despacho para outro. Ninguém fez perguntas.
+}
+
+POR_Orders.fleet_gone
+{
+A viagem da Frota do Brasil terminou antes que eu chegasse aos corsários. O despacho não importa mais.
+}
+
+POR_Orders.priv
+{
+Lourenço Viegas me passou um despacho: @<sName>, um corsário espanhol, anda caçando navios portugueses nas águas de @<sPlace>. O tesouro paga @<sMoney> por ele. Não há prazo.
+}
+
+POR_Orders.escort
+{
+O navio de um desembargador vai passar pelas águas de @<sPlace>, e há piratas à espera dele. Devo encontrá-lo lá e garantir que chegue em segurança. O tesouro paga @<sMoney>. Não há prazo.
+}
+
+POR_Orders.supply
+{
+A guarnição de @<sPlace> precisa de @<sQty> de @<sGood>. Devo levar a carga ao Lourenço Viegas; o tesouro paga @<sMoney>. Não há prazo.
+}
+
+POR_Orders.supplied
+{
+Entreguei os suprimentos à guarnição. @<sMoney> foram depositados no tesouro.
+}
 #endreplace

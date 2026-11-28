@@ -1,0 +1,35 @@
+#find
+Eng_Line_11_OccupyMein {Zdobycie Caracas i Cumaná}
+Eng_Line_11_OccupyMein.1 {Zostałem wyznaczony przez sir Thomasa Modyforda, gubernatora generalnego Jamajki, do zdobycia hiszpańskich miast Cumaná i Caracas oraz skłonienia ich do złożenia przysięgi wierności Anglii.}
+Eng_Line_11_OccupyMein.2 {Caracas został zdobyty i teraz należy do Anglii.}
+Eng_Line_11_OccupyMein.3 {Cumana została zdobyta i należy do Anglii.}
+#replacewith
+Eng_Line_11_OccupyMein {Zdobycie Maracaibo i Cartagena}
+Eng_Line_11_OccupyMein.1 {Zostałem wyznaczony przez sir Thomasa Modyforda, gubernatora generalnego Jamajki, do zdobycia hiszpańskich miast Cartagena i Maracaibo oraz skłonienia ich do złożenia przysięgi wierności Anglii.}
+Eng_Line_11_OccupyMein.2 {Maracaibo został zdobyty i teraz należy do Anglii.}
+Eng_Line_11_OccupyMein.3 {Cartagena została zdobyta i należy do Anglii.}
+#endreplace
+
+#find
+Spa_Line_8_SaveCumana {Obrona Cumany przed atakiem połączonej francusko-angielskiej eskadry piratów}
+Spa_Line_8_SaveCumana.1 {Mam nowe zadanie od hiszpańskiego gubernatora generalnego Francisco Oregon y Gascon. Połączona francusko-brytyjska eskadra korsarzy pod dowództwem kapitana Ansela zmierza do Cumana, by zdobyć miasto. Muszę pomóc garnizonowi Cumana odeprzeć atak i pokonać flotę korsarzy.}
+Spa_Line_8_SaveCumana.2 {Nie zdążyłem dotrzeć do Cumany na czas. Piraci zrobili swoje—Cumana została splądrowana i zniszczona.}
+Spa_Line_8_SaveCumana.3 {Udało mi się dotrzeć do Cumany na czas. Stoczyłem walkę z piratami i zatopiłem wszystkie ich statki. Cumana jest ocalona.}
+Spa_Line_8_SaveCumana.4 {Dotarłem do Cumany w samą porę — piraci już oblegali miasto. Niestety, nie mogłem pomóc; siły piratów były zbyt potężne. Musiałem się wycofać...}
+#replacewith
+Spa_Line_8_SaveCumana {Obrona Cartageny przed atakiem połączonej francusko-angielskiej eskadry piratów}
+Spa_Line_8_SaveCumana.1 {Mam nowe zadanie od hiszpańskiego gubernatora generalnego Francisco Oregon y Gascon. Połączona francusko-brytyjska eskadra korsarzy pod dowództwem kapitana Ansela zmierza do Cartagena, by zdobyć miasto. Muszę pomóc garnizonowi Cartagena odeprzeć atak i pokonać flotę korsarzy.}
+Spa_Line_8_SaveCumana.2 {Nie zdążyłem dotrzeć do Cartageny na czas. Piraci zrobili swoje—Cartagena została splądrowana i zniszczona.}
+Spa_Line_8_SaveCumana.3 {Udało mi się dotrzeć do Cartageny na czas. Stoczyłem walkę z piratami i zatopiłem wszystkie ich statki. Cartagena jest ocalona.}
+Spa_Line_8_SaveCumana.4 {Dotarłem do Cartageny w samą porę — piraci już oblegali miasto. Niestety, nie mogłem pomóc; siły piratów były zbyt potężne. Musiałem się wycofać...}
+#endreplace
+
+#find
+Fra_Line_6_Olone.3 {Zgodziłem się wziąć udział w ataku na Cumanę w eskadrze Olonne’a. Obieramy kurs na Cumanę!}
+Fra_Line_6_Olone.4 {Spóźniliśmy się do Cumany i nie było już tam pieniędzy. L’Olonnais obwinił mnie za wszystko, a ja musiałem stoczyć z nim pojedynek korsarski.}
+Fra_Line_6_Olone.5 {Zdobyliśmy Cumanę, podzieliliśmy pieniądze i każdy poszedł w swoją stronę. Udana wyprawa.}
+#replacewith
+Fra_Line_6_Olone.3 {Zgodziłem się wziąć udział w ataku na Maracaibo w eskadrze Olonne’a. Obieramy kurs na Maracaibo!}
+Fra_Line_6_Olone.4 {Spóźniliśmy się do Maracaibo i nie było już tam pieniędzy. L’Olonnais obwinił mnie za wszystko, a ja musiałem stoczyć z nim pojedynek korsarski.}
+Fra_Line_6_Olone.5 {Zdobyliśmy Maracaibo, podzieliliśmy pieniądze i każdy poszedł w swoją stronę. Udana wyprawa.}
+#endreplace

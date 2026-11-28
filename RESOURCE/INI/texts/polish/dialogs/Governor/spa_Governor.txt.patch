@@ -1,0 +1,59 @@
+#find
+Bardzo dobrze, że pojawiłeś się w tak odpowiednim momencie. Mam dla ciebie bardzo ważne zadanie. Chodzi o to, że znany filibuster kapitan Ansel zdołał zjednoczyć angielskich i francuskich korsarzy w celu ataku na Cumanę.
+#replacewith
+Bardzo dobrze, że pojawiłeś się w tak odpowiednim momencie. Mam dla ciebie bardzo ważne zadanie. Chodzi o to, że znany filibuster kapitan Ansel zdołał zjednoczyć angielskich i francuskich korsarzy w celu ataku na Cartagenę.
+#endreplace
+
+#find
+Część uchodźców z Kumany już tu dotarła. Nie udało ci się ocalić miasta ani jego mieszkańców.
+}
+spa_Governor_94_m {
+Pędziłem do Kumany na pełnych żaglach, nie zatrzymując się nigdzie nawet na chwilę. Mimo to i tak nie zdążyłem na czas, to było po prostu niemożliwe.
+}
+spa_Governor_94_f {
+Pędziłam do Kumany na pełnych żaglach, nie zatrzymując się nigdzie nawet na chwilę. Ale i tak nie zdążyłam na czas, to po prostu było niemożliwe.
+}
+spa_Governor_95 {
+Część uchodźców z Kumany już tu dotarła. Nie udało ci się ocalić miasta ani jego mieszkańców.
+#replacewith
+Część uchodźców z Cartageny już tu dotarła. Nie udało ci się ocalić miasta ani jego mieszkańców.
+}
+spa_Governor_94_m {
+Pędziłem do Cartageny na pełnych żaglach, nie zatrzymując się nigdzie nawet na chwilę. Mimo to i tak nie zdążyłem na czas, to było po prostu niemożliwe.
+}
+spa_Governor_94_f {
+Pędziłam do Cartageny na pełnych żaglach, nie zatrzymując się nigdzie nawet na chwilę. Ale i tak nie zdążyłam na czas, to po prostu było niemożliwe.
+}
+spa_Governor_95 {
+Część uchodźców z Cartageny już tu dotarła. Nie udało ci się ocalić miasta ani jego mieszkańców.
+#endreplace
+
+#find
+Już mi zameldowano, że Cumana została ocalona. Wspaniale!
+#replacewith
+Już mi zameldowano, że Cartagena została ocalona. Wspaniale!
+#endreplace
+
+#find
+Jednakże nie przystoi nam popadać w przygnębienie. Stoimy na ostrzu miecza, który karze naszych wrogów w imię Hiszpanii i Wszechmogącego Pana! Skoro znów rzucają nam wyzwanie, musimy odpowiedzieć na nie godnie.\nJuż nie raz awanturnicy i przestępcy wszelkiej maści, którymi są wszyscy ladroni, zajmowali nasze miasta, torturowali i zabijali naszych kolonistów.\nTym razem musimy zapewnić solidną ochronę Kumane — to jest wasze zadanie. Natychmiast udajcie się do Kumane i odeprzyjcie atak ladronów pod dowództwem kapitana Anselma.
+#replacewith
+Jednakże nie przystoi nam popadać w przygnębienie. Stoimy na ostrzu miecza, który karze naszych wrogów w imię Hiszpanii i Wszechmogącego Pana! Skoro znów rzucają nam wyzwanie, musimy odpowiedzieć na nie godnie.\nJuż nie raz awanturnicy i przestępcy wszelkiej maści, którymi są wszyscy ladroni, zajmowali nasze miasta, torturowali i zabijali naszych kolonistów.\nTym razem musimy zapewnić solidną ochronę Cartagenie — to jest wasze zadanie. Natychmiast udajcie się do Cartagenie i odeprzyjcie atak ladronów pod dowództwem kapitana Anselma.
+#endreplace
+
+#find
+Mówią, że kapitan @<GetFullName> nie zdołał uratować mieszkańców Kumany! Smutny los...
+}
+spa_Governor_270_f {
+Mówią, że kapitan @<GetFullName> nie zdołała uratować mieszkańców Kumany! Smutny los...
+#replacewith
+Mówią, że kapitan @<GetFullName> nie zdołał uratować mieszkańców Cartageny! Smutny los...
+}
+spa_Governor_270_f {
+Mówią, że kapitan @<GetFullName> nie zdołała uratować mieszkańców Cartageny! Smutny los...
+#endreplace
+
+#find
+Kapitanie, mówią, że to pan uratował Kumanę! Proszę przyjąć mój podziw, @<GetAddress_Form>...
+#replacewith
+Kapitanie, mówią, że to pan uratował Cartagenę! Proszę przyjąć mój podziw, @<GetAddress_Form>...
+#endreplace

@@ -1,4 +1,11 @@
 #find
+			case 4: rRealShip.ship.upgrades.hull = 1 + rand(3);	break;	//Пиратскаие корабли имеют рандомные цвета
+#replacewith
+			case 4: rRealShip.ship.upgrades.hull = 1 + rand(3);	break;	//Пиратскаие корабли имеют рандомные цвета
+			case 5: rRealShip.ship.upgrades.hull = 5;			break;
+#endreplace
+
+#find
 				if (GetNationTypeByName(sAttr) == iNation && rShip.nation.(sAttr) == true) bOk = true;
 #replacewith
 				if (GetNationTypeByName(sAttr) == NationForShipList(iNation) && rShip.nation.(sAttr) == true) bOk = true;

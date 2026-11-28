@@ -1,0 +1,29 @@
+#find
+Vous n’avez encore pris ni Cumana ni Caracas. Toute la côte du Main reste sous contrôle espagnol...
+#replacewith
+Vous n’avez encore pris ni Cartagena ni Maracaibo. Toute la côte du Main reste sous contrôle espagnol...
+#endreplace
+
+#find
+Vous avez pris Caracas! C’est splendide, @<GetFullName>. Mais Cumaná n’est pas encore conquise. Dépêchez-vous!
+#replacewith
+Vous avez pris Maracaibo! C’est splendide, @<GetFullName>. Mais Cartagena n’est pas encore conquise. Dépêchez-vous!
+#endreplace
+
+#find
+Cumana appartient désormais à l’Angleterre, et c’est grâce à vous! Excellent travail, @<GetFullName>! Mais j’attends aussi que vous preniez Caracas — il faut la conquérir également!
+#replacewith
+Cartagena appartient désormais à l’Angleterre, et c’est grâce à vous! Excellent travail, @<GetFullName>! Mais j’attends aussi que vous preniez Maracaibo — il faut la conquérir également!
+#endreplace
+
+#find
+Cumana et Caracas ont été prises! Désormais, cette partie du Main appartient à l’Angleterre!
+#replacewith
+Cartagena et Maracaibo ont été prises! Désormais, cette partie du Main appartient à l’Angleterre!
+#endreplace
+
+#find
+Notre réponse à l’attaque espagnole contre Port Royal sera notre propre assaut contre les villes espagnoles.\nPrès de Trinidad, sur le continent, se trouvent deux villes espagnoles : Cumaná et Caracas. Prenez le contrôle de ces villes et faites prêter allégeance à leurs habitants à Sa Majesté Charles II Stuart.\nAidez à nommer une nouvelle administration afin de rétablir une bonne gouvernance et d’assurer la collecte rapide des impôts et taxes.
+#replacewith
+Notre réponse à l’attaque espagnole contre Port Royal sera notre propre assaut contre les villes espagnoles.\nSur le continent, se trouvent deux villes espagnoles : Cartagena et Maracaibo. Prenez le contrôle de ces villes et faites prêter allégeance à leurs habitants à Sa Majesté Charles II Stuart.\nAidez à nommer une nouvelle administration afin de rétablir une bonne gouvernance et d’assurer la collecte rapide des impôts et taxes.
+#endreplace

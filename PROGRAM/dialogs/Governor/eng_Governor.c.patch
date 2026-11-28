@@ -1,0 +1,13 @@
+#find
+			characters[GetCharacterIndex("Cumana_Mayor")].dialog.captureNode = "EngLine11Quest_OccupyMein"; //капитулянтская нода мэра
+			characters[GetCharacterIndex("Caracas_Mayor")].dialog.captureNode = "EngLine11Quest_OccupyMein"; //капитулянтская нода мэра
+			AddLandQuestmark_Main_WithCondition(npchar, "Eng_Line", "EngLine_11_Guber_QuestMarkCondition");
+			AddLandQuestmark_Main_WithCondition(CharacterFromID("Cumana_Mayor"), "Eng_Line", "StateLines_CaptureCity_QuestMarkCondition");
+			AddLandQuestmark_Main_WithCondition(CharacterFromID("Caracas_Mayor"), "Eng_Line", "StateLines_CaptureCity_QuestMarkCondition");
+#replacewith
+			characters[GetCharacterIndex("Cartahena_Mayor")].dialog.captureNode = "EngLine11Quest_OccupyMein"; //капитулянтская нода мэра
+			characters[GetCharacterIndex("Maracaibo_Mayor")].dialog.captureNode = "EngLine11Quest_OccupyMein"; //капитулянтская нода мэра
+			AddLandQuestmark_Main_WithCondition(npchar, "Eng_Line", "EngLine_11_Guber_QuestMarkCondition");
+			AddLandQuestmark_Main_WithCondition(CharacterFromID("Cartahena_Mayor"), "Eng_Line", "StateLines_CaptureCity_QuestMarkCondition");
+			AddLandQuestmark_Main_WithCondition(CharacterFromID("Maracaibo_Mayor"), "Eng_Line", "StateLines_CaptureCity_QuestMarkCondition");
+#endreplace

@@ -8,121 +8,192 @@
 // Nova Nacao: linha de missoes de Portugal
 POR_Line
 {
-For the Glory of the Crown
+为了王室的荣耀
 }
 
 POR_Line.1
 {
-The Governor-General of the Portuguese colonies, Francisco Barreto de Meneses, received me coldly but gave me a commission: pirates are taking our merchantmen between Cumaná and Trinidad, always knowing when they sail. I must find the Corvo Negro in the waters of Trinidad and sink her, and report only to him.
+葡萄牙殖民地总督弗朗西斯科·巴雷托·德·梅内塞斯冷淡地接待了我， 但交给了我一项任务： 海盗在库马纳和特立尼达之间劫掠我们的商船， 而且总知道它们何时出航。 我必须在特立尼达海域找到“黑鸦”号并将其击沉， 并且只向他一人汇报。
 }
 
 POR_Line.f
 {
-I left the area before the fight was over. The enemy is still there; I must go back and finish the job.
+战斗还没结束我就离开了那片海域。 敌人还在那里； 我必须回去把事情了结。
 }
 
 POR_Line.2
 {
-The Corvo Negro is no more. Her captain, Bento Malheiro, was Portuguese, from Recife. Before he died he said something strange: the pirates always know the day our ships leave Cumaná, 'and Spaniards don't know that kind of thing'. Among his things: Spanish doubloons and a list of our sailing dates. I must report to the Governor-General in Caracas.
+“黑鸦”号已不复存在。 她的船长本托·马列罗是葡萄牙人， 来自累西腓。 临死前他说了句奇怪的话： 海盗总知道我们的船哪天离开库马纳， “而西班牙人可不知道这种事”。 他的遗物中有西班牙金币和一份我们的出航日期清单。 我必须去加拉加斯向总督汇报。
 }
 
 POR_Line.3
 {
-Promoted to Captain. The governor kept the list and told me to keep quiet. Now I must find Tomé Ferraz, a Portuguese merchant in the tavern of Willemstad, on Curaçao. He is said to be unfriendly.
+晋升为舰长。 总督留下了清单， 并让我保持沉默。 现在我必须去库拉索岛威廉斯塔德的酒馆， 找一个叫托梅·费拉斯的葡萄牙商人。 据说他不太好打交道。
 }
 
 POR_Line.4
 {
-Tomé Ferraz only opened up when I told him about Malheiro. A Spanish courier, the Santa Clara, brings the pirates' pay from Havana and anchors off Aruba. I must intercept her. Tomé warned me to think hard before handing the letters to anyone.
+直到我提起马列罗， 托梅·费拉斯才开了口。 一艘名叫“圣克拉拉”号的西班牙邮船从哈瓦那运来海盗的报酬， 停泊在阿鲁巴附近。 我必须拦截她。 托梅提醒我， 在把信交给任何人之前要好好想想。
 }
 
 POR_Line.5
 {
-The Santa Clara has been taken. From the half-burnt letters I could read: gold for every Portuguese ship taken in the Caribbean, raids on the sugar fleets of Pernambuco and Bahia, and a mention of 'our friend in Caracas'. I must report to the Governor-General.
+“圣克拉拉”号已被俘获。 从烧了一半的信里我能读出： 在加勒比每劫一艘葡萄牙船都有金子可拿， 要袭击伯南布哥和巴伊亚的运糖船队， 还提到了“我们在加拉加斯的朋友”。 我必须向总督汇报。
 }
 
 POR_Line.6
 {
-The governor dismissed 'our friend in Caracas' as just another spy. Now I must protect the fluyt Desterro, bringing sugar from Pernambuco, when she arrives at Cumaná. How does he know the pirates will strike there?
+总督把“我们在加拉加斯的朋友”当作又一个间谍打发了。 现在我必须在福禄特船“德斯特罗”号抵达库马纳时保护她， 她正从伯南布哥运糖过来。 他怎么知道海盗会在那里下手？
 }
 
 POR_Line.7a
 {
-The pirates off Cumaná have been beaten and the Desterro is safe. Her captain, Amaro Teles, wants to buy me a drink in the tavern of Cumaná.
+库马纳外海的海盗已被击败， “德斯特罗”号安然无恙。 她的船长阿马罗·特莱斯想在库马纳的酒馆请我喝一杯。
 }
 
 POR_Line.7
 {
-Amaro Teles changed course on purpose this voyage. Only the Governor-General's office knew his new route, and the pirates were waiting for him anyway. I must report to the governor... carefully.
+阿马罗·特莱斯这次出航故意改了航向。 只有总督官署知道他的新航线， 可海盗还是在等着他。 我必须向总督汇报…… 小心地汇报。
 }
 
 POR_Line.7b
 {
-The pirates off Cumaná have been beaten, but the Desterro went down. I must report to the Governor-General.
+库马纳外海的海盗已被击败， 但“德斯特罗”号沉没了。 我必须向总督汇报。
 }
 
 POR_Line.8
 {
-Promoted to Capitão-Mor. The governor wants me to destroy the squadron of Gaspar Roiz, 'Iron Hand', off the Cayman Islands. He says Roiz 'has grown greedy', and he wants any papers found on board brought straight to him.
+晋升为总舰长。 总督要我去开曼群岛附近消灭“铁手”加斯帕尔·罗伊斯的舰队。 他说罗伊斯“变得贪婪了”， 还要我把在船上找到的任何文件直接交给他。
 }
 
 POR_Line.9
 {
-Iron Hand's squadron is destroyed. Roiz said the governor sent me after him only because he had asked for a bigger share. In his strongbox I found a ledger: cargoes taken from Portuguese ships, all sold to a merchant in Caracas, Simão Godinho, 'by order of the Palace'. I must decide what to tell the governor.
+“铁手”的舰队已被消灭。 罗伊斯说总督派我去对付他， 只是因为他要求分更多。 在他的保险箱里我找到一本账簿： 从葡萄牙船上劫来的货物， 全都卖给了加拉加斯的一个商人西芒·戈迪尼奥， “奉宫中之命”。 我必须决定对总督说些什么。
 }
 
 POR_Line.9b
 {
-Iron Hand's squadron is at the bottom of the sea, and Gaspar Roiz with it. Among the floating wreckage my men fished out a sealed strongbox. Inside was a ledger: cargoes taken from Portuguese ships, all sold to a merchant in Caracas, Simão Godinho, 'by order of the Palace'. I must decide what to tell the governor.
+“铁手”的舰队已经沉入海底， 加斯帕尔·罗伊斯也随之葬身海底。 我的手下从漂浮的残骸中捞起一个密封的保险箱。 里面是一本账簿： 从葡萄牙船上劫来的货物， 全都卖给了加拉加斯的一个商人西芒·戈迪尼奥， “奉宫中之命”。 我必须决定对总督说些什么。
 }
 
 POR_Line.10
 {
-Promoted to Admiral. The governor called me 'a most useful instrument'. I have Simão Godinho's name; I must find him in the tavern of Caracas.
+晋升为海军上将。 总督称我是“一件非常有用的工具”。 我知道了西芒·戈迪尼奥这个名字； 我必须去加拉加斯的酒馆找他。
 }
 
 POR_Line.11
 {
-Godinho broke when I mentioned the governor: the stolen goods went to the governor's warehouses, under his own seal. His secretary, Lourenço Viegas, copied every contract and fled to Cumaná. I must find him in the tavern there.
+我一提到总督， 戈迪尼奥就崩溃了： 赃物都进了总督的仓库， 盖着他自己的印章。 他的秘书洛伦索·维埃加斯抄录了每一份契约， 逃到了库马纳。 我必须去那里的酒馆找他。
 }
 
 POR_Line.12
 {
-The truth at last. Barreto made a pact with a Spanish agent in Havana: Spain pays the pirates, the pirates hand over the cargoes, and the governor sells them and shares the profit. And I was the broom he used to sweep away the pirates who demanded too much. Lourenço gave me the copies of the contracts. The Crown's Desembargador, Dom Álvaro de Sousa Coutinho, is arriving by ship, and Barreto will try to stop him. I must put to sea off Cumaná and protect his ship, then deliver the copies to him in the residence of Cumaná.
+真相终于大白。 巴雷托和哈瓦那的一个西班牙特工签了密约： 西班牙出钱给海盗， 海盗交出货物， 总督把货卖掉并分享利润。 而我就是他用来扫除那些要价太高的海盗的扫帚。 洛伦索把契约的副本交给了我。 王室大法官多姆·阿尔瓦罗·德·索萨·库蒂尼奥正乘船前来， 巴雷托会设法阻止他。 我必须到库马纳外海保护他的船， 然后在库马纳的官邸把副本交给他。
 }
 
 POR_Line.13
 {
-Killers under the Spanish flag were waiting off Cumaná for the Desembargador's ship. They are gone, and Dom Álvaro has landed. He is waiting for me in the residence of Cumaná.
+一伙挂着西班牙旗帜的杀手在库马纳外海等着大法官的船。 他们已被解决， 多姆·阿尔瓦罗已经上岸。 他在库马纳的官邸等我。
 }
 
 POR_Line.14
 {
-Dom Álvaro read the contracts and named me General. But Barreto de Meneses has fled Caracas aboard his galleon, the São Miguel. I must intercept him in the waters of Caracas, alive if possible.
+多姆·阿尔瓦罗读了契约， 任命我为统帅。 但巴雷托·德·梅内塞斯已登上他的盖伦船“圣米格尔”号逃离了加拉加斯。 我必须在加拉加斯海域拦截他， 尽可能活捉。
 }
 
 POR_Line.15
 {
-Barreto de Meneses surrendered. He admitted he used me from the first day. I must take him to Dom Álvaro in the residence of Cumaná.
+巴雷托·德·梅内塞斯投降了。 他承认从第一天起就在利用我。 我必须把他押送到库马纳的官邸交给多姆·阿尔瓦罗。
 }
 
 POR_Line.15b
 {
-The São Miguel went down, and Barreto de Meneses with her. I must take the news to Dom Álvaro in the residence of Cumaná.
+“圣米格尔”号沉没了， 巴雷托·德·梅内塞斯也随之沉没。 我必须到库马纳的官邸把这个消息告诉多姆·阿尔瓦罗。
 }
 
 POR_Line.16
 {
-The pirate network is broken and the traitor has been brought to justice. By order of His Majesty Dom Afonso VI, I am now the Governor-General of the Portuguese colonies of the Caribbean. Every month a tenth of each Portuguese colony's profit goes to the treasury in Caracas, where Lourenço Viegas keeps my accounts.
+海盗网络已被摧毁， 叛徒也已伏法。 奉国王陛下多姆·阿方索六世之命， 我现在是葡萄牙加勒比殖民地总督。 每个月， 每个葡萄牙殖民地利润的十分之一都会存入加拉加斯的国库， 由洛伦索·维埃加斯为我管账。
 }
 
 POR_Line.2b
 {
-The Corvo Negro went down with her captain. My men pulled a half-drowned pirate out of the water: the captain was Bento Malheiro, a Portuguese from Recife, and he 'always knew the day our ships leave Cumaná'. The captain's chest floated free of the wreck: Spanish doubloons and a list of our sailing dates. I must report to the Governor-General in Caracas.
+“黑鸦”号和她的船长一起沉没了。 我的手下从水里捞起一个半淹死的海盗： 船长名叫本托·马列罗， 是来自累西腓的葡萄牙人， 他“总知道我们的船哪天离开库马纳”。 船长的箱子从残骸里漂了出来： 西班牙金币和一份我们的出航日期清单。 我必须去加拉加斯向总督汇报。
 }
 
 POR_Line.5b
 {
-The Santa Clara went to the bottom, but her oilcloth mail bag floated among the wreckage. From the soaked letters I could read: gold for every Portuguese ship taken in the Caribbean, raids on the sugar fleets of Pernambuco and Bahia, and a mention of 'our friend in Caracas'. I must report to the Governor-General.
+“圣克拉拉”号沉没了， 但她那个油布邮袋在残骸间浮了上来。 从泡湿的信里我能读出： 在加勒比每劫一艘葡萄牙船都有金子可拿， 要袭击伯南布哥和巴伊亚的运糖船队， 还提到了“我们在加拉加斯的朋友”。 我必须向总督汇报。
+}
+
+// Nova Nacao: despachos do Governador-Geral
+POR_Orders
+{
+总督公文
+}
+
+POR_Orders.hunt
+{
+洛伦索·维埃加斯交给我一份公文： 有个海盗在@<sPlace>海域劫掠我们的沿岸船只。 一旦把它击沉， 国库将支付@<sMoney>。 没有期限， 如果我改变主意， 只需告诉洛伦索。
+}
+
+POR_Orders.smug
+{
+洛伦索·维埃加斯交给我一份公文： 走私贩在@<sPlace>海域偷逃王室的关税。 海关将支付@<sMoney>， 他们的货物归我。 没有期限， 如果我改变主意， 只需告诉洛伦索。
+}
+
+POR_Orders.fleet
+{
+西班牙私掠船在@<sPlace>海域埋伏着部分巴西船队。 如果我能在船队进港前赶到， 国库将支付@<sMoney>， 王室分得的货物份额也会更大。
+}
+
+POR_Orders.done
+{
+任务完成。 @<sMoney>已存入政府驻地的国库。
+}
+
+POR_Orders.done_lost_escort
+{
+海盗已被消灭， 但大法官的船和他一起沉没了。 一半的赏金@<sMoney>已存入国库。
+}
+
+POR_Orders.done_loss
+{
+私掠船已被消灭， 但我们损失了船队的船只。 一半的赏金@<sMoney>已存入国库。
+}
+
+POR_Orders.flee
+{
+战斗还没结束我就离开了那片海域。 敌人还在那里。
+}
+
+POR_Orders.cancel
+{
+我让洛伦索把这份公文交给别人。 没人多问。
+}
+
+POR_Orders.fleet_gone
+{
+在我追上私掠船之前， 巴西船队的航程就已经结束了。 这份公文已无关紧要。
+}
+
+POR_Orders.priv
+{
+洛伦索·维埃加斯交给我一份公文： 西班牙私掠船长@<sName>在@<sPlace>海域猎杀葡萄牙船只。 国库将为他支付@<sMoney>。 没有期限。
+}
+
+POR_Orders.escort
+{
+一位大法官的船将经过@<sPlace>海域， 海盗正在那里等着它。 我必须去那里和它会合， 确保它平安抵达。 国库将支付@<sMoney>。 没有期限。
+}
+
+POR_Orders.supply
+{
+@<sPlace>的守军需要@<sQty>的@<sGood>。 我必须把货交给洛伦索·维埃加斯； 国库将支付@<sMoney>。 没有期限。
+}
+
+POR_Orders.supplied
+{
+我已把补给交给了守军。 @<sMoney>已存入国库。
 }
 #endreplace

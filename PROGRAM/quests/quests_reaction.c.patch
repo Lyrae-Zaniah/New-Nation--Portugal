@@ -57,6 +57,52 @@
 #endreplace
 
 #find
+			pchar.quest.Sp8SaveCumana_Battle.over = "yes";
+			SetLocationCapturedState("Cumana_town", true);
+#replacewith
+			pchar.quest.Sp8SaveCumana_Battle.over = "yes";
+			SetLocationCapturedState("Cartahena_town", true);
+#endreplace
+
+#find
+			Island_SetReloadEnableGlobal("Cumana", false);
+#replacewith
+			Island_SetReloadEnableGlobal("Cartahena", false);
+#endreplace
+
+#find
+			Group_SetAddress("Pir_Attack", "Cumana", "", "");
+#replacewith
+			Group_SetAddress("Pir_Attack", "Cartahena", "", "");
+#endreplace
+
+#find
+			group_DeleteGroup("Pir_Attack");
+			Island_SetReloadEnableGlobal("Cumana", true);
+			pchar.quest.Sp8SaveCumana_DieHard.over = "yes";
+#replacewith
+			group_DeleteGroup("Pir_Attack");
+			Island_SetReloadEnableGlobal("Cartahena", true);
+			pchar.quest.Sp8SaveCumana_DieHard.over = "yes";
+#endreplace
+
+#find
+			Island_SetReloadEnableGlobal("Cumana", true);
+			pchar.quest.Sp8SaveCumana_AfterBattle.over = "yes";
+			SetLocationCapturedState("Cumana_town", true);
+#replacewith
+			Island_SetReloadEnableGlobal("Cartahena", true);
+			pchar.quest.Sp8SaveCumana_AfterBattle.over = "yes";
+			SetLocationCapturedState("Cartahena_town", true);
+#endreplace
+
+#find
+			ChangeCharacterAddress(sld, "Cumana_town", LAi_FindNearestLocatorMustBe("goto", locx, locy, locz));
+#replacewith
+			ChangeCharacterAddress(sld, "Maracaibo_town", LAi_FindNearestLocatorMustBe("goto", locx, locy, locz));
+#endreplace
+
+#find
 			sTemp = NationShortName(sti(colonies[iTemp].nation));
 #replacewith
 			sTemp = NationModelShortName(sti(colonies[iTemp].nation));
